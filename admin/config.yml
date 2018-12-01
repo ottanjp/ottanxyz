@@ -1,0 +1,4 @@
+backend :
+  name: github
+  repo: ottanxyz/ottanxyz
+  branch: master
