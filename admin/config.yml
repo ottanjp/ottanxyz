@@ -3,12 +3,12 @@ backend :
   repo: ottanxyz/ottanxyz
   branch: master
 
-  publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
-  media_folder: "static/images/uploads"
-  public_folder: "/images/uploads"
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 
-  collections:
+collections:
   - name: "post"
     label: "Post"
     folder: "content/posts"
