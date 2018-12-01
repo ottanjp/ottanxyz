@@ -44,6 +44,7 @@
 <meta name="twitter:title" content="My New Hugo Site"/>
 <meta name="twitter:description" content=""/>
 
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body class="ma0 avenir bg-near-white">
@@ -176,5 +177,16 @@
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
 
 
-  </body>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", user => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	</script>
+</body>
 </html>
