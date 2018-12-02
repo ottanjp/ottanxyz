@@ -1,0 +1,51 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ $section := .Site.GetPage "section" .Section }}
+  <article class="grid-x grid-margin-x">
+
+    <header class="cell small-12">
+      <p>
+          {{/*
+          CurrentSection allows us to use the section title instead of inferring from the folder.
+          https://gohugo.io/variables/page/#section-variables-and-methods
+          */}}
+        {{- with .CurrentSection.Title -}}{{. | upper }}{{end}}
+      </p>
+      <h1>
+        {{- .Title -}}
+	  </h1>
+	  {{ with .Params.categories }}<div>Categories: <ul class="no-bullet">{{ range . }}<li><i class="far fa-folder-open"></i> <a href="/categories/{{ . | urlize }}">{{- . -}}</a></li>{{ end }}</ul></div>{{ end }}
+	  {{ with .Params.tags }}<div>Tags: <ul class="no-bullet">{{ range . }}<li><i class="fas fa-tags"></i> <a href="/tags/{{ . | urlize }}">{{- . -}}</a></li>{{ end }}</ul></div>{{ end }}
+      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{- .Date.Format "2006-01-02" -}}
+      </time>
+      {{/*
+          Show "reading time" and "word count" but only if one of the following are true:
+          1) A global config `params` value is set `show_reading_time = true`
+          2) A section front matter value is set `show_reading_time = true`
+          3) A page front matter value is set `show_reading_time = true`
+        */}}
+      {{/*  {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
+        <span> - {{ .ReadingTime}} minutes read</span>
+        <span> - {{ .WordCount}} words</span>
+      {{ end }}  */}}
+    </header>
+
+    <main class="cell small-8">
+        {{- .Content -}}
+      <div>
+        {{ template "_internal/disqus.html" . }}
+      </div>
+    </main>
+
+    <aside class="cell small-4">
+      {{- partial "menu-contextual.html" . -}}
+	</aside>
+
+  </article>
+{{ end }}

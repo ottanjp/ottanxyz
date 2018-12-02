@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "foundation-sites": "^6.5.1",
+    "what-input": "^5.1.3"
+  }
+}

@@ -1,0 +1,21 @@
+baseURL = "https://ottan.netlify.com/"
+LanguageCode = "ja"
+title = "OTTAN.XYZ"
+theme = "ottanxyz"
+hasCJKLanguage = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    name = "getting started"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/getting-started/"
+    weight = -100
