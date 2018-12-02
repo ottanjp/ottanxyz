@@ -4,3 +4,6 @@
 [submodule "themes/theer"]
 	path = themes/theer
 	url = https://github.com/hanpannet/theer.git
+[submodule "themes/Hugof"]
+	path = themes/Hugof
+	url = https://github.com/hdcdstr8fwd/foundation-theme.git
