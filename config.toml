@@ -1,4 +1,4 @@
 baseURL = "https://ottan.netlify.com/"
-languageCode = "ja-jp"
+languageCode = "ja"
 title = "OTTAN.XYZ"
-theme = "theer"
+theme = "ottanxyz"

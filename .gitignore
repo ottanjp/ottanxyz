@@ -1,4 +1,4 @@
 .history
-/node_modules/
-/public/
-/content/
+public/
+content/
+node_modules/
