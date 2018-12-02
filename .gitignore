@@ -1,6 +1,5 @@
 .history/
 public/
-content/
 node_modules/
 .DS_Store
 npm-debug.log
