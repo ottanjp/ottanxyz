@@ -7,15 +7,11 @@ hasCJKLanguage = true
 [menu]
 
   [[menu.main]]
-    identifier = "about"
-    name = "about hugo"
-    pre = "<i class='far fa-heart'></i>"
-    url = "/about/"
+    name = "Windows"
+    url = "/categories/windows"
     weight = -110
 
   [[menu.main]]
-    name = "getting started"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='far fa-road'></i>"
-    url = "/getting-started/"
-    weight = -100
+    name = "Others"
+    url = "/categories/others"
+    weight = -110

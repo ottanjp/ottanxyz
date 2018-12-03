@@ -1,33 +1,35 @@
 {{/*
-  Use Hugo's native Table of contents feature. You must set `toc: true` in your parameters for this to show.
-  https://gohugo.io/content-management/toc/
+Use Hugo's native Table of contents feature. You must set `toc: true` in your parameters for this to show.
+https://gohugo.io/content-management/toc/
 */}}
 
 {{- if .Params.toc -}}
-  <div>
-    <p>What's in this {{ humanize .Type }}</p>
-      {{ .TableOfContents }}
-  </div>
+<div data-sticky-container>
+	<div class="sticky" data-sticky data-anchor="main" data-margin-top="3">
+		<p>What's in this {{ humanize .Type }}</p>
+		{{ .TableOfContents }}
+	</div>
+</div>
 {{- end -}}
 
 {{/*
-  Use Hugo's native related content feature to pull in content that may have similar parameters, like tags. etc.
-  https://gohugo.io/content-management/related/
+Use Hugo's native related content feature to pull in content that may have similar parameters, like tags. etc.
+https://gohugo.io/content-management/related/
 */}}
 
 {{ $related := .Site.RegularPages.Related . | first 15 }}
 
 {{ with $related }}
-  <div class="">
-    <p class="">Related</p>
-    <ul class="">
-	   {{ range . }}
-	     <li  class="">
-          <a href="{{ .RelPermalink }}">
-            {{- .Title -}}
-          </a>
-        </li>
-	    {{ end }}
-    </ul>
+<div class="">
+	<p class="">Related</p>
+	<ul class="">
+		{{ range . }}
+		<li class="">
+			<a href="{{ .RelPermalink }}">
+				{{- .Title -}}
+			</a>
+		</li>
+		{{ end }}
+	</ul>
 </div>
 {{ end }}

@@ -1,0 +1,10 @@
+/* @import '_tachyons'; */
+/* @import '_code'; */
+/* @import '_hugo-internal-templates'; */
+/* @import '_social-icons'; */
+/* @import '_styles'; */
+nav {
+	height: 5em !important;
+	width: 100% !important;
+	background-color: #000000;
+}
