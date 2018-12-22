@@ -1,4 +1,4 @@
-baseURL = "https://ottan.xyz/"
+baseURL = "https://ottanxyz.netlify.com/"
 languageCode = "ja"
 defaultContentLanguage = "ja"
 publishDir = "public"
