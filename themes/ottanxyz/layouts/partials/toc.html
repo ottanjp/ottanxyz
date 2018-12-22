@@ -7,11 +7,9 @@
 	{{/* at least one header to link to */}}
 	{{- $has_headers := ge (len $headers) 1 -}}
 	{{- if $has_headers -}}
-	<aside class="table-of-contents">
-		<details>
-			<summary>
-				<b>Table of Contents</b>
-			</summary>
+	<div data-sticky-container>
+		<div class="sticky" data-sticky data-anchor="main" data-margin-top="5">
+			<p class="h4">Table of Contents</p>
 			{{- range $headers -}}
 			{{- $header := . -}}
 			{{- $base := ($.Page.File.LogicalName) -}}
@@ -20,7 +18,7 @@
 			{{- range findRE "[2-4]" . 1 -}}
 			{{- $next_heading := (int .) -}}
 			{{- if gt $next_heading ($.Scratch.Get "last_level") -}}
-			<ul class="toc-h{{ . }}">
+			<ul>
 				{{- else if lt $next_heading ($.Scratch.Get "last_level") -}}
 			</ul>
 			{{- end -}}
@@ -28,6 +26,6 @@
 			{{ $.Scratch.Set "last_level" $next_heading }}
 			{{- end -}}
 			{{- end -}}
-		</details>
-	</aside>
+		</div>
+	</div>
 	{{- end -}}

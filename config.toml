@@ -1,17 +1,28 @@
-baseURL = "https://ottanxyz.netlify.com/"
-LanguageCode = "ja"
+baseURL = "https://ottan.xyz/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+publishDir = "publish"
+contentDir = "content"
 title = "OTTAN.XYZ"
 theme = "ottanxyz"
 hasCJKLanguage = true
+summaryLength = 200
+canonifyURLs = true
+disqusShortname = "ottanxyz"
+paginate = 20
+googleAnalytics = "UA-54519352-1"
 
-[menu]
+[params]
+	author = "ottan"
 
-  [[menu.main]]
-    name = "Windows"
-    url = "/categories/windows"
-    weight = -110
+[social]
+	twitter = "ottanxyz"
+	twitter_domain = ""
+	facebook = "ottanxyz"
+	facebook_admin = "808819212572711"
 
-  [[menu.main]]
-    name = "Others"
-    url = "/categories/others"
-    weight = -110
+[authors]
+	name = "ottan"
+	[[authors.social]]
+		twitter = "ottanxyz"
+		facebook = "ottanxyz"

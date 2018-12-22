@@ -1,0 +1,46 @@
+<article>
+
+	<div class="grid-container">
+		<div class="grid-x grid-margin-x">
+
+			<div class="cell large-auto">
+				<a href="{{ .RelPermalink }}" class="thumbnail">{{ partial "eyecatch.html" . }}</a>
+			</div>
+
+			<div class="cell large-8">
+
+				<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+					<i class="far fa-calendar"></i>&nbsp;{{- .Date.Format "2006.01.02" -}}
+				</time>
+
+				<p class="h3">
+					<a href="{{ .RelPermalink }}">{{- .Title -}}</a>
+				</p>
+
+				<p class="article-list_summary">{{- .Summary -}} ...</p>
+
+				{{ if .Params.categories }}
+				<span>
+					<i class="fas fa-pencil-alt"></i>
+					{{ range first 1 .Params.categories }}
+					<a class="article-list_label" href="/categories/{{ . | urlize }}">{{- . -}}</a>
+					{{ end }}
+				</span>
+				{{ end }}
+
+				{{ if .Params.tags }}
+				<span>
+					<i class="fas fa-tag"></i>
+					{{ range first 3 .Params.tags }}
+					<a class="article-list_label" href="/tags/{{ . | urlize }}">{{- . -}}</a>
+					{{ end }}
+				</span>
+				{{ end }}
+
+				<!-- <a class="button small float-right" href="{{ .RelPermalink }}">Read more</a> -->
+
+			</div>
+		</div>
+	</div>
+
+</article>

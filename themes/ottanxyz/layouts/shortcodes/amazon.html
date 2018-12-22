@@ -1,0 +1,23 @@
+{{ $asin := .Get 0 }}
+{{ $dataJ := getJSON ( printf "http://localhost:8080/.netlify/functions/amazon?asin=%s" $asin ) }}
+{{ with $dataJ }}
+<div class="grid-container">
+	<div class="grid-x grid-margin-x">
+		<div class="cell small-2">
+			<a href="{{ .Item.DetailPageURL }}" target="_blank"><img class="thumbnail" src="{{ .Item.LargeImage.URL }}"></a>
+		</div>
+		<div class="cell auto">
+			<div>
+				<a href="{{ .Item.DetailPageURL }}" target="_blank">
+					<span class="h4">{{ .Item.ItemAttributes.Title }}</span>
+				</a>
+			</div>
+
+			<ul class="no-bullet">
+				<li>販売元:&nbsp;{{ .Item.ItemAttributes.Publisher }}</a></li>
+				<li>価格:&nbsp;{{ .Item.Offers.Offer.OfferListing.Price.FormattedPrice }}</li>
+			</ul>
+		</div>
+	</div>
+</div>
+{{ end }}

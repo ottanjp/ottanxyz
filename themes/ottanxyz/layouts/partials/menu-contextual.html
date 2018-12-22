@@ -3,25 +3,25 @@ Use Hugo's native Table of contents feature. You must set `toc: true` in your pa
 https://gohugo.io/content-management/toc/
 */}}
 
-{{- if .Params.toc -}}
+{{/*  {{- if .Params.toc -}}  */}}
 <div data-sticky-container>
-	<div class="sticky" data-sticky data-anchor="main" data-margin-top="3">
-		<p>What's in this {{ humanize .Type }}</p>
+	<div class="sticky" data-sticky data-anchor="main" data-margin-top="5">
+		<p class="h4">目次</p>
 		{{ .TableOfContents }}
 	</div>
 </div>
-{{- end -}}
+{{/*  {{- end -}}  */}}
 
 {{/*
 Use Hugo's native related content feature to pull in content that may have similar parameters, like tags. etc.
 https://gohugo.io/content-management/related/
 */}}
 
-{{ $related := .Site.RegularPages.Related . | first 15 }}
+{{/*  {{ $related := .Site.RegularPages.Related . | first 15 }}
 
 {{ with $related }}
-<div class="">
-	<p class="">Related</p>
+<div id="related-posts">
+	<p class="h4">関連記事</p>
 	<ul class="">
 		{{ range . }}
 		<li class="">
@@ -31,5 +31,5 @@ https://gohugo.io/content-management/related/
 		</li>
 		{{ end }}
 	</ul>
-</div>
-{{ end }}
+</div><!-- related-posts -->
+{{ end }}  */}}

@@ -1,0 +1,24 @@
+{{ $id := .Get 0 }}
+{{ $dataJ := getJSON ( printf "http://localhost:8080/.netlify/functions/googleplay?appId=%s" $id ) }}
+{{ with $dataJ }}
+<div class="grid-container">
+	<div class="grid-x grid-margin-x">
+		<div class="cell small-2">
+			<a href="{{ .url }}" target="_blank"><img class="thumbnail" src="{{ .icon }}"></a>
+		</div>
+		<div class="cell auto">
+			<div>
+				<a href="{{ .url }}" target="_blank">
+					<span class="h4">{{ .title }}</span>
+				</a>
+				<span class="badge-itunes">{{ (replace .contentRating "Rated for " "") }}</span>
+			</div>
+
+			<ul class="no-bullet">
+				<li>販売元:&nbsp;<a class="link" href="{{ .developerWebsite }}">{{ .developer }}</a></li>
+				<li>価格:&nbsp;{{ .priceText }}</li>
+			</ul>
+		</div>
+	</div>
+</div>
+{{ end }}
