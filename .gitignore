@@ -7,3 +7,4 @@ themes/ottanxyz/src/node_modules
 resources/*
 content/posts/*
 .vscode
+!.gitkeep
