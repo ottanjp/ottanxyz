@@ -1,7 +1,7 @@
 baseURL = "https://ottan.xyz/"
 languageCode = "ja"
 defaultContentLanguage = "ja"
-publishDir = "publish"
+publishDir = "public"
 contentDir = "content"
 title = "OTTAN.XYZ"
 theme = "ottanxyz"
