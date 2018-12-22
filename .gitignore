@@ -8,3 +8,4 @@ resources/*
 content/posts/*
 .vscode
 !.gitkeep
+.env
