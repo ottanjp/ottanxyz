@@ -6,9 +6,10 @@ title: WordPressでプラグインを使わずに閲覧数の多い人気記事�
 type: post
 url: /most-viewed-posts-1792/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2015/07/150712-55a243bd758e7.jpg)

@@ -6,9 +6,10 @@ title: WordPressの高速化！WordPressでそのページで実行されてい�
 type: post
 url: /wordpress-plugin-simply-show-hooks-faster-6669/
 categories:
-- WordPress
+- Blog
 tags:
 - Plugin
+- WordPress
 ---
 
 ![](/images/2018/03/180314-5aa8ea3d6c266.jpg)

@@ -7,8 +7,9 @@ type: post
 url: /vccw-wordmove-deploy-6858/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
+- WordPress
 - Development
 ---
 

@@ -7,8 +7,9 @@ type: post
 url: /marsedit-preview-shortcode-wordpress-6854/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
+- WordPress
 - Development
 - MarsEdit
 ---

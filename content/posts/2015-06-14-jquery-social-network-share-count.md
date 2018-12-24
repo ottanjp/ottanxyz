@@ -6,9 +6,10 @@ title: jQueryを使用してTwitter、Facebook、Google+、はてなブックマ
 type: post
 url: /jquery-social-network-share-count-1705/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2015/06/150614-557d1764949ee.jpg)

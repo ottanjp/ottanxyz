@@ -6,9 +6,10 @@ title: WordPressで記事を投稿した瞬間に外部にメールを送信す�
 type: post
 url: /wordpress-publish-mail-push-5145/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2016/10/161029-5813f91b2579c.jpg)

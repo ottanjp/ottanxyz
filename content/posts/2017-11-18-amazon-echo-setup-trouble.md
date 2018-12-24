@@ -6,7 +6,7 @@ title: Amazon Echoの初期セットアップのトラブルシューティン�
 type: post
 url: /amazon-echo-setup-trouble-6307/
 categories:
-- Others
+- iPhone
 tags:
 - Amazon Echo
 - Tips

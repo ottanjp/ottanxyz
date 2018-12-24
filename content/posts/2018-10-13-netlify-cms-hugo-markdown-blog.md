@@ -6,7 +6,7 @@ title: Netlify CMS（Hugo）でMarkdownで記述可能な無料ブログを構�
 type: post
 url: /netlify-cms-hugo-markdown-blog-7017/
 categories:
-- WordPress
+- Blog
 tags:
 - CMS
 - Netlify

@@ -6,7 +6,7 @@ title: Netlify CMS（Hugo）のテーマをGitの使い方を覚えながらカ�
 type: post
 url: /netlify-cms-hugo-deploy-github-slack-7023/
 categories:
-  - WordPress
+  - Blog
 tags:
   - CMS
   - GItHub

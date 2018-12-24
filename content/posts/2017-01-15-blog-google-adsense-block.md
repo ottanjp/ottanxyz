@@ -6,10 +6,11 @@ title: ブログを訪れたユーザーがどれだけGoogle AdSenseをブロ�
 type: post
 url: /blog-google-adsense-block-5470/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
 - Google
+- WordPress
 ---
 
 ![](/images/2017/01/170115-587adc00b89dd.jpg)

@@ -7,9 +7,10 @@ type: post
 url: /emmet-getting-started-2-1759/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2015/07/150709-559e75639a903.jpg)

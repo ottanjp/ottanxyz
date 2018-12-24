@@ -6,9 +6,10 @@ title: WordPressのショートコード入門
 type: post
 url: /wordpress-shortcode-getting-start-6855/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2016/04/160423-571b55fc9bd95-1.jpg)

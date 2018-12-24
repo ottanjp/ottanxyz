@@ -6,7 +6,9 @@ title: Facebookアカウントの2段階認証を有効にする方法
 type: post
 url: /facebook-two-step-authentication-934/
 categories:
-- Web
+- iPhone
+- Android
+- Mac
 tags:
 - Security
 ---

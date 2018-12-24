@@ -9,7 +9,6 @@ categories:
 - Android
 - iPhone
 - Mac
-- Web
 - Windows
 tags:
 - Tips

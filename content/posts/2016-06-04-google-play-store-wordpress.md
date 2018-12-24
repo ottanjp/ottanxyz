@@ -7,11 +7,12 @@ type: post
 url: /google-play-store-wordpress-4409/
 categories:
 - Android
-- WordPress
+- Blog
 tags:
 - Apps
 - Development
 - Google
+- WordPress
 ---
 
 ![](/images/2016/06/160604-5752cc4aacb45.jpg)

@@ -6,7 +6,7 @@ title: Twitterから気になるキーワードを含むツイートをEvernote�
 type: post
 url: /twitter-keyword-evernote-2200/
 categories:
-- Web
+- iPhone
 tags:
 - IFTTT
 - Tips

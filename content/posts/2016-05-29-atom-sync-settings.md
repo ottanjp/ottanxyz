@@ -7,10 +7,10 @@ type: post
 url: /atom-sync-settings-4386/
 categories:
 - Mac
-- WordPress
 tags:
 - Atom
 - Development
+- WordPress
 ---
 
 ![](/images/2016/05/160529-574a784b76e1b.jpg)

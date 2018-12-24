@@ -6,9 +6,10 @@ title: WordPressのサイト表示速度を高速化させるために行って�
 type: post
 url: /improve-page-speed-1737/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2015/06/150621-5586badf5ab09.jpg)

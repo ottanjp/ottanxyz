@@ -7,8 +7,9 @@ type: post
 url: /windows-wordpress-2022/
 categories:
 - Windows
-- WordPress
+- Blog
 tags:
+- WordPress
 - Development
 ---
 

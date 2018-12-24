@@ -6,7 +6,7 @@ title: Flickr使ってない？個人情報が流出した米Yahooアカウン�
 type: post
 url: /yahoo-cancelation-5369/
 categories:
-- Web
+- iPhone
 tags:
 - Security
 ---

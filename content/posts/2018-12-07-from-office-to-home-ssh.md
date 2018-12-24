@@ -7,7 +7,6 @@ type: post
 url: /from-office-to-home-ssh-7087/
 categories:
 - Mac
-- Others
 tags:
 - AWS
 - SSH

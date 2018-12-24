@@ -7,9 +7,10 @@ type: post
 url: /wordpress-developer-plugin-theme-boostnote-5528/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2017/02/170219-58a972d7665c9.jpg)

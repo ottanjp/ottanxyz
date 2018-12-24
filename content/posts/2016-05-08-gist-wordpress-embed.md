@@ -6,8 +6,9 @@ title: プラグインを使わずにGistのコードをWordPressに埋め込む
 type: post
 url: /gist-wordpress-embed-6861/
 categories:
-- WordPress
+- Blog
 tags:
+- WordPress
 - Development
 ---
 

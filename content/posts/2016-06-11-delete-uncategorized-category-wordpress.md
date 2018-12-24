@@ -6,9 +6,10 @@ title: WordPressのデフォルトカテゴリーである「未分類」を削�
 type: post
 url: /delete-uncategorized-category-wordpress-4434/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2016/06/160611-575c0abb02e8f.jpg)

@@ -6,7 +6,7 @@ title: NURO光のZTE社製ルーター「F660T」「F660A」でDNSによる名�
 type: post
 url: /nuro-sonet-zte-f660t-f660a-6679/
 categories:
-- Others
+- iPhone
 tags:
 - Tips
 ---

@@ -8,9 +8,10 @@ url: /wordpress-app-store-itunes-link-affiliate-6862/
 categories:
 - iPhone
 - Mac
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2016/05/160510-5731d1e0800c7.jpg)

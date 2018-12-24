@@ -6,10 +6,11 @@ title: Google Analyticsと連携してページビューの多い人気記事を
 type: post
 url: /wordpress-google-analytics-789/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
 - Google
+- WordPress
 ---
 
 ![](/images/2015/02/150206-54d4ceea3719a.jpg)

@@ -6,7 +6,8 @@ title: Googleアカウントの2段階認証を有効にする方法
 type: post
 url: /google-two-step-authentication-890/
 categories:
-- Web
+- iPhone
+- Android
 tags:
 - Security
 ---

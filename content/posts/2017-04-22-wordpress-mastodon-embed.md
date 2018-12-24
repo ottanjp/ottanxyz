@@ -6,9 +6,10 @@ title: WordPressにMastodonのURLを貼り付けただけでトゥートを埋�
 type: post
 url: /wordpress-mastodon-embed-5700/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
  ![](/images/2017/04/170422-58faefe1b74dd.jpg)

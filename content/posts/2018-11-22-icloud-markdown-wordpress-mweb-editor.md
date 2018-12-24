@@ -8,13 +8,14 @@ url: /icloud-markdown-wordpress-mweb-editor-7069/
 categories:
 - iPhone
 - Mac
-- WordPress
+- Blog
 tags:
 - CMS
 - iCloud
 - iOS
 - macOS
 - Markdown
+- WordPress
 ---
 
 ![announcement-3509489_640](/images/2018/11/181122-5bf6a6adbba39.jpg)

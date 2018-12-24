@@ -8,10 +8,11 @@ url: /wordpress-atom-recommended-package-4369/
 categories:
 - Mac
 - Windows
-- WordPress
+- Blog
 tags:
 - Atom
 - Development
+- WordPress
 ---
 
 ![](/images/2016/05/160528-57490732a2c14.jpg)

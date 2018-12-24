@@ -6,10 +6,11 @@ title: phpMyAdminは不要！Dockerで構築したMySQLにMacからSequel Proで
 type: post
 url: /wordpress-mysql-docker-access-sequel-pro-easyly-6392/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
 - Docker
+- WordPress
 ---
 
 ![](/images/2017/12/171203-5a237a8ae9047.png)

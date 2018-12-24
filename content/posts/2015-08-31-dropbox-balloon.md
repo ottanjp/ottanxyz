@@ -6,7 +6,7 @@ title: 複数人で作業するときに便利！Dropboxへの共有リンクを
 type: post
 url: /dropbox-balloon-2266/
 categories:
-- Web
+- iPhone
 tags:
 - Tips
 ---

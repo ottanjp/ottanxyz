@@ -6,9 +6,10 @@ title: WordPressの親テーマの「header.php」を変更せずに子テーマ
 type: post
 url: /wordpress-parent-child-theme-favicon-header-6573/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2018/01/180127-5a6c670baaf7a.jpg)

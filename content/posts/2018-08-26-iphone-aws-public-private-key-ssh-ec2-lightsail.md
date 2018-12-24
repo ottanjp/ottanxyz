@@ -7,10 +7,11 @@ type: post
 url: /iphone-aws-public-private-key-ssh-ec2-lightsail-6964/
 categories:
 - iPhone
-- WordPress
+- Blog
 tags:
 - AWS
 - SSH
+- WordPress
 ---
 
 ![](/images/2018/08/180826-5b82193bd881c.jpg)

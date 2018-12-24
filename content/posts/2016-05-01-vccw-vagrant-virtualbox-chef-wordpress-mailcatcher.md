@@ -7,8 +7,9 @@ type: post
 url: /vccw-vagrant-virtualbox-chef-wordpress-mailcatcher-6857/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
+- WordPress
 - Development
 ---
 

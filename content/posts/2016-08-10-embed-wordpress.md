@@ -6,9 +6,10 @@ title: WordPressの本文に紹介したいサイトのURLを貼り付けるだ�
 type: post
 url: /embed-wordpress-4735/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2016/08/160814-57aff06785bf2.png)

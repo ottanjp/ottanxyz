@@ -7,9 +7,10 @@ type: post
 url: /marsedit-script-619/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Apps
+- WordPress
 ---
 
 ![](/images/2014/12/141205-54816b233dfa5.jpg)

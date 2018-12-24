@@ -6,7 +6,7 @@ title: いつの間にかTumblrからアカウント情報が流出していた�
 type: post
 url: /tumblr-account-outflow-4438/
 categories:
-- Web
+- iPhone
 tags:
 - Security
 ---

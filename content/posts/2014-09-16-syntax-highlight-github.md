@@ -6,9 +6,10 @@ title: 動作が軽快なシンタックスハイライター「highlight.js」
 type: post
 url: /syntax-highlight-github-435/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2014/09/140916-5417c007730c4.png)

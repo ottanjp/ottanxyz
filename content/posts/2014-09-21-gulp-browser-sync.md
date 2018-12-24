@@ -6,9 +6,10 @@ title: gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる
 type: post
 url: /gulp-browser-sync-476/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2014/09/140921-541e5278dd510.jpg)

@@ -7,9 +7,9 @@ type: post
 url: /css3-browser-caniuse-2025/
 categories:
 - Mac
-- Web
-- WordPress
+- Blog
 tags:
+- WordPress
 - Development
 ---
 

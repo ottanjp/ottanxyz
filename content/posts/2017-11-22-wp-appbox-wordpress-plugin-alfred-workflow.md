@@ -7,11 +7,12 @@ type: post
 url: /wp-appbox-wordpress-plugin-alfred-workflow-6311/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Alfred
 - Development
 - MarsEdit
+- WordPress
 ---
 
 ![](/images/2017/11/171122-5a1570f6f1f93.jpg)

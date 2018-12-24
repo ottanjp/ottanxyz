@@ -6,7 +6,7 @@ title: Facebookを安全に使用するための3ヶ条
 type: post
 url: /facebook-security-4580/
 categories:
-- Web
+- iPhone
 tags:
 - Security
 ---

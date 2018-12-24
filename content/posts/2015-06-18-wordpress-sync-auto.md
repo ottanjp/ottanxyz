@@ -6,9 +6,10 @@ title: 本番環境と開発環境のWordPressを自動的に同期する方法
 type: post
 url: /wordpress-sync-auto-1713/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2015/06/150618-558264afd6441.jpg)

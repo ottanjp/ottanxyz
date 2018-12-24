@@ -6,11 +6,11 @@ title: いまどきの「Node.js」のローカルパッケージを実行する
 type: post
 url: /npm-nodejs-local-package-exec-gulp-6654/
 categories:
-- Web
-- WordPress
+- Blog
 tags:
 - gulp.js
 - Node.js
+- WordPress
 ---
 
 ![](/images/2018/02/180228-5a964f7b8191f.jpg)

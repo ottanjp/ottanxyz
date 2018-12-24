@@ -7,8 +7,9 @@ type: post
 url: /preview-glass-effect-5329/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
+- WordPress
 - Tips
 ---
 

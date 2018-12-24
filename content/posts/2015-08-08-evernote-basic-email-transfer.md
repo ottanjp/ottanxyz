@@ -6,7 +6,7 @@ title: Gmailを一工夫！EvernoteベーシックプランでEvernoteメール�
 type: post
 url: /evernote-basic-email-transfer-1963/
 categories:
-- Web
+- iPhone
 tags:
 - IFTTT
 - Tips

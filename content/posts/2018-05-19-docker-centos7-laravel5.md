@@ -7,8 +7,6 @@ type: post
 url: /docker-centos7-laravel5-6745/
 categories:
 - Mac
-- Others
-- Web
 tags:
 - CentOS
 - Docker

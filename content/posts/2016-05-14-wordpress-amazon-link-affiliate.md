@@ -6,9 +6,10 @@ title: WordPressの本文にAmazonのURLを貼り付けるだけで、アフィ�
 type: post
 url: /wordpress-amazon-link-affiliate-6864/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2016/05/160514-5736a89e598ca.png)

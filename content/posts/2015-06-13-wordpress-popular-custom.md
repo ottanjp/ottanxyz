@@ -6,9 +6,10 @@ title: 今日からコピペで使えるWordPressで人気記事や最新記事�
 type: post
 url: /wordpress-popular-custom-1701/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2015/06/150613-557be49dd5dd5.jpg)

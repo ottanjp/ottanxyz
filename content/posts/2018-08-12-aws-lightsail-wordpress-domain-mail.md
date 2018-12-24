@@ -6,10 +6,11 @@ title: Amazon Lightsailで月5ドルから始めるWordPress（独自ドメイ�
 type: post
 url: /aws-lightsail-wordpress-domain-mail-6945/
 categories:
-- WordPress
+- Blog
 tags:
 - Amazon
 - AWS
+- WordPress
 ---
 
 ![](/images/2018/08/businessman-2956974_640.jpg)

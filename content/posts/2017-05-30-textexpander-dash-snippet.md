@@ -7,10 +7,11 @@ type: post
 url: /textexpander-dash-snippet-5908/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Apps
 - Development
+- WordPress
 ---
 
 ![](/images/2017/05/170530-592cff148d6b6.jpg)

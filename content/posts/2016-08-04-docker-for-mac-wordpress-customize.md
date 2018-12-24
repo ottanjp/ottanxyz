@@ -7,10 +7,11 @@ type: post
 url: /docker-for-mac-wordpress-customize-4714/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Development
 - Docker
+- WordPress
 ---
 
 ![](/images/2016/08/160804-57a342e1e2382.jpg)

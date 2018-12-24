@@ -6,11 +6,11 @@ title: WordPressに投稿したらIFTTTとBufferを使用して自動的にTwitt
 type: post
 url: /wordpress-ifttt-buffer-sns-4845/
 categories:
-- Web
-- WordPress
+- Blog
 tags:
 - Development
 - IFTTT
+- WordPress
 ---
 
 ![](/images/2016/08/160829-57c3a37769de1.jpg)

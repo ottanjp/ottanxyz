@@ -8,8 +8,9 @@ type: post
 url: /paste-link-for-marsedit-with-alfred-2174/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
+- WordPress
 - Alfred
 - Apps
 - MarsEdit

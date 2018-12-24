@@ -6,9 +6,10 @@ title: エックスサーバーでWordPressを運用する場合に独自SSLを�
 type: post
 url: /xserver-blog-wordpress-ssl-6113/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2017/08/170826-59a0f01dc0a6d.jpg)

@@ -6,7 +6,7 @@ title: ホームネットワーク非対応の液晶テレビを購入。でも�
 type: post
 url: /sony-bravia-blueray-recorder-chromecast-4794/
 categories:
-- Others
+- iPhone
 tags:
 - Google
 ---

@@ -6,7 +6,7 @@ title: 商用利用可能！ブログのアイキャッチ画像に使用でき�
 type: post
 url: /librestock-wordpress-eyecatch-image-5593/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
 ---

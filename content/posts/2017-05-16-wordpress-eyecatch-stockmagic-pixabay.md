@@ -7,9 +7,10 @@ type: post
 url: /wordpress-eyecatch-stockmagic-pixabay-5823/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Apps
+- WordPress
 ---
 
 ![](/images/2017/05/170516-591a94e1a22d0.jpg)

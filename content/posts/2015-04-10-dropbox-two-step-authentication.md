@@ -6,7 +6,9 @@ title: Dropboxアカウントの2段階認証を有効にする方法
 type: post
 url: /dropbox-two-step-authentication-929/
 categories:
-- Web
+- iPhone
+- Android
+- Mac
 tags:
 - Security
 ---

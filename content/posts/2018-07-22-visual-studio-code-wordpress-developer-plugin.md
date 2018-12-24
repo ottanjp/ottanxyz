@@ -6,12 +6,13 @@ title: 【随時更新】VS CodeでWordPressのテーマやプラグインを開
 type: post
 url: /visual-studio-code-wordpress-developer-plugin-6870/
 categories:
-- WordPress
+- Blog
 tags:
 - HTML
 - JavaScript
 - PHP
 - VS Code
+- WordPress
 ---
 
 ![](/images/2018/07/180722-5b53eb5f83ba4.jpg)

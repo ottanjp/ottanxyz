@@ -6,10 +6,11 @@ title: Docker ComposeでWordPress環境をもっと楽に管理しよう！
 type: post
 url: /docker-compose-wordpress-5694/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
 - Docker
+- WordPress
 ---
 
 ![](/images/2017/04/170419-58f6c1df347fc.jpg)

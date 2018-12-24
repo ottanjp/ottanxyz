@@ -6,7 +6,7 @@ title: Objective-Cで書かれたソースコードをSwiftに変換してくれ
 type: post
 url: /objective-c-to-swift-1915/
 categories:
-- Web
+- iPhone
 tags:
 - Tips
 ---

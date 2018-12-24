@@ -7,9 +7,10 @@ type: post
 url: /sublime-text-wordpress-standard-coding-4309/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2016/05/160521-573fe31dc0073.jpg)

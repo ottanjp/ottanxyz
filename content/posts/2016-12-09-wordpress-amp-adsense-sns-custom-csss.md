@@ -6,8 +6,9 @@ title: WordPressをAMPに対応させる方法とそのカスタマイズ
 type: post
 url: /wordpress-amp-adsense-sns-custom-csss-5319/
 categories:
-- WordPress
+- Blog
 tags:
+- WordPress
 - Development
 ---
 

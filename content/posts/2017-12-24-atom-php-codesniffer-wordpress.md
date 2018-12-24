@@ -6,10 +6,11 @@ title: AtomとPHP_CodeSnifferでWordPressコーディング規約に合わせて
 type: post
 url: /atom-php-codesniffer-wordpress-6470/
 categories:
-- WordPress
+- Blog
 tags:
 - Atom
 - Development
+- WordPress
 ---
 
 ![](/images/2017/12/171224-5a3f4af6505c0.png)

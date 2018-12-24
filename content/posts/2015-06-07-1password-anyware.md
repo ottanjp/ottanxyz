@@ -8,7 +8,6 @@ url: /1password-anyware-1638/
 categories:
 - iPhone
 - Mac
-- Web
 tags:
 - Security
 ---

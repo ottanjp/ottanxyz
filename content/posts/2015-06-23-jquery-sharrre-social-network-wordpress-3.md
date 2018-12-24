@@ -6,9 +6,10 @@ title: jQueryのプラグイン「Sharrre」を使用してWordPressにソーシ
 type: post
 url: /jquery-sharrre-social-network-wordpress-3-1740/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2015/06/150623-55895dd4a3b2d.jpg)

@@ -7,10 +7,11 @@ type: post
 url: /docker-wordpress-best-practice-5164/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Development
 - Docker
+- WordPress
 ---
 
 ![](/images/2016/10/161030-5815613793192.jpg)

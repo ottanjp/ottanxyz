@@ -6,10 +6,11 @@ title: Amazon Lightsailで月5ドルから始めるWordPress（下準備〜HTTPS
 type: post
 url: /aws-lightsail-wordpress-6908/
 categories:
-- WordPress
+- Blog
 tags:
 - Amazon
 - AWS
+- WordPress
 ---
 
 ![](/images/2018/08/wordpress-265132_640.jpg)

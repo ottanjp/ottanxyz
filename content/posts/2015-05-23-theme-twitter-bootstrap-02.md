@@ -6,9 +6,10 @@ title: Twitter Bootstrap 3を用いてWordPressテーマを作成しよう②
 type: post
 url: /theme-twitter-bootstrap-02-1456/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2015/05/150523-556023a46a7b7.jpg)

@@ -7,10 +7,11 @@ type: post
 url: /marsedit-preview-syntax-highlight-6853/
 categories:
 - Mac
-- WordPress
+- Blog
 tags:
 - Development
 - MarsEdit
+- WordPress
 ---
 
 ![](/images/2016/04/160423-571b57e20f058.png)

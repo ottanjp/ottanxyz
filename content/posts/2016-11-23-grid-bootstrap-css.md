@@ -6,9 +6,10 @@ title: グリッドレイアウトで高さも横幅もバラバラの画像を�
 type: post
 url: /grid-bootstrap-css-5260/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2016/11/161123-58352f787a587.jpg)

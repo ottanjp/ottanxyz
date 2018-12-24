@@ -6,10 +6,11 @@ title: WordPressで記事を投稿した瞬間に各種SNSに簡単にシェア�
 type: post
 url: /wordpress-publish-post-sns-share-5156/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
 - IFTTT
+- WordPress
 ---
 
 ![](/images/2016/10/161029-5814029bd3472.jpg)

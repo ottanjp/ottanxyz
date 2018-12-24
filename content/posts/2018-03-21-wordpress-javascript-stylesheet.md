@@ -6,9 +6,10 @@ title: WordPressのwp_enqueue_script、wp_enqueue_style関数で呼び出され�
 type: post
 url: /wordpress-javascript-stylesheet-6673/
 categories:
-- WordPress
+- Blog
 tags:
 - Development
+- WordPress
 ---
 
 ![](/images/2018/03/180321-5ab2516925b6a.jpeg)
