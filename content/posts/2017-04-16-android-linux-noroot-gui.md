@@ -12,7 +12,7 @@ tags:
 - Linux
 ---
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d18ac9db7.jpg)
+![](/images/2017/04/170416-58f2d18ac9db7.jpg)
 
 
 
@@ -100,7 +100,7 @@ Androidは、Linuxカーネルにより動作しています。しかし、Andro
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1a0c9ad5.png)
+![](/images/2017/04/170416-58f2d1a0c9ad5.png)
 
 
 
@@ -113,7 +113,7 @@ Androidは、Linuxカーネルにより動作しています。しかし、Andro
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1a5a4d30.png)
+![](/images/2017/04/170416-58f2d1a5a4d30.png)
 
 
 
@@ -139,7 +139,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1af0474e.png)
+![](/images/2017/04/170416-58f2d1af0474e.png)
 
 
 
@@ -152,7 +152,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1b827a35.png)
+![](/images/2017/04/170416-58f2d1b827a35.png)
 
 
 
@@ -183,7 +183,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1bf564ab.png)
+![](/images/2017/04/170416-58f2d1bf564ab.png)
 
 
 
@@ -196,7 +196,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1c66c497.png)
+![](/images/2017/04/170416-58f2d1c66c497.png)
 
 
 
@@ -209,7 +209,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1cc9a72f.png)
+![](/images/2017/04/170416-58f2d1cc9a72f.png)
 
 
 
@@ -222,7 +222,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1d55811e.png)
+![](/images/2017/04/170416-58f2d1d55811e.png)
 
 
 
@@ -235,7 +235,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1df0e9cb.png)
+![](/images/2017/04/170416-58f2d1df0e9cb.png)
 
 
 
@@ -260,7 +260,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f31b99ddeed.png)
+![](/images/2017/04/170416-58f31b99ddeed.png)
 
 
 
@@ -286,7 +286,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f31ba14f21d.png)
+![](/images/2017/04/170416-58f31ba14f21d.png)
 
 
 
@@ -299,7 +299,7 @@ APT（Advanced Packaging Tool）は、Debianのパッケージ管理ソフトウ
 
 
 
-![](http://13.230.213.117/wp-content/uploads/2017/04/170416-58f2d1fb363ff.png)
+![](/images/2017/04/170416-58f2d1fb363ff.png)
 
 
 
