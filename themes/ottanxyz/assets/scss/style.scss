@@ -118,6 +118,8 @@ article {
 }
 
 pre {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 
 	&>code {
 		font-family: Consolas, monospace;
@@ -125,7 +127,6 @@ pre {
 		display: block;
 		overflow-x: auto;
 		padding: 1rem;
-		margin-bottom: 1rem;
 	}
 }
 

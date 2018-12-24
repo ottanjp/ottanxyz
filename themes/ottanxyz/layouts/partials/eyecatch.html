@@ -1,5 +1,4 @@
 {{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
 {{ range $eyecatch_image }}
 {{ . | safeHTML }}
-{{/*  {{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | .Resize "600x" }}  */}}
 {{ end }}
