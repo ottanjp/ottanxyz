@@ -37,15 +37,15 @@
 	<meta property="fb:app_id" content="{{ .Site.Params.fbAppId }}">
 	<meta property="og:title" content="{{ .Title }}">
 	<meta property="og:url" content="{{ .Permalink }}">
-	<meta property="og:site_name" content="{{ .Site.Title }}">
+	<meta property="og:site_name" content="{{ .Site.Title }}"> -->
 
-	{{ block "header-description" . }}
+	<!-- {{ block "header-description" . }}
 	<meta name="description" content="{{ .Description }}">
 	<meta property="og:description" content="{{ .Description }}">
 	<meta name="twitter:description" content="{{ .Description }}">
 	<meta property="og:type" content="website">
-	{{ end }}
-	{{ block "header-image" . }}{{ end }} -->
+	{{ end }} -->
+	{{ block "header-image" . }}{{ end }}
 
 	{{/* NOTE: These Hugo Internal Templates can be found starting at
 	https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
@@ -77,12 +77,15 @@
 		<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 		<script>$(document).foundation();</script>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
 		<script>
 			 (adsbygoogle = window.adsbygoogle || []).push({
 				  google_ad_client: "ca-pub-6552469721930483",
 				  enable_page_level_ads: true
 			 });
-		</script>		<script>
+		</script>
+		{{ end }}
+		<script>
 			(function () {
 				var toc = document.getElementById('TableOfContents');
 				if (!toc) return;
@@ -91,7 +94,6 @@
 					if (ul.childElementCount !== 1) break;
 					li = ul.firstElementChild;
 					if (li.tagName !== 'LI') break;
-					// remove <ul><li></li></ul> where only <ul> only contains one <li>
 					ul.outerHTML = li.innerHTML;
 				} while (toc.childElementCount >= 1);
 			})();

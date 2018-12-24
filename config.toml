@@ -20,9 +20,3 @@ googleAnalytics = "UA-54519352-1"
 	twitter_domain = ""
 	facebook = "ottanxyz"
 	facebook_admin = "808819212572711"
-
-[authors]
-	name = "ottan"
-	[[authors.social]]
-		twitter = "ottanxyz"
-		facebook = "ottanxyz"
