@@ -71,7 +71,7 @@ AmazonのURLは複雑です。単純にAmazonのリンクを貼り付けるだ�
 
 
 
-https://gist.github.com/ottanxyz/18dbf434402fdb4abdd2b27d5d17df04
+{{< gist ottanxyz 18dbf434402fdb4abdd2b27d5d17df04 >}}
 
 
 
@@ -173,7 +173,7 @@ https://github.com/Exeu/apai-io
 
 
 
-https://gist.github.com/ottanxyz/4a44a5094bf27606c12803590a92d131
+{{< gist ottanxyz 4a44a5094bf27606c12803590a92d131 >}}
 
 
 

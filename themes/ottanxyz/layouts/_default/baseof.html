@@ -77,14 +77,12 @@
 		<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 		<script>$(document).foundation();</script>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
 		<script>
 			 (adsbygoogle = window.adsbygoogle || []).push({
 				  google_ad_client: "ca-pub-6552469721930483",
 				  enable_page_level_ads: true
 			 });
 		</script>
-		{{ end }}
 		<script>
 			(function () {
 				var toc = document.getElementById('TableOfContents');

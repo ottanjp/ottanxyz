@@ -175,7 +175,7 @@ BetterTouchToolの環境設定を開いたら、何もないところで右ク�
 
 
 
-https://gist.github.com/ottanxyz/94fb2441ee57667473c21836dda604ff
+{{< gist ottanxyz 94fb2441ee57667473c21836dda604ff >}}
 
 
 
@@ -183,7 +183,7 @@ https://gist.github.com/ottanxyz/94fb2441ee57667473c21836dda604ff
 
 
 
-https://gist.github.com/ottanxyz/89b8d45f164d32ccad32812ce68e3385
+{{< gist ottanxyz 89b8d45f164d32ccad32812ce68e3385 >}}
 
 
 
@@ -191,7 +191,7 @@ https://gist.github.com/ottanxyz/89b8d45f164d32ccad32812ce68e3385
 
 
 
-https://gist.github.com/ottanxyz/b940022d3b0482df9e1733e8473d9113
+{{< gist ottanxyz b940022d3b0482df9e1733e8473d9113 >}}
 
 
 
@@ -218,7 +218,7 @@ CPU、メモリ使用率について補足します。CPU、メモリ使用率�
 
 
 
-https://gist.github.com/ottanxyz/4a16a9ac2e283115552ccb8c75f8f70e
+{{< gist ottanxyz 4a16a9ac2e283115552ccb8c75f8f70e >}}
 
 
 
@@ -239,7 +239,7 @@ https://gist.github.com/ottanxyz/4a16a9ac2e283115552ccb8c75f8f70e
 
 
 
-https://gist.github.com/ottanxyz/806c17f25cabfde9d8018ad89bb4054a
+{{< gist ottanxyz 806c17f25cabfde9d8018ad89bb4054a >}}
 
 
 

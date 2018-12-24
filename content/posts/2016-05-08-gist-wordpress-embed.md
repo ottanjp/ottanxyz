@@ -47,7 +47,7 @@ WordPressでプログラムのソースコードをハイライトする方法�
 
 
 
-https://gist.github.com/ottanxyz/1d87a31d81b26db857f1fed436a3db95
+{{< gist ottanxyz 1d87a31d81b26db857f1fed436a3db95 >}}
 
 
 
@@ -55,7 +55,7 @@ WordPressの本文にGistのコードを埋め込むためには、以下のコ�
 
 
 
-https://gist.github.com/ottanxyz/1d87a31d81b26db857f1fed436a3db95#file-functions-php
+{{< gist ottanxyz 1d87a31d81b26db857f1fed436a3db95 >}}
 
 
 
@@ -75,7 +75,7 @@ CSSフレームワークとして、[Bootstrap4](http://v4-alpha.getbootstrap.co
 
 
 
-https://gist.github.com/ottanxyz/bf6cb78f08c9b567c22043d7330bdc2b
+{{< gist ottanxyz bf6cb78f08c9b567c22043d7330bdc2b >}}
 
 
 

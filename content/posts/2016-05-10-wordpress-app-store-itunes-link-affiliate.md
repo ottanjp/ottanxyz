@@ -42,7 +42,7 @@ WordPressを使用していて、App StoreやMac App Storeに公開されてい�
 
 
 
-https://gist.github.com/ottanxyz/fa722621d551eb76c6302166681c10a2
+{{< gist ottanxyz fa722621d551eb76c6302166681c10a2 >}}
 
 
 

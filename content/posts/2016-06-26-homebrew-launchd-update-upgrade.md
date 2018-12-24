@@ -126,7 +126,7 @@ terminal-notifierは、文字通りターミナルからmacOSの通知を利用�
 
 
 
-https://gist.github.com/ottanxyz/ab8e843a1f54f06128a0647d5326afb2
+{{< gist ottanxyz ab8e843a1f54f06128a0647d5326afb2 >}}
 
 
 

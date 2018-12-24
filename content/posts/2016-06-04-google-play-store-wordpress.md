@@ -65,7 +65,7 @@ https://sourceforge.net/projects/simplehtmldom/files/
 
 
 
-https://gist.github.com/ottanxyz/1f0bf483156ea9b72952ed9885d0faea
+{{< gist ottanxyz 1f0bf483156ea9b72952ed9885d0faea >}}
 
 
 
@@ -135,7 +135,7 @@ Gistに公開しているクラス中で使用しているスタイルシート�
 
 
 
-https://gist.github.com/ottanxyz/4097069b66be012078d35385cb32fbdd
+{{< gist ottanxyz 4097069b66be012078d35385cb32fbdd >}}
 
 
 

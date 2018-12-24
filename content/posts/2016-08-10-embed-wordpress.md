@@ -127,7 +127,7 @@ http://embed.ly/
 
 
 
-https://gist.github.com/ottanxyz/518542b8e8872a3e6f84d753a0eb0803
+{{< gist ottanxyz 518542b8e8872a3e6f84d753a0eb0803 >}}
 
 
 

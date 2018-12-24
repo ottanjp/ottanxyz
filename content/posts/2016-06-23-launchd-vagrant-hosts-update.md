@@ -131,7 +131,7 @@ Vagrantで構築した仮想マシンを起動することは非常に簡単で�
 
 
 
-https://gist.github.com/ottanxyz/ecb4df89b78b8ff792c44c4df458906d
+{{< gist ottanxyz ecb4df89b78b8ff792c44c4df458906d >}}
 
 
 
