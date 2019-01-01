@@ -1,0 +1,21 @@
+{
+  "filters": {},
+  "rules": {
+	"preset-ja-technical-writing": {
+		"max-ten": {
+           "max" : 5
+        },
+		"no-doubled-conjunction": false,
+		"ja-no-weak-phrase": false,
+		"no-exclamation-question-mark": {
+            "allowHalfWidthExclamation": false,
+            "allowFullWidthExclamation": true,
+            "allowHalfWidthQuestion": false,
+            "allowFullWidthQuestion": true
+        },
+		"no-doubled-joshi": {
+        	"min_interval": 1
+        },
+	  }
+  }
+}
