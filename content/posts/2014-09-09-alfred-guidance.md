@@ -241,58 +241,14 @@ Alfredは、ランチャーのみならず、ファイラーとしても機能�
 
 
 
-<table >
-<tr >キーワードSearch URL説明</tr>
-<tr >
-<td >amazon
-</td>
-<td >http://www.amazon.co.jp/s?field-keywords={query}
-</td>
-<td >Amazonから商品を検索する
-</td></tr>
-<tr >
-<td >apple-app
-</td>
-<td >itunes://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?term={query}
-</td>
-<td >App Storeからアプリを検索する
-</td></tr>
-<tr >
-<td >apple-mac
-</td>
-<td >macappstore://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query}
-</td>
-<td >Mac App Storeからアプリを検索する
-</td></tr>
-<tr >
-<td >apple-mac
-</td>
-<td >macappstore://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query}
-</td>
-<td >Mac App Storeからアプリを検索する
-</td></tr>
-<tr >
-<td >pic-pp
-</td>
-<td >http://photopin.com/search/{query}
-</td>
-<td >PHOTO PINからブログに使用する画像を検索する
-</td></tr>
-<tr >
-<td >q-jqp
-</td>
-<td >http://plugins.jquery.com/?s={query}
-</td>
-<td >jQueryのプラグインを検索する
-</td></tr>
-<tr >
-<td >q-github
-</td>
-<td >http://php.net/manual-lookup.php?pattern={query}〈=ja
-</td>
-<td >PHPのマニュアルから検索する
-</td></tr>
-</table>
+|キーワード|Search URL|説明|
+|---|---|---|
+|amazon|http://www.amazon.co.jp/s?field-keywords={query}|Amazonから商品を検索する|
+|apple-app|itunes://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?term={query}|App Storeからアプリを検索する|
+|apple-mac|macappstore://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query}|Mac App Storeからアプリを検索する|
+|pic-pp|http://photopin.com/search/{query}|PHOTO PINからブログに使用する画像を検索する|
+|q-jqp|http://plugins.jquery.com/?s={query}|jQueryのプラグインを検索する|
+|q-github|http://php.net/manual-lookup.php?pattern={query}|PHPのマニュアルから検索する|
 
 
 

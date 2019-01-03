@@ -6,64 +6,31 @@ title: MacでJPEG、PNG、GIFを高速に圧縮できるHomebrewからインス�
 type: post
 url: /mac-jpeg-png-gif-compressor-homebrew-6652/
 categories:
-- Mac
+  - Mac
 tags:
-- Homebrew
+  - Homebrew
 ---
 
 ![](/images/2018/02/180225-5a92680f2a1cd.jpg)
 
+画像ファイルを SNS でシェアする場合、WordPress などのブログで画像ファイルを使用する場合、なるべくファイルサイズを小さくしたいことがあります。今回は、Mac のパッケージマネージャーである Homebrew から簡単にインストール可能な、画像圧縮ユーティリティをご紹介します。なお、Homebrew については[macOS のパッケージ管理には Homebrew を使おう！Homebrew を使用する理由や便利な使い方までご紹介](https://ottan.xyz/macos-package-manager-homebrew-6216/)でご紹介していますので、こちらの記事もご参照ください。
 
+## Mac で画像ファイルを圧縮するユーティリティ 3 選
 
+今回ご紹介するユーティリティは、Homebrew からインストール可能な、CUI ユーティリティです。[Finder の右クリックメニュー、キーボードショートカットから PNG ファイルを一括して圧縮する](https://ottan.xyz/automator-finder-png-compress-4570/)でご紹介している Automator を併用することで、ターミナルからファイルを選択して圧縮することもできるので非常に便利です。
 
+### JPEG ファイルを圧縮する jpegoptim
 
+`jpegoptim`は、JPEG ファイルを圧縮する CUI ユーティリティです。
 
-画像ファイルをSNSでシェアする場合、WordPressなどのブログで画像ファイルを使用する場合、なるべくファイルサイズを小さくしたいことがあります。今回は、MacのパッケージマネージャーであるHomebrewから簡単にインストール可能な、画像圧縮ユーティリティをご紹介します。なお、Homebrewについては[macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介](https://ottan.xyz/macos-package-manager-homebrew-6216/)でご紹介していますので、こちらの記事もご参照ください。
-
-
-
-
-
-## Macで画像ファイルを圧縮するユーティリティ3選
-
-
-
-
-
-今回ご紹介するユーティリティは、Homebrewからインストール可能な、CUIユーティリティです。[Finderの右クリックメニュー、キーボードショートカットからPNGファイルを一括して圧縮する](https://ottan.xyz/automator-finder-png-compress-4570/)でご紹介しているAutomatorを併用することで、ターミナルからファイルを選択して圧縮することもできるので非常に便利です。
-
-
-
-
-
-### JPEGファイルを圧縮するjpegoptim
-
-
-
-
-
-`jpegoptim`は、JPEGファイルを圧縮するCUIユーティリティです。
-
-
-
-
-    
     brew install jpegoptim
-
-
-
-
 
 `jpegoptim`のヘルプを参照すると、さまざまなオプションが用意されていることがわかります。
 
+    Usage: jpegoptim [options] <filenames>
 
-
-
-    
-    Usage: jpegoptim [options] <filenames> 
-    
       -d<path>, --dest=<path>
-                        specify alternative destination directory for 
+                        specify alternative destination directory for
                         optimized files (default is to overwrite originals)
       -f, --force       force optimization
       -h, --help        display this help and exit
@@ -88,7 +55,7 @@ tags:
       -t, --totals      print totals after processing all files
       -v, --verbose     enable verbose mode (positively chatty)
       -V, --version     print program version
-    
+
       -s, --strip-all   strip all markers from output file
       --strip-none      do not strip any markers
       --strip-com       strip Comment markers from output file
@@ -96,91 +63,36 @@ tags:
       --strip-iptc      strip IPTC/Photoshop (APP13) markers from output file
       --strip-icc       strip ICC profile markers from output file
       --strip-xmp       strip XMP markers markers from output file
-    
+
       --all-normal      force all output files to be non-progressive
       --all-progressive force all output files to be progressive
       --stdout          send output to standard output (instead of a file)
       --stdin           read input from standard input (instead of a file)
 
-
-
-
-
 多数のオプションがあり、使用方法に戸惑いますが、よく使用するオプションは以下の通りです。
 
-
-
-
-
-
-<table >
-<tr >オプション説明</tr>
-<tr >
-<td >-o
-</td>
-<td >出力先に同一ファイルが存在する場合に強制的に上書きします
-</td></tr>
-<tr >
-<td >-d
-</td>
-<td >デフォルトでは元のファイルを上書きしますが、特定のディレクトリやパスに出力したい場合には、このオプショんを使用します
-</td></tr>
-<tr >
-<td >-m
-</td>
-<td >圧縮後のJPEGファイルの品質を0〜100%で指定します。
-</td></tr>
-<tr >
-<td >-s
-</td>
-<td >画像ファイルのEXIF情報などのメタデータをすべて削除します
-</td></tr>
-</table>
-
-
-
-
-
+| オプション | 説明                                                                                                                 |
+| ---------- | -------------------------------------------------------------------------------------------------------------------- |
+| -o         | 出力先に同一ファイルが存在する場合に強制的に上書きします                                                             |
+| -d         | デフォルトでは元のファイルを上書きしますが、特定のディレクトリやパスに出力したい場合には、このオプショんを使用します |
+| -m         | 圧縮後の JPEG ファイルの品質を 0〜100%で指定します。                                                                 |
+| -s         | 画像ファイルの EXIF 情報などのメタデータをすべて削除します                                                           |
 
 ターミナルでの使用例は以下の通りです。
 
-
-
-
-    
     jpegoptim -o -d <Directory path> -m90 -s *.jpg
 
+### PNG ファイルを圧縮する pngquant
 
+`pngquant`は、PNG ファイルを圧縮する CUI ユーティリティです。
 
-
-
-### PNGファイルを圧縮するpngquant
-
-
-
-
-
-`pngquant`は、PNGファイルを圧縮するCUIユーティリティです。
-
-
-
-
-    
     brew install pngquant
-
-
-
-
 
 `pngquant`のオプションは以下の通りです。
 
-
-
-
-    
     usage:  pngquant [options] [ncolors] -- pngfile [pngfile ...]
             pngquant [options] [ncolors] - >stdout <stdin
-    
+
     options:
       --force           overwrite existing output files (synonym: -f)
       --skip-if-larger  only save converted files if they're smaller than original
@@ -193,74 +105,27 @@ tags:
       --strip           remove optional metadata (default on Mac)
       --verbose         print status messages (synonym: -v)
 
-
-
-
-
 こちらも多数のオプションがあり、使用方法に戸惑いますが、よく使用するオプションは以下の通りです。
 
-
-
-
-
-
-<table >
-<tr >オプション説明</tr>
-<tr >
-<td >-f
-</td>
-<td >出力先に同一ファイルが存在する場合に強制的に上書きします
-</td></tr>
-<tr >
-<td >--ext
-</td>
-<td >`pngquant`で圧縮したファイルは、「*-fs8.png」という名称になりますが、「.png」を指定することで、元のファイルを上書きします。`-f`オプションと併用します
-</td></tr>
-</table>
-
-
-
-
-
+| オプション | 説明                                                                                                                                                   |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -f         | 出力先に同一ファイルが存在する場合に強制的に上書きします                                                                                               |
+| --ext      | `pngquant`で圧縮したファイルは、「\*-fs8.png」という名称になりますが、「.png」を指定することで、元のファイルを上書きします。`-f`オプションと併用します |
 
 ターミナルでの使用例は以下の通りです。
 
-
-
-
-    
     pngquant -f --ext .png *.png
 
+### GIF ファイルを圧縮する gifsicle
 
+`gifsicle`は、GIF ファイルを圧縮する CUI ユーティリティです。
 
-
-
-### GIFファイルを圧縮するgifsicle
-
-
-
-
-
-`gifsicle`は、GIFファイルを圧縮するCUIユーティリティです。
-
-
-
-
-    
     brew install gifsicle
-
-
-
-
 
 `gifsicle`のオプションは以下の通りです。
 
-
-
-
-    
     Usage: gifsicle [OPTION | FILE | FRAME]...
-    
+
     Mode options: at most one, before any filenames.
       -m, --merge                   Merge mode: combine inputs, write stdout.
       -b, --batch                   Batch mode: modify inputs, write back to
@@ -268,7 +133,7 @@ tags:
       -e, --explode                 Explode mode: write N files for each input,
                                     one per frame, to 'input.frame-number'.
       -E, --explode-by-name         Explode mode, but write 'input.name'.
-    
+
     General options: Also --no-OPTION for info and verbose.
       -I, --info                    Print info about input GIFs. Two -I's means
                                     normal output is not suppressed.
@@ -283,16 +148,16 @@ tags:
           --no-ignore-errors        Quit on very erroneous input GIFs.
           --conserve-memory         Conserve memory at the expense of speed.
           --multifile               Support concatenated GIF files.
-    
+
     Frame selections:               #num, #num1-num2, #num1-, #name
-    
+
     Frame change options:
       --delete FRAMES               Delete FRAMES from input.
       --insert-before FRAME GIFS    Insert GIFS before FRAMES in input.
       --append GIFS                 Append GIFS to input.
       --replace FRAMES GIFS         Replace FRAMES with GIFS in input.
       --done                        Done with frame changes.
-    
+
     Image options: Also --no-OPTION and --same-OPTION.
       -B, --background COL          Make COL the background color.
           --crop X,Y+WxH, --crop X,Y-X2,Y2
@@ -306,7 +171,7 @@ tags:
           --rotate-90, --rotate-180, --rotate-270, --no-rotate
                                     Rotate the image.
       -t, --transparent COL         Make COL transparent.
-    
+
     Extension options:
           --app-extension N D       Add an app extension named N with data D.
       -c, --comment TEXT            Add a comment before the next frame.
@@ -321,7 +186,7 @@ tags:
       -O, --optimize[=LEVEL]        Optimize output GIFs.
       -U, --unoptimize              Unoptimize input GIFs.
       -j, --threads[=THREADS]       Use multiple threads to improve speed.
-    
+
     Whole-GIF options: Also --no-OPTION.
           --careful                 Write larger GIFs that avoid bugs in other
                                     programs.
@@ -341,46 +206,15 @@ tags:
           --use-colormap CMAP       Set output GIF's colormap to CMAP, which can
                                     be 'web', 'gray', 'bw', or a GIF file.
 
-
-
-
-
 こちらも多数のオプションがあり、使用方法に戸惑いますが、よく使用するオプションは以下の通りです。
 
-
-
-
-
-
-<table >
-<tr >オプション説明</tr>
-<tr >
-<td >--optimize
-</td>
-<td >GIFファイルの最適化レベルを指定します。1〜3の数値を指定しますが、3がもっとも最適化が遅い代わりに高圧縮となります。
-</td></tr>
-<tr >
-<td >-o
-</td>
-<td >出力先のファイル名を指定します。
-</td></tr>
-</table>
-
-
-
-
-
+| オプション | 説明                                                                                                                  |
+| ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| --optimize | GIF ファイルの最適化レベルを指定します。1〜3 の数値を指定しますが、3 がもっとも最適化が遅い代わりに高圧縮となります。 |
+| -o         | 出力先のファイル名を指定します。                                                                                      |
 
 ターミナルでの使用例は以下の通りです。
 
-
-
-
-    
     gifsicle --optimize=3 -o out.gif in.gif
-
-
-
-
 
 ブログ等で画像ファイルを使用する場合は、これらのユーティリティを使用して画像ファイルを最適化してからアップロードすると、読み手側の通信量の負担の軽減にも繋がり、読み込み速度も速くなるためぜひ実施しておきましょう！
