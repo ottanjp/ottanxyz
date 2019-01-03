@@ -1,0 +1,14 @@
+<div id="article-share" class="expanded button-group article-share" style="margin-top: 1rem;margin-bottom: 3rem;">
+	<a class="hollow button" href="http://twitter.com/intent/tweet?text={{ .Title  | safeJS }}%20%7C%20{{ .Site.Title | safeJS }}%20{{ .Permalink | safeJS }}">
+		<i class="fab fa-twitter"></i>
+		Twitter
+	</a>
+	<a class="hollow button" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | safeJS }}">
+		<i class="fab fa-facebook"></i>
+		Facebook
+	</a>
+	<a class="hollow button" href="http://b.hatena.ne.jp/entry/{{ .Permalink | safeJS }}">
+		<span class="font-bold">B!</span>
+		はてブ
+	</a>
+</div>

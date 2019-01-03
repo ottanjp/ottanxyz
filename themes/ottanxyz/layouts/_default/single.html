@@ -30,90 +30,27 @@
 {{ define "main" }}
 <article class="grid-x grid-margin-x">
 
-	<header class="cell small-12" style="margin-top: 1rem;margin-bottom: 3rem;">
-
-		<h1>
-			{{- .Title -}}
-		</h1>
-
-		<span style="color:gray;">
-			<i class="far fa-clock"></i>
-			<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-				{{- .Date.Format "2006.01.02 15:04:05" -}}
-			</time>
-		</span>
-
-		{{ if .Params.categories }}
-		<span>
-			<i class="fas fa-pencil-alt"></i>
-			{{ range .Params.categories }}
-			<a class="article-list_label" href="/categories/{{ . | urlize }}">{{- . -}}</a>
-			{{ end }}
-		</span>
-		{{ end }}
-
-		{{ if .Params.tags }}
-		<span>
-			<i class="fas fa-tag"></i>
-			{{ range .Params.tags }}
-			<a class="article-list_label" href="/tags/{{ . | urlize }}">{{- . -}}</a>
-			{{ end }}
-		</span>
-		{{ end }}
-
+	<header class="cell small-12 article-header">
+		{{ partial "article-header.html" . }}
 	</header>
 
 	<div id="main" class="cell medium-8">
 
+		{{ if le (int (.Date.Format "20060101")) (int ((now.AddDate -1 0 0).Format "20060101")) }}
+		<p class="callout warning">この記事は公開されてから1年以上が経過しています。情報が古い可能性がありますのでご注意ください。</p>
+		{{ end }}
+
 		{{- .Content -}}
 
-		<div id="article-share" class="expanded button-group" style="margin-top: 1rem;margin-bottom: 3rem;">
-			<a class="hollow button" href="http://twitter.com/intent/tweet?text={{ .Title  | safeJS }}%20%7C%20{{ .Site.Title | safeJS }}%20{{ .Permalink | safeJS }}">
-				<i class="fab fa-twitter"></i>
-				Twitter
-			</a>
-			<a class="hollow button" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | safeJS }}">
-				<i class="fab fa-facebook"></i>
-				Facebook
-			</a>
-			<a class="hollow button" href="http://b.hatena.ne.jp/entry/{{ .Permalink | safeJS }}">
-				<span class="font-bold">B!</span>
-				はてブ
-			</a>
-		</div>
+		{{ partial "social-share.html" . }}
 
-		{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<ins class="adsbygoogle"
-			 style="display:block"
-			 data-ad-format="autorelaxed"
-			 data-ad-client="ca-pub-6552469721930483"
-			 data-ad-slot="9449173286"></ins>
-		<script>
-			 (adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-		{{ end }}
+		{{ partial "related-posts.html" . }}
 
 		<div class="article-comment">
 			{{ template "_internal/disqus.html" . }}
 		</div>
 
-		<div id="pagination-container" class="grid-container" style="margin-top: 1rem;margin-bottom: 3rem;">
-			<div id="pagination" class="grid-x grid-padding-x grid-margin-x">
-				<div id="prev-article" class="cell small-6">
-					{{ with .PrevInSection }}
-					<i class="fas fa-angle-left"></i>
-					<a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-					{{ end }}
-				</div><!-- prev-article -->
-				<div id="next-article" class="cell small-6">
-					{{ with .NextInSection }}
-					<i class="fas fa-angle-right"></i>
-					<a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-					{{ end }}
-				</div><!-- next-article -->
-			</div><!-- pagination -->
-		</div><!-- pagination-container -->
+		{{ partial "article-footer.html" . }}
 
 	</div><!-- main -->
 

@@ -1,0 +1,16 @@
+<div id="pagination-container" class="grid-container" style="margin-top: 1rem;margin-bottom: 3rem;">
+	<div id="pagination" class="grid-x grid-padding-x grid-margin-x">
+		<div id="prev-article" class="cell small-6">
+			{{ with .PrevInSection }}
+			<i class="fas fa-angle-left"></i>
+			<a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+			{{ end }}
+		</div><!-- prev-article -->
+		<div id="next-article" class="cell small-6">
+			{{ with .NextInSection }}
+			<i class="fas fa-angle-right"></i>
+			<a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+			{{ end }}
+		</div><!-- next-article -->
+	</div><!-- pagination -->
+</div><!-- pagination-container -->
