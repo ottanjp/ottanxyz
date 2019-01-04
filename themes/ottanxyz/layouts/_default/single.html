@@ -1,43 +1,39 @@
 {{ define "header" }}
 {{/* We can override any block in the baseof file be defining it in the template */}}
-{{ partial "page-header.html" . }}
-{{ end }}
+{{ partial "page-header.html" . }} {{ end }}
 
 {{ define "header-description" }}
-<meta name="description" content="{{ .Summary }}...">
-<meta property="og:description" content="{{ .Summary }}...">
-<meta name="twitter:description" content="{{ .Summary }}...">
-<meta property="og:type" content="article">
-<meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-{{ range .Params.tags }}<meta property="og:article:tag" content="{{ . }}" />{{ end }}
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
-<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}">
-<meta name="twitter:title" content="{{ .Title }}">
-<meta name="twitter:url" content="{{ .Permalink }}">
-{{ end }}
+<meta name="description" content="{{ .Summary }}..." />
+<meta property="og:description" content="{{ .Summary }}..." />
+<meta name="twitter:description" content="{{ .Summary }}..." />
+<meta property="og:type" content="article" />
+<meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML}}">
+{{ range.Params.tags }}<meta property="og:article:tag" content="{{ . }}" />{{ end }}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
+<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:url" content="{{ .Permalink }}" /> {{ end }}
 
 {{ define "header-image" }}
 {{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
 {{ range $eyecatch_image }}
-<meta property="og:image" content="https:{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL }}">
-<meta property="twitter:image" content="https:{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL }}">
+<meta property="og:image" content="https:{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL}}">
+<meta property="twitter:image" content="https:{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL}}">
 {{ end }}
 {{ end }}
-
-
 
 {{ define "main" }}
 <article class="grid-x grid-margin-x">
-
 	<header class="cell small-12 article-header">
 		{{ partial "article-header.html" . }}
 	</header>
 
 	<div id="main" class="cell medium-8">
-
 		{{ if le (int (.Date.Format "20060101")) (int ((now.AddDate -1 0 0).Format "20060101")) }}
-		<p class="callout warning">この記事は公開されてから1年以上が経過しています。情報が古い可能性がありますのでご注意ください。</p>
+		<p class="callout warning">
+			この記事は公開されてから1年以上が経過しています。情報が古い可能性がありますのでご注意ください。
+		</p>
 		{{ end }}
 
 		{{- .Content -}}
@@ -46,18 +42,24 @@
 
 		{{ partial "related-posts.html" . }}
 
+		<span class="help-text">誤字・脱字、記事に対するご指摘、ご意見等はこちらへ</span>
+		<form action="{{ .Permalink }}" class="input-group" netlify>
+			<input class="input-group-field" type="text">
+			<input class="input-group-button button" type="submit" value="送信!">
+		</form>
+
 		<div class="article-comment">
 			{{ template "_internal/disqus.html" . }}
 		</div>
 
 		{{ partial "article-footer.html" . }}
-
-	</div><!-- main -->
+	</div>
+	<!-- main -->
 
 	<aside id="sidebar" class="cell auto hide-for-small-only">
 		{{- partial "toc.html" . -}}
-		{{/*  {{- partial "menu-contextual.html" . -}}  */}}
-	</aside><!-- sidebar -->
-
+		{{/*  {{- partial "menu-contextual.html" . -}} */}}
+	</aside>
+	<!-- sidebar -->
 </article>
 {{ end }}
