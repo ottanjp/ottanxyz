@@ -19,7 +19,7 @@ tags:
 
 
 
-[AirMac（Express、Extreme、Time Capsule）の Wi-Fiの「体感の」速度が遅い問題を見直す](https://ottan.xyz/airmac-express-extreme-time-capsule-wifi-speed-slow-6529/)で、AirMacにおける「体感」速度が遅い場合の問題についてご紹介しましたが、この「体感」速度が遅い原因は他にも色々考えられます。今回は、実際に筆者の自宅で体験した例と改善策の例をご紹介します。
+[AirMac（Express、Extreme、Time Capsule）の Wi-Fiの「体感の」速度が遅い問題を見直す](/airmac-express-extreme-time-capsule-wifi-speed-slow-6529/)で、AirMacにおける「体感」速度が遅い場合の問題についてご紹介しましたが、この「体感」速度が遅い原因は他にも色々考えられます。今回は、実際に筆者の自宅で体験した例と改善策の例をご紹介します。
 
 
 
@@ -81,7 +81,7 @@ DNSプロキシ機能は、ブロードバンドルーターに実装されて�
 
 
 
-今回は、NURO光で提供されているONU兼ルーターのDNSプロキシを変更する方法をご紹介します。冒頭でご紹介した[AirMac（Express、Extreme、Time Capsule）の Wi-Fiの「体感の」速度が遅い問題を見直す](https://ottan.xyz/airmac-express-extreme-time-capsule-wifi-speed-slow-6529/)においても、AirMacをブリッジモードとして使用している場合も、DNSサーバにブロードバンドルーターのIPアドレスを指定する代わりに、プロバイダーが提供されているIPアドレスを直接指定することで事象が解決する可能性もあります（AirMacの原因は別にありそうな気もしますが…）。
+今回は、NURO光で提供されているONU兼ルーターのDNSプロキシを変更する方法をご紹介します。冒頭でご紹介した[AirMac（Express、Extreme、Time Capsule）の Wi-Fiの「体感の」速度が遅い問題を見直す](/airmac-express-extreme-time-capsule-wifi-speed-slow-6529/)においても、AirMacをブリッジモードとして使用している場合も、DNSサーバにブロードバンドルーターのIPアドレスを指定する代わりに、プロバイダーが提供されているIPアドレスを直接指定することで事象が解決する可能性もあります（AirMacの原因は別にありそうな気もしますが…）。
 
 
 

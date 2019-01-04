@@ -25,7 +25,7 @@ tags:
 
 
 
-[Twitter Bootstrap 3を用いてWordPressテーマを作成しよう③](https://ottan.xyz/theme-twitter-bootstrap-03-1473/)まででメインとなる「**index.php**」では投稿一覧の表示まで行いました。今回は、投稿の個別ページを表示する「**single.php**」を作成します。「**index.php**」からリンクされたページは、WordPressにより「**single.php**」に誘導されるため、「**index.php**」に手を入れる必要はまったくありません。
+[Twitter Bootstrap 3を用いてWordPressテーマを作成しよう③](/theme-twitter-bootstrap-03-1473/)まででメインとなる「**index.php**」では投稿一覧の表示まで行いました。今回は、投稿の個別ページを表示する「**single.php**」を作成します。「**index.php**」からリンクされたページは、WordPressにより「**single.php**」に誘導されるため、「**index.php**」に手を入れる必要はまったくありません。
 
 
 
@@ -106,7 +106,7 @@ tags:
 
 
 
-差異は当然あるにしても、「**index.php**」と作りが似ていることに気が付くと思います。投稿一覧を作成する際に使用した、`have_posts()` 関数や、`the_post()` 関数も登場します。これらの関数について詳細に知りたい場合は、[Twitter Bootstrap 3を用いてWordPressテーマを作成しよう②](https://ottan.xyz/?p=1456)で詳しくご紹介していますので是非参考にしてみてください。
+差異は当然あるにしても、「**index.php**」と作りが似ていることに気が付くと思います。投稿一覧を作成する際に使用した、`have_posts()` 関数や、`the_post()` 関数も登場します。これらの関数について詳細に知りたい場合は、[Twitter Bootstrap 3を用いてWordPressテーマを作成しよう②](/?p=1456)で詳しくご紹介していますので是非参考にしてみてください。
 
 
 

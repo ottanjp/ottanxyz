@@ -14,7 +14,7 @@ tags:
 
 ![](/images/2015/05/150523-556023a46a7b7.jpg)
 
-[Twitter Bootstrap 3 を用いて WordPress テーマを作成しよう ①](https://ottan.xyz/theme-twitter-bootstrap-01-1453/)までで、[Initializr](http://www.initializr.com/)を使用したプロトタイプの作成から、ヘッダー、フッターの分割までを行いました。今回は、メインとなる投稿一覧の表示部分をカスタマイズしていきたいと思います。前回の記事をまだご覧になっていない方はそちらからご覧ください。
+[Twitter Bootstrap 3 を用いて WordPress テーマを作成しよう ①](/theme-twitter-bootstrap-01-1453/)までで、[Initializr](http://www.initializr.com/)を使用したプロトタイプの作成から、ヘッダー、フッターの分割までを行いました。今回は、メインとなる投稿一覧の表示部分をカスタマイズしていきたいと思います。前回の記事をまだご覧になっていない方はそちらからご覧ください。
 
 ## Twitter Bootstrap のグリッドシステム
 

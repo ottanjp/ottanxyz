@@ -19,7 +19,7 @@ tags:
 
 
 
-App Storeで配布されているiPhoneのアプリのURLスキームを使用すれば、たとえばSafariなどの外部ソフトウェアからそのアプリを簡単に呼び出すことができるため便利です。たとえば、[iOS版の1Passwordでウェブページの登録から使い方まで徹底解説！ – OTTAN.XYZ](https://ottan.xyz/ios-1password-description-554/)でご紹介しているように、Safariで閲覧中のWebページを、そのまま1Passwordの内蔵ブラウザで開くこともできます。また、Workflowなど自動化アプリに組み込んで使用することで、より効果を発揮しそうです。
+App Storeで配布されているiPhoneのアプリのURLスキームを使用すれば、たとえばSafariなどの外部ソフトウェアからそのアプリを簡単に呼び出すことができるため便利です。たとえば、[iOS版の1Passwordでウェブページの登録から使い方まで徹底解説！ – OTTAN.XYZ](/ios-1password-description-554/)でご紹介しているように、Safariで閲覧中のWebページを、そのまま1Passwordの内蔵ブラウザで開くこともできます。また、Workflowなど自動化アプリに組み込んで使用することで、より効果を発揮しそうです。
 
 
 

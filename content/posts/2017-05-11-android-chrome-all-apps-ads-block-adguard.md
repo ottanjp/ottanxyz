@@ -19,7 +19,7 @@ tags:
 
 
 
-先日、[Android標準のChromeやその他のアプリからありとあらゆる広告を消し去る魔法のアプリ「FilterProxy」 – OTTAN.XYZ](https://ottan.xyz/android-filterproxy-ads-chrome-5761/)の記事で、AndroidのChromeブラウザやその他のアプリから広告を消し去る「FilterProxy」と呼ばれるGoogle Playから配布されているアプリをご紹介しました。本アプリも十分に実用的なのですが、
+先日、[Android標準のChromeやその他のアプリからありとあらゆる広告を消し去る魔法のアプリ「FilterProxy」 – OTTAN.XYZ](/android-filterproxy-ads-chrome-5761/)の記事で、AndroidのChromeブラウザやその他のアプリから広告を消し去る「FilterProxy」と呼ばれるGoogle Playから配布されているアプリをご紹介しました。本アプリも十分に実用的なのですが、
 
 
 

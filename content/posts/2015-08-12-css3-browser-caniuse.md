@@ -44,7 +44,7 @@ tags:
 
 
 
-「npm」によるパッケージ管理については、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)で詳しくご紹介していますので、こちらを参照してください。
+「npm」によるパッケージ管理については、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)で詳しくご紹介していますので、こちらを参照してください。
 
 
 

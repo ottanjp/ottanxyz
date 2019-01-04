@@ -19,7 +19,7 @@ tags:
 
 
 
-[AmazonのFireタブレットにGoogle Playのアプリケーションをインストールする方法①](https://ottan.xyz/?p=3013)で、オンラインストレージを介して、Google Playのアプリケーションをインストールする方法をご紹介しました。
+[AmazonのFireタブレットにGoogle Playのアプリケーションをインストールする方法①](/amazon-fire-google-play-1-6819/)で、オンラインストレージを介して、Google Playのアプリケーションをインストールする方法をご紹介しました。
 
 
 
@@ -468,7 +468,7 @@ Googleアカウントのメールアドレスとパスワードを入力しま�
 
 
 
-[Googleアカウントの2段階認証を有効にする方法](https://ottan.xyz/google-two-step-authentication-890/)により、Googleアカウントの2段階認証を設定している場合は、「ログインできませんでした」と表示されるため、「次へ」をタップします。
+[Googleアカウントの2段階認証を有効にする方法](/google-two-step-authentication-890/)により、Googleアカウントの2段階認証を設定している場合は、「ログインできませんでした」と表示されるため、「次へ」をタップします。
 
 
 

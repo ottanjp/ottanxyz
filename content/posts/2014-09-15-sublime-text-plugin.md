@@ -449,7 +449,7 @@ JavaScriptのシンタックスチェッカー。
 
 
 
-npmコマンドがインストールされていない場合は、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)の記事にしたがってインストールしておいてください。
+npmコマンドがインストールされていない場合は、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)の記事にしたがってインストールしておいてください。
 
 
 

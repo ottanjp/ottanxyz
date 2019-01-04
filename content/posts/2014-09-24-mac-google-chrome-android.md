@@ -102,7 +102,7 @@ tags:
 
 
 
-なお、弊サイトでも[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)で`npm`コマンドについて詳しく解説していますので、そちらも合わせて参照してください。
+なお、弊サイトでも[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)で`npm`コマンドについて詳しく解説していますので、そちらも合わせて参照してください。
 
 
 

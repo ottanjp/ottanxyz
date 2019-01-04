@@ -18,7 +18,7 @@ tags:
 
 
 
-[@おったん](https://twitter.com/ottanxyz)です。動作検証用のMacの環境が欲しかったため、VirtualBoxに仮想マシンを立てて検証環境を構築することとしました。何点かつまずくところもあったため、後学のためにメモしておきたいと思います。また、[MacのVirtualBoxでmacOS Mavericksを動かす](https://ottan.xyz/mavericks-on-mavericks-27/)の記事も参考にしてください。
+[@おったん](https://twitter.com/ottanxyz)です。動作検証用のMacの環境が欲しかったため、VirtualBoxに仮想マシンを立てて検証環境を構築することとしました。何点かつまずくところもあったため、後学のためにメモしておきたいと思います。また、[MacのVirtualBoxでmacOS Mavericksを動かす](/mavericks-on-mavericks-27/)の記事も参考にしてください。
 
 
 

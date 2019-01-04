@@ -19,7 +19,7 @@ tags:
 
 
 
-[Twitter Bootstrap 3を用いてWordPressテーマを作成しよう②](https://ottan.xyz/theme-twitter-bootstrap-02-1456/)は、Twitter Bootstrapの根幹となるグリッドシステムのご紹介から、メインコンテンツにアイキャッチ画像、タイトル、投稿の内容を表示させる、など盛りだくさんの内容でした
+[Twitter Bootstrap 3を用いてWordPressテーマを作成しよう②](/theme-twitter-bootstrap-02-1456/)は、Twitter Bootstrapの根幹となるグリッドシステムのご紹介から、メインコンテンツにアイキャッチ画像、タイトル、投稿の内容を表示させる、など盛りだくさんの内容でした
 
 
 

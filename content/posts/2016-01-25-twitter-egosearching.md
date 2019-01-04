@@ -37,7 +37,7 @@ Twitterは、もはやブログとは切り離すことのできない、ソー�
 
 
 
-今回は、IFTTT（If This Then That）を使用して、Twitterの検索結果をスマホに通知するレシピを作成します。IFTTTについては、[iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法](https://ottan.xyz/iphone-gmail-push-490/)でも詳しくご紹介していますので、ご参照ください。なお、スマホで通知を受け取るためには、事前にスマホにIFTTTの公式アプリをインストールしておく必要があります。
+今回は、IFTTT（If This Then That）を使用して、Twitterの検索結果をスマホに通知するレシピを作成します。IFTTTについては、[iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法](/iphone-gmail-push-490/)でも詳しくご紹介していますので、ご参照ください。なお、スマホで通知を受け取るためには、事前にスマホにIFTTTの公式アプリをインストールしておく必要があります。
 
 
 
@@ -242,7 +242,7 @@ IFTTTがTwitterにアクセスするための認証画面が求められるた�
 
 
 
-アクションとしては、[Gmailを一工夫！EvernoteベーシックプランでEvernoteメール転送機能の制限を回避する方法](https://ottan.xyz/evernote-basic-email-transfer-1963/)でもご紹介したように、Evernoteなど任意のアクションで構わないのですが、今回は簡易にするために、通知（IF Notifications）アクションを選択します。
+アクションとしては、[Gmailを一工夫！EvernoteベーシックプランでEvernoteメール転送機能の制限を回避する方法](/evernote-basic-email-transfer-1963/)でもご紹介したように、Evernoteなど任意のアクションで構わないのですが、今回は簡易にするために、通知（IF Notifications）アクションを選択します。
 
 
 
@@ -300,7 +300,7 @@ IFTTTがTwitterにアクセスするための認証画面が求められるた�
 
 
 
-実際に、弊サイトでご紹介した記事である、[誤って削除した重要なカレンダーのイベントやリマインダーを復旧する方法](https://ottan.xyz/icloud-calendar-reminder-3236/)を、Twitterでテスト配信してみたところ、このようにIFアプリによって通知されました。ツイートに短縮URLが使用されていても問題なく通知されます。
+実際に、弊サイトでご紹介した記事である、[誤って削除した重要なカレンダーのイベントやリマインダーを復旧する方法](/icloud-calendar-reminder-3236/)を、Twitterでテスト配信してみたところ、このようにIFアプリによって通知されました。ツイートに短縮URLが使用されていても問題なく通知されます。
 
 
 

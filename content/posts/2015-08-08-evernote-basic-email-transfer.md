@@ -37,7 +37,7 @@ Evernoteにはメール転送機能と呼ばれる、Evernote専用のメール�
 
 
 
-IFTTTについては、[iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法](https://ottan.xyz/iphone-gmail-push-490/)でご紹介していますので、詳細はこちらをご覧ください。
+IFTTTについては、[iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法](/iphone-gmail-push-490/)でご紹介していますので、詳細はこちらをご覧ください。
 
 
 

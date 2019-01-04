@@ -26,7 +26,7 @@ WordPressで記事を公開する際に、アイキャッチ画像を使用す�
 
 
 
-そこで利用したいのが、ロイヤリティフリー、いわゆるCC0（Creative Commons）で配布されている商用利用可能な著作権明記不要の画像。代表的なものとして、「Pixabay」や、「Pixabay」を含むCC0の画像を配布するサイトを横断して検索できる[商用利用可能！ブログのアイキャッチ画像に使用できる著作権フリー（CC0 Public Domain）の画像を横断して検索できる「LibreStock」 – OTTAN.XYZ](https://ottan.xyz/librestock-wordpress-eyecatch-image-5593/)の記事でご紹介した「LibreStock」です。今回は、Macのメニューバーから「Pixabay」で公開されている画像を検索できるアプリをご紹介します。メニューバーから簡単に画像をダウンロードできるため、ブラウザを開く必要もなくなります。
+そこで利用したいのが、ロイヤリティフリー、いわゆるCC0（Creative Commons）で配布されている商用利用可能な著作権明記不要の画像。代表的なものとして、「Pixabay」や、「Pixabay」を含むCC0の画像を配布するサイトを横断して検索できる[商用利用可能！ブログのアイキャッチ画像に使用できる著作権フリー（CC0 Public Domain）の画像を横断して検索できる「LibreStock」 – OTTAN.XYZ](/librestock-wordpress-eyecatch-image-5593/)の記事でご紹介した「LibreStock」です。今回は、Macのメニューバーから「Pixabay」で公開されている画像を検索できるアプリをご紹介します。メニューバーから簡単に画像をダウンロードできるため、ブラウザを開く必要もなくなります。
 
 
 

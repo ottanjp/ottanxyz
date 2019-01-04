@@ -18,7 +18,7 @@ tags:
 
 
 
-1Passwordについては、[iOS版の1Passwordでウェブページの登録から使い方まで徹底解説！](https://ottan.xyz/ios-1password-description-554/)や、[iOS版の1Passwordでウェブページの登録からワンタイムパスワードの使い方まで徹底解説！](https://ottan.xyz/ios-1password-description-part2-875/)で何度もご紹介してきましたが、iOS9と最新バージョンへのアップデートにより、より便利に使えるようになりました。
+1Passwordについては、[iOS版の1Passwordでウェブページの登録から使い方まで徹底解説！](/ios-1password-description-554/)や、[iOS版の1Passwordでウェブページの登録からワンタイムパスワードの使い方まで徹底解説！](/ios-1password-description-part2-875/)で何度もご紹介してきましたが、iOS9と最新バージョンへのアップデートにより、より便利に使えるようになりました。
 
 
 

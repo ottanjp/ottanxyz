@@ -27,9 +27,9 @@ tags:
 
 
 
-  * [詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！ – OTTAN.XYZ](https://ottan.xyz/docker-for-mac-wordpress-4711/)
-  * [Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ – OTTAN.XYZ](https://ottan.xyz/docker-for-mac-wordpress-customize-4714/)
-  * [Dockerで作る最強・最速のローカルWordPress環境 – OTTAN.XYZ](https://ottan.xyz/docker-wordpress-best-practice-5164/)
+  * [詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！ – OTTAN.XYZ](/docker-for-mac-wordpress-4711/)
+  * [Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ – OTTAN.XYZ](/docker-for-mac-wordpress-customize-4714/)
+  * [Dockerで作る最強・最速のローカルWordPress環境 – OTTAN.XYZ](/docker-wordpress-best-practice-5164/)
 
 
 

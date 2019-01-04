@@ -20,7 +20,7 @@ tags:
 
 
 
-CMS（コンテンツマネジメントシステム）としては、WordPressが有名です。当サイトもAWSのLightsailと呼ばれるサービスを使用して、WordPressを構築しています。Lightsailについては、[Amazon Lightsailで月5ドルから始めるWordPress（独自ドメインでのメール送受信） – OTTAN.XYZ](https://ottan.xyz/aws-lightsail-wordpress-domain-mail-6945/)でご紹介していますので、そちらも参照してください。なお、投稿後に早速、月々5ドルから3ドルに料金改定が行われています。
+CMS（コンテンツマネジメントシステム）としては、WordPressが有名です。当サイトもAWSのLightsailと呼ばれるサービスを使用して、WordPressを構築しています。Lightsailについては、[Amazon Lightsailで月5ドルから始めるWordPress（独自ドメインでのメール送受信）](/aws-lightsail-wordpress-domain-mail-6945/)でご紹介していますので、そちらも参照してください。なお、投稿後に早速、月々5ドルから3ドルに料金改定が行われています。
 
 
 
@@ -284,4 +284,4 @@ WordPressでは、投稿した瞬間に投稿が表示されますが、Netlify 
 
 
 
-今回は、Netlifyを用いてCMSを構築する方法をご紹介しました。[Amazon Lightsailで月5ドルから始めるWordPress（独自ドメインでのメール送受信） – OTTAN.XYZ](https://ottan.xyz/aws-lightsail-wordpress-domain-mail-6945/)と比較しても、無料枠で利用可能、1クリックで構築可能という点では、WordPressと比較しても簡単に構築できるかと思います。テーマのカスタマイズについては、使われているフレームワークによって異なりますので、次回以降ご紹介していきたいと思います。
+今回は、Netlifyを用いてCMSを構築する方法をご紹介しました。[Amazon Lightsailで月5ドルから始めるWordPress（独自ドメインでのメール送受信）](/aws-lightsail-wordpress-domain-mail-6945/)と比較しても、無料枠で利用可能、1クリックで構築可能という点では、WordPressと比較しても簡単に構築できるかと思います。テーマのカスタマイズについては、使われているフレームワークによって異なりますので、次回以降ご紹介していきたいと思います。

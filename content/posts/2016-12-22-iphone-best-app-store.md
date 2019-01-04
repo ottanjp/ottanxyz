@@ -56,7 +56,7 @@ iOS10で標準マップについに交通機関による検索が実装されま
 
 
 
-参考：[翻訳精度が向上したGoogle翻訳をiPhoneの色々なアプリから呼び出す拡張機能 – OTTAN.XYZ](https://ottan.xyz/google-translate-workflow-app-extension-5238/)
+参考：[翻訳精度が向上したGoogle翻訳をiPhoneの色々なアプリから呼び出す拡張機能 – OTTAN.XYZ](/google-translate-workflow-app-extension-5238/)
 
 
 
@@ -104,7 +104,7 @@ iOS上のすべてのアプリから広告を除去（削除）する、ムダ�
 
 
 
-参考：[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の仕組み – OTTAN.XYZ](https://ottan.xyz/ios-adblock-5057/)
+参考：[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の仕組み – OTTAN.XYZ](/ios-adblock-5057/)
 
 
 
@@ -124,7 +124,7 @@ Gmailのプッシュ通知も可能なメーラー。Outlook.comと同等の機�
 
 
 
-参考：[iPhoneのGmailクライアントを徹底比較。あなたにとって最適なGmailクライアントは？ – OTTAN.XYZ](https://ottan.xyz/iphone-gmail-client-utlimate-guide-5302/)
+参考：[iPhoneのGmailクライアントを徹底比較。あなたにとって最適なGmailクライアントは？ – OTTAN.XYZ](/iphone-gmail-client-utlimate-guide-5302/)
 
 
 
@@ -186,7 +186,7 @@ Facebook公式アプリです。
 
 
 
-参考：[Foursquareのチェックイン履歴をiCloudのカレンダーに簡単に追加する方法 – OTTAN.XYZ](https://ottan.xyz/foursquare-calendar-iphone-mac-4334/)
+参考：[Foursquareのチェックイン履歴をiCloudのカレンダーに簡単に追加する方法 – OTTAN.XYZ](/foursquare-calendar-iphone-mac-4334/)
 
 
 
@@ -276,7 +276,7 @@ Pinterestに買収され、すべての機能が無料化された後で読む�
 
 
 
-参考：[Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！ – OTTAN.XYZ](https://ottan.xyz/pocket-to-instapaper-5181/)
+参考：[Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！ – OTTAN.XYZ](/pocket-to-instapaper-5181/)
 
 
 
@@ -380,7 +380,7 @@ Amazonプライムの会員になれば、配送料無料のみならず、Amazo
 
 
 
-参考：[ブログの記事が「はてな新着エントリー」に掲載されたらSlackに通知する – OTTAN.XYZ](https://ottan.xyz/blog-hatena-entry-slack-ifttt-4859/)
+参考：[ブログの記事が「はてな新着エントリー」に掲載されたらSlackに通知する – OTTAN.XYZ](/blog-hatena-entry-slack-ifttt-4859/)
 
 
 
@@ -400,7 +400,7 @@ Amazonプライムの会員になれば、配送料無料のみならず、Amazo
 
 
 
-参考：[Twitterのエゴサーチに便利！Twitterで特定の文字列が含まれるツイートを検知すると、スマホに通知する方法 – OTTAN.XYZ](https://ottan.xyz/twitter-egosearching-3261/)
+参考：[Twitterのエゴサーチに便利！Twitterで特定の文字列が含まれるツイートを検知すると、スマホに通知する方法 – OTTAN.XYZ](/twitter-egosearching-3261/)
 
 
 
@@ -532,7 +532,7 @@ Instagramが好きで、写真をよく編集するならダウンロードし�
 
 
 
-参考：[iPhoneの高機能2ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法 – OTTAN.XYZ](https://ottan.xyz/twinkle-2ch-browser-settings-4343/)
+参考：[iPhoneの高機能2ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法 – OTTAN.XYZ](/twinkle-2ch-browser-settings-4343/)
 
 
 
@@ -552,7 +552,7 @@ Instagramが好きで、写真をよく編集するならダウンロードし�
 
 
 
-参考：[iOS版の1Passwordでウェブページの登録からワンタイムパスワードの使い方まで徹底解説！ – OTTAN.XYZ](https://ottan.xyz/ios-1password-description-part2-875/)
+参考：[iOS版の1Passwordでウェブページの登録からワンタイムパスワードの使い方まで徹底解説！ – OTTAN.XYZ](/ios-1password-description-part2-875/)
 
 
 
@@ -586,7 +586,7 @@ MVNO利用者なら絶対に導入しておきたい通信量チェッカー。i
 
 
 
-参考：[Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい６つの理由 – OTTAN.XYZ](https://ottan.xyz/wunderlist-recommend-271/)
+参考：[Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい６つの理由 – OTTAN.XYZ](/wunderlist-recommend-271/)
 
 
 
@@ -634,7 +634,7 @@ iPhone 7を購入したら、とりあえず雰囲気だけでも味わおう。
 
 
 
-参考：[iPhone、iPadユーザーなら必ずダウンロードしておきたい！無料とは思えない高クオリティなファイラー「Documents 5」をオススメする理由 – OTTAN.XYZ](https://ottan.xyz/high-quality-filers-documents-5-1305/)
+参考：[iPhone、iPadユーザーなら必ずダウンロードしておきたい！無料とは思えない高クオリティなファイラー「Documents 5」をオススメする理由 – OTTAN.XYZ](/high-quality-filers-documents-5-1305/)
 
 
 
@@ -668,7 +668,7 @@ iPhone 7を購入したら、とりあえず雰囲気だけでも味わおう。
 
 
 
-参考：[キーワード検索、プッシュ通知で見たい番組を見逃さない！シンプルで見やすい「超見やすいテレビ番組表」 – OTTAN.XYZ](https://ottan.xyz/tv-schedule-2892/)
+参考：[キーワード検索、プッシュ通知で見たい番組を見逃さない！シンプルで見やすい「超見やすいテレビ番組表」 – OTTAN.XYZ](/tv-schedule-2892/)
 
 
 
@@ -730,7 +730,7 @@ App Storeで公開されているアプリの値下げ情報はもちろんの�
 
 
 
-参考：[App Storeで公開されている気になるアプリが更新されたら通知する方法 – OTTAN.XYZ](https://ottan.xyz/ios-app-store-notify-5336/)
+参考：[App Storeで公開されている気になるアプリが更新されたら通知する方法 – OTTAN.XYZ](/ios-app-store-notify-5336/)
 
 
 
@@ -764,7 +764,7 @@ App Storeで公開されているアプリの価格履歴を過去に遡って�
 
 
 
-参考：[App Storeのアプリのセール情報の履歴を調べられる「Price Tag」 – OTTAN.XYZ](https://ottan.xyz/app-store-sale-price-history-5378/)
+参考：[App Storeのアプリのセール情報の履歴を調べられる「Price Tag」 – OTTAN.XYZ](/app-store-sale-price-history-5378/)
 
 
 

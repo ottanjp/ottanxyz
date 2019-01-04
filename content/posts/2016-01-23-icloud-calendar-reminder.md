@@ -50,7 +50,7 @@ iPhoneは優秀なデバイスですが、操作するのは人間であるた�
 
 
 
-iCloudバックアップからカレンダーやリマインダーを復元するためには、以下のリンクにアクセスします。Apple IDで2段階認証を設定している場合（過去記事：[Apple IDの2段階認証を有効にする方法](https://ottan.xyz/appleid-two-step-authentication-2163/)
+iCloudバックアップからカレンダーやリマインダーを復元するためには、以下のリンクにアクセスします。Apple IDで2段階認証を設定している場合（過去記事：[Apple IDの2段階認証を有効にする方法](/appleid-two-step-authentication-2163/)
 ）、かつはじめてiCloud.comにログインする場合は、本人確認を求められます。バナーの「確認」をクリックします。
 
 

@@ -19,7 +19,7 @@ tags:
 
 
 
-Ubuntuのインストールについては、[macOS YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する](https://ottan.xyz/os-x-ubuntu-dual-boot-2-1236/)で１回ご紹介していますが、デュアルブート環境を構築するのはやや敷居が高いため、より手軽な手段が欲しいという場合には、OracleのVirtualBoxを使用する方法があります。今回は、VirtualBoxにUbuntuをインストールするまでの流れをご紹介したいと思います。
+Ubuntuのインストールについては、[macOS YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する](/os-x-ubuntu-dual-boot-2-1236/)で１回ご紹介していますが、デュアルブート環境を構築するのはやや敷居が高いため、より手軽な手段が欲しいという場合には、OracleのVirtualBoxを使用する方法があります。今回は、VirtualBoxにUbuntuをインストールするまでの流れをご紹介したいと思います。
 
 
 

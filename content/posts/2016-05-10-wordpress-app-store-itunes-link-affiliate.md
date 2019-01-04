@@ -26,9 +26,7 @@ WordPress を使用していて、App Store や Mac App Store に公開されて
 
 {{< gist ottanxyz fa722621d551eb76c6302166681c10a2 >}}
 
-原理は、[プラグインを使わずに Gist のコードを WordPress に埋め込む方法](https://ottan.xyz/gist-wordpress-embed-4108/)でご紹介した方法と同様です。ポイントとなるのは、`wp_embed_register_handler()`関数です。詳細は、[wp_embed_register_handler() | Function | WordPress Developer Resources](https://developer.wordpress.org/reference/functions/wp_embed_register_handler/)を参照してください。
-
-https://ottan.xyz/gist-wordpress-embed-4108/
+原理は、[プラグインを使わずに Gist のコードを WordPress に埋め込む方法](/gist-wordpress-embed-4108/)でご紹介した方法と同様です。ポイントとなるのは、`wp_embed_register_handler()`関数です。詳細は、[wp_embed_register_handler() | Function | WordPress Developer Resources](https://developer.wordpress.org/reference/functions/wp_embed_register_handler/)を参照してください。
 
 ### 使い方と制限事項
 

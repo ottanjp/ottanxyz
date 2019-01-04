@@ -20,7 +20,7 @@ tags:
 
 
 
-以前、[WordPressに投稿したらIFTTTとBufferを使用して自動的にTwitter、Facebookページ、Google+に投稿する方法 – OTTAN.XYZ](https://ottan.xyz/wordpress-ifttt-buffer-sns-4845/)で、投稿した記事を[Buffer - A Smarter Way to Share on Social Media](https://buffer.com/)の仕組みを使用して、各種SNSにシェアする方法をご紹介しました。しかし、この方法のデメリットは、[IFTTT](https://ifttt.com/)の仕組みを利用している特性上、IFTTTのトリガーが発動するまでに最大15分の遅延が発生する可能性がありました（WordPressの状態によっては15分以上の遅延が発生する可能性も）。
+以前、[WordPressに投稿したらIFTTTとBufferを使用して自動的にTwitter、Facebookページ、Google+に投稿する方法 – OTTAN.XYZ](/wordpress-ifttt-buffer-sns-4845/)で、投稿した記事を[Buffer - A Smarter Way to Share on Social Media](https://buffer.com/)の仕組みを使用して、各種SNSにシェアする方法をご紹介しました。しかし、この方法のデメリットは、[IFTTT](https://ifttt.com/)の仕組みを利用している特性上、IFTTTのトリガーが発動するまでに最大15分の遅延が発生する可能性がありました（WordPressの状態によっては15分以上の遅延が発生する可能性も）。
 
 
 
@@ -30,7 +30,7 @@ tags:
 
 
 
-https://ottan.xyz/wordpress-publish-mail-push-5145/
+* [WordPressで記事を投稿した瞬間に外部にメールを送信する方法](/wordpress-publish-mail-push-5145/)
 
 
 
@@ -104,7 +104,7 @@ IFTTTは、一般的に15分間隔でトリガーの状態を確認し、トリ�
 
 
 
-[【カスタマイズ】WordPressで記事を投稿した瞬間に外部にメールを送信する方法 – OTTAN.XYZ](https://ottan.xyz/wordpress-publish-mail-push-5145/)でご紹介した方法を使用して、`functions.php`の末尾に以下を追加してください。
+[【カスタマイズ】WordPressで記事を投稿した瞬間に外部にメールを送信する方法 – OTTAN.XYZ](/wordpress-publish-mail-push-5145/)でご紹介した方法を使用して、`functions.php`の末尾に以下を追加してください。
 
 
 
@@ -237,7 +237,7 @@ IFTTTは、一般的に15分間隔でトリガーの状態を確認し、トリ�
 
 
 
-「To address」に、Bufferの固有のメールアドレスを指定します。固有のメールアドレスの指定方法については、[WordPressに投稿したらIFTTTとBufferを使用して自動的にTwitter、Facebookページ、Google+に投稿する方法 – OTTAN.XYZ](https://ottan.xyz/wordpress-ifttt-buffer-sns-4845/)を参照してください。
+「To address」に、Bufferの固有のメールアドレスを指定します。固有のメールアドレスの指定方法については、[WordPressに投稿したらIFTTTとBufferを使用して自動的にTwitter、Facebookページ、Google+に投稿する方法 – OTTAN.XYZ](/wordpress-ifttt-buffer-sns-4845/)を参照してください。
 
 
 

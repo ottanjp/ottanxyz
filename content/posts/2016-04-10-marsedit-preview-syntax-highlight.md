@@ -27,7 +27,7 @@ MarsEditは、macOSで動作するWordPressやMovableTypeなどの主要なCMS�
 
 
 
-弊サイトでも、過去に[MarsEditをより便利に高速に活用するためのスクリプト集](https://ottan.xyz/marsedit-script-619/)や、Alfredと連携した[WordPressの過去記事参照に！Alfredから記事を検索してMarsEditに貼り付けられる「Paste link for MarsEdit with Alfred」](https://ottan.xyz/paste-link-for-marsedit-with-alfred-2174/)など、数多くの便利スクリプトをご紹介しています。
+弊サイトでも、過去に[MarsEditをより便利に高速に活用するためのスクリプト集](/marsedit-script-619/)や、Alfredと連携した[WordPressの過去記事参照に！Alfredから記事を検索してMarsEditに貼り付けられる「Paste link for MarsEdit with Alfred」](/paste-link-for-marsedit-with-alfred-2174/)など、数多くの便利スクリプトをご紹介しています。
 
 
 
@@ -39,7 +39,7 @@ MarsEditは、macOSで動作するWordPressやMovableTypeなどの主要なCMS�
 
 
 
-シンタックスハイライトについては、弊サイトでは過去にご紹介した[全スタイルのサンプル付き！動作が軽快なシンタックスハイライター「highlight.js」](https://ottan.xyz/syntax-highlight-github-435/)を使用していますが、JavaScriptを使用しているためプレビューでのリアルタイムの描画は厳しいと思い込んでいたのですが、**MarsEditのプレビューはJavaScriptの実行にも対応していた**んですね。
+シンタックスハイライトについては、弊サイトでは過去にご紹介した[全スタイルのサンプル付き！動作が軽快なシンタックスハイライター「highlight.js」](/syntax-highlight-github-435/)を使用していますが、JavaScriptを使用しているためプレビューでのリアルタイムの描画は厳しいと思い込んでいたのですが、**MarsEditのプレビューはJavaScriptの実行にも対応していた**んですね。
 
 
 

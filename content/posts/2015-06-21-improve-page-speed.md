@@ -48,7 +48,7 @@ WordPressに限らず、Webサイト表示のロード時間の大部分を要�
 
 
 
-どちらもCUIで使用するツールです。macOSのパッケージ管理ソフト「[Homebrew](http://brew.sh/)」でインストールできます。[Homebrew](http://brew.sh/)のインストールについては、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)を参照してください。
+どちらもCUIで使用するツールです。macOSのパッケージ管理ソフト「[Homebrew](http://brew.sh/)」でインストールできます。[Homebrew](http://brew.sh/)のインストールについては、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)を参照してください。
 
 
 
@@ -211,7 +211,7 @@ WordPressには便利なオプションが用意されています。たとえ�
 
 
 
-スタイルシートの圧縮については[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)でご紹介した「gulp.js」をオススメします。手元に「gulp.js」の実行環境がない場合は、Webサービスを利用する手もありますが、この際ですから是非「gulp.js」の環境構築をオススメします。手間が随分違いますよ。
+スタイルシートの圧縮については[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)でご紹介した「gulp.js」をオススメします。手元に「gulp.js」の実行環境がない場合は、Webサービスを利用する手もありますが、この際ですから是非「gulp.js」の環境構築をオススメします。手間が随分違いますよ。
 
 
 
@@ -463,7 +463,7 @@ https://wordpress.org/plugins/wp-optimize/
 
 
 
-そのため、弊サイトでは[jQueryを使用してTwitter、Facebook、Google+、はてなブックマークのシェア数を非同期で取得する方法のまとめ](https://ottan.xyz/jquery-social-network-share-count-1705/)でもご紹介したように、すべて非同期による読み込みを行い、サイト表示速度向上を図っています。ぜひこちらもご覧いただければと思います。
+そのため、弊サイトでは[jQueryを使用してTwitter、Facebook、Google+、はてなブックマークのシェア数を非同期で取得する方法のまとめ](/jquery-social-network-share-count-1705/)でもご紹介したように、すべて非同期による読み込みを行い、サイト表示速度向上を図っています。ぜひこちらもご覧いただければと思います。
 
 
 

@@ -18,7 +18,7 @@ tags:
 
 
 
-[システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般） – OTTAN.XYZ](https://ottan.xyz/system-preferences-terminal-defaults-2-4643/)に引き続き、「システム環境設定」を`defaults`コマンドでなんとか使用シリーズです。`defaults`コマンドの設定値の調べ方は上記記事を御覧ください。
+[システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般） – OTTAN.XYZ](/system-preferences-terminal-defaults-2-4643/)に引き続き、「システム環境設定」を`defaults`コマンドでなんとか使用シリーズです。`defaults`コマンドの設定値の調べ方は上記記事を御覧ください。
 
 
 

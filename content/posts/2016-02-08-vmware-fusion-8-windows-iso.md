@@ -76,7 +76,7 @@ VMware Fusionで⌘+Nで新規仮想マシンを作成します。「ディス�
 
 
 
-あらかじめ用意したISOファイル、またはCDRファイルを選択して「開く」をクリックします。なお、CD-ROMやDVD-ROMからISOファイルを作成する方法は、[MacでWindowsのインストールメディア（DVD）からイメージファイル（ISO）を作成する方法](https://ottan.xyz/mac-windows-iso-file-1896/)を参考にしてみください。
+あらかじめ用意したISOファイル、またはCDRファイルを選択して「開く」をクリックします。なお、CD-ROMやDVD-ROMからISOファイルを作成する方法は、[MacでWindowsのインストールメディア（DVD）からイメージファイル（ISO）を作成する方法](/mac-windows-iso-file-1896/)を参考にしてみください。
 
 
 

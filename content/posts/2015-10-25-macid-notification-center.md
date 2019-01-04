@@ -19,7 +19,7 @@ tags:
 
 
 
-以前、[Touch IDでMacのロックを解除したり、iPhoneを持ったままMacから離れると自動でMacをロックする「MacID」を徹底解説！](https://ottan.xyz/touch-id-maced-1067/)で、iPhoneのTouch IDを使用してMacのロックを解除できる「MacID」をご紹介しましたが、iPhoneのウィジェットから遠隔でMacのロックを解除できるようになりました。
+以前、[Touch IDでMacのロックを解除したり、iPhoneを持ったままMacから離れると自動でMacをロックする「MacID」を徹底解説！](/touch-id-maced-1067/)で、iPhoneのTouch IDを使用してMacのロックを解除できる「MacID」をご紹介しましたが、iPhoneのウィジェットから遠隔でMacのロックを解除できるようになりました。
 
 
 

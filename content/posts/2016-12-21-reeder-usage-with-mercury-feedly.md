@@ -16,7 +16,7 @@ tags:
 
 
 
-Readabilityが長年にわたって愛され続けてきたサービスを終了し、Readability組み込みのRSSリーダーアプリ「Reeder」の代替手段を求めて、さまざまなRSSリーダーを試してみました。過去に、[RSSリーダーはFeedlyからのインポートが可能な「Inoreader」がオススメ！ – OTTAN.XYZ](https://ottan.xyz/rss-reader-inoreader-readability-5213/)で「Inoreader」をご紹介しました。「Reeder」の優れた点は、「Readability」による構文解析（本文抽出）機能でしたので、それに代わる手段として独自の機能を提供している「Inoreader」がニーズにマッチしたのです。
+Readabilityが長年にわたって愛され続けてきたサービスを終了し、Readability組み込みのRSSリーダーアプリ「Reeder」の代替手段を求めて、さまざまなRSSリーダーを試してみました。過去に、[RSSリーダーはFeedlyからのインポートが可能な「Inoreader」がオススメ！ – OTTAN.XYZ](/rss-reader-inoreader-readability-5213/)で「Inoreader」をご紹介しました。「Reeder」の優れた点は、「Readability」による構文解析（本文抽出）機能でしたので、それに代わる手段として独自の機能を提供している「Inoreader」がニーズにマッチしたのです。
 
 
 

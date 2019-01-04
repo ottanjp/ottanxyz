@@ -36,7 +36,7 @@ Emmetとは、HTML、CSSを高速に記述、編集できるエディター系�
 
 
 
-今回使用するエディターは、Sublime Textです。Sublime Textに、あらかじめ「Emmet」パッケージをインストールしておく必要があります。「Package Control」を使用しますが、これについては、[Sublime Textに導入しているオススメのプラグイン23選](https://ottan.xyz/sublime-text-plugin-321/)を参照してください。
+今回使用するエディターは、Sublime Textです。Sublime Textに、あらかじめ「Emmet」パッケージをインストールしておく必要があります。「Package Control」を使用しますが、これについては、[Sublime Textに導入しているオススメのプラグイン23選](/sublime-text-plugin-321/)を参照してください。
 
 
 

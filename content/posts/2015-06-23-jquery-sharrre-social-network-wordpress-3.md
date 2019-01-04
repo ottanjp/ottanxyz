@@ -44,8 +44,8 @@ http://sharrre.com/
 
     </div>
 
-    <script src="https://ottan.xyz/wp-content/themes/ottanxyz/js/jquery-1.11.3.min.js"></script>
-    <script src="https://ottan.xyz/wp-content/themes/ottanxyz/js/jquery.sharrre.min.js"></script>
+    <script src="//ottan.xyz/wp-content/themes/ottanxyz/js/jquery-1.11.3.min.js"></script>
+    <script src="//ottan.xyz/wp-content/themes/ottanxyz/js/jquery.sharrre.min.js"></script>
 
 WordPress に適用させるための、 `<div>` タグのポイントは以下の通りです。
 
@@ -56,7 +56,7 @@ WordPress に適用させるための、 `<div>` タグのポイントは以下�
 | data-title | 任意の文字列。トータルのシェア数の後ろに付与される文字列です。例では「 SHARES」。              |
 | data-text  | シェアする際に Twitter や Facebook に付与される文字列。 `the_title()` を使用すると良いでしょう |
 
-独自データ要素については、[jQuery を使用して Twitter、Facebook、Google+、はてなブックマークのシェア数を非同期で取得する方法のまとめ](https://ottan.xyz/jquery-social-network-share-count-1705/)でも解説していますので、ぜひご覧になってください。
+独自データ要素については、[jQuery を使用して Twitter、Facebook、Google+、はてなブックマークのシェア数を非同期で取得する方法のまとめ](/jquery-social-network-share-count-1705/)でも解説していますので、ぜひご覧になってください。
 
 HTML 部分は、[Sharrre](http://sharrre.com/)により集計が行われ、最終的に以下のようになります。内容は長いので一部割愛しています。先頭の `<div>` タグのクラスに `.sharrre` が追加されていること、 `.box` クラスにトータルのシェア数、 `.buttons` クラスにソーシャルネットワーク毎のボタンが設置されていることを覚えておいてください。
 
@@ -89,8 +89,7 @@ HTML 部分は、[Sharrre](http://sharrre.com/)により集計が行われ、最
 
 JavaScript は、HTML のフッターに書きます。表示速度への影響が気になる場合は、 `async` 属性を付与することも可能ですが、スクリプトの読み込みが完了する前にフッターのスクリプトが呼ばれる可能性があるため、オススメはできません。
 
-    </script>
-    <script src="https://ottan.xyz/wp-content/themes/otttanxyz/js/jquery.sharrre.min.js"></script>
+    <script src="//ottan.xyz/wp-content/themes/otttanxyz/js/jquery.sharrre.min.js"></script>
 
 フッターの JavaScript の内容は以下の通りです。インデックス以外のページでスクリプトを実行させたくない場合は、 `is_home()` または `is_front_page()` メソッドを使用して場合分けしましょう。
 
@@ -291,7 +290,7 @@ CSS は以下の通りです。部分的に抜粋して解説しますので、�
       hatena: "http://api.b.st-hatena.com/entry.count?url={url}&callback=?"
       },
 
-続いて、 `getJSON()` メソッドを使用して取得する URL を定義します。詳細は、[jQuery を使用して Twitter、Facebook、Google+、はてなブックマークのシェア数を非同期で取得する方法のまとめ](https://ottan.xyz/jquery-social-network-share-count-1705/)をご覧いただければと思います。なお、Google+については特殊な処理が必要です。これも前述の記事をご覧いただければ内容はご理解いただけるかと思いますので、ここでは割愛します。
+続いて、 `getJSON()` メソッドを使用して取得する URL を定義します。詳細は、[jQuery を使用して Twitter、Facebook、Google+、はてなブックマークのシェア数を非同期で取得する方法のまとめ](/jquery-social-network-share-count-1705/)をご覧いただければと思います。なお、Google+については特殊な処理が必要です。これも前述の記事をご覧いただければ内容はご理解いただけるかと思いますので、ここでは割愛します。
 
       loadButton = {
         googlePlus: function (self) {

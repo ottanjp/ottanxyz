@@ -13,6 +13,10 @@ paginate = 20
 googleAnalytics = "UA-54519352-1"
 rssLimit = 15
 
+[blackfriday]
+hrefTargetBlank = true
+smartypants = false
+
 [params]
 	author = "ottan"
 	favicon = "/images/favicon.ico"

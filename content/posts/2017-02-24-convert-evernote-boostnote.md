@@ -18,7 +18,7 @@ tags:
 
 
 
-以前、[WordPressのテーマ、プラグイン開発者にオススメできる軽量なテキストエディター「Boostnote」 – OTTAN.XYZ](https://ottan.xyz/wordpress-developer-plugin-theme-boostnote-5528/)で、プログラマ、デザイナーにオススメのテキストエディター「Boostnote」についてご紹介しました。今回、ご紹介するのは、プランの内容が度々変更され、その変更についていけないEvernoteユーザの皆様にお送りする、Evernote形式のノートを「Boostnote」にインポートするためのツールについてです。Rubyが使える環境であれば簡単に使用できます。
+以前、[WordPressのテーマ、プラグイン開発者にオススメできる軽量なテキストエディター「Boostnote」 – OTTAN.XYZ](/wordpress-developer-plugin-theme-boostnote-5528/)で、プログラマ、デザイナーにオススメのテキストエディター「Boostnote」についてご紹介しました。今回、ご紹介するのは、プランの内容が度々変更され、その変更についていけないEvernoteユーザの皆様にお送りする、Evernote形式のノートを「Boostnote」にインポートするためのツールについてです。Rubyが使える環境であれば簡単に使用できます。
 
 
 
@@ -42,7 +42,7 @@ Evernoteは、使いこなせば使いこなすほど味の出る、究極のノ
 
 
 
-今回ご紹介する「ever2boost」は、文字通りEvernoteのノートを「Boostnote」に移行するための、オープンソースのコミュニティにの協力のもと開発された強力な移行ツールです。今回は、SafariやGoogle Chromeの拡張機能としても有名な「Evernote Web Clipper」を使用して保存したノートを実際に「Boostnote」に移行してみました。サンプルに使用したWebページは弊サイトの[Macの内蔵ストレージを効率的に節約する方法（macOS Sierra編） – OTTAN.XYZ](https://ottan.xyz/mac-ssd-storage-save-5513/)です。
+今回ご紹介する「ever2boost」は、文字通りEvernoteのノートを「Boostnote」に移行するための、オープンソースのコミュニティにの協力のもと開発された強力な移行ツールです。今回は、SafariやGoogle Chromeの拡張機能としても有名な「Evernote Web Clipper」を使用して保存したノートを実際に「Boostnote」に移行してみました。サンプルに使用したWebページは弊サイトの[Macの内蔵ストレージを効率的に節約する方法（macOS Sierra編） – OTTAN.XYZ](/mac-ssd-storage-save-5513/)です。
 
 
 

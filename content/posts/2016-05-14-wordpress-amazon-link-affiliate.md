@@ -6,224 +6,89 @@ title: WordPressの本文にAmazonのURLを貼り付けるだけで、アフィ�
 type: post
 url: /wordpress-amazon-link-affiliate-6864/
 categories:
-- Blog
+  - Blog
 tags:
-- Development
-- WordPress
+  - Development
+  - WordPress
 ---
 
 ![](/images/2016/05/160514-5736a89e598ca.png)
 
+先日、[WordPress の本文に App Store の URL を貼り付けるだけで、アフィリエイトリンクを生成できるようにする](/wordpress-app-store-itunes-link-affiliate-4120/)で、App Store の URL を WordPress の本文に貼り付けるだけで、アフィリエイトリンクを作成する方法をご紹介しましたが、今回は Amazon 版です。
 
+Amazon の商品情報を取得するためには、Amazon Product Advertising API を使用します。この API の制約の 1 つに、「1 リクエスト/秒」という制限があります。この制約を超えて使用した場合、リクエストに制限を受けてしまう可能性があるため、これを回避するためにも、前回と同様、一度取得した情報は WordPress のキャッシュとして保存するようにします。
 
+## Amazon の URL からアフィリエイトリンクを生成する
 
+Amazon の URL は複雑です。単純に Amazon のリンクを貼り付けるだけで、その URL を動的に解析してアフィリエイトリンクを生成するのは至難の技です。
 
+また、Amazon Product Advertising API の利用方法も複雑です。そのため、GitHub で公開されているライブラリを使用します。
 
-先日、[WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする](https://ottan.xyz/wordpress-app-store-itunes-link-affiliate-4120/)で、App StoreのURLをWordPressの本文に貼り付けるだけで、アフィリエイトリンクを作成する方法をご紹介しましたが、今回はAmazon版です。
+### Amazon の URL を編集する
 
-
-
-https://ottan.xyz/wordpress-app-store-itunes-link-affiliate-4120/
-
-
-
-Amazonの商品情報を取得するためには、Amazon Product Advertising APIを使用します。このAPIの制約の1つに、「1リクエスト/秒」という制限があります。この制約を超えて使用した場合、リクエストに制限を受けてしまう可能性があるため、これを回避するためにも、前回と同様、一度取得した情報はWordPressのキャッシュとして保存するようにします。
-
-
-
-
-
-## AmazonのURLからアフィリエイトリンクを生成する
-
-
-
-
-
-AmazonのURLは複雑です。単純にAmazonのリンクを貼り付けるだけで、そのURLを動的に解析してアフィリエイトリンクを生成するのは至難の技です。
-
-
-
-
-
-また、Amazon Product Advertising APIの利用方法も複雑です。そのため、GitHubで公開されているライブラリを使用します。
-
-
-
-
-
-### AmazonのURLを編集する
-
-
-
-
-
-たとえば、Kindle Paperwhiteの詳細ページのURLは以下のような構造をしています。今回は、このURLに含まれる`B00QJDOM6U`というキーワードに注目します。これは、ASIN（Amazon Standard Identification Number）と呼ばれる、Amazonで販売されている商品を識別するための一意のIDです。これをキーにAmazonの商品情報を検索できます。
-
-
-
+たとえば、Kindle Paperwhite の詳細ページの URL は以下のような構造をしています。今回は、この URL に含まれる`B00QJDOM6U`というキーワードに注目します。これは、ASIN（Amazon Standard Identification Number）と呼ばれる、Amazon で販売されている商品を識別するための一意の ID です。これをキーに Amazon の商品情報を検索できます。
 
 {{< amazon B00QJDOM6U >}}
 
-
-
-
-
-しかし、毎回毎回Amazonの商品ページからASINを探し出すのは非常に面倒です。そこで、以下のブックマークレットを使用します。任意のページをブックマークに追加し、アドレスに以下のコードを貼り付けます。
-
-
+しかし、毎回毎回 Amazon の商品ページから ASIN を探し出すのは非常に面倒です。そこで、以下のブックマークレットを使用します。任意のページをブックマークに追加し、アドレスに以下のコードを貼り付けます。
 
 {{< gist ottanxyz 18dbf434402fdb4abdd2b27d5d17df04 >}}
 
-
-
-たとえば、Safariのお気に入りに追加する場合は、以下のようなイメージです。ブックマークの名称は任意に変更してください。
-
-
-
-
+たとえば、Safari のお気に入りに追加する場合は、以下のようなイメージです。ブックマークの名称は任意に変更してください。
 
 ![](/images/2016/05/160514-5736c638448c6.png)
 
-
-
-
-
-
-そして、Amazonの商品詳細ページを開いた状態で、作成したブックマークレットをクリックすると、以下のようなURLに自動的に遷移します。下記は、先ほどのKindle Paperwhiteの場合です。
-
-
-
-
+そして、Amazon の商品詳細ページを開いた状態で、作成したブックマークレットをクリックすると、以下のような URL に自動的に遷移します。下記は、先ほどの Kindle Paperwhite の場合です。
 
     http://www.amazon.co.jp/dp/B00QJDOM6U
 
+実は、Amazon の URL は、`http://www.amazon.co.jp/dp/<ASIN番号>`という形式でもアクセスできるようになっています。WordPress の本文にはこの URL を貼り付けて使用するようにします。
 
+### Amazon Product Advertising API を使用して Amazon の商品情報を取得する
 
-
-
-実は、AmazonのURLは、`http://www.amazon.co.jp/dp/<ASIN番号>`という形式でもアクセスできるようになっています。WordPressの本文にはこのURLを貼り付けて使用するようにします。
-
-
-
-
-
-### Amazon Product Advertising APIを使用してAmazonの商品情報を取得する
-
-
-
-
-
-次に、Amazon Product Advertising APIを使用するための事前準備を行います。APIを使用するためには、Amazon Web Services（AWS）のアカウントと、アクセスキーID、秘密アクセスキーが必要です。AWSのアカウントのメールアドレスは、Amazonアソシエイトで使用しているメールアドレスと同一である必要があります。以下のリンクから新規作成してください。
-
-
+次に、Amazon Product Advertising API を使用するための事前準備を行います。API を使用するためには、Amazon Web Services（AWS）のアカウントと、アクセスキー ID、秘密アクセスキーが必要です。AWS のアカウントのメールアドレスは、Amazon アソシエイトで使用しているメールアドレスと同一である必要があります。以下のリンクから新規作成してください。
 
 https://affiliate.amazon.co.jp/gp/advertising/api/detail/main.html
 
-
-
-また、アクセスキーIDと秘密アクセスキーは、以下のURLを参照して取得してください。
-
-
+また、アクセスキー ID と秘密アクセスキーは、以下の URL を参照して取得してください。
 
 http://www.ajaxtower.jp/ecs/pre/index1.html
 
-
-
-次に、Amazon Product Advertising APIを使用するためのライブラリをダウンロードします。以下のリンクにアクセスしてください。
-
-
+次に、Amazon Product Advertising API を使用するためのライブラリをダウンロードします。以下のリンクにアクセスしてください。
 
 https://github.com/Exeu/apai-io
 
-
-
 ![](/images/2016/05/160514-5736a8ae537ea.png)
 
-
-
-
-
-
-「Download ZIP」と書かれたリンクからZIPファイルをダウンロードしてください。
-
-
-
-
+「Download ZIP」と書かれたリンクから ZIP ファイルをダウンロードしてください。
 
 ![](/images/2016/05/160514-5736a8b8382e5.png)
 
-
-
-
-
-
 解凍してできたフォルダー（apai-io-master）の中の「lib」フォルダーの中にある「ApaiIO」というフォルダーをコピーしておいてください。
-
-
-
-
 
 ![](/images/2016/05/160514-5736a8c560044.png)
 
-
-
-
-
-
-次に、以下のソースコードを**class-amazon-link-builder.php**という名称で保存します。このPHPファイルと同一階層に先ほどコピーした「ApaiIO」フォルダーをコピーします。そして、**functions.php**から、**class-amazon-link-builder.php**を読み込んでください。
-
-
+次に、以下のソースコードを**class-amazon-link-builder.php**という名称で保存します。この PHP ファイルと同一階層に先ほどコピーした「ApaiIO」フォルダーをコピーします。そして、**functions.php**から、**class-amazon-link-builder.php**を読み込んでください。
 
 {{< gist ottanxyz 4a44a5094bf27606c12803590a92d131 >}}
 
+#### 2016/05/20 追記
 
+価格情報を取得できないことがあるためソースコードを一部修正しました。詳細は Gist をご覧ください。
 
+### Amazon Link Builder の使い方と制限事項
 
+今回ご紹介した Amazon Link Builder の使い方と制限事項です。
 
+- `AWS_API_KEY`には、事前に取得した AWS のアクセスキー ID を入力してください
+- `AWS_API_SECRET_KEY`には、事前に取得した AWS の秘密アクセスキーを入力してください
+- `AWS_ASSOCIATE_TAG`には、Amazon アソシエイトタグ（`XXXXX-22`の形式）を入力してください
+- 対象となる URL は、`http://www.amazon.co.jp/dp/<ASIN番号>`という形式のみです
+- 上記 URL の変換には、冒頭でご紹介したブックマークレットを使用すると便利です
+- テンプレートとなる HTML は各サイトに合わせて自由に改変して使用してください
+- `$results`変数に格納されている値は連想配列です。取得できる項目は以下を参照してください
 
-#### 2016/05/20追記
-
-
-
-
-価格情報を取得できないことがあるためソースコードを一部修正しました。詳細はGistをご覧ください。
-
-
-
-
-
-
-
-
-### Amazon Link Builderの使い方と制限事項
-
-
-
-
-
-今回ご紹介したAmazon Link Builderの使い方と制限事項です。
-
-
-
-
-
-
-  * `AWS_API_KEY`には、事前に取得したAWSのアクセスキーIDを入力してください
-  * `AWS_API_SECRET_KEY`には、事前に取得したAWSの秘密アクセスキーを入力してください
-  * `AWS_ASSOCIATE_TAG`には、Amazonアソシエイトタグ（`XXXXX-22`の形式）を入力してください
-  * 対象となるURLは、`http://www.amazon.co.jp/dp/<ASIN番号>`という形式のみです
-  * 上記URLの変換には、冒頭でご紹介したブックマークレットを使用すると便利です
-  * テンプレートとなるHTMLは各サイトに合わせて自由に改変して使用してください
-  * `$results`変数に格納されている値は連想配列です。取得できる項目は以下を参照してください
-
-
-
-
-`$results`変数で取得できる項目は以下の通りです。テンプレートとなるHTMLに応じて取得する値を変更してください。
-
-
-
-
+`$results`変数で取得できる項目は以下の通りです。テンプレートとなる HTML に応じて取得する値を変更してください。
 
     array (size=9)
       'ASIN' <font color="#888a85">=></font> <small>string</small> <font color="#cc0000">'B00QJDOM6U'</font> (length=10)
@@ -326,37 +191,16 @@ https://github.com/Exeu/apai-io
           'TotalCollectible' <font color="#888a85">=></font> <small>string</small> <font color="#cc0000">'0'</font> (length=1)
           'TotalRefurbished' <font color="#888a85">=></font> <small>string</small> <font color="#cc0000">'0'</font> (length=1)
 
-
-
-
-
-
 ### ポイント
 
+Amazon Link Builder のポイントを簡単にご紹介します。
 
-
-
-
-Amazon Link Builderのポイントを簡単にご紹介します。
-
-
-
-
-
-
-  * `wp_embed_register_handler()`でパターンにマッチしたURLをショートコードに変換する
-  * 毎回、Amazon Product Advertising APIを使用して商品情報を取得すると、WordPressの動作が重くなるの、またAPIの制限に引っかかる可能性があるので、取得した情報はWordPressのTransient APIを使用してキャッシュとして保持する（キャッシュ期間は１日）
-  * テーマやCSSが変わった場合に変更するのは、このクラスの`display()`関数だけ！
-  * Amazonの価格情報はセールなどで随時変更されるため書き方に要注意
-  * 場合によっては動かないことがあるかもしれません。コメント欄で教えていただけると助かります
-
-
-
+- `wp_embed_register_handler()`でパターンにマッチした URL をショートコードに変換する
+- 毎回、Amazon Product Advertising API を使用して商品情報を取得すると、WordPress の動作が重くなるの、また API の制限に引っかかる可能性があるので、取得した情報は WordPress の Transient API を使用してキャッシュとして保持する（キャッシュ期間は１日）
+- テーマや CSS が変わった場合に変更するのは、このクラスの`display()`関数だけ！
+- Amazon の価格情報はセールなどで随時変更されるため書き方に要注意
+- 場合によっては動かないことがあるかもしれません。コメント欄で教えていただけると助かります
 
 ## まとめ
-
-
-
-
 
 とりあえず、お試しで作成してみました。すでに似たようなプラグインは多数公開されているかもしれませんが、機能を最低限に絞りました。ご要望やバグ発見時にはコメント欄、または[@ottanxyz](https://twitter.com/ottanxyz)まで教えてくださいね。

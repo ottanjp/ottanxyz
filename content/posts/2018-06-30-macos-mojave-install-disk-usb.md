@@ -50,7 +50,7 @@ macOS Mojaveのパブリックベータ版が公開されました（[Apple Beta
 
 
 
-[macOS Mojaveのパブリックベータ版をインストールする方法](https://ottan.xyz/macos-mojave-public-beta-6797/)に従い、インストーラーをダウンロードします。「アプリケーション」フォルダーに、「Install macOS Mojave Beta.app」がダウンロードされていればOKです。自動的にインストーラーが起動しますが、⌘（command）+Qでインストーラーを終了します。
+[macOS Mojaveのパブリックベータ版をインストールする方法](/macos-mojave-public-beta-6797/)に従い、インストーラーをダウンロードします。「アプリケーション」フォルダーに、「Install macOS Mojave Beta.app」がダウンロードされていればOKです。自動的にインストーラーが起動しますが、⌘（command）+Qでインストーラーを終了します。
 
 
 

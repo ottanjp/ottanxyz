@@ -92,7 +92,7 @@ http://page2rss.com/
 
 
 
-ここからは[Connect the apps you love - IFTTT](https://ifttt.com/)でレシピを作成します。IFTTTについては、[iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法](https://ottan.xyz/iphone-gmail-push-490/)でも詳しくご紹介していますので、そちらも参照してください。
+ここからは[Connect the apps you love - IFTTT](https://ifttt.com/)でレシピを作成します。IFTTTについては、[iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法](/iphone-gmail-push-490/)でも詳しくご紹介していますので、そちらも参照してください。
 
 
 

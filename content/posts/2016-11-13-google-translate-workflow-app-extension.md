@@ -223,7 +223,7 @@ https://workflow.is/workflows/75328e15409542be9ca6a6dbc531598d
 
 
 
-最後に、最近の私のお気に入りの[Instapaper](https://ottan.xyz/pocket-to-instapaper-5181/)から「Workflow」を呼び出してみます。といっても、Safariから呼び出す場合も、別のアプリから呼び出す場合も、方法はまったく一緒です。
+最後に、最近の私のお気に入りの[Instapaper](/pocket-to-instapaper-5181/)から「Workflow」を呼び出してみます。といっても、Safariから呼び出す場合も、別のアプリから呼び出す場合も、方法はまったく一緒です。
 
 
 

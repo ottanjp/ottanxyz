@@ -30,7 +30,7 @@ tags:
 
 
 
-そこで、オススメしたいのが1Passwordです。1Passwordについては、[iOS版の1Passwordでウェブページの登録からワンタイムパスワードの使い方まで徹底解説！](https://ottan.xyz/ios-1password-description-part2-875/)で詳しくご紹介していますので、そちらを参照してください。
+そこで、オススメしたいのが1Passwordです。1Passwordについては、[iOS版の1Passwordでウェブページの登録からワンタイムパスワードの使い方まで徹底解説！](/ios-1password-description-part2-875/)で詳しくご紹介していますので、そちらを参照してください。
 
 
 

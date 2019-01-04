@@ -299,7 +299,7 @@ Amazon.co.jpとAmazon.comのアカウントを統合してしまっている場�
 
 
   1. Amazon.co.jpのアカウントを新規作成する（もしくは、家族のAmazon.co.jpのアカウントを借りる）
-  2. [こちらでご紹介している記事](https://ottan.xyz/amazon-prime-family-1908/)の内容に従い、Amazon Primeの家族会員に上記のAmazon.co.jpのアカウントを追加する
+  2. [こちらでご紹介している記事](/amazon-prime-family-1908/)の内容に従い、Amazon Primeの家族会員に上記のAmazon.co.jpのアカウントを追加する
   3. 新規作成したAmazon.co.jpでAmazon Alexaアプリにサインインする
 
 

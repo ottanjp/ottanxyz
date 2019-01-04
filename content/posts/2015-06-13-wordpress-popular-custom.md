@@ -54,7 +54,7 @@ WordPress ではさまざまな方法で投稿を取得できます。今回は�
 
 ### 人気記事を取得
 
-人気記事の取得方法については、[Google Analytics と連携してページビューの多い人気記事を表示する](https://ottan.xyz/wordpress-google-analytics-789/)を参考にしてください。
+人気記事の取得方法については、[Google Analytics と連携してページビューの多い人気記事を表示する](/wordpress-google-analytics-789/)を参考にしてください。
 
 `_custom_pageviews` というカスタムフィールドにページビューが格納されているとした場合に、ページビューで並び替えるためのクエリは以下の通りになります。ポイントは、**`meta_key`にカスタムフィールド名を指定**することです。
 

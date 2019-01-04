@@ -34,8 +34,7 @@ iPhoneやiPadなどのiOSを搭載するSafariで、このような経験は誰�
 
 
 
-https://ottan.xyz/safari-keyboard-shortcut-4877/
-
+* [OTTAN.XYZ | あなたはいくつ知ってる？MacのSafariでブラウジングが捗るショートカット](/safari-keyboard-shortcut-4877/)
 
 
 ## iOSのSafariで最近閉じたタブを復元する方法

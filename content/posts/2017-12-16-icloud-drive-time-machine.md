@@ -43,7 +43,7 @@ iCloud Drive上のファイルは、通常は[iCloud.com](https://www.icloud.com
 
 
 
-[iCloud.com](https://www.icloud.com/)では、データを削除してから30日以内であれば、すぐに復元できます。Safariのブックマークや連絡先など、iCloudに同期している情報であれば過去の任意のバックアップした日時に戻すこともできます。[誤って削除した重要なカレンダーのイベントやリマインダーを復旧する方法](https://ottan.xyz/icloud-calendar-reminder-3236/)でもご紹介していますので、ぜひご覧いただければと思います。
+[iCloud.com](https://www.icloud.com/)では、データを削除してから30日以内であれば、すぐに復元できます。Safariのブックマークや連絡先など、iCloudに同期している情報であれば過去の任意のバックアップした日時に戻すこともできます。[誤って削除した重要なカレンダーのイベントやリマインダーを復旧する方法](/icloud-calendar-reminder-3236/)でもご紹介していますので、ぜひご覧いただければと思います。
 
 
 

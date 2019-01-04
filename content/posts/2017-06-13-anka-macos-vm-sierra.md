@@ -18,7 +18,7 @@ tags:
 
 
 
-以前、[macOSのネイティブなHypervisor.frameworkを使用したオープンソースソフトウェア「Veertu Desktop」 – OTTAN.XYZ](https://ottan.xyz/macos-hypervisor-framework-5141/)にて、軽量な仮想化ソフトウェアである「Veertu Desktop」をご紹介しましたが、そのVeertuから、macOSの軽量な仮想開発環境を構築できる「Anka」のパブリックベータ版が公開されました。VMware FusionやParallels Desktopなどと異なりGUIによる操作を行うことはできませんが、ターミナルを使用してCUIによるコマンドによる仮想環境構築、および開発者間での共有を行うことができる超軽量なソフトウェアとなっています。
+以前、[macOSのネイティブなHypervisor.frameworkを使用したオープンソースソフトウェア「Veertu Desktop」 – OTTAN.XYZ](/macos-hypervisor-framework-5141/)にて、軽量な仮想化ソフトウェアである「Veertu Desktop」をご紹介しましたが、そのVeertuから、macOSの軽量な仮想開発環境を構築できる「Anka」のパブリックベータ版が公開されました。VMware FusionやParallels Desktopなどと異なりGUIによる操作を行うことはできませんが、ターミナルを使用してCUIによるコマンドによる仮想環境構築、および開発者間での共有を行うことができる超軽量なソフトウェアとなっています。
 
 
 

@@ -61,7 +61,7 @@ WordPressのテーマファイルやプラグインのちょっとした修正�
 
 
 
-これらはすべてmacOSの代表的なパッケージマネージャーであるHomebrewでインストールすることが可能です。Homebrewについては、[macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介](https://ottan.xyz/macos-package-manager-homebrew-6216/)でご紹介しています。
+これらはすべてmacOSの代表的なパッケージマネージャーであるHomebrewでインストールすることが可能です。Homebrewについては、[macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介](/macos-package-manager-homebrew-6216/)でご紹介しています。
 
 
 

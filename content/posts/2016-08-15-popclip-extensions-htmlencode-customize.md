@@ -18,11 +18,11 @@ tags:
 
 
 
-[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ – OTTAN.XYZ](https://ottan.xyz/efficiency-blog-736/)でもご紹介している「PopClip」ですが、拡張機能を使用する事で、さまざまな用途に用いる事のできる、1回使うと離れられない便利ツールです。
+[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ – OTTAN.XYZ](/efficiency-blog-736/)でもご紹介している「PopClip」ですが、拡張機能を使用する事で、さまざまな用途に用いる事のできる、1回使うと離れられない便利ツールです。
 
 
 
-https://ottan.xyz/efficiency-blog-736/
+/efficiency-blog-736/
 
 
 

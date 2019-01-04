@@ -78,7 +78,7 @@ https://atom.io/packages/color-picker
 
 
 
-Emmetは、コーディングにはもはや欠かせないツールとなりつつあります。Emmetについては、[今からでも遅くない！今日から始めるEmmet入門](https://ottan.xyz/emmet-getting-started-2-1759/)で詳しくご紹介していますので、こちらをご覧ください。
+Emmetは、コーディングにはもはや欠かせないツールとなりつつあります。Emmetについては、[今からでも遅くない！今日から始めるEmmet入門](/emmet-getting-started-2-1759/)で詳しくご紹介していますので、こちらをご覧ください。
 
 
 
@@ -220,7 +220,7 @@ http://atomlinter.github.io/
 
 
 
-インストールには、「npm」（Node Package Manager）が必要です。「npm」については、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)で詳しくご紹介していますので、そちらをご覧ください。
+インストールには、「npm」（Node Package Manager）が必要です。「npm」については、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)で詳しくご紹介していますので、そちらをご覧ください。
 
 
 
@@ -251,7 +251,7 @@ http://atomlinter.github.io/
 
 
 
-インストールには、「Homebrew」が便利です。「Homebrew」については、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](https://ottan.xyz/mac-latex-presentation-92/)で詳しくご紹介していますので、そちらを参照してください。
+インストールには、「Homebrew」が便利です。「Homebrew」については、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)で詳しくご紹介していますので、そちらを参照してください。
 
 
 

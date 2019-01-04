@@ -23,12 +23,12 @@ WordPress には、[WordPress Coding Standards – Make WordPress Core](https://
 
 ### PHP_CodeSniffer のインストール
 
-PHP_CodeSniffer のインストールについては、[Sublime Text で WordPress のコーディング規約に遵守したコーディングを効率的に行おう！](https://ottan.xyz/sublime-text-wordpress-standard-coding-4309/)で詳しくご紹介していますので、こちらの記事を参照してください。インストール完了後に、以下のコマンドを実行し、PHP_CodeSniffer が正常にインストールされていることを確認してください。
+PHP_CodeSniffer のインストールについては、[Sublime Text で WordPress のコーディング規約に遵守したコーディングを効率的に行おう！](/sublime-text-wordpress-standard-coding-4309/)で詳しくご紹介していますので、こちらの記事を参照してください。インストール完了後に、以下のコマンドを実行し、PHP_CodeSniffer が正常にインストールされていることを確認してください。
 
     phpcs --version
     phpcbf --version
 
-また、[Sublime Text で WordPress のコーディング規約に遵守したコーディングを効率的に行おう！](https://ottan.xyz/sublime-text-wordpress-standard-coding-4309/)でご紹介している方法を参考に、PHP_CodeSniffer のルールセットである「WordPress Coding Standard」を導入しておきます。正常にセットアップされているかどうかは、以下のコマンドで確認できます。標準出力に`WordPress-Core`が表示されることを確認してください。
+また、[Sublime Text で WordPress のコーディング規約に遵守したコーディングを効率的に行おう！](/sublime-text-wordpress-standard-coding-4309/)でご紹介している方法を参考に、PHP_CodeSniffer のルールセットである「WordPress Coding Standard」を導入しておきます。正常にセットアップされているかどうかは、以下のコマンドで確認できます。標準出力に`WordPress-Core`が表示されることを確認してください。
 
     phpcs -i
 

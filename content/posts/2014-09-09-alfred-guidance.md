@@ -127,7 +127,7 @@ Alfredの終了も環境設定から行います。「General」タブの下方�
 
 
 
-「Homebrew Cask」経由でインストールしたアプリケーションも認識されるようになります。なお、「Homebrew Cask」については、[Macを購入したらまず導入しておきたいQuick Lookのプラグイン](https://ottan.xyz/quick-look-plugin-78/)もご覧ください。
+「Homebrew Cask」経由でインストールしたアプリケーションも認識されるようになります。なお、「Homebrew Cask」については、[Macを購入したらまず導入しておきたいQuick Lookのプラグイン](/quick-look-plugin-78/)もご覧ください。
 
 
 

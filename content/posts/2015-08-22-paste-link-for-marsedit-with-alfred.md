@@ -35,7 +35,7 @@ MarsEditでブログを執筆している時に、過去の投稿のリンクを
 
 
 
-「Paste link for MarsEdit with Alfred」は、AlfredのWorkflow機能を使用します。事前にAlfredの「Power Packライセンス」を有効にしておいてください（※Mac App StoreからダウンロードしたAlfredでは使用することはできません）なお、Alfredの使い方については、[Macユーザーが恋する必須の神アプリAlfredを120%使いこなすための手引](https://ottan.xyz/alfred-guidance-181/)を参照してください。
+「Paste link for MarsEdit with Alfred」は、AlfredのWorkflow機能を使用します。事前にAlfredの「Power Packライセンス」を有効にしておいてください（※Mac App StoreからダウンロードしたAlfredでは使用することはできません）なお、Alfredの使い方については、[Macユーザーが恋する必須の神アプリAlfredを120%使いこなすための手引](/alfred-guidance-181/)を参照してください。
 
 
 

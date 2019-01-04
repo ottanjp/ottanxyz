@@ -25,8 +25,7 @@ tags:
 Sublime Textはお気に入りのエディターですが、有償のソフトウェアです。無期限で試用することはできますが、永続的に使用するためにはライセンス料を支払う必要があります。高機能なエディターで非常に便利ですが、ライセンス料がやや高く、初心者にとっては敷居が高いかもしれません。
 
 
-
-https://ottan.xyz/atom-plugin-8-2207/
+* [OTTAN.XYZ | WordPress開発のためにAtomに導入しておきたい最低限のプラグイン8選](/atom-plugin-8-2207/)
 
 
 
@@ -190,7 +189,7 @@ https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/
 
 
 
-事前に、[Sublime TextでWordPressのコーディング規約に遵守したコーディングを効率的に行おう！](https://ottan.xyz/sublime-text-wordpress-standard-coding-4309/)でもご紹介した、「phpcs」をインストールします。「phpcs」のインストールについては、上記リンクをご参照ください。
+事前に、[Sublime TextでWordPressのコーディング規約に遵守したコーディングを効率的に行おう！](/sublime-text-wordpress-standard-coding-4309/)でもご紹介した、「phpcs」をインストールします。「phpcs」のインストールについては、上記リンクをご参照ください。
 
 
 

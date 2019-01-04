@@ -19,7 +19,7 @@ tags:
 
 
 
-[macOS High Sierraを使いながらmacOS Mojave（モハべ）のDeveloper Beta（開発者向けβ版）をインストールする](https://ottan.xyz/macos-mojave-download-how-to-install-6768/)に続き、パブリックベータ版をインストールする方法を解説します。
+[macOS High Sierraを使いながらmacOS Mojave（モハべ）のDeveloper Beta（開発者向けβ版）をインストールする](/macos-mojave-download-how-to-install-6768/)に続き、パブリックベータ版をインストールする方法を解説します。
 
 
 

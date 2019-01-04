@@ -20,7 +20,7 @@ tags:
 
 
 
-https://ottan.xyz/pocket-to-instapaper-5181/
+* [Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！](/pocket-to-instapaper-5181/)
 
 
 
@@ -36,7 +36,7 @@ MacでInstapaperを利用するためには1点課題がありました。それ
 
 
 
-先日、[ReederがReadabilityからMercuryに移行し、再び記事表示時に本文抽出が可能に – OTTAN.XYZ](https://ottan.xyz/reeder-usage-with-mercury-feedly-5399/)で、iOS版のReederがアップデートし、Readabilityのサービス終了に伴い、パーサーをReadability APIからMercuryに移行したことをお伝えしましたが、いつの間にやらInstapaperのクライアントとしても使用できるようになっていたようです。そのため、iOSではReederさえあれば、RSSもInstapaperも1つのアプリで完結するという素晴らしい結果になることがわかりました。
+先日、[ReederがReadabilityからMercuryに移行し、再び記事表示時に本文抽出が可能に – OTTAN.XYZ](/reeder-usage-with-mercury-feedly-5399/)で、iOS版のReederがアップデートし、Readabilityのサービス終了に伴い、パーサーをReadability APIからMercuryに移行したことをお伝えしましたが、いつの間にやらInstapaperのクライアントとしても使用できるようになっていたようです。そのため、iOSではReederさえあれば、RSSもInstapaperも1つのアプリで完結するという素晴らしい結果になることがわかりました。
 
 
 

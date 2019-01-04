@@ -19,7 +19,7 @@ tags:
 
 
 
-以前、[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」（v4対応版）の使用方法](https://ottan.xyz/ios-adblock-content-blocker-local-dns-6173/)で、Safariのコンテンツブロッカー以外に、iPhone、iPad、iPod touchなどのiOSデバイスにインストールされている、ありとあらゆるアプリから広告ネットワーク（厳密には指定したドメイン）との通信を遮断し、広告を非表示にする「AdBlock」と呼ばれるアプリをご紹介しました。
+以前、[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」（v4対応版）の使用方法](/ios-adblock-content-blocker-local-dns-6173/)で、Safariのコンテンツブロッカー以外に、iPhone、iPad、iPod touchなどのiOSデバイスにインストールされている、ありとあらゆるアプリから広告ネットワーク（厳密には指定したドメイン）との通信を遮断し、広告を非表示にする「AdBlock」と呼ばれるアプリをご紹介しました。
 
 
 
@@ -136,7 +136,7 @@ VPN接続を行うためのプロファイルのインストールの許可を�
 
 
 
-[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」（v4対応版）の使用方法](https://ottan.xyz/ios-adblock-content-blocker-local-dns-6173/)でもご紹介しましたが、今回も「Workflow」を使用します。
+[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」（v4対応版）の使用方法](/ios-adblock-content-blocker-local-dns-6173/)でもご紹介しましたが、今回も「Workflow」を使用します。
 
 
 

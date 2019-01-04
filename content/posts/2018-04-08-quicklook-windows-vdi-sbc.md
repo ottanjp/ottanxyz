@@ -19,7 +19,7 @@ tags:
 
 
 
-Windows環境でQuickLookを実現するソフトウェアといえば、[Windowsで、macOSのQuick Lookを実現する「Seer」](https://ottan.xyz/windows-osx-like-quick-look-seer-3780/)をご紹介しました。しかし、「Seer」のインストールには管理者権限が必須であり、VDI（Virtual Desktop Infrastructure）やSBC（Server Based Computing）など、通常ActiveDirectory等のセキュリティポリシーで権限が制限されている職場環境で使用できないのがネックでした。MacでQuickLookに慣れている身としては、職場のWindows（Windows Server 2008 R2）でもQuickLookを使用したい。そこで、行き着いたのが、その名も「QuickLook」でした。
+Windows環境でQuickLookを実現するソフトウェアといえば、[Windowsで、macOSのQuick Lookを実現する「Seer」](/windows-osx-like-quick-look-seer-3780/)をご紹介しました。しかし、「Seer」のインストールには管理者権限が必須であり、VDI（Virtual Desktop Infrastructure）やSBC（Server Based Computing）など、通常ActiveDirectory等のセキュリティポリシーで権限が制限されている職場環境で使用できないのがネックでした。MacでQuickLookに慣れている身としては、職場のWindows（Windows Server 2008 R2）でもQuickLookを使用したい。そこで、行き着いたのが、その名も「QuickLook」でした。
 
 
 
@@ -79,7 +79,7 @@ Windows環境でQuickLookを実現するソフトウェアといえば、[Window
 
 
 
-Macでも[Macを購入したら最初に導入しておきたいQuick Lookのプラグイン](https://ottan.xyz/quick-look-plugin-78/)でご紹介しているように、プラグインを導入することで、QuickLookにさまざまな機能が提供されていますが、今回ご紹介するQuickLookもさまざまな形式のファイルに対応しています。
+Macでも[Macを購入したら最初に導入しておきたいQuick Lookのプラグイン](/quick-look-plugin-78/)でご紹介しているように、プラグインを導入することで、QuickLookにさまざまな機能が提供されていますが、今回ご紹介するQuickLookもさまざまな形式のファイルに対応しています。
 
 
 

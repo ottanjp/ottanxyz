@@ -19,7 +19,7 @@ tags:
 
 
 
-[仮想化を使用して Mac 上で Windows を実行： VMware Fusion の無償評価版 | VMware 日本](http://www.vmware.com/jp/products/fusion)で、VMware Fusion 8の無償評価版を手に入れたので、早速仮想マシンにUbuntuをインストールしてみました。VMware Fusionに関する記事については、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](https://ottan.xyz/vmware-fusion-8-windows-iso-3426/)も参考にしてください。
+[仮想化を使用して Mac 上で Windows を実行： VMware Fusion の無償評価版 | VMware 日本](http://www.vmware.com/jp/products/fusion)で、VMware Fusion 8の無償評価版を手に入れたので、早速仮想マシンにUbuntuをインストールしてみました。VMware Fusionに関する記事については、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](/vmware-fusion-8-windows-iso-3426/)も参考にしてください。
 
 
 
@@ -31,7 +31,7 @@ tags:
 
 
 
-今回は、あらかじめUbuntuのISOファイルが準備されている前提で話を進めていきます。ISOファイルのダウンロードについては、[VirtualBoxにUbuntu 14.04.2 LTSをインストールする方法](https://ottan.xyz/virtualbox-ubuntu-2418/)を参考にしてください。
+今回は、あらかじめUbuntuのISOファイルが準備されている前提で話を進めていきます。ISOファイルのダウンロードについては、[VirtualBoxにUbuntu 14.04.2 LTSをインストールする方法](/virtualbox-ubuntu-2418/)を参考にしてください。
 
 
 
@@ -50,7 +50,7 @@ tags:
 
 
 
-まず、[VirtualBoxにUbuntu 14.04.2 LTSをインストールする方法](https://ottan.xyz/virtualbox-ubuntu-2418/)を参考に、UbuntuのISOファイルをダウンロードします。ダウンロードが完了したら、仮想マシンを作成します。VMware Fusionで⌘+Nで新規仮想マシンを作成します。「ディスクまたはイメージ」を選択して、「続ける」をクリックします。
+まず、[VirtualBoxにUbuntu 14.04.2 LTSをインストールする方法](/virtualbox-ubuntu-2418/)を参考に、UbuntuのISOファイルをダウンロードします。ダウンロードが完了したら、仮想マシンを作成します。VMware Fusionで⌘+Nで新規仮想マシンを作成します。「ディスクまたはイメージ」を選択して、「続ける」をクリックします。
 
 
 

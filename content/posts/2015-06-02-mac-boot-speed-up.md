@@ -278,7 +278,7 @@ http://sourceforge.net/projects/grandperspectiv/
 
 
 
-なお、「GrandPerspective」については、[Macのストレージの空き容量が少なくなったら、GrandPerspectiveで肥大化させている項目を特定しよう！](https://ottan.xyz/mac-storage-grandperspective-3482/)でも詳しくご紹介しています。
+なお、「GrandPerspective」については、[Macのストレージの空き容量が少なくなったら、GrandPerspectiveで肥大化させている項目を特定しよう！](/mac-storage-grandperspective-3482/)でも詳しくご紹介しています。
 
 
 

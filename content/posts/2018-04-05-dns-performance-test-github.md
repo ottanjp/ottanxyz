@@ -20,7 +20,7 @@ tags:
 
 
 
-[NURO光のZTE社製ルーター「F660T」「F660A」でDNSによる名前解決が遅い時に試したいこと](https://ottan.xyz/nuro-sonet-zte-f660t-f660a-6679/)や、[iPhoneやMacでWi-Fiの「体感速度」が遅く読み込みに時間がかかる場合の対処法](https://ottan.xyz/wi-fi-slow-down-speed-iphone-mac-6585/)で、DNSの変更についてご紹介しています。ちょうどこの記事を公開した時期と同時期に、話題になったのが、米CDN（コンテンツデリバリーネットワーク）大手Cloudflareの[1.1.1.1 — the Internet’s Fastest, Privacy-First DNS Resolver](https://1.1.1.1/)です。
+[NURO光のZTE社製ルーター「F660T」「F660A」でDNSによる名前解決が遅い時に試したいこと](/nuro-sonet-zte-f660t-f660a-6679/)や、[iPhoneやMacでWi-Fiの「体感速度」が遅く読み込みに時間がかかる場合の対処法](/wi-fi-slow-down-speed-iphone-mac-6585/)で、DNSの変更についてご紹介しています。ちょうどこの記事を公開した時期と同時期に、話題になったのが、米CDN（コンテンツデリバリーネットワーク）大手Cloudflareの[1.1.1.1 — the Internet’s Fastest, Privacy-First DNS Resolver](https://1.1.1.1/)です。
 
 
 

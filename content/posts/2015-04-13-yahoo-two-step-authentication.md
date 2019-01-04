@@ -260,7 +260,7 @@ https://login.yahoo.co.jp/config/login
 
 
 
-[Dropboxアカウントの2段階認証を有効にする方法](https://ottan.xyz/dropbox-two-step-authentication-929/)や[Googleアカウントの2段階認証を有効にする方法](https://ottan.xyz/google-two-step-authentication-890/)でご紹介したように、モバイルアプリでワンタイムパスワードを生成する場合は、「Google Authenticator」という「TOTP（Time-Based One-Time Password）」に対応したアプリケーションを使用していましたが、Yahooの場合は、同アプリケーションを使用してQRコードを読み取るとエラーが発生します。そのため、Yahoo専用のワンタイムパスワード発行アプリをダウンロードする必要があります。
+[Dropboxアカウントの2段階認証を有効にする方法](/dropbox-two-step-authentication-929/)や[Googleアカウントの2段階認証を有効にする方法](/google-two-step-authentication-890/)でご紹介したように、モバイルアプリでワンタイムパスワードを生成する場合は、「Google Authenticator」という「TOTP（Time-Based One-Time Password）」に対応したアプリケーションを使用していましたが、Yahooの場合は、同アプリケーションを使用してQRコードを読み取るとエラーが発生します。そのため、Yahoo専用のワンタイムパスワード発行アプリをダウンロードする必要があります。
 
 
 

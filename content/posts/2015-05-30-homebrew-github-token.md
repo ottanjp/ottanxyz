@@ -19,7 +19,7 @@ tags:
 
 
 
-Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](https://ottan.xyz/mac-latex-presentation-92/)で詳細を解説していますのでご覧いただくとして、Homebrewで便利なアプリケーションを検索している時に、GitHubのエラーが表示されてしまう事象の対処法をメモしておきたいと思います。
+Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)で詳細を解説していますのでご覧いただくとして、Homebrewで便利なアプリケーションを検索している時に、GitHubのエラーが表示されてしまう事象の対処法をメモしておきたいと思います。
 
 
 

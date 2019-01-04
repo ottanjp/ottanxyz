@@ -49,7 +49,7 @@ tags:
 
 
 
-まずは、システム環境設定から。システム環境設定については、[Macを購入したら最初に設定しておきたいシステム環境設定](https://ottan.xyz/mac-preference-51/)もご参照ください。
+まずは、システム環境設定から。システム環境設定については、[Macを購入したら最初に設定しておきたいシステム環境設定](/mac-preference-51/)もご参照ください。
 
 
 
@@ -337,7 +337,7 @@ Finderをリスト表示にした状態で、「表示オプションを表示�
 
 
 
-ピクチャフォルダーでは「大きさ」「解像度」を表示しておくと便利です。これについては、[これは便利！Finderで画像ファイルの解像度と大きさを確認する方法](https://ottan.xyz/finder-tips-resolution-464/)をご参照ください。
+ピクチャフォルダーでは「大きさ」「解像度」を表示しておくと便利です。これについては、[これは便利！Finderで画像ファイルの解像度と大きさを確認する方法](/finder-tips-resolution-464/)をご参照ください。
 
 
 
@@ -525,7 +525,7 @@ https://buffer.com/extras
 
 
 
-まずは、「1Password for Mac」。もはやパスワード管理にはかかせないアプリケーションです。「1Password」については、[iOS版の1Passwordでウェブページの登録から使い方まで徹底解説！](https://ottan.xyz/ios-1password-description-554/)や[1Password Anywareで、会社のPCなど1Passwordが使えない状況で、パスワード情報にアクセスする方法](https://ottan.xyz/1password-anyware-1638/)もご参照ください。
+まずは、「1Password for Mac」。もはやパスワード管理にはかかせないアプリケーションです。「1Password」については、[iOS版の1Passwordでウェブページの登録から使い方まで徹底解説！](/ios-1password-description-554/)や[1Password Anywareで、会社のPCなど1Passwordが使えない状況で、パスワード情報にアクセスする方法](/1password-anyware-1638/)もご参照ください。
 
 
 
@@ -579,7 +579,7 @@ https://buffer.com/extras
 
 
 
-Mac、Windows、iOS、Android間でクリップボードの共有を瞬時に行うことのできる魔法のようなアプリケーションです。こちらについては、[Mac、Windows、iPhone、Android間のクリップボードを自動で同期する「Pasteasy」](https://ottan.xyz/clipboard-pasteeasy-1549/)で詳しく解説していますのでご参照ください。
+Mac、Windows、iOS、Android間でクリップボードの共有を瞬時に行うことのできる魔法のようなアプリケーションです。こちらについては、[Mac、Windows、iPhone、Android間のクリップボードを自動で同期する「Pasteasy」](/clipboard-pasteeasy-1549/)で詳しく解説していますのでご参照ください。
 
 
 
@@ -593,7 +593,7 @@ Mac、Windows、iOS、Android間でクリップボードの共有を瞬時に行
 
 
 
-PopClipは、トラックパッド、マウスに革命を起こすアプリケーションです。選択したテキストに対してさまざまな処理を実行できます。PopClipについては、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](https://ottan.xyz/efficiency-blog-736/)でもご紹介しています。
+PopClipは、トラックパッド、マウスに革命を起こすアプリケーションです。選択したテキストに対してさまざまな処理を実行できます。PopClipについては、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](/efficiency-blog-736/)でもご紹介しています。
 
 
 
@@ -646,7 +646,7 @@ PopClipは、トラックパッド、マウスに革命を起こすアプリケ�
 
 
 
-ブログの元ネタにもなる、情報収集は主にRSSを利用しています。そのため、RSSリーダーは必須です。RSSリーダーには好みがあると思いますが、対応しているサービスが多く、インタフェースがすぐれている「Reeder 2」が好みです。Reederについては、[feedlyで作る自分だけのキュレーションアプリ](https://ottan.xyz/feedly-curation-314/)でもご紹介しています。
+ブログの元ネタにもなる、情報収集は主にRSSを利用しています。そのため、RSSリーダーは必須です。RSSリーダーには好みがあると思いますが、対応しているサービスが多く、インタフェースがすぐれている「Reeder 2」が好みです。Reederについては、[feedlyで作る自分だけのキュレーションアプリ](/feedly-curation-314/)でもご紹介しています。
 
 
 
@@ -728,7 +728,7 @@ PopClipは、トラックパッド、マウスに革命を起こすアプリケ�
 
 
 
-Wunderlistには、ブログの記事の元ネタをかき集めています。Wunderlistについては、[Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい６つの理由](https://ottan.xyz/wunderlist-recommend-271/)、[Wunderlistがバージョンアップし、アプリケーションを起動していなくてもタスクを追加、検索できるようになって超便利に！！](https://ottan.xyz/wunderlist-add-search-to-task-1927/)を参照してください。
+Wunderlistには、ブログの記事の元ネタをかき集めています。Wunderlistについては、[Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい６つの理由](/wunderlist-recommend-271/)、[Wunderlistがバージョンアップし、アプリケーションを起動していなくてもタスクを追加、検索できるようになって超便利に！！](/wunderlist-add-search-to-task-1927/)を参照してください。
 
 
 
@@ -766,7 +766,7 @@ Wunderlistには、ブログの記事の元ネタをかき集めています。W
 
 
 
-MacBook ProとiMac、iPhoneで共有するために、ほとんどすべての情報を「Dropbox」で共有しています。後述するアプリケーションの設定ファイルの共有は非常に便利です。ぜひ試してみてみてください。「Dropbox」については、[1Password Anywareで、会社のPCなど1Passwordが使えない状況で、パスワード情報にアクセスする方法](https://ottan.xyz/1password-anyware-1638/)や、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](https://ottan.xyz/efficiency-blog-736/)でもご紹介しています。
+MacBook ProとiMac、iPhoneで共有するために、ほとんどすべての情報を「Dropbox」で共有しています。後述するアプリケーションの設定ファイルの共有は非常に便利です。ぜひ試してみてみてください。「Dropbox」については、[1Password Anywareで、会社のPCなど1Passwordが使えない状況で、パスワード情報にアクセスする方法](/1password-anyware-1638/)や、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](/efficiency-blog-736/)でもご紹介しています。
 
 
 
@@ -780,7 +780,7 @@ https://www.dropbox.com/home
 
 
 
-さまざまなスニペットを簡単に呼び出すことができる、非常に便利なアプリケーションです。たとえば、「.pp」と入力するだけで`<p></p>`と変換されるようにしています。その他、便利な使い方については、[ブログ執筆時に便利！TextExpanderでSafari、Google ChromeからURL、タイトルを瞬時に取得する方法](https://ottan.xyz/textexpander-safari-googlechrome-730/)をご参照ください。
+さまざまなスニペットを簡単に呼び出すことができる、非常に便利なアプリケーションです。たとえば、「.pp」と入力するだけで`<p></p>`と変換されるようにしています。その他、便利な使い方については、[ブログ執筆時に便利！TextExpanderでSafari、Google ChromeからURL、タイトルを瞬時に取得する方法](/textexpander-safari-googlechrome-730/)をご参照ください。
 
 
 
@@ -886,7 +886,7 @@ http://www.bettertouchtool.net/
 
 
 
-言わずと知れた、Macの最強ランチャーアプリ。これなしでの生活は考えられません。この熱い思いは[Macユーザーが恋する必須の神アプリAlfredを120%使いこなすための手引](https://ottan.xyz/alfred-guidance-181/)で確認してください。
+言わずと知れた、Macの最強ランチャーアプリ。これなしでの生活は考えられません。この熱い思いは[Macユーザーが恋する必須の神アプリAlfredを120%使いこなすための手引](/alfred-guidance-181/)で確認してください。
 
 
 
@@ -1003,7 +1003,7 @@ http://vccw.cc/
 
 
 
-また、WordPressの本体はDropbox上に保存し、MacBook Pro、iMac間で同期しています。そのため、上記コマンド時に生成されるWordPressの保存先をDropboxに変更しておくと便利です。「VCCW」については、[gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる](https://ottan.xyz/gulp-browser-sync-476/)でもご紹介しています。
+また、WordPressの本体はDropbox上に保存し、MacBook Pro、iMac間で同期しています。そのため、上記コマンド時に生成されるWordPressの保存先をDropboxに変更しておくと便利です。「VCCW」については、[gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる](/gulp-browser-sync-476/)でもご紹介しています。
 
 
 
@@ -1071,7 +1071,7 @@ http://vccw.cc/
 
 
 
-PHP、HTML、CSSファイルの編集に欠かせないのがテキストエディター「Sublime Text」。豊富なプラグインのおかげで快適な編集が実現できます。プラグインについては、[Sublime Textに導入しているオススメのプラグイン23選](https://ottan.xyz/sublime-text-plugin-321/)をご覧ください。
+PHP、HTML、CSSファイルの編集に欠かせないのがテキストエディター「Sublime Text」。豊富なプラグインのおかげで快適な編集が実現できます。プラグインについては、[Sublime Textに導入しているオススメのプラグイン23選](/sublime-text-plugin-321/)をご覧ください。
 
 
 
@@ -1095,7 +1095,7 @@ Sublime Textに導入しているプラグインも、iMac、MacBook Pro間で�
 
 
 
-~/Dropbox/Sublime Text/に、「Installed Packages」および「Packages」が保存されている前提です。ショートカットを作成する方法については、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](https://ottan.xyz/efficiency-blog-736/)でもご紹介しています。
+~/Dropbox/Sublime Text/に、「Installed Packages」および「Packages」が保存されている前提です。ショートカットを作成する方法については、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](/efficiency-blog-736/)でもご紹介しています。
 
 
 
@@ -1132,7 +1132,7 @@ Xcodeのコマンドライン・デベロッパー・ツールがインストー
 
 
 
-Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](https://ottan.xyz/mac-latex-presentation-92/)でもご紹介しています。
+Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)でもご紹介しています。
 
 
 
@@ -1186,7 +1186,7 @@ JPEGファイルを圧縮してくれるツールです。以下のコマンド�
 
 
 
-「pngquant」「jpegoptim」については、[WordPressのサイト表示速度を高速化させるために行っている施策まとめ](https://ottan.xyz/improve-page-speed-1737/)でも詳しくご紹介していますので、そちらも参照してください。
+「pngquant」「jpegoptim」については、[WordPressのサイト表示速度を高速化させるために行っている施策まとめ](/improve-page-speed-1737/)でも詳しくご紹介していますので、そちらも参照してください。
 
 
 
@@ -1245,7 +1245,7 @@ https://red-sweater.com/marsedit/
 
 
 
-その他、MarsEditについては、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](https://ottan.xyz/efficiency-blog-736/)、[MarsEditをより便利に高速に活用するためのスクリプト集](https://ottan.xyz/marsedit-script-619/)、[WordPressの過去記事参照に！Alfredから記事を検索してMarsEditに貼り付けられる「Paste link for MarsEdit with Alfred」](https://ottan.xyz/paste-link-for-marsedit-with-alfred-2174/)など、さまざまな記事でご紹介していますので、そちらもご参照ください。
+その他、MarsEditについては、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](/efficiency-blog-736/)、[MarsEditをより便利に高速に活用するためのスクリプト集](/marsedit-script-619/)、[WordPressの過去記事参照に！Alfredから記事を検索してMarsEditに貼り付けられる「Paste link for MarsEdit with Alfred」](/paste-link-for-marsedit-with-alfred-2174/)など、さまざまな記事でご紹介していますので、そちらもご参照ください。
 
 
 
@@ -1257,4 +1257,4 @@ https://red-sweater.com/marsedit/
 
 
 
-駆け足でお伝えしましたが、その他にも[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)で、さまざまなタスクを自動化したり、とその他にも工夫できる点はさまざまです。あなたならではの初期構築設定のやり方をぜひ教えてくださいね。
+駆け足でお伝えしましたが、その他にも[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)で、さまざまなタスクを自動化したり、とその他にも工夫できる点はさまざまです。あなたならではの初期構築設定のやり方をぜひ教えてくださいね。

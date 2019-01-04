@@ -21,7 +21,7 @@ tags:
 
 
 
-[Windows Server上のIISでPHPアプリケーションを動作させる際の落とし穴と対策 – OTTAN.XYZ](https://ottan.xyz/windows-server-iis-php-laravel-6739/)で、Windows Server上でLaravelを動作させるための環境構築手順をご紹介しましたが、今回はCentOS版です。Docker上の真っさらなCentOS7で、何もインストールされていない状態から初期セットアップしてみます。
+[Windows Server上のIISでPHPアプリケーションを動作させる際の落とし穴と対策](/windows-server-iis-php-laravel-6739/)で、Windows Server上でLaravelを動作させるための環境構築手順をご紹介しましたが、今回はCentOS版です。Docker上の真っさらなCentOS7で、何もインストールされていない状態から初期セットアップしてみます。
 
 
 

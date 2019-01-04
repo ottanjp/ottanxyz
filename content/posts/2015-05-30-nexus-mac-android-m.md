@@ -143,7 +143,7 @@ https://developer.android.com/about/versions/marshmallow/index.html
 
 
 
-更新を行うためには、Android SDKが必要になります。Macの場合、Homebrewから簡単にインストールできます。Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](https://ottan.xyz/mac-latex-presentation-92/)を参照してください。Windowsの場合は、下記のリンクに従いセットアップを行ってください。
+更新を行うためには、Android SDKが必要になります。Macの場合、Homebrewから簡単にインストールできます。Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)を参照してください。Windowsの場合は、下記のリンクに従いセットアップを行ってください。
 
 
 

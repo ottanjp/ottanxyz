@@ -25,7 +25,7 @@ tags:
 
 
 
-まず、[BrowserSync](http://www.browsersync.io/)をダウンロードします。BrowserSyncをダウンロードには`npm`コマンドを使用します。`npm`コマンドを使用するための設定については、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)を参考にしてください。
+まず、[BrowserSync](http://www.browsersync.io/)をダウンロードします。BrowserSyncをダウンロードには`npm`コマンドを使用します。`npm`コマンドを使用するための設定については、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)を参考にしてください。
 
 
 
@@ -254,7 +254,7 @@ Vagrantで仮想マシンを構築するにあたっては、仮想マシンの�
 
 
 
-続いて、[BrowserSync](http://www.browsersync.io/)をより効率的に使用するために、Node.jsベースのタスクランナーである「gulp.js」をインストールします。なお、「gulp.js」については、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)で詳しくご紹介していますので、こちらもご覧ください。
+続いて、[BrowserSync](http://www.browsersync.io/)をより効率的に使用するために、Node.jsベースのタスクランナーである「gulp.js」をインストールします。なお、「gulp.js」については、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)で詳しくご紹介していますので、こちらもご覧ください。
 
 
 
@@ -266,7 +266,7 @@ Vagrantで仮想マシンを構築するにあたっては、仮想マシンの�
 
 
 
-[node.js](http://nodejs.org/)のインストールには[Homebrew — OS X用パッケージマネージャー](http://brew.sh/index_ja.html)が便利です。Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](https://ottan.xyz/mac-latex-presentation-92/)で詳しくご紹介していますので、こちらも合わせてご覧ください。
+[node.js](http://nodejs.org/)のインストールには[Homebrew — OS X用パッケージマネージャー](http://brew.sh/index_ja.html)が便利です。Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)で詳しくご紹介していますので、こちらも合わせてご覧ください。
 
 
 
@@ -284,7 +284,7 @@ Vagrantで仮想マシンを構築するにあたっては、仮想マシンの�
 
 
 
-続いて、gulp.jsのインストールを行います。gulp.jsはNode.jsベースであるため、プラグインの管理はすべて`npm`コマンドで行います。まずは、`gulp`コマンドを利用するために、「gulp.js」をグローバルインストールします。ローカルインストール、グローバルインストールの違いについては[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](https://ottan.xyz/gulp-css-sass-268/)をご覧ください。
+続いて、gulp.jsのインストールを行います。gulp.jsはNode.jsベースであるため、プラグインの管理はすべて`npm`コマンドで行います。まずは、`gulp`コマンドを利用するために、「gulp.js」をグローバルインストールします。ローカルインストール、グローバルインストールの違いについては[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)をご覧ください。
 
 
 

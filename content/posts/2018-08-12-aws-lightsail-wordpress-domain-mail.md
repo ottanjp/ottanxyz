@@ -20,7 +20,7 @@ tags:
 
 
 
-[Amazon Lightsailで月5ドルから始めるWordPress（下準備〜HTTPS化編）](https://ottan.xyz/aws-lightsail-wordpress-6908/)
+[Amazon Lightsailで月5ドルから始めるWordPress（下準備〜HTTPS化編）](/aws-lightsail-wordpress-6908/)
 で、AWSのVPSサービスであるAmazon Lightsailを使用して、月5ドルから始めるWordPressについてご紹介しました。国内外のVPSサービスと比較しても、月5ドルという価格は魅力的です。個人や商用にしてもそこまでピーク性能が求められないブログであれば十分に実用的な範囲内で、手軽に始められるサービスですので、ぜひこれを機にクラウドサービスを体験してみてください。
 
 

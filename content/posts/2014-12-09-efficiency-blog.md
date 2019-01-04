@@ -32,7 +32,7 @@ tags:
 
 
 
-ブログの開発環境にはSublime Text 3を利用しています。過去にも[Sublime Textに導入しているオススメのプラグイン23選](https://ottan.xyz/sublime-text-plugin-321/)としてオススメのプラグインをご紹介していますが、開発環境が変わるたび（たとえば、iMacからMacBook Pro）にプラグインを再インストールすることは非常に面倒な作業です。
+ブログの開発環境にはSublime Text 3を利用しています。過去にも[Sublime Textに導入しているオススメのプラグイン23選](/sublime-text-plugin-321/)としてオススメのプラグインをご紹介していますが、開発環境が変わるたび（たとえば、iMacからMacBook Pro）にプラグインを再インストールすることは非常に面倒な作業です。
 
 
 
@@ -96,7 +96,7 @@ http://www.sublimetext.com/3
 
 
 
-WordPressの開発環境の構築方法については、[gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる](https://ottan.xyz/gulp-browser-sync-476/)の記事をご覧ください。VCCWインストール後に作成される「www」フォルダーこそWordPressの中身そのものですが、この「www」フォルダーを各開発環境で共有します。
+WordPressの開発環境の構築方法については、[gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる](/gulp-browser-sync-476/)の記事をご覧ください。VCCWインストール後に作成される「www」フォルダーこそWordPressの中身そのものですが、この「www」フォルダーを各開発環境で共有します。
 
 
 
@@ -136,7 +136,7 @@ http://vccw.cc/
 
 
 
-[ブログ執筆時に便利！TextExpanderでSafari、Google ChromeからURL、タイトルを瞬時に取得する方法](https://ottan.xyz/textexpander-safari-googlechrome-730/)でご紹介したように、TextExpanderを使用することで執筆作業を大幅に効率化できます。
+[ブログ執筆時に便利！TextExpanderでSafari、Google ChromeからURL、タイトルを瞬時に取得する方法](/textexpander-safari-googlechrome-730/)でご紹介したように、TextExpanderを使用することで執筆作業を大幅に効率化できます。
 
 
 
@@ -257,7 +257,7 @@ https://pilotmoon.com/popclip/extensions/
 
 
 
-[MarsEditをより便利に高速に活用するためのスクリプト集](https://ottan.xyz/marsedit-script-619/)でご紹介したように、MarsEditとAppleScriptを組み合わせることによりさまざまな作業を自動化できます。たとえば、目次の自動生成であったり、過去記事参照のためのリンク作成であったりと、手動で行おうとすると面倒なことでも、AppleScriptを使用すれば簡単に作業を自動化できます。
+[MarsEditをより便利に高速に活用するためのスクリプト集](/marsedit-script-619/)でご紹介したように、MarsEditとAppleScriptを組み合わせることによりさまざまな作業を自動化できます。たとえば、目次の自動生成であったり、過去記事参照のためのリンク作成であったりと、手動で行おうとすると面倒なことでも、AppleScriptを使用すれば簡単に作業を自動化できます。
 
 
 

@@ -17,7 +17,7 @@ tags:
 
 
 
-弊サイトでは、MacのWordPress開発環境の構築に[Docker For Mac | Docker](https://www.docker.com/docker-mac)をオススメしています。弊サイトでも、[Dockerで作る最強・最速のローカルWordPress環境 – OTTAN.XYZ](https://ottan.xyz/docker-wordpress-best-practice-5164/)で、Dockerの基本的な操作方法から、WordMoveによる本番環境と開発環境の同期方法までご紹介していますが、Docker for Macには1点問題がありました。それは、ホスト側（Mac）からコンテナー側にマウントしているボリュームの同期速度が遅い点。ホスト側のファイルを更新するだけで、コンテナー側のファイルを更新できるため非常に便利なのですが、Dockerのファイルシステム（osxfs）の仕様上、ファイル更新からコンテナーへの反映までにラグがありました。
+弊サイトでは、MacのWordPress開発環境の構築に[Docker For Mac | Docker](https://www.docker.com/docker-mac)をオススメしています。弊サイトでも、[Dockerで作る最強・最速のローカルWordPress環境 – OTTAN.XYZ](/docker-wordpress-best-practice-5164/)で、Dockerの基本的な操作方法から、WordMoveによる本番環境と開発環境の同期方法までご紹介していますが、Docker for Macには1点問題がありました。それは、ホスト側（Mac）からコンテナー側にマウントしているボリュームの同期速度が遅い点。ホスト側のファイルを更新するだけで、コンテナー側のファイルを更新できるため非常に便利なのですが、Dockerのファイルシステム（osxfs）の仕様上、ファイル更新からコンテナーへの反映までにラグがありました。
 
 
 
@@ -53,7 +53,7 @@ tags:
 
 
 
-Dockerによるコンテナーの管理は、`docker-compose`が便利です。詳細については、[たった1行で複数コンテナーを起動！Docker ComposeでWordPress環境をもっと楽に管理しよう！ – OTTAN.XYZ](https://ottan.xyz/docker-compose-wordpress-5694/)をご参照ください。
+Dockerによるコンテナーの管理は、`docker-compose`が便利です。詳細については、[たった1行で複数コンテナーを起動！Docker ComposeでWordPress環境をもっと楽に管理しよう！ – OTTAN.XYZ](/docker-compose-wordpress-5694/)をご参照ください。
 
 
 

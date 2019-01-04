@@ -42,7 +42,7 @@ GIFアニメーションを作成するためには、[ImageMagick: Convert, Edi
 
 
 
-Homebrewのインストールについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](https://ottan.xyz/mac-latex-presentation-92/)でも詳しくご紹介していますのでご覧ください。インストールは以下のコマンドを実行するだけです。インストール方法は随時変更になる可能性もありますので、詳細は[Homebrew — macOS 用パッケージマネージャー](http://brew.sh/index_ja.html)を参照してください。
+Homebrewのインストールについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)でも詳しくご紹介していますのでご覧ください。インストールは以下のコマンドを実行するだけです。インストール方法は随時変更になる可能性もありますので、詳細は[Homebrew — macOS 用パッケージマネージャー](http://brew.sh/index_ja.html)を参照してください。
 
 
 

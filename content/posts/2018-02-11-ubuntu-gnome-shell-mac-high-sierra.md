@@ -25,8 +25,8 @@ tags:
 
 
 
-  * [Ubuntu 16.04 LTSで、Macの「英数」「かな」キーにIMEオフ、オンを割り当てる](https://ottan.xyz/ubuntu-16-04-ime-on-off-4913/)
-  * [Ubuntu 16.04でキーボードレイアウトをMacBook Pro向けに変更する](https://ottan.xyz/ubuntu-keyboard-layout-mac-6095/)
+  * [Ubuntu 16.04 LTSで、Macの「英数」「かな」キーにIMEオフ、オンを割り当てる](/ubuntu-16-04-ime-on-off-4913/)
+  * [Ubuntu 16.04でキーボードレイアウトをMacBook Pro向けに変更する](/ubuntu-keyboard-layout-mac-6095/)
 
 
 

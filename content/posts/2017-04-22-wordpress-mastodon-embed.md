@@ -35,7 +35,7 @@ tags:
 
 
 
-では、[プラグインを使わずにGistのコードをWordPressに埋め込む方法 – OTTAN.XYZ](https://ottan.xyz/gist-wordpress-embed-4108/)でご紹介した手法を元に、「Mastodon」のトゥートを表示する方法を考えましょう。まず、トゥート表示の元となるURLの形式は以下を満たしているとします。
+では、[プラグインを使わずにGistのコードをWordPressに埋め込む方法 – OTTAN.XYZ](/gist-wordpress-embed-4108/)でご紹介した手法を元に、「Mastodon」のトゥートを表示する方法を考えましょう。まず、トゥート表示の元となるURLの形式は以下を満たしているとします。
 
 
 

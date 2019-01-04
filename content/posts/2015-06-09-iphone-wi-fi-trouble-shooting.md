@@ -19,7 +19,7 @@ tags:
 
 
 
-Wi-Fiの転送速度が伸びない原因は、MacでもiPhoneでも根本的な事象は変わりません。デバイスの性能によるところはありますが、Macでの対処方法も効果を発揮することがあります。[Macで頻繁にWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法](https://ottan.xyz/mac-wi-fi-trouble-shooting-1660/)も参考にしてみてください。
+Wi-Fiの転送速度が伸びない原因は、MacでもiPhoneでも根本的な事象は変わりません。デバイスの性能によるところはありますが、Macでの対処方法も効果を発揮することがあります。[Macで頻繁にWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法](/mac-wi-fi-trouble-shooting-1660/)も参考にしてみてください。
 
 
 
@@ -68,7 +68,7 @@ OSは必ず最新バージョンに保つようにしましょう。アップデ
 
 
 
-Macの場合は、[Macで頻繁にWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法](https://ottan.xyz/mac-wi-fi-trouble-shooting-1660/)でも記したように、OS標準のWi-Fi診断アプリが付属しています。Windowsの場合は、[WirelessNetView - Wireless Network Monitoring Software](http://www.nirsoft.net/utils/wireless_network_view.html)などのソフトを使用するのが良いでしょう。
+Macの場合は、[Macで頻繁にWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法](/mac-wi-fi-trouble-shooting-1660/)でも記したように、OS標準のWi-Fi診断アプリが付属しています。Windowsの場合は、[WirelessNetView - Wireless Network Monitoring Software](http://www.nirsoft.net/utils/wireless_network_view.html)などのソフトを使用するのが良いでしょう。
 
 
 
@@ -117,7 +117,7 @@ Macの場合は、[Macで頻繁にWi-Fiネットワークから頻繁に切断�
 
 
 
-また、[Macで頻繁にWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法](https://ottan.xyz/mac-wi-fi-trouble-shooting-1660/)に記した方法に従い、RSSIおよびノイズの値が適正値かどうか見直してみましょう。
+また、[Macで頻繁にWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法](/mac-wi-fi-trouble-shooting-1660/)に記した方法に従い、RSSIおよびノイズの値が適正値かどうか見直してみましょう。
 
 
 

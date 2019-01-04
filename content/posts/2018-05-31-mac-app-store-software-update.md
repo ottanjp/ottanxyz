@@ -53,7 +53,7 @@ Mac App Storeで配布されているアプリは、Mac App Store経由でアッ
 
 
 
-認証を求められるため、管理者ユーザーのパスワードを入力します。もし、Touch Bar付モデルを使用している場合は、[macOS High SierraでsudoコマンドをTouch IDで認証する方法](https://ottan.xyz/sudo-touch-id-macbook-6332/)が便利です。
+認証を求められるため、管理者ユーザーのパスワードを入力します。もし、Touch Bar付モデルを使用している場合は、[macOS High SierraでsudoコマンドをTouch IDで認証する方法](/sudo-touch-id-macbook-6332/)が便利です。
 
 
 

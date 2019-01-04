@@ -77,7 +77,7 @@ Quick Lookは、macOSを代表する便利な機能です。フォルダーや�
 
 
 
-[Homebrew](http://brew.sh/)は、Macのパッケージ管理ソフトです。ターミナル（CUI）でパッケージの管理ができるため、GUI操作と比較して素早くミスなく、そして何よりコピー＆ペーストでインストールできます。Homebrewのインストールについては、[macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介](https://ottan.xyz/macos-package-manager-homebrew-6216/)でご紹介しています。
+[Homebrew](http://brew.sh/)は、Macのパッケージ管理ソフトです。ターミナル（CUI）でパッケージの管理ができるため、GUI操作と比較して素早くミスなく、そして何よりコピー＆ペーストでインストールできます。Homebrewのインストールについては、[macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介](/macos-package-manager-homebrew-6216/)でご紹介しています。
 
 
 

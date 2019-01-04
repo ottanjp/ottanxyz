@@ -26,7 +26,7 @@ tags:
 
 
 
-「Sublime Text」「Atom」に共通して言えるのが、開発者のために用意されたその豊富なプラグインの数々です。[Sublime TextでWordPressのコーディング規約に遵守したコーディングを効率的に行おう！ – OTTAN.XYZ](https://ottan.xyz/sublime-text-wordpress-standard-coding-4309/)や、[WordPressのテーマやプラグイン開発のためにAtomに導入したパッケージ（2016年版） – OTTAN.XYZ](https://ottan.xyz/wordpress-atom-recommended-package-4369/)でも詳しくご紹介していますので、ぜひご覧ください。
+「Sublime Text」「Atom」に共通して言えるのが、開発者のために用意されたその豊富なプラグインの数々です。[Sublime TextでWordPressのコーディング規約に遵守したコーディングを効率的に行おう！ – OTTAN.XYZ](/sublime-text-wordpress-standard-coding-4309/)や、[WordPressのテーマやプラグイン開発のためにAtomに導入したパッケージ（2016年版） – OTTAN.XYZ](/wordpress-atom-recommended-package-4369/)でも詳しくご紹介していますので、ぜひご覧ください。
 
 
 

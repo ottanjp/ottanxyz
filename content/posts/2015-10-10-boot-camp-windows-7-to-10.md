@@ -19,7 +19,7 @@ tags:
 
 
 
-[macOS El CapitanのBoot Campアシスタントを使ってWindows 7をインストールする方法](https://ottan.xyz/el-capitan-bootcamp-2774/)の記事で、macOS El CapitanのBoot Campアシスタントを使って、Windows 7をインストールする方法をご紹介しましたが、今回はインストールしたWindows 7をWindows 10にアップグレードする方法をご紹介します。もともとWindows 10の検証機として使用する予定でしたので、Windows 7ではとくに何もすることなくWindows 10にアップグレードを行いました。
+[macOS El CapitanのBoot Campアシスタントを使ってWindows 7をインストールする方法](/el-capitan-bootcamp-2774/)の記事で、macOS El CapitanのBoot Campアシスタントを使って、Windows 7をインストールする方法をご紹介しましたが、今回はインストールしたWindows 7をWindows 10にアップグレードする方法をご紹介します。もともとWindows 10の検証機として使用する予定でしたので、Windows 7ではとくに何もすることなくWindows 10にアップグレードを行いました。
 
 
 
