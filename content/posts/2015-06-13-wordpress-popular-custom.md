@@ -6,25 +6,16 @@ title: 今日からコピペで使えるWordPressで人気記事や最新記事�
 type: post
 url: /wordpress-popular-custom-1701/
 categories:
-- Blog
+  - Blog
 tags:
-- Development
-- WordPress
+  - Development
+  - WordPress
 ---
 
 ![](/images/2015/06/150613-557be49dd5dd5.jpg)
 
+WordPress ではさまざまな方法で投稿を取得できます。今回は、その中でもよく使われる手法についてまとめました。なお、簡略化のため、説明は `WP_Query` に渡すパラメーターのみとし、特段の注意点がなければ前後の処理は省いています。大まかな処理の流れは以下の通りになりますので参考にしてください。
 
-
-
-
-
-WordPressではさまざまな方法で投稿を取得できます。今回は、その中でもよく使われる手法についてまとめました。なお、簡略化のため、説明は `WP_Query` に渡すパラメーターのみとし、特段の注意点がなければ前後の処理は省いています。大まかな処理の流れは以下の通りになりますので参考にしてください。
-
-
-
-
-    
     $r = new WP_Query();
     if ( $r->have_posts() ) {
     	while ( $r->have_posts() ) : the_post();
@@ -32,114 +23,41 @@ WordPressではさまざまな方法で投稿を取得できます。今回は�
     	endwhile;
     }
 
+## WP_Query で使用する  パラメーターについて
 
+解説の前に `WP_Query` で使用する頻度の高い  パラメーターについてまとめておきます。
 
+| パラメーター       | 説明                                                                                        |
+| ------------------ | ------------------------------------------------------------------------------------------- |
+| post_type          | 投稿のタイプを指定（post, page, custom...）                                                 |
+| post_status        | 投稿の状態。通常は公開（publish）を指定                                                     |
+| post_per_page      | 投稿の取得件数                                                                              |
+| ignore_stick_posts | トップページに常に固定表示されている投稿を除く場合は true（1）を指定                        |
+| orderby            | ソートする項目を指定。ソート順は「order」で指定。ランダムにソートする場合は、「rand」を指定 |
+| order              | ソート順。ASCend（昇順）DESCend（降順）を指定                                               |
 
-
-## WP_Queryで使用するパラメーターについて
-
-
-
-
-
-解説の前に `WP_Query` で使用する頻度の高いパラメーターについてまとめておきます。
-
-
-
-
-
-
-<table >
-<tr >パラメーター説明</tr>
-<tr >
-<td >post_type
-</td>
-<td >投稿のタイプを指定（post, page, custom...）
-</td></tr>
-<tr >
-<td >post_status
-</td>
-<td >投稿の状態。通常は公開（publish）を指定
-</td></tr>
-<tr >
-<td >post_per_page
-</td>
-<td >投稿の取得件数
-</td></tr>
-<tr >
-<td >ignore_stick_posts
-</td>
-<td >トップページに常に固定表示されている投稿を除く場合はtrue（1）を指定
-</td></tr>
-<tr >
-<td >orderby
-</td>
-<td >ソートする項目を指定。ソート順は「order」で指定。ランダムにソートする場合は、「rand」を指定
-</td></tr>
-<tr >
-<td >order
-</td>
-<td >ソート順。ASCend（昇順）DESCend（降順）を指定
-</td></tr>
-</table>
-
-
-
-
-
-
-## WP_Queryでさまざまな投稿を取得する
-
-
-
-
+## WP_Query でさまざまな投稿を取得する
 
 上記を念頭に入れて、弊サイトでも実績のある方法をいくつかご紹介します。
 
-
-
-
-
-
 ### 最新記事を取得
 
-
-
-
-
 まずは、最新記事を取得。取得件数は別途調整してください。すべての基本形です。
-    
-    $r = new WP_Query( array(
-    	'post_type' => 'post',
-    	'posts_per_page' => 6,
-    	'post_status' => 'publish',
-    	'ignore_sticky_posts' => 1,
-     ));
-    //do stuff
-
-
-
-
-
+  
+ \$r = new WP_Query( array(
+'post_type' => 'post',
+'posts_per_page' => 6,
+'post_status' => 'publish',
+'ignore_sticky_posts' => 1,
+));
+//do stuff
 
 ### 人気記事を取得
 
-
-
-
-
-人気記事の取得方法については、[Google Analyticsと連携してページビューの多い人気記事を表示する](https://ottan.xyz/wordpress-google-analytics-789/)を参考にしてください。
-
-
-
-
+人気記事の取得方法については、[Google Analytics と連携してページビューの多い人気記事を表示する](https://ottan.xyz/wordpress-google-analytics-789/)を参考にしてください。
 
 `_custom_pageviews` というカスタムフィールドにページビューが格納されているとした場合に、ページビューで並び替えるためのクエリは以下の通りになります。ポイントは、**`meta_key`にカスタムフィールド名を指定**することです。
 
-
-
-
-    
     $r = new WP_Query( array(
     	'post_type' => 'post',
     	'posts_per_page' => 6,
@@ -151,34 +69,14 @@ WordPressではさまざまな方法で投稿を取得できます。今回は�
     ));
     //do stuff
 
-
-
-
-
 また、指定したカスタムフィールドを**数値**として並べ替えたい場合は、**「orderby」に「meta_value_num」を指定してください**。文字列で並び替えられてしまった場合、「2」と「11」の順番が逆転する可能性があります。カスタムフィールドを数値として並び替えたい場合の決まり文句のため覚えておくと良いと思います。
-
-
-
-
-
 
 ### 関連記事（タグ）の取得
 
-
-
-
-
-続いて、関連記事の取得方法です。まずは、同一のタグが設定されている記事を探し出します。タグが複数設定されている場合も対応可能です。 `tag__in` には、タグのID（スラッグではありません）を配列形式で指定します。また、 `post__not_in` に、現在表示中の記事のIDを指定することで、関連記事に自分自身が表示されなくなります。
-
-
-
+続いて、関連記事の取得方法です。まずは、同一のタグが設定されている記事を探し出します。タグが複数設定されている場合も対応可能です。 `tag__in` には、タグの ID（スラッグではありません）を配列形式で指定します。また、 `post__not_in` に、現在表示中の記事の ID を指定することで、関連記事に自分自身が表示されなくなります。
 
 なお、 `orderby` を「rand」に指定することで、記事の順番がランダムになります。
 
-
-
-
-    
     global $post;
     $tags = wp_get_post_tags($post->ID);
     $tag_ids = array();
@@ -196,23 +94,10 @@ WordPressではさまざまな方法で投稿を取得できます。今回は�
     	// do stuff
     }
 
-
-
-
-
-
 ### 関連記事（カテゴリー）の取得
 
+続いて、関連記事のカテゴリー版です。 `category__in` に、カテゴリーの ID（スラッグではありません）を配列形式で指定します。なお、タグとカテゴリーを組み合わせて、カテゴリーに所属、かつタグが振られている記事のみを取得といったことも可能です。
 
-
-
-
-続いて、関連記事のカテゴリー版です。 `category__in` に、カテゴリーのID（スラッグではありません）を配列形式で指定します。なお、タグとカテゴリーを組み合わせて、カテゴリーに所属、かつタグが振られている記事のみを取得といったことも可能です。
-
-
-
-
-    
     global $post;
     $categories = get_the_category($post->ID);
     $category_ids = array();
@@ -233,23 +118,10 @@ WordPressではさまざまな方法で投稿を取得できます。今回は�
     	// do stuff
     }
 
-
-
-
-
-
 ### 特定のカスタム投稿タイプの取得
-
-
-
-
 
 たとえば、「News」というカスタム投稿タイプを作成した場合に、「News」だけを取得するためには、 `post_type` にカスタム投稿タイプを指定します。
 
-
-
-
-    
     $r = new WP_Query( array(
     	'post_type' => 'news',
     	'posts_per_page' => 6,
@@ -258,16 +130,8 @@ WordPressではさまざまな方法で投稿を取得できます。今回は�
     ));
     // do stuff
 
-
-
-
-
 上記の `post_type` に指定する値は、 `register_post_type()` 関数の第一引数で指定した値になります。
 
-
-
-
-    
     register_post_type(
     	'news',
     	array(
@@ -279,36 +143,14 @@ WordPressではさまざまな方法で投稿を取得できます。今回は�
     		'rewrite' => array( 'slug' => 'news' )
     	));
 
-
-
-
-
-
 ### 表示する記事の順番によって処理を振り分ける
-
-
-
-
 
 続いて、表示する記事の順番によって処理を振り分ける方法です。たとえば、最新の記事だけ大きく表示させて目立たせておいて、古い記事は小さく表示させる、といったこともできますよ。
 
+#### 3 の倍数かどうかで処理を振り分ける
 
+横３列に記事を並べて表示したい場合に便利なクエリです。 `current_post` プロパティで現在の投稿が何番目かがわかります。**最初の投稿は `current_post` が 0 であることに注意してください**。
 
-
-
-
-#### 3の倍数かどうかで処理を振り分ける
-
-
-
-
-
-横３列に記事を並べて表示したい場合に便利なクエリです。 `current_post` プロパティで現在の投稿が何番目かがわかります。**最初の投稿は `current_post` が0であることに注意してください**。
-
-
-
-
-    
     $r = new WP_Query( array(
     	'post_type' => 'post',
     	'posts_per_page' => 6,
@@ -319,46 +161,24 @@ WordPressではさまざまな方法で投稿を取得できます。今回は�
     if ( $r->current_post % 3 == 0) : ?>
     // do stuff ...
 
-
-
-
-
-
 #### 最初の記事かどうかで処理を振り分ける
 
-
-
-
-
-最初の記事かどうかで振り分けるためには、 `current_post` が0かどうかで判定できます。
-    
-    $r = new WP_Query( array(
+最初の記事かどうかで振り分けるためには、 `current_post` が 0 かどうかで判定できます。
+  
+ $r = new WP_Query( array(
     	'post_type' =>
     	'post', 'posts_per_page' => 6,
     	'post_status' => 'publish',
     	'ignore_sticky_posts' => true,
     ));
     if ( $r->have_posts() ) : while ($r->have_posts()) : $r->the_post();
-    if ( $r->current_post == 0) : ?>
-    // do stuff ...
-
-
-
-
-
+if ( \$r->current_post == 0) : ?>
+// do stuff ...
 
 #### 最後の記事かどうかで処理を振り分ける
 
+逆に最後の記事かどうかで振り分けるためには、 `post_count` プロパティを使用します。これは取得した投稿の数です。 `current_post` が 0 から始まることに注意して判定するようにしてください。
 
-
-
-
-逆に最後の記事かどうかで振り分けるためには、 `post_count` プロパティを使用します。これは取得した投稿の数です。 `current_post` が0から始まることに注意して判定するようにしてください。
-
-
-
-
-    
     $r = new WP_Query( array(
     	'post_type' => 'post',
     	'posts_per_page' => 6,
@@ -367,13 +187,6 @@ WordPressではさまざまな方法で投稿を取得できます。今回は�
     ));
     if ( $r->have_posts() ) : while ($r->have_posts()) : $r->the_post(); if ( $r->current_post == $r->post_count - 1 ) : ?> // do stuff ...
 
-
-
-
-
 ## まとめ
 
-
-
-
-WordPressで使えそうなさまざまな形態の投稿取得方法をご紹介しました。
+WordPress で使えそうなさまざまな形態の投稿取得方法をご紹介しました。
