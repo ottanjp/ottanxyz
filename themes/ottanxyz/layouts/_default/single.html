@@ -18,8 +18,8 @@
 {{ define "header-image" }}
 {{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
 {{ range $eyecatch_image }}
-<meta property="og:image" content="https:{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL}}">
-<meta property="twitter:image" content="https:{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL}}">
+<meta property="og:image" content="{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL}}">
+<meta property="twitter:image" content="{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL}}">
 {{ end }}
 {{ end }}
 
