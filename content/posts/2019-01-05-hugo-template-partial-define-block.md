@@ -4,7 +4,7 @@ date: 2019-01-05T23:14:19+09:00
 draft: false
 title: 'Hugoのテンプレート構文「template」「partial」「block」「define」のわかりやすい解説'
 type: post
-url: /2019-01-05-hugo-template-partial-define-block-20190101/
+url: /hugo-template-partial-define-block-20190101/
 categories:
     - Blog
 tags:
