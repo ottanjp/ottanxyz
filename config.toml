@@ -19,7 +19,7 @@ smartypants = false
 
 [params]
 	author = "ottan"
-	favicon = "/images/favicon.ico"
+	favicon = "images/favicon.ico"
 
 [social]
 	twitter = "ottanxyz"
