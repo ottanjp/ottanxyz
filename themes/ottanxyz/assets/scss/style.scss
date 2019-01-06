@@ -87,6 +87,13 @@ article {
 		margin-top: 1rem;
 		margin-bottom: 3rem;
 	}
+
+	ol,
+	p {
+		code {
+			word-wrap: break-word;
+		}
+	}
 }
 
 .article-list {
