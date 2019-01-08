@@ -3,20 +3,12 @@
 <div id="main" class="grid-x grid-margin-x" style="margin-top: 5rem;">
 
 	<div class="cell small-12 article-list">
-		{{/* {{ range .Data.Pages.ByDate.Reverse }} */}}
 		{{ range .Paginator.Pages }}
 		{{ .Render "li" }}
 		{{ end }}
-
-		{{/* <aside class="cell auto"> */}}
-			<!-- {{- partial "toc.html" . -}} -->
-			<!-- {{- partial "menu-contextual.html" . -}} -->
-			{{/* </aside> */}}
-
 	</div>
 
 	{{/* pagination */}}
-	{{/*  {{ template "_internal/pagination.html" . }}  */}}
 	{{ partial "pagination.html" . }}
 </div>
 

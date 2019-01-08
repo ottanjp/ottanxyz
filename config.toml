@@ -20,6 +20,9 @@ smartypants = false
 [params]
 	author = "ottan"
 	favicon = "images/favicon.ico"
+	twitter = "https://twitter.com/ottanxyz/"
+	facebook = "https://www.facebook.com/ottanxyz/"
+	github = "https://github.com/ottanxyz/"
 
 [social]
 	twitter = "ottanxyz"

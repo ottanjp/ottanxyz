@@ -1,3 +1,31 @@
 <header>
-{{ partial "site-navigation.html" . }}
+	<div class="title-bar" data-responsive-toggle="site-header" data-hide-for="medium">
+		<button class="menu-icon" type="button" data-toggle="site-header"></button>
+		<div class="title-bar-title">&nbsp;OTTAN.XYZ</div>
+	</div>
+
+	<nav id="site-header" class="top-bar" role="navigation" data-sticky-container data-sticky data-margin-top="0">
+		<div class="top-bar" style="width: 100%;">
+			<div class="top-bar-left">
+				<ul class="menu">
+					<li>
+						<a class="menu-text" href="{{ .Site.BaseURL }}">
+							{{ .Site.Title }}
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="top-bar-right">
+				<ul class="menu">
+					{{ range $name, $items := .Site.Taxonomies.categories }}
+					<li>
+						<a href="{{ printf "%s/%s" "categories" ($name | urlize | lower) | absURL }}">
+							{{ $name }}
+						</a>
+					</li>
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+	</nav>
 </header>

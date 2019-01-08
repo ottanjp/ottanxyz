@@ -1,8 +1,32 @@
-<footer class="footer grid-x grid-padding-x align-center-middle text-center">
-  <div>
-  <a href="{{ .Site.BaseURL }}" >
-    &copy; {{ now.Format "2006" }} {{ .Site.Title }}
-  </a>
-    <div>{{ partial "social-follow.html" . }}</div>
-  </div>
+<footer>
+	<nav id="site-footer" class="top-bar align-right" role="navigation">
+		<ul class="menu">
+			{{ with .Param "facebook" }}
+			<li>
+				<a href="{{ . | urlize | lower | absURL }}" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			{{ end }}
+			{{ with .Param "twitter" }}
+			<li>
+				<a href="{{ . | urlize | lower | absURL }}" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</li>
+			{{ end }}
+			{{ with .Param "github" }}
+			<li>
+				<a href="{{ . | urlize | lower | absURL }}" target="_blank">
+					<i class="fab fa-github"></i>
+				</a>
+			</li>
+			{{ end }}
+			<li>
+				<a class="menu-text" href="{{ .Site.BaseURL }}">
+					&copy; {{ now.Format "2006" }} {{ .Site.Title }}
+				</a>
+			</li>
+		</ul>
+	</nav>
 </footer>
