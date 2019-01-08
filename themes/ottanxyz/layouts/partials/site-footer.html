@@ -3,21 +3,21 @@
 		<ul class="menu">
 			{{ with .Param "facebook" }}
 			<li>
-				<a href="{{ . | urlize | lower | absURL }}" target="_blank">
+				<a href="{{ . | lower | absURL }}" target="_blank">
 					<i class="fab fa-facebook"></i>
 				</a>
 			</li>
 			{{ end }}
 			{{ with .Param "twitter" }}
 			<li>
-				<a href="{{ . | urlize | lower | absURL }}" target="_blank">
+				<a href="{{ . | lower | absURL }}" target="_blank">
 					<i class="fab fa-twitter"></i>
 				</a>
 			</li>
 			{{ end }}
 			{{ with .Param "github" }}
 			<li>
-				<a href="{{ . | urlize | lower | absURL }}" target="_blank">
+				<a href="{{ . | lower | absURL }}" target="_blank">
 					<i class="fab fa-github"></i>
 				</a>
 			</li>
