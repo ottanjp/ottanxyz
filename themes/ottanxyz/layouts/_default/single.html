@@ -36,7 +36,9 @@
 		</p>
 		{{ end }}
 
-		{{- .Content -}}
+		<div class="markdown-body">
+			{{- .Content -}}
+		</div>
 
 		{{ partial "social-share.html" . }}
 

@@ -33,7 +33,7 @@ Hugo には様々なテンプレート構文が用意されています。今回
 
 `template`構文は、Hugo であらかじめ定義されている内部のテンプレートファイルを読み込むための構文です。オリジナルテーマの独自の HTML ファイルを同構文で使用することはできません。
 
-```
+```go-html-template
 {{ template “_internal/disqus.html” . }}
 ```
 
@@ -56,7 +56,7 @@ Hugo 0.53 では、以下のテンプレートが用意されています。テ�
 
 `template`は、Hugo 独自の内部のテンプレートを読み込むための構文でした。Hugo に内包されていて、直接内容を参照することはできませんでした。それに対して`partial`は、オリジナルテーマで作成した、独自の HTML ファイルを読み込むための構文です。
 
-```
+```go-html-template
 {{ partial “article-header.html” . }}
 ```
 
@@ -75,7 +75,7 @@ Hugo 0.53 では、以下のテンプレートが用意されています。テ�
 
 #### 具体例
 
-```
+```go-html-template
 {{ partial "site-header.html" . }}
 {{ partial "site-content.html" . }}
 {{ partial "site-footer.html" . }}
@@ -87,7 +87,7 @@ Hugo で最初につまずく構文が、`block`と、後述する`define`では
 
 `partial`はオリジナルテーマの HTML ファイルを読み込むために使用する構文でした。それに対して、`block`はファイルを読み込むための構文ではなく、文字通り「ブロック」を定義するための構文です。
 
-```
+```go-html-template
 {{ block “main” . }}
 ...
 {{ end }}
@@ -140,7 +140,7 @@ Hugo のテンプレートには予約されているファイルがあります
 
 `baseof.html`の記述例をみてみましょう。
 
-```
+```go-html-template
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode | default "ja" }}" class="no-js">
 
@@ -160,7 +160,7 @@ Hugo のテンプレートには予約されているファイルがあります
 	{{- template "_internal/google_news.html" . -}}
 	{{- template "_internal/schema.html" . -}}
 	{{- template "_internal/twitter_cards.html" . -}}
-	{{ template "_internal/google_analytics_async.html" . }}
+	{{- template "_internal/google_analytics_async.html" . -}}
 </head>
 
 <body>
@@ -179,7 +179,7 @@ Hugo のテンプレートには予約されているファイルがあります
 
 ここで、下記の部分に注目してください。
 
-```
+```go-html-template
 	<main class="grid-container" role="main">
 		{{ block "main" . }}{{ end }}
 	</main>
@@ -189,7 +189,7 @@ Hugo のテンプレートには予約されているファイルがあります
 
 では、`index.html`の記述例を見てみます。
 
-```
+```go-html-template
 {{ define "main" }}
 <div id="main" class="grid-x grid-margin-x" style="margin-top: 5rem;">
 	<div class="cell small-12 article-list">
@@ -206,7 +206,7 @@ Hugo のテンプレートには予約されているファイルがあります
 
 別の例をお見せします。OGP（Open Graph Protocol）で、記事のアイキャッチ画像を`<meta>`タグ内に記述したい場合があります。フロントページでは、デフォルトの画像、個別の記事ではアイキャッチ画像をタグ内に記述したいとします。このような場合、まず`baseof.html`にデフォルトのタグを定義しておきます。
 
-```
+```go-html-template
 {{ block "ogp-image" . }}
 <meta property="og:image" content="[Default Image URL]">
 {{ end }}
@@ -214,7 +214,7 @@ Hugo のテンプレートには予約されているファイルがあります
 
 仮に`ogp-image`というブロックを定義しました（このようにブロックには任意の名称を付与できます）。そして、`single.html`に個別のアイキャッチ画像を定義するためのブロックの実装を記述します。
 
-```
+```go-html-template
 {{ define "ogp-image" }}
 <meta property="og:image" content="[Eyecatch Image URL]">
 {{ end }}

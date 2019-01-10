@@ -12,10 +12,12 @@ disqusShortname = "ottanxyz"
 paginate = 20
 googleAnalytics = "UA-54519352-1"
 rssLimit = 15
+pygmentsCodeFences = true
+pygmentsStyle = "github"
 
 [blackfriday]
-hrefTargetBlank = true
-smartypants = false
+	hrefTargetBlank = true
+	smartypants = false
 
 [params]
 	author = "ottan"

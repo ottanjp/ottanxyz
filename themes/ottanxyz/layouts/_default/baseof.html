@@ -19,9 +19,9 @@
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/6.5.1/css/foundation.min.css">
 	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-	{{/*foundation-sites*/}}
 	{{ $style := resources.Get "/scss/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
 
 	<link rel="apple-touch-icon" sizes="57x57" href="{{ "/images/apple-icon-57x57.png" | absURL }}">
 	<link rel="apple-touch-icon" sizes="60x60" href="{{ "/images/apple-icon-60x60.png" | absURL }}">
@@ -69,7 +69,7 @@
 	{{- template "_internal/twitter_cards.html" . -}}
 
 	{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
-	{{ template "_internal/google_analytics_async.html" . }}
+	{{- template "_internal/google_analytics_async.html" . -}}
 	{{ end }}
 </head>
 
