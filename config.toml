@@ -6,7 +6,7 @@ contentDir = "content"
 title = "OTTAN.XYZ"
 theme = "ottanxyz"
 hasCJKLanguage = true
-summaryLength = 200
+summaryLength = 150
 canonifyURLs = true
 disqusShortname = "ottanxyz"
 paginate = 20
@@ -25,6 +25,7 @@ pygmentsStyle = "github"
 	twitter = "https://twitter.com/ottanxyz/"
 	facebook = "https://www.facebook.com/ottanxyz/"
 	github = "https://github.com/ottanxyz/"
+	rss = "https://ottan.xyz/index.xml"
 
 [social]
 	twitter = "ottanxyz"
