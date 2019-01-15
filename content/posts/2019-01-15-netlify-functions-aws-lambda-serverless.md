@@ -10,6 +10,8 @@ tags: ['Netlify','AWS','Lambda','Hugo']
 toc: true
 ---
 
+![](/images/2019/01/190115-f3634302e6a7067.jpg)
+
 これまでGo言語の静的サイトジェネレータであるHugoを使用してNetlifyにホスティングする方法をご紹介してきました。今回は、FaaS（Function as a Service）であるNetlify Functionsをご紹介します。また、改めてご紹介しますが、HugoとNetlify Functionsを組み合わせることで、WordPressのようなインタラクティブなサイトを構築することも可能です。
 
 Netlify Functionsの実行基盤はAWS Lambdaです。ただし、無償プランでは以下の制限があります（いずれかの制限に達した時点で使用できなくなります）。開発者向け、個人向け用途としては十分です。GitHubやGitLabのリポジトリとNetlifyのアカウントがあれば、いますぐに始めることができます。
