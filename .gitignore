@@ -5,7 +5,7 @@ node_modules/
 npm-debug.log
 themes/ottanxyz/src/node_modules
 resources/*
-# content/posts/*
 .vscode
 !.gitkeep
 .env
+yarn-error.log
