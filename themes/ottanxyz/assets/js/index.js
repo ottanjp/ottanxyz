@@ -5,13 +5,13 @@ import {
 	faAngleRight,
 	faFolderOpen,
 	faPencilAlt,
+	faRssSquare,
 	faTag,
 } from '@fortawesome/free-solid-svg-icons';
 import {
 	faFacebook,
 	faTwitter,
-	faGitHub,
-	faRssSquare,
+	faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 library.add(
 	faCalendar,
@@ -20,10 +20,10 @@ library.add(
 	faAngleRight,
 	faFolderOpen,
 	faPencilAlt,
+	faRssSquare,
 	faTag,
 	faFacebook,
 	faTwitter,
 	faGithub,
-	faRsssquare,
 );
 dom.i2svg();
