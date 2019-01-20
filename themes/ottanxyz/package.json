@@ -28,7 +28,7 @@
     "foundation-sites": "^6.5.1"
   },
   "devDependencies": {
-    "webpack": "4.28.4",
+    "webpack": "4.29.0",
     "webpack-cli": "3.2.1",
     "foundation-sites": "6.5.1",
     "what-input": "5.1.3"
