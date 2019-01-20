@@ -537,11 +537,6 @@ format@^0.2.2:
   resolved "https://registry.yarnpkg.com/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
   integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
 
-foundation-sites@^6.5.1:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/foundation-sites/-/foundation-sites-6.5.1.tgz#a96da2da2dc81b84ff7730714ca1090445de4a42"
-  integrity sha512-Z+FiBvogwIDjRlefJ5pYkVcmsGx3pbndRJ80+OvPvI9UwfKCif6YtOyTxpCjUoS3XBlOms5vYonfnasp2V2wZw==
-
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -1573,7 +1568,7 @@ textlint-rule-no-nfd@^1.0.1:
     textlint-rule-helper "^1.1.5"
     unorm "^1.4.1"
 
-textlint-rule-preset-ja-technical-writing@^3.1.0:
+textlint-rule-preset-ja-technical-writing@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/textlint-rule-preset-ja-technical-writing/-/textlint-rule-preset-ja-technical-writing-3.1.0.tgz#3e30e94883e6aa2f3053f93909be891565b85e84"
   integrity sha512-/AUFc+2N9R4QZUzOI1IPjQLENMI6f4uIDE7pgZKpFBglworlVFvLTIvZdbefGnl0vxP5BYp+zK0/5Rf4+h8W0g==
@@ -1657,7 +1652,7 @@ textlint-util-to-string@^2.1.1:
     object-assign "^4.0.1"
     structured-source "^3.0.2"
 
-textlint@^11.0.2:
+textlint@11.0.2:
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/textlint/-/textlint-11.0.2.tgz#cc3c8fdded03a7ad405de4397b99487960686e3b"
   integrity sha512-uYnkgPzlDvfhuYQNhBEowj7PBtmWhm5MO9RyEKlWrEUCp1o/KtENke2Pm4IO1nsJTDg63VGzZGsJK8R2/7yyOQ==
@@ -1843,11 +1838,6 @@ vfile@^2.0.0:
     replace-ext "1.0.0"
     unist-util-stringify-position "^1.0.0"
     vfile-message "^1.0.0"
-
-what-input@^5.1.3:
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/what-input/-/what-input-5.1.3.tgz#3128d336a6bcd0f5ab6d72518e0545d3b7d30171"
-  integrity sha512-Cr0IKKJNJcrgRbsRj7lThvLZD/cwHI+rrnn3m8FFd5tqunR8jw1SyaObLxn0jL8vEb6P7bnjvdJXBBW8s+DmsA==
 
 wordwrap@~1.0.0:
   version "1.0.0"
