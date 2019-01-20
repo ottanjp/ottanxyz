@@ -1,7 +1,9 @@
-{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
-<ins class="adsbygoogle"
-	 style="display:block"
-	 data-ad-format="autorelaxed"
-	 data-ad-client="ca-pub-6552469721930483"
-	 data-ad-slot="9449173286"></ins>
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<p class="h4">関連記事</p>
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
 {{ end }}
