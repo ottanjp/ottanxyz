@@ -26,6 +26,12 @@
 					{{ end }}
 				</ul>
 			</div>
+			<div class="top-bar-right" id="search">
+				<ul class="menu">
+					<li><input type="search" placeholder="Search" v-model="query"></li>
+				</ul>
+				{{ partial "site-search.html" . }}
+			</div>
 		</div>
 	</nav>
 </header>

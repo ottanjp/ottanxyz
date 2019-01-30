@@ -16,19 +16,26 @@ pygmentsCodeFences = true
 pygmentsStyle = "github"
 
 [blackfriday]
-	hrefTargetBlank = true
-	smartypants = false
+hrefTargetBlank = true
+smartypants = false
 
 [params]
-	author = "ottan"
-	favicon = "images/favicon.ico"
-	twitter = "https://twitter.com/ottanxyz/"
-	facebook = "https://www.facebook.com/ottanxyz/"
-	github = "https://github.com/ottanxyz/"
-	rss = "https://ottan.xyz/index.xml"
+author = "ottan"
+favicon = "images/favicon.ico"
+twitter = "https://twitter.com/ottanxyz/"
+facebook = "https://www.facebook.com/ottanxyz/"
+github = "https://github.com/ottanxyz/"
+rss = "https://ottan.xyz/index.xml"
 
-[social]
-	twitter = "ottanxyz"
-	twitter_domain = ""
-	facebook = "ottanxyz"
-	facebook_admin = "808819212572711"
+[outputs]
+home = ["HTML", "RSS", "Bonsai"]
+
+[outputFormats.Bonsai]
+baseName = "bonsai"
+isPlainText = true
+mediaType = "text/html"
+notAlternative = true
+
+[params.bonsai]
+vars = ["title", "content", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"]
