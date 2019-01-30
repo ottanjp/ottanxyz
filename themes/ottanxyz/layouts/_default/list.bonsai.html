@@ -1,4 +1,5 @@
 {{/* Generates a valid Elasticsearch _bulk index payload */}}
+{{ if ne (getenv "HUGO_ENV") "production" | and (eq .Site.Params.env "production") }}
 {{- $section := $.Site.GetPage "section" .Section }}
 {{- range .Site.AllPages -}}
   {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
@@ -7,3 +8,4 @@
     {{ (dict "objectID" .UniqueID "date" .Date.UTC.Unix "description" .Description "dir" .Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "content" .Plain "title" .Title "type" .Type "url" .URL "weight" .Weight "wordcount" .WordCount "section" .Section "tags" .Params.Tags "categories" .Params.Categories "authors" .Params.Authors) | jsonify }}
   {{- end -}}
 {{- end }}
+{{ end }}
