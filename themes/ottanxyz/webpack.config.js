@@ -17,6 +17,26 @@ module.exports = {
 					},
 				],
 			},
+			{
+				test: /\.scss/, // 対象となるファイルの拡張子
+				use: [
+					'style-loader',
+					{
+						loader: 'css-loader',
+						options: {
+							url: false,
+							sourceMap: false,
+							importLoaders: 2,
+						},
+					},
+					{
+						loader: 'sass-loader',
+						options: {
+							sourceMap: false,
+						},
+					},
+				],
+			},
 		],
 	},
 	output: {

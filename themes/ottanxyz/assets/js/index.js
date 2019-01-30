@@ -61,3 +61,5 @@ new Vue({
 		},
 	},
 })
+
+import '../scss/style.scss'
