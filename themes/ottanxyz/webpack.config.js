@@ -1,18 +1,61 @@
-const path = require('path');
-module.exports = (env, argv) => {
-	const conf = {
-		mode: 'development',
-		devServer: {
-			open: true,
-			contentBase: path.join(__dirname, 'public'),
+const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const Dotenv = require('dotenv-webpack')
+
+module.exports = {
+	entry: './assets/js/index.js',
+	mode: 'production',
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				use: [
+					{
+						loader: 'babel-loader',
+						options: {
+							presets: ['@babel/preset-env'],
+						},
+					},
+				],
+			},
+			{
+				test: /\.scss/,
+				use: [
+					MiniCssExtractPlugin.loader,
+					// 'style-loader',
+					{
+						loader: 'css-loader',
+						options: {
+							url: false,
+							sourceMap: false,
+							importLoaders: 2,
+						},
+					},
+					{
+						loader: 'sass-loader',
+						options: {
+							sourceMap: false,
+						},
+					},
+				],
+			},
+		],
+	},
+	output: {
+		path: `${__dirname}/static/dist`,
+		filename: 'js/app.js',
+	},
+	plugins: [
+		new LodashModuleReplacementPlugin(),
+		new Dotenv(),
+		new MiniCssExtractPlugin({
+			filename: 'css/style.css',
+		}),
+	],
+	resolve: {
+		alias: {
+			vue$: 'vue/dist/vue.esm.js',
 		},
-		entry: { app: './assets/js/index.js' },
-		output: {
-			path: path.join(__dirname, 'static/dist/js'),
-			publicPath: '/js/',
-			filename: '[name].js',
-			libraryTarget: 'umd',
-		},
-	};
-	return conf;
-};
+	},
+	target: 'node',
+}

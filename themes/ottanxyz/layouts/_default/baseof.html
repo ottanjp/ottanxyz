@@ -17,9 +17,7 @@
 	{{ end }}
 
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/6.5.1/css/foundation.min.css">
-
-	{{ $style := resources.Get "/scss/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+	<link rel="stylesheet" href="{{ "/dist/css/style.css" | relURL }}"></script>
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
 
 	<link rel="apple-touch-icon" sizes="57x57" href="{{ "/images/apple-icon-57x57.png" | absURL }}">

@@ -4,7 +4,7 @@
 		<div class="title-bar-title">&nbsp;OTTAN.XYZ</div>
 	</div>
 
-	<nav id="site-header" class="top-bar" role="navigation" data-sticky-container data-sticky data-margin-top="0">
+	<nav id="site-header" role="navigation" data-sticky-container data-sticky data-margin-top="0">
 		<div class="top-bar" style="width: 100%;">
 			<div class="top-bar-left">
 				<ul class="menu">
@@ -24,7 +24,9 @@
 						</a>
 					</li>
 					{{ end }}
+					<li><input type="search" placeholder="Search (BETA)" v-model="query"></li>
 				</ul>
+				{{ partial "site-search.html" . }}
 			</div>
 		</div>
 	</nav>

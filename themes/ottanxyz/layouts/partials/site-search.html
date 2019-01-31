@@ -1,0 +1,5 @@
+<ul class="menu menu-search" v-cloak v-if="results.length > 0" @click="close">
+	<li v-for="result in results">
+		<a v-bind:href="result._source.relpermalink">[[ result._source.title ]]</a>
+	</li>
+</ul>

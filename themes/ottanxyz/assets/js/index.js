@@ -1,5 +1,5 @@
-import { dom, library } from '@fortawesome/fontawesome-svg-core';
-import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons';
+import { dom, library } from '@fortawesome/fontawesome-svg-core'
+import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons'
 import {
 	faAngleLeft,
 	faAngleRight,
@@ -7,12 +7,12 @@ import {
 	faPencilAlt,
 	faRssSquare,
 	faTag,
-} from '@fortawesome/free-solid-svg-icons';
+} from '@fortawesome/free-solid-svg-icons'
 import {
 	faFacebook,
 	faTwitter,
 	faGithub,
-} from '@fortawesome/free-brands-svg-icons';
+} from '@fortawesome/free-brands-svg-icons'
 library.add(
 	faCalendar,
 	faClock,
@@ -25,5 +25,44 @@ library.add(
 	faFacebook,
 	faTwitter,
 	faGithub,
-);
-dom.i2svg();
+)
+dom.i2svg()
+
+import Vue from 'vue'
+import _ from 'lodash'
+
+new Vue({
+	el: '#site-header',
+	delimiters: ['[[', ']]'],
+	data: {
+		results: [],
+		query: '',
+	},
+	created: function() {
+		this.debouncedSearch = _.debounce(this.search, 500)
+	},
+	methods: {
+		search: function() {
+			if (this.query.length === 0) {
+				this.results = []
+				return
+			}
+			fetch(process.env.ELASTICSEARCH_URI + '?q=' + this.query, {
+				mode: 'cors',
+			})
+				.then(response => {
+					return response.json()
+				})
+				.then(results => {
+					this.results = results
+				})
+		},
+	},
+	watch: {
+		query: function() {
+			this.debouncedSearch()
+		},
+	},
+})
+
+import '../scss/style.scss'
