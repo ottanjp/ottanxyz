@@ -32,18 +32,21 @@ import Vue from 'vue'
 import _ from 'lodash'
 
 new Vue({
-	el: '#search',
+	el: '#site-header',
 	delimiters: ['[[', ']]'],
 	data: {
 		results: [],
 		query: '',
 	},
 	created: function() {
-		this.debouncedSearch = _.debounce(this.search, 1000)
+		this.debouncedSearch = _.debounce(this.search, 500)
 	},
 	methods: {
 		search: function() {
-			if (this.query.length === 0) return []
+			if (this.query.length === 0) {
+				this.results = []
+				return
+			}
 			fetch(process.env.ELASTICSEARCH_URI + '?q=' + this.query, {
 				mode: 'cors',
 			})

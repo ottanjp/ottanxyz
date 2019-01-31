@@ -1,4 +1,5 @@
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const Dotenv = require('dotenv-webpack')
 
 module.exports = {
@@ -18,9 +19,10 @@ module.exports = {
 				],
 			},
 			{
-				test: /\.scss/, // 対象となるファイルの拡張子
+				test: /\.scss/,
 				use: [
-					'style-loader',
+					MiniCssExtractPlugin.loader,
+					// 'style-loader',
 					{
 						loader: 'css-loader',
 						options: {
@@ -40,10 +42,16 @@ module.exports = {
 		],
 	},
 	output: {
-		path: `${__dirname}/static/dist/js`,
-		filename: 'app.js',
+		path: `${__dirname}/static/dist`,
+		filename: 'js/app.js',
 	},
-	plugins: [new LodashModuleReplacementPlugin(), new Dotenv()],
+	plugins: [
+		new LodashModuleReplacementPlugin(),
+		new Dotenv(),
+		new MiniCssExtractPlugin({
+			filename: 'css/style.css',
+		}),
+	],
 	resolve: {
 		alias: {
 			vue$: 'vue/dist/vue.esm.js',

@@ -5,7 +5,8 @@
 	& ul {
 		background-color: #2c3840;
 	}
-	& ul.menu-search {
+
+	& .menu-search {
 		padding: 1rem;
 		position: absolute;
 		top: 100%;
@@ -13,7 +14,11 @@
 		left: auto;
 		right: 0px;
 		display: block;
-		max-width: 100%;
+		background-color: rgba(#2c3840, .95);
+
+		a:hover {
+			text-decoration: underline;
+		}
 	}
 }
 
@@ -71,6 +76,10 @@ article {
 		z-index: 1;
 		margin-left: 1rem;
 		margin-bottom: 2px;
+	}
+
+	.callout {
+		z-index: -1;
 	}
 
 	.article-share,
@@ -138,6 +147,7 @@ pre {
 }
 
 #TableOfContents {
+	z-index: -1;
 	ul {
 		list-style: none;
 	}
