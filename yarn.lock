@@ -1412,7 +1412,7 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-textlint-filter-rule-comments@^1.2.2:
+textlint-filter-rule-comments@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/textlint-filter-rule-comments/-/textlint-filter-rule-comments-1.2.2.tgz#3a72c494994e068e0e4aaad0f24ea7cfe338503a"
   integrity sha1-OnLElJlOBo4OSqrQ8k6nz+M4UDo=
@@ -1581,7 +1581,7 @@ textlint-rule-no-nfd@^1.0.1:
     textlint-rule-helper "^1.1.5"
     unorm "^1.4.1"
 
-textlint-rule-preset-ja-technical-writing@^3.1.0:
+textlint-rule-preset-ja-technical-writing@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/textlint-rule-preset-ja-technical-writing/-/textlint-rule-preset-ja-technical-writing-3.1.0.tgz#3e30e94883e6aa2f3053f93909be891565b85e84"
   integrity sha512-/AUFc+2N9R4QZUzOI1IPjQLENMI6f4uIDE7pgZKpFBglworlVFvLTIvZdbefGnl0vxP5BYp+zK0/5Rf4+h8W0g==
@@ -1665,7 +1665,7 @@ textlint-util-to-string@^2.1.1:
     object-assign "^4.0.1"
     structured-source "^3.0.2"
 
-textlint@^11.2.1:
+textlint@11.2.1:
   version "11.2.1"
   resolved "https://registry.yarnpkg.com/textlint/-/textlint-11.2.1.tgz#cdcec460d56e0705cca2913bd78ecb2743bba351"
   integrity sha512-BXknewyTyypmC7vBvY+2SY5uXmHPG8jnnbiV7f4PBOX8xRciMX7qU5ilGiOb8qDI0NBaNRcwn3lHUqW/90GBIg==
