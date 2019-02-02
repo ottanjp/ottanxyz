@@ -31,7 +31,8 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "webpack"
+		"build": "webpack -p",
+		"watch": "webpack --watch"
 	},
 	"keywords": [
 		"hugo",
