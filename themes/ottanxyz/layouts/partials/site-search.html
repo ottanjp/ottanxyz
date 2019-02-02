@@ -1,5 +1,8 @@
-<ul class="menu menu-search" v-cloak v-if="results.length > 0" @click="close">
+<ul class="menu menu-search" v-cloak v-if="results.length > 0">
 	<li v-for="result in results">
 		<a v-bind:href="result._source.relpermalink">[[ result._source.title ]]</a>
 	</li>
+</ul>
+<ul class="menu menu-search" v-cloak v-if="results.length == 0 && show">
+	<li>"[[ query ]]" に一致する検索結果はありません。</li>
 </ul>
