@@ -1,6 +1,10 @@
 {{ define "header" }}
-{{/* We can override any block in the baseof file be defining it in the template */}}
-{{ partial "site-header.html" . }} {{ end }}
+{{ partial "site-header.html" . }}
+{{ end }}
+
+{{ define "description"}}
+<meta name="description" content="{{ .Summary }}">
+{{ end }}
 
 {{ define "header-description" }}
 <meta name="description" content="{{ .Summary }}..." />
@@ -8,12 +12,15 @@
 <meta name="twitter:description" content="{{ .Summary }}..." />
 <meta property="og:type" content="article" />
 <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML}}">
-{{ range.Params.tags }}<meta property="og:article:tag" content="{{ . }}" />{{ end }}
+{{ range.Params.tags }}
+<meta property="og:article:tag" content="{{ . }}" />
+{{ end }}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
 <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
 <meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:url" content="{{ .Permalink }}" /> {{ end }}
+<meta name="twitter:url" content="{{ .Permalink }}" />
+{{ end }}
 
 {{ define "header-image" }}
 {{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
