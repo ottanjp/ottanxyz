@@ -1,7 +1,7 @@
 {{ $id := .Get 0 }}
 {{ $dataJ := getJSON ( printf "https://itunes.apple.com/lookup?id=%s&country=JP" $id ) }}
 {{ range first 1 $dataJ.results }}
-<div class="grid-container">
+<div class="grid-container appbox">
 	<div class="grid-x grid-margin-x">
 		<div class="cell small-2">
 			<a href="{{ .trackViewUrl }}" target="_blank"><img class="thumbnail" src="{{ .artworkUrl512 }}"></a>

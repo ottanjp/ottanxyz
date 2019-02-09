@@ -1,7 +1,7 @@
 {{ $id := .Get 0 }}
 {{ $dataJ := getJSON ( printf ( print ( getenv "CHROME_WEBSTORE_API" ) "?id=%s" ) $id ) }}
 {{ with $dataJ }}
-<div class="grid-container">
+<div class="grid-container appbox">
 	<div class="grid-x grid-margin-x">
 		<div class="cell small-2">
 			<a href="{{ .url }}" target="_blank"><img class="thumbnail" src="{{ .images.image }}"></a>
