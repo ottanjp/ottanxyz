@@ -44,7 +44,10 @@
 		{{ end }}
 
 		<div class="markdown-body">
-			{{- .Content -}}
+			{{/*  <img src="//macbook-pro.local:1313/images/2019/02/190202-f3634302e706e67.png" alt="">  */}}
+			{{/*  {{ printf "src=\"%simages/" .Site.BaseURL }}  */}}
+			{{- .Content | replaceRE "src=\"/images/([^\"]+)" "data-src=\"https://res.cloudinary.com/dcyxm0z8u/image/upload/c_scale,w_auto/$1\" class=\"cld-responsive" | safeHTML }}
+			{{/*  {{- .Content -}}  */}}
 		</div>
 
 		{{ partial "social-share.html" . }}
