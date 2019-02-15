@@ -1,4 +1,4 @@
 {{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
 {{ range $eyecatch_image }}
-{{ . | replaceRE "src=\"/images/([^\"]+)" "data-src=\"https://res.cloudinary.com/dcyxm0z8u/image/upload/w_auto,q_auto,f_auto/$1\" class=\"cld-responsive" | safeHTML }}
+{{ . | replaceRE "src=\"/images/([^\"]+)" "data-src=\"https://res.cloudinary.com/dcyxm0z8u/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/$1\" class=\"cld-responsive" | safeHTML }}
 {{ end }}
