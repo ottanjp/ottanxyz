@@ -115,9 +115,3 @@ AirMac ユーティリティを起動し、AirMac Extreme、AirMac TimeCapsule �
 これは残念ながら iPhone 6、および iPhone 6 Plus 以降のお話になります。802.11ac は 5GHz 帯のみを使用するもので、理論上のスループットは最小 433Mbps〜最大 6.93Gbps となる。もちろん、最大速度は MIMO に対応している場合ですが、アンテナを１本しか持たない iPhone でも、最低理論上 433Mbps で通信できる様になります。802.11n の 70Mbps と比較すると大きな進化です。
 
 iPhone 6、および iPhone 6 Plus への機種変時に無線 LAN ルーターも買い替えてみてはいかがでしょうか。
-
-{{< amazon B00DCM55A8 >}}
-
-{{< amazon B00DCM3W26 >}}
-
-{{< amazon B00DCM3VXQ >}}

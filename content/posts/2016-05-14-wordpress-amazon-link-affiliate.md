@@ -14,7 +14,7 @@ tags:
 
 ![](/images/2016/05/160514-5736a89e598ca.png)
 
-先日、[WordPress の本文に App Store の URL を貼り付けるだけで、アフィリエイトリンクを生成できるようにする](/wordpress-app-store-itunes-link-affiliate-4120/)で、App Store の URL を WordPress の本文に貼り付けるだけで、アフィリエイトリンクを作成する方法をご紹介しましたが、今回は Amazon 版です。
+[こちら](/wordpress-app-store-itunes-link-affiliate-4120/)で、App Store の URL を WordPress の本文に貼り付けるだけで、アフィリエイトリンクを作成する方法をご紹介しましたが、今回は Amazon 版です。
 
 Amazon の商品情報を取得するためには、Amazon Product Advertising API を使用します。この API の制約の 1 つに、「1 リクエスト/秒」という制限があります。この制約を超えて使用した場合、リクエストに制限を受けてしまう可能性があるため、これを回避するためにも、前回と同様、一度取得した情報は WordPress のキャッシュとして保存するようにします。
 
@@ -28,9 +28,7 @@ Amazon の URL は複雑です。単純に Amazon のリンクを貼り付ける
 
 たとえば、Kindle Paperwhite の詳細ページの URL は以下のような構造をしています。今回は、この URL に含まれる`B00QJDOM6U`というキーワードに注目します。これは、ASIN（Amazon Standard Identification Number）と呼ばれる、Amazon で販売されている商品を識別するための一意の ID です。これをキーに Amazon の商品情報を検索できます。
 
-{{< amazon B00QJDOM6U >}}
-
-しかし、毎回毎回 Amazon の商品ページから ASIN を探し出すのは非常に面倒です。そこで、以下のブックマークレットを使用します。任意のページをブックマークに追加し、アドレスに以下のコードを貼り付けます。
+しかし、毎回 Amazon の商品ページから ASIN を探し出すのは非常に面倒です。そこで、以下のブックマークレットを使用します。任意のページをブックマークに追加し、アドレスに以下のコードを貼り付けます。
 
 {{< gist ottanxyz 18dbf434402fdb4abdd2b27d5d17df04 >}}
 
@@ -196,7 +194,7 @@ https://github.com/Exeu/apai-io
 Amazon Link Builder のポイントを簡単にご紹介します。
 
 - `wp_embed_register_handler()`でパターンにマッチした URL をショートコードに変換する
-- 毎回、Amazon Product Advertising API を使用して商品情報を取得すると、WordPress の動作が重くなるの、また API の制限に引っかかる可能性があるので、取得した情報は WordPress の Transient API を使用してキャッシュとして保持する（キャッシュ期間は１日）
+- 毎回、Amazon Product Advertising API を使用して商品情報を取得すると、WordPress の動作が重くなる、また API の制限に引っかかる可能性があります。取得した情報は WordPress の Transient API を使用してキャッシュとして保持しましょう（キャッシュ期間は１日）
 - テーマや CSS が変わった場合に変更するのは、このクラスの`display()`関数だけ！
 - Amazon の価格情報はセールなどで随時変更されるため書き方に要注意
 - 場合によっては動かないことがあるかもしれません。コメント欄で教えていただけると助かります
