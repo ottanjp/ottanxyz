@@ -1,39 +1,39 @@
 <footer>
-	<nav id="site-footer" class="top-bar align-right" role="navigation">
-		<ul class="menu">
-			{{ with .Param "facebook" }}
-			<li>
-				<a href="{{ . | lower | absURL }}" target="_blank">
-					<i class="fab fa-facebook"></i>
+	<nav class="navbar is-dark" role="navigation">
+		<div class="navbar-menu">
+			<div class="navbar-end">
+				{{ with .Param "facebook" }}
+				<a href="{{ . | lower | absURL }}" target="_blank" class="navbar-item">
+					<span class="icon">
+						<i class="fab fa-facebook"></i>
+					</span>
 				</a>
-			</li>
-			{{ end }}
-			{{ with .Param "twitter" }}
-			<li>
-				<a href="{{ . | lower | absURL }}" target="_blank">
-					<i class="fab fa-twitter"></i>
+				{{ end }}
+				{{ with .Param "twitter" }}
+				<a href="{{ . | lower | absURL }}" target="_blank" class="navbar-item">
+					<span class="icon">
+						<i class="fab fa-twitter"></i>
+					</span>
 				</a>
-			</li>
-			{{ end }}
-			{{ with .Param "github" }}
-			<li>
-				<a href="{{ . | lower | absURL }}" target="_blank">
-					<i class="fab fa-github"></i>
+				{{ end }}
+				{{ with .Param "github" }}
+				<a href="{{ . | lower | absURL }}" target="_blank" class="navbar-item">
+					<span class="icon">
+						<i class="fab fa-github"></i>
+					</span>
 				</a>
-			</li>
-			{{ end }}
-			{{ with .Param "rss" }}
-			<li>
-				<a href="{{ . | lower | absURL }}" target="_blank">
-					<i class="fas fa-rss-square"></i>
+				{{ end }}
+				{{ with .Param "rss" }}
+				<a href="{{ . | lower | absURL }}" target="_blank" class="navbar-item">
+					<span class="icon">
+						<i class="fas fa-rss-square"></i>
+					</span>
 				</a>
-			</li>
-			{{ end }}
-			<li>
-				<a class="menu-text" href="{{ .Site.BaseURL }}">
+				{{ end }}
+				<a href="{{ .Site.BaseURL }}" class="navbar-item">
 					&copy; {{ now.Format "2006" }} {{ .Site.Title }}
 				</a>
-			</li>
-		</ul>
+			</div>
+		</div>
 	</nav>
 </footer>

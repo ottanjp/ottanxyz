@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.LanguageCode | default "ja" }}" class="no-js">
+<html lang="{{ $.Site.LanguageCode | default "ja" }}" class="no-js has-navbar-fixed-top">
 
 <head>
 	<meta charset="utf-8" />
@@ -17,7 +17,7 @@
 	{{ end }}
 	{{ block "description" . }}<meta name="description" content="{{ $.Site.Params.description }}">{{ end }}
 
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/6.5.1/css/foundation.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
 	<link rel="stylesheet" href="{{ "/dist/css/style.css" | relURL }}"></script>
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
 
@@ -79,7 +79,7 @@
 
 <body>
 	{{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-	<main class="grid-container" role="main">
+	<main role="main">
 		{{ block "main" . }}{{ end }}
 	</main>
 	{{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}

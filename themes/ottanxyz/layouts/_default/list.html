@@ -4,27 +4,29 @@
 
 {{ define "main" }}
 
-<div id="main" class="grid-x grid-margin-x">
+<div class="container">
 
-	<div class="cell small-12 align-center-middle text-center">
-		<ul class="breadcrumbs">
-			<li><a href="{{ .Site.BaseURL }}">Home</a></li>
-			<li>
-				<span class="show-for-sr">Current: </span> {{ .Title }}
-			</li>
-		</ul>
+	<div class="column is-full">
+		<nav class="breadcrumb" aria-label="breadcrumbs">
+			<ul>
+				<li><a href="{{ .Site.BaseURL }}">Home</a></li>
+				<li class="is-active">
+					<a href="#" aria-current="page">{{ .Title }}</a>
+				</li>
+			</ul>
+		</nav>
 	</div>
 
-	<div class="cell small-12 article-list">
-
+	<div class="column is-full article-list">
 		{{ range .Paginator.Pages }}
 		{{ .Render "li" }}
 		{{ end }}
-
 	</div>
 
 	{{/* pagination */}}
-	{{ partial "pagination.html" . }}
+	<div class="column is-full">
+		{{ partial "pagination.html" . }}
+	</div>
 
 </div>
 {{ end }}

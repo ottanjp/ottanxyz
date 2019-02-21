@@ -1,43 +1,44 @@
 <article>
 
-	<div class="grid-container">
-		<div class="grid-x grid-margin-x">
+	<div class="columns">
 
-			<div class="cell large-auto">
-				<a href="{{ .RelPermalink }}" class="thumbnail">{{ partial "eyecatch.html" . }}</a>
+		<div class="column is-one-third">
+			<a href="{{ .RelPermalink }}" class="image">{{ partial "eyecatch.html" . }}</a>
+		</div>
+
+		<div class="column">
+
+			<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+				<span class="icon">
+					<i class="far fa-calendar"></i>
+				</span>
+				{{- .Date.Format "2006.01.02" -}}
+			</time>
+
+			<div class="title is-3">
+				<a href="{{ .RelPermalink }}">{{- .Title -}}</a>
 			</div>
 
-			<div class="cell large-8">
+			<div class="content">{{- .Summary -}} ...</div>
 
-				<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-					<i class="far fa-calendar"></i>&nbsp;{{- .Date.Format "2006.01.02" -}}
-				</time>
+			{{ if .Params.categories }}
+			<span class="icon">
+				<i class="fas fa-pencil-alt"></i>
+			</span>
+			{{ range .Params.categories }}
+			<a class="tag" href="/categories/{{ . | urlize }}">{{- . -}}</a>
+			{{ end }}
+			{{ end }}
 
-				<p class="h3">
-					<a href="{{ .RelPermalink }}">{{- .Title -}}</a>
-				</p>
+			{{ if .Params.tags }}
+			<span class="icon">
+				<i class="fas fa-tag"></i>
+			</span>
+			{{ range .Params.tags }}
+			<a class="tag" href="/tags/{{ . | urlize }}">{{- . -}}</a>
+			{{ end }}
+			{{ end }}
 
-				<p class="article-list_summary">{{- .Summary -}} ...</p>
-
-				{{ if .Params.categories }}
-				<span>
-					<i class="fas fa-pencil-alt"></i>
-					{{ range first 1 .Params.categories }}
-					<a class="article-list_label" href="/categories/{{ . | urlize }}">{{- . -}}</a>
-					{{ end }}
-				</span>
-				{{ end }}
-
-				{{ if .Params.tags }}
-				<span>
-					<i class="fas fa-tag"></i>
-					{{ range first 3 .Params.tags }}
-					<a class="article-list_label" href="/tags/{{ . | urlize }}">{{- . -}}</a>
-					{{ end }}
-				</span>
-				{{ end }}
-
-			</div>
 		</div>
 	</div>
 

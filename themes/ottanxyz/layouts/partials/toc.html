@@ -2,30 +2,29 @@
 
 {{/* ignore empty links with + */}}
 {{- $headers := findRE "<h[2-4].*?>(.|\n])+?</h[2-4]>" .Content -}}
-	{{ .Scratch.Set "last_level" 1 }}
+{{ .Scratch.Set "last_level" 1 }}
 
-	{{/* at least one header to link to */}}
-	{{- $has_headers := ge (len $headers) 1 -}}
-	{{- if $has_headers -}}
-	<div data-sticky-container>
-		<div class="sticky" data-sticky data-anchor="main" data-margin-top="5" id="TableOfContents">
-			<p class="h4">Table of Contents</p>
-			{{- range $headers -}}
-			{{- $header := . -}}
-			{{- $base := ($.Page.File.LogicalName) -}}
-			{{- $anchorId := ($header | plainify | htmlUnescape | anchorize) -}}
-			{{- $href := delimit (slice $base $anchorId) "#" | string -}}
-			{{- range findRE "[2-4]" . 1 -}}
-			{{- $next_heading := (int .) -}}
-			{{- if gt $next_heading ($.Scratch.Get "last_level") -}}
-			<ul>
-				{{- else if lt $next_heading ($.Scratch.Get "last_level") -}}
-			</ul>
-			{{- end -}}
-			<li><a href="{{ relref $.Page $href }}">{{- $header | plainify | htmlUnescape -}}</a></li>
-			{{ $.Scratch.Set "last_level" $next_heading }}
-			{{- end -}}
-			{{- end -}}
-		</div>
-	</div>
+{{/* at least one header to link to */}}
+{{- $has_headers := ge (len $headers) 1 -}}
+{{- if $has_headers -}}
+<div>
+<div>
+	<p class="is-size-4 has-text-weight-bold">目次</p>
+	{{- range $headers -}}
+	{{- $header := . -}}
+	{{- $base := ($.Page.File.LogicalName) -}}
+	{{- $anchorId := ($header | plainify | htmlUnescape | anchorize) -}}
+	{{- $href := delimit (slice $base $anchorId) "#" | string -}}
+	{{- range findRE "[2-4]" . 1 -}}
+	{{- $next_heading := (int .) -}}
+	{{- if gt $next_heading ($.Scratch.Get "last_level") -}}
+	<ul>
+		{{- else if lt $next_heading ($.Scratch.Get "last_level") -}}
+	</ul>
 	{{- end -}}
+	<li><a href="{{ relref $.Page $href }}">{{- $header | plainify | htmlUnescape -}}</a></li>
+	{{ $.Scratch.Set "last_level" $next_heading }}
+	{{- end -}}
+	{{- end -}}
+</div>
+{{- end -}}
