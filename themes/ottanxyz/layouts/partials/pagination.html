@@ -1,38 +1,31 @@
-<nav aria-label="Pagination" class="cell small-12 align-center-middle text-center">
+<nav class="pagination is-centered" role="navigation" aria-label="pagination">
 
 	{{ $pag := $.Paginator }}
 	{{ if gt $pag.TotalPages 1 }}
-	<ul class="pagination">
 
-		<li class="pagination-previous {{ if not $pag.HasPrev }} disabled {{ end }}">
-			{{ if $pag.HasPrev }}
-			<a href="{{ $pag.Prev.URL }}" aria-label="Previous">
-				前へ <span class="show-for-sr">page</span>
-			</a>
-			{{ else }}
-				<span aria-label="Previous">前へ <span class="show-for-sr">page</span></span>
-			{{ end }}
-		</li>
+	{{ if $pag.HasPrev }}
+	<a href="{{ $pag.Prev.URL }}" class="pagination-previous">前へ</a>
+	{{ else }}
+	<a href="" class="pagination-previous" disabled>前へ</a>
+	{{ end }}
+
+	{{ if $pag.HasNext }}
+	<a href="{{ $pag.Next.URL }}" class="pagination-next">次へ</a>
+	{{ else }}
+	<a href="" class="pagination-next" disabled>次へ</a>
+	{{ end }}
+
+	<ul class="pagination-list">
 
 		{{/*番号*/}}
 		{{ range $pag.Pagers }}
 		{{/*  {{ range first 3 $pag.Pagers }}  */}}
-		<li {{ if eq . $pag }} class="current" {{ end }}>
-			<a href="{{ .URL }}">{{ .PageNumber }}</a>
+		<li>
+			<a href="{{ .URL }}" class="pagination-link{{ if eq . $pag }} is-current{{ end }}">{{ .PageNumber }}</a>
 		</li>
 		{{ end }}
 
-		{{/*次ページ*/}}
-		<li  class="pagination-next {{ if not $pag.HasNext }} disabled {{ end }}">
-			{{ if $pag.HasNext }}
-			<a href="{{ $pag.Next.URL }}" aria-label="Next">
-				次へ <span class="show-for-sr">page</span>
-			</a>
-			{{ else }}
-				<span aria-label="Next">次へ <span class="show-for-sr">page</span></span>
-			{{ end }}
-		</li>
-
 	</ul>
+
 	{{ end }}
 </nav>

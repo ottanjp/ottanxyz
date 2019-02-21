@@ -31,38 +31,38 @@
 {{ end }}
 
 {{ define "main" }}
-<article class="grid-x grid-margin-x">
-	<header class="cell small-12 article-header">
+<article class="container">
+	<header class="column is-full">
 		{{ partial "article-header.html" . }}
 	</header>
 
-	<div id="main" class="cell medium-8">
-		{{ if le (int (.Date.Format "20060101")) (int ((now.AddDate -1 0 0).Format "20060101")) }}
-		<p class="callout warning">
-			この記事は公開されてから1年以上が経過しています。情報が古い可能性がありますのでご注意ください。
-		</p>
-		{{ end }}
+	<div class="columns is-desktop">
+		<div class="column is-two-thirds">
+			{{ if le (int (.Date.Format "20060101")) (int ((now.AddDate -1 0 0).Format "20060101")) }}
+			<div class="message is-warning is-small">
+				<div class="message-body">
+					この記事は公開されてから1年以上が経過しています。情報が古い可能性がありますのでご注意ください。
+				</div>
+			</div>
+			{{ end }}
 
-		<div class="markdown-body">
-			{{- .Content -}}
-		</div>
+			<div class="markdown-body content">
+				{{- .Content -}}
+			</div>
 
-		{{ partial "social-share.html" . }}
+			{{ partial "social-share.html" . }}
 
-		{{ partial "related-posts.html" . }}
+			{{ partial "related-posts.html" . }}
 
-		<div class="article-comment">
 			{{ template "_internal/disqus.html" . }}
+
 		</div>
+		<!-- main -->
 
-		{{ partial "article-footer.html" . }}
+		<aside class="column is-hidden-mobile">
+			{{- partial "toc.html" . -}}
+		</aside>
+		<!-- sidebar -->
 	</div>
-	<!-- main -->
-
-	<aside id="sidebar" class="cell auto hide-for-small-only">
-		{{- partial "toc.html" . -}}
-		{{/*  {{- partial "menu-contextual.html" . -}} */}}
-	</aside>
-	<!-- sidebar -->
 </article>
 {{ end }}

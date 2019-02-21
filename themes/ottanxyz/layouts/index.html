@@ -1,15 +1,17 @@
 {{ define "main" }}
 
-<div id="main" class="grid-x grid-margin-x">
+<div class="container">
 
-	<div class="cell small-12 article-list">
+	<div class="column is-full article-list">
 		{{ range .Paginator.Pages }}
 		{{ .Render "li" }}
 		{{ end }}
 	</div>
 
 	{{/* pagination */}}
-	{{ partial "pagination.html" . }}
+	<div class="column is-full">
+		{{ partial "pagination.html" . }}
+	</div>
 </div>
 
 {{ end }}
