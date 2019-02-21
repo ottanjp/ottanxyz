@@ -67,5 +67,7 @@ article {
 #search-result {
   z-index: 1000;
   position: fixed;
-  overflow: auto; }
+  right: 0;
+  overflow: auto;
+  padding: 1rem; }
 

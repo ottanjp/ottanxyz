@@ -97,5 +97,7 @@ article {
 #search-result {
 	z-index: 1000;
 	position: fixed;
+	right: 0;
 	overflow: auto;
+	padding: 1rem;
 }
