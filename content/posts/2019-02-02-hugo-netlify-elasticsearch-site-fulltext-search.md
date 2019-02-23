@@ -12,9 +12,9 @@ toc: true
 
 ![](/images/2019/02/190202-f3634302e706e67.png)
 
-静的サイトにおけるサイト内全文検索の実装例をご紹介します。個人ブログにおける趣味の範囲内です。また、個人ブログのため、料金を抑える（できれば無償で利用する）方針で検討します。
+静的サイトにおけるサイト内全文検索の実装例をご紹介します。個人ブログにおける趣味の範囲内です。また、個人ブログのため、料金を抑える方針で検討します。
 
-WordPressなどのCMSは標準で検索機能を有しています。しかし、静的サイトではビルド時にすべてのページが生成されます。そのため、WordPressのように検索時に毎回動的なページを作成することができません。
+WordPressなどのCMSは標準で検索機能を有しています。しかし、静的サイトではビルド時にすべてのページが生成されます。そのため、WordPressのように検索時に毎回動的なページを作成できません。
 
 ## ビルド時に全文検索用の静的ファイルを生成する
 
@@ -32,7 +32,7 @@ WordPressなどのCMSは標準で検索機能を有しています。しかし�
 
 ## Googleカスタム検索を使用する
 
-全文検索の要望を満たすだけであれば、Googleカスタム検索を設置する方法がもっとも簡単です。ただし、Googleカスタム検索では、フォームや検索結果のデザインがGoogleに左右される、広告が表示されるなど、サイトポリシーにそぐわないことがあります。Googleカスタム検索を利用したい場合は、下記リンクから検索エンジンを生成し、テンプレートファイルにコードを埋め込むだけで実装することができます。
+全文検索の要望を満たすだけであれば、Googleカスタム検索を設置する方法がもっとも簡単です。ただし、Googleカスタム検索では、フォームや検索結果のデザインがGoogleに左右される、広告が表示されるなど、サイトポリシーにそぐわないことがあります。Googleカスタム検索を利用したい場合は、下記リンクから検索エンジンを生成し、テンプレートファイルにコードを埋め込むだけで実装できます。
 
 * [カスタム検索 - 検索エンジンの編集](https://cse.google.com/cse/all)
 
@@ -57,7 +57,7 @@ DocSearchが利用できれば、Algoliaのクローラーにインデックス�
 
 ## Elasticsearch（Bonsai.io） + Netlify Functionsによる全文検索を構築する
 
-Bonsaiは、Elasticsearchのマネージド型サービスです。Hugoの公式ドキュメントでも紹介されています。AWS Elasticsearch Serviceなど様々なサービスが存在する中、Bonsaiは商用利用以外の範囲内で無料で使用することができます。
+Bonsaiは、Elasticsearchのマネージド型サービスです。Hugoの公式ドキュメントでも紹介されています。AWS Elasticsearch Serviceなど様々なサービスが存在する中、Bonsaiは商用利用以外の範囲内では無料で使用できます。
 
 * [Search for your Hugo Website | Hugo](https://gohugo.io/tools/search/#readout)
 
@@ -76,7 +76,7 @@ Algoliaとの違いは、オペレーション（検索、追加、更新、削�
 
 無料プランでBonsaiが提供するElasticsearchのAPIにアクセスするためには、必ずクレデンシャル情報[^1]を含める必要があります。クレデンシャル情報を含めることで、ドキュメントの検索のみならず、インデックスの追加、更新、削除を行うことができます。
 
-[^1]: クレデンシャル情報は、BonsaiのAPIを利用するためのAccess Key、Access Secretを指します
+[^1]: クレデンシャル情報は、BonsaiのAPIを利用するためのAccess Key、Access Secretを指します。
 
 このクレデンシャル情報が漏洩した場合、誰でもインデックスを改ざんできてしまうことになります。
 
@@ -94,7 +94,7 @@ Algoliaとの違いは、オペレーション（検索、追加、更新、削�
 
 ただ、Netlify Functionsを使用するということは、同サービスの制限（125,000リクエスト/月など）を受けることになります。詳細は以下をご覧ください。その他にもAWS Lambdaを使用する方法（そもそもNetlify FunctionsもLambdaのラッパー）等がありますが、今回は割愛します。
 
-* [無償で利用可能なNetlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本](/netlify-functions-aws-lambda-serverless-20190115/)
+* [Netlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本](/netlify-functions-aws-lambda-serverless-20190115/)
 
 ### Bonsai.ioの使い方
 
@@ -114,7 +114,7 @@ curl -XPUT https://user123:pass456@my-awesome-cluster-1234.us-east-1.bonsai.io/h
 
 続いて、Elasticsearchに登録するためのファイルを生成します。Elasticsearchには、`bulk`と呼ばれるAPIが用意されており、一括でドキュメントを登録できます。`bulk`のパラメータは、ndJSON（Newline Delimited JSON）形式で作成する必要があります。ndJSONは、文字通り改行（`\n`）で区切られたJSON形式のファイルです。**ファイルの末尾に改行を含む必要があります**ので注意してください。また、**\n以外の改行コードを含むことはできません**。特に、Windowsで作業している場合は注意してください。
 
-`layouts/_default/list.bonsai.html`を作成します。サンプルではJSONファイル（`list.bonsai.json`）として生成していますが、あえてHTMLファイルとしています。`hugo`コマンドがndJSONを認識できないため、`--minify`オプションを付与してビルドしようとするとエラーになるのを避けるためです。（`text/plain`などでも良いです）また、全文検索用インデックスを作成するため、`.Summary`の代わりに`.Plain`を出力するように変更しています。
+`layouts/_default/list.bonsai.html`を作成します。サンプルではJSONファイル（`list.bonsai.json`）として生成していますが、あえてHTMLファイルとしています。`hugo`コマンドがndJSONを認識できないため、`--minify`オプションを付与してビルドした際にエラーが発生するのを避けるためです。（`text/plain`などでも良いです）また、全文検索用インデックスを作成するため、`.Summary`の代わりに`.Plain`を出力するように変更しています。
 
 ```go
 {{/* Generates a valid Elasticsearch _bulk index payload */}}
@@ -130,9 +130,7 @@ curl -XPUT https://user123:pass456@my-awesome-cluster-1234.us-east-1.bonsai.io/h
 
 続いて`config.toml`の修正です。HugoのCustom Output Formatsに「Bonsai」フォーマットを追加します。サンプルから変更している箇所はコメントアウトしています。前述の通り、JSON形式として出力してしまうと、`--minify`時にエラーとなるため`HTML`として出力します。（`text/plain`のほうが自然かもしれません）
 
-`config.toml`の修正
-
-```toml
+```toml:config.toml
 [outputs]
 home = ["HTML", "RSS", "Bonsai"]
 
