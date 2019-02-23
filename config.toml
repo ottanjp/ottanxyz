@@ -1,3 +1,4 @@
+baseURL = "https://ottan.xyz"
 languageCode = "ja"
 defaultContentLanguage = "ja"
 publishDir = "public"
