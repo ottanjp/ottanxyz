@@ -54,7 +54,7 @@
 			{{ $.Scratch.Set "Content" "" }}
 			{{ $.Scratch.Set "Counter" 0 }}
 			{{ range $contents }}
-				{{ $.Scratch.Add "Content" . }}
+				{{ $.Scratch.Add "Content" (print . "\n") }}
 				{{ if hasPrefix . "<p>" }}
 					{{ $.Scratch.Add "Counter" 1 }}
 					{{ if eq ($.Scratch.Get "Counter") $position }}
