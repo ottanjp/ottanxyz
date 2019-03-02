@@ -1,24 +1,25 @@
 {{ $id := .Get 0 }}
 {{ $dataJ := getJSON ( printf ( print ( getenv "GOOGLEPLAY_API" ) "?appId=%s" ) $id ) }}
 {{ with $dataJ }}
-<div class="grid-container appbox">
-	<div class="grid-x grid-margin-x">
-		<div class="cell small-2">
-			<a href="{{ .url }}" target="_blank"><img class="thumbnail" src="{{ .icon }}"></a>
+<div class="columns appbox">
+	<div class="column is-one-quarter">
+		<a href="{{ .url }}" target="_blank"><img class="thumbnail" src="{{ .icon }}"></a>
+	</div>
+	<div class="column">
+		<div>
+			<a href="{{ .url }}" target="_blank">
+				<span class="title is-4">{{ .title }}</span>
+			</a>
+			<span class="icon">
+				<i class="fab fa-google-play"></i>
+			</span>
+			<span class="badge-itunes">{{ (replace .contentRating "Rated for " "") }}</span>
 		</div>
-		<div class="cell auto">
-			<div>
-				<a href="{{ .url }}" target="_blank">
-					<span class="h4">{{ .title }}</span>
-				</a>
-				<span class="badge-itunes">{{ (replace .contentRating "Rated for " "") }}</span>
-			</div>
 
-			<ul class="no-bullet">
-				<li>販売元:&nbsp;<a class="link" href="{{ .developerWebsite }}">{{ .developer }}</a></li>
-				<li>価格:&nbsp;{{ .priceText }}</li>
-			</ul>
-		</div>
+		<ul>
+			<li>販売元:&nbsp;<a class="link" href="{{ .developerWebsite }}">{{ .developer }}</a></li>
+			<li>価格:&nbsp;{{ .priceText }}</li>
+		</ul>
 	</div>
 </div>
 {{ end }}

@@ -48,8 +48,23 @@
 
 			{{ partial "google-adsense1.html" }}
 
+			{{- $p_tag := findRE "<p>(.|\n])+?</p>" .Content -}}
+			{{- $position := div (len $p_tag) 2 -}}
+			{{- $contents := split .Content "\n" -}}
+			{{ $.Scratch.Set "Content" "" }}
+			{{ $.Scratch.Set "Counter" 0 }}
+			{{ range $contents }}
+				{{ $.Scratch.Add "Content" . }}
+				{{ if hasPrefix . "<p>" }}
+					{{ $.Scratch.Add "Counter" 1 }}
+					{{ if eq ($.Scratch.Get "Counter") $position }}
+						{{ $.Scratch.Add "Content" (partial "google-adsense3.html") }}
+					{{ end }}
+				{{ end }}
+			{{ end }}
+
 			<div class="markdown-body content">
-				{{- .Content -}}
+				{{ $.Scratch.Get "Content" | safeHTML }}
 			</div>
 
 			{{ partial "social-share.html" . }}

@@ -10,6 +10,9 @@ import { faTag } from '@fortawesome/free-solid-svg-icons/faTag'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
+import { faGooglePlay } from '@fortawesome/free-brands-svg-icons/faGooglePlay'
+import { faAppStoreIos } from '@fortawesome/free-brands-svg-icons/faAppStoreIos'
+import { faChrome } from '@fortawesome/free-brands-svg-icons/faChrome'
 library.add(
 	faCalendar,
 	faClock,
@@ -22,6 +25,9 @@ library.add(
 	faFacebook,
 	faTwitter,
 	faGithub,
+	faGooglePlay,
+	faAppStoreIos,
+	faChrome,
 )
 dom.i2svg()
 
