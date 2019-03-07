@@ -6,7 +6,7 @@ title: 知ってた？！Amazonプライム会員は本人以外に同居家族�
 type: post
 url: /amazon-prime-family-1908/
 categories:
-- iPhone
+- Web
 tags:
 - Tips
 ---

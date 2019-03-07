@@ -9,7 +9,6 @@ categories:
 - Mac
 - Blog
 tags:
-- WordPress
 - Tips
 ---
 

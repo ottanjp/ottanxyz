@@ -11,7 +11,6 @@ categories:
 tags:
 - Development
 - MarsEdit
-- WordPress
 ---
 
 ![](/images/2016/04/160423-571b57e20f058.png)

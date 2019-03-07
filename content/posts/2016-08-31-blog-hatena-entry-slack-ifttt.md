@@ -6,12 +6,12 @@ title: ブログの記事が「はてな新着エントリー」に掲載され�
 type: post
 url: /blog-hatena-entry-slack-ifttt-4859/
 categories:
+- Web
 - Blog
 tags:
 - Development
 - IFTTT
 - Slack
-- WordPress
 ---
 
 ![](/images/2016/08/160831-57c6ccdf04c70.png)

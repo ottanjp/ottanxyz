@@ -9,7 +9,6 @@ categories:
 - Blog
 tags:
 - Development
-- WordPress
 ---
 
  ![](/images/2017/04/170422-58faefe1b74dd.jpg)
@@ -89,7 +88,7 @@ Gistにプログラムを公開しています。以下のプログラムをダ�
 
 
 
-{{< gist ottanxyz 9aeae0609e035479e937d4895a681701 >}}
+https://gist.github.com/ottanxyz/9aeae0609e035479e937d4895a681701
 
 
 

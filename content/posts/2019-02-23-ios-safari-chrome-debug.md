@@ -12,7 +12,7 @@ toc: true
 
 ![](/images/2019/02/190223-f3634302e6a7067.jpg)
 
-[Mac を使用して iPhone、iPad の Safari でデバッグを行う方法](https://ottan.xyz/ios-safari-debug-mac-20190222/)で、iPhone の Safari でデバッグする方法をご紹介しました。iPhone、Mac の標準機能のみで実現できるものの、Mac の Safari を使用する必要があります。
+[Mac を使用して iPhone、iPad の Safari でデバッグを行う方法](/ios-safari-debug-mac-20190222/)で、iPhone の Safari でデバッグする方法をご紹介しました。iPhone、Mac の標準機能のみで実現できるものの、Mac の Safari を使用する必要があります。
 
 今回は、Safari を使用する場合に比べて若干準備が面倒ではありますが、Mac の Google Chrome を使用して同様に iPhone でデバッグを行う方法をご紹介します。Google Chrome には、iPhone や Android をエミュレートする機能がありますが、iPhone 実機を使用してデバッグする方法です。
 

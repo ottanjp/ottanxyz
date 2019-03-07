@@ -19,7 +19,7 @@ tags:
 
 
 
-[AmazonのFireタブレットにGoogle Playのアプリケーションをインストールする方法①](/amazon-fire-google-play-1-6819/)で、オンラインストレージを介して、Google Playのアプリケーションをインストールする方法をご紹介しました。
+[AmazonのFireタブレットにGoogle Playのアプリケーションをインストールする方法①](/?p=3013)で、オンラインストレージを介して、Google Playのアプリケーションをインストールする方法をご紹介しました。
 
 
 

@@ -10,7 +10,6 @@ categories:
 tags:
 - Development
 - Google
-- WordPress
 ---
 
 ![](/images/2017/01/170115-587adc00b89dd.jpg)

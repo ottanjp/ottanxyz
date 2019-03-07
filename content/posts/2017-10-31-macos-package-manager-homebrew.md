@@ -12,7 +12,7 @@ tags:
 - Tips
 ---
 
-![](/images/2017/10/171031-59f87b5131b26.jpg)
+![](http://13.230.213.117/wp-content/uploads/2017/10/171031-59f87b5131b26.jpg)
 
 
 
@@ -550,7 +550,7 @@ https://www.cakebrew.com
 
 
 
-![](/images/2017/10/171031-59f8789cbc2d1.png)
+![](http://13.230.213.117/wp-content/uploads/2017/10/171031-59f8789cbc2d1.png)
 
 
 

@@ -6,7 +6,7 @@ title: feedlyで作る自分だけのキュレーションアプリ
 type: post
 url: /feedly-curation-314/
 categories:
-- iPhone
+- Web
 ---
 
 ![](/images/2014/09/140913-5413925b584f2.png)
@@ -173,7 +173,7 @@ categories:
 
 
 
-デフォルトではGmailに送信されます。配信方法をRSSへ変更します。「オプションを表示」をクリックしてください。
+デフォルトではGmail宛に送信されるようになっていますので、配信方法をRSSへ変更します。「オプションを表示」をクリックしてください。
 
 
 

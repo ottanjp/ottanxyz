@@ -10,7 +10,7 @@ categories:
 tags:
 - gulp.js
 - Node.js
-- WordPress
+- Blog
 ---
 
 ![](/images/2018/02/180228-5a964f7b8191f.jpg)

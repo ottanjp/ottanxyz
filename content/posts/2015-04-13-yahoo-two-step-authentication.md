@@ -6,9 +6,7 @@ title: Yahooアカウントの2段階認証を有効にする方法
 type: post
 url: /yahoo-two-step-authentication-958/
 categories:
-- iPhone
-- Android
-- Mac
+- Web
 tags:
 - Security
 ---

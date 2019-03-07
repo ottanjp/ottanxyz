@@ -11,7 +11,7 @@ categories:
 tags:
 - AWS
 - SSH
-- WordPress
+- Blog
 ---
 
 ![](/images/2018/08/180826-5b82193bd881c.jpg)

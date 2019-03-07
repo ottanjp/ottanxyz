@@ -7,6 +7,7 @@ type: post
 url: /twitter-egosearching-6829/
 categories:
 - iPhone
+- Web
 tags:
 - IFTTT
 - Tips

@@ -9,7 +9,6 @@ categories:
 - Windows
 - Blog
 tags:
-- WordPress
 - Development
 ---
 

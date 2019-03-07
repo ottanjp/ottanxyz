@@ -9,7 +9,6 @@ categories:
 - Blog
 tags:
 - Development
-- WordPress
 ---
 
 ![](/images/2016/08/160814-57aff06785bf2.png)
@@ -128,7 +127,7 @@ http://embed.ly/
 
 
 
-{{< gist ottanxyz 518542b8e8872a3e6f84d753a0eb0803 >}}
+https://gist.github.com/ottanxyz/518542b8e8872a3e6f84d753a0eb0803
 
 
 

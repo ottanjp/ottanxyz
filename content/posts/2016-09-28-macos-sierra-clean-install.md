@@ -178,7 +178,8 @@ macOS Sierraのインストーラーが起動します。「続ける」をク�
 さて、リカバリーモードを使用する場合、一度macOS Sierraにアップデートする必要がありました。わざわざmacOS Sierraにアップデート後に再びインストールするのも手間がかかります。そこで、手元に8GB以上のUSBメモリがあれば、Mac App StoreからmacOS Sierraをダウンロードして、起動可能なインストールディスクを作成できます。下記のリンクを参照してください。
 
 
-* [OTTAN.XYZ | macOS Sierraの起動可能なインストーラー（USBメモリ）を作成する方法](/macos-sierra-bootable-disk-5007/)
+
+https://ottan.xyz/macos-sierra-bootable-disk-5007/
 
 
 

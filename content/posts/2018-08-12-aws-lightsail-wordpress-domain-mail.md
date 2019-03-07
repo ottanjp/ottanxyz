@@ -10,7 +10,7 @@ categories:
 tags:
     - Amazon
     - AWS
-    - WordPress
+    - Blog
 ---
 
 ![](/images/2018/08/businessman-2956974_640.jpg)
