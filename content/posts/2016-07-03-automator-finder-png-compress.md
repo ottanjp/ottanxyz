@@ -54,7 +54,7 @@ Finderでファイルを選択して何らかの操作する、一見敷居が�
 
 
 
-`pngquant`のインストールは、[Homebrew — macOS 用パッケージマネージャー](http://brew.sh/index_ja.html)が便利です。Homebrewのインストールは、同サイトを確認してください。Homebrewをインストールしたら、ターミナルから以下のコマンドを実行してください。
+`pngquant`のインストールは、[Homebrew — macOS 用パッケージマネージャー](https://brew.sh/index_ja.html)が便利です。Homebrewのインストールは、同サイトを確認してください。Homebrewをインストールしたら、ターミナルから以下のコマンドを実行してください。
 
 
 

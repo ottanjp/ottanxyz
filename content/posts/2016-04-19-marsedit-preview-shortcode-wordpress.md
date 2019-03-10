@@ -30,7 +30,7 @@ MacでWordPressを使ってブログを書くなら使いたい「MarsEdit」、
 
 
 
-ショートコードについては、[ショートコード API - Blog Codex 日本語版](https://wpdocs.osdn.jp/ショートコード_API)などをご覧いただくとして、ここではMarsEditに特化してご紹介します。また、MarsEditのプレビュー画面のカスタマイズについては、[MarsEditのプレビューをブログデザインと同じようにするための参考記事＆快適に書くための注意点 | なまら春友流](http://harutomo-ryu.com/archives/2012-09-02/132614.html)などをご覧ください。
+ショートコードについては、[ショートコード API - Blog Codex 日本語版](https://wpdocs.osdn.jp/ショートコード_API)などをご覧いただくとして、ここではMarsEditに特化してご紹介します。また、MarsEditのプレビュー画面のカスタマイズについては、[MarsEditのプレビューをブログデザインと同じようにするための参考記事＆快適に書くための注意点 | なまら春友流](https://harutomo-ryu.com/archives/2012-09-02/132614.html)などをご覧ください。
 
 
 

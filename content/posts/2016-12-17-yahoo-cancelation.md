@@ -18,7 +18,7 @@ tags:
 
 
 
-[米Yahooの10億ものアカウント情報が流出したこと](http://jp.techcrunch.com/2016/12/15/20161214yahoo-discloses-hack-of-1-billion-accounts/)は記憶に新しいことでしょう。日本のYahooは、米Yahooとは独立しているため、日本のYahooアカウントのみを利用している場合は問題ありません。しかし、「米Yahooなんて使ったことないから大丈夫」、なんて簡単に考えていませんか。意外なところで使用しているかもしれません。そう、写真保存サービスの「Flickr」です。
+[米Yahooの10億ものアカウント情報が流出したこと](https://jp.techcrunch.com/2016/12/15/20161214yahoo-discloses-hack-of-1-billion-accounts/)は記憶に新しいことでしょう。日本のYahooは、米Yahooとは独立しているため、日本のYahooアカウントのみを利用している場合は問題ありません。しかし、「米Yahooなんて使ったことないから大丈夫」、なんて簡単に考えていませんか。意外なところで使用しているかもしれません。そう、写真保存サービスの「Flickr」です。
 
 
 

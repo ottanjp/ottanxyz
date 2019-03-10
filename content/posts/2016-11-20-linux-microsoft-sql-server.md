@@ -19,7 +19,7 @@ tags:
 
 
 
-[MicrosoftがLinux Foundationに参加](http://jp.techcrunch.com/2016/11/17/20161116microsoft-joins-the-linux-foundation/)するという、スティーブ・バルマー前CEOの時には考えられない行動にMicrosoftが出ています。Surface Studioや、Surface Dialなど、これまでのOS一辺倒であったMicrosoftがハードウェアに手を出して見たり、数々の資産をオープンソース化しています。また、Windows OSでしか使用できなかったソフトウェアを、MacやLinuxに移植し始めています。今回、ご紹介するMicrosoft SQL Serverも例外ではありません。
+[MicrosoftがLinux Foundationに参加](https://jp.techcrunch.com/2016/11/17/20161116microsoft-joins-the-linux-foundation/)するという、スティーブ・バルマー前CEOの時には考えられない行動にMicrosoftが出ています。Surface Studioや、Surface Dialなど、これまでのOS一辺倒であったMicrosoftがハードウェアに手を出して見たり、数々の資産をオープンソース化しています。また、Windows OSでしか使用できなかったソフトウェアを、MacやLinuxに移植し始めています。今回、ご紹介するMicrosoft SQL Serverも例外ではありません。
 
 
 

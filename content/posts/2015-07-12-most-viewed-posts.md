@@ -45,11 +45,11 @@ WordPress初期構築時に作成するデータベースの各テーブルの�
 
 `wp_postmeta`テーブルの値を更新するためには、`update_post_meta`関数を使います。同関数のパラメーターには記事のIDを指定しますが、該当のIDが同テーブルに存在しない場合は、新規にキーと値を追加します。
 
-<http://codex.wordpress.org/Function_Reference/update_post_meta>
+<https://codex.wordpress.org/Function_Reference/update_post_meta>
 
 また、カスタムフィールドの値を取得するためには、`get_post_meta`関数を使います。メタ情報は記事ごとに保持していますから、パラメーターには記事のIDを指定する必要があります。詳細な使用方法については、後半に記述します。
 
-<http://codex.wordpress.org/Function_Reference/get_post_meta>
+<https://codex.wordpress.org/Function_Reference/get_post_meta>
 
 以降、閲覧数を表すカスタムフィールドのキーの名称は`_custom_meta_views`とします。記事が表示された場合に、このカスタムフィールドをインクリメントできるように、以下のコードを**functions.php**に追加します。
 
@@ -104,7 +104,7 @@ function get_most_viewed() {
 | meta_key       | `meta_value`、`meta_value_num`を指定する場合は、必ず`meta_key`も合わせて指定します。閲覧数でソートしたいため、`_custom_meta_views`を指定します。                                             |
 | order          | `DESC`（降順）、`ASC`（昇順）のいずれかを指定します。デフォルトは昇順です。`                                                                                                                 |
 
-<http://codex.wordpress.org/Template_Tags/get_posts>
+<https://codex.wordpress.org/Template_Tags/get_posts>
 
 あとは`get_posts`で取得した配列を`foreach`でループします。`$post`変数には、`wp_posts`テーブルの情報が含まれています。例外的に、**カスタムフィールドの値を取得する場合は、`$post->_custom_meta_views`とカスタムフィールドのキー名を指定します**。その他、`$post`変数に含まれる情報としてよく使うものを挙げておきます。
 

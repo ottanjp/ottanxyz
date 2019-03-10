@@ -67,7 +67,7 @@ Caffeineは、メニューバーに常駐するアプリケーションで、Caf
 
 
 
-システム環境設定でスリープまでの時間を短くした場合に、不用意なスリープを防ぐ最適な手段です。Caffeineの使い方については、[Macアプリ:Caffeine使い方 | MacとiPhone備忘録](http://apple-relationship.com/mac-app/convenience-mac-app/mac%E3%82%A2%E3%83%97%E3%83%AAcaffeine%E4%BD%BF%E3%81%84%E6%96%B9/)が参考になります。
+システム環境設定でスリープまでの時間を短くした場合に、不用意なスリープを防ぐ最適な手段です。Caffeineの使い方については、[Macアプリ:Caffeine使い方 | MacとiPhone備忘録](https://apple-relationship.com/mac-app/convenience-mac-app/mac%E3%82%A2%E3%83%97%E3%83%AAcaffeine%E4%BD%BF%E3%81%84%E6%96%B9/)が参考になります。
 
 
 
@@ -114,7 +114,7 @@ Should I Sleepを使用すれば、バッテリーを節約しながら、作業
 
 
 
-顔検出以外に、アドオンを購入することで、さまざまな検出方法を設定できますが、もっともよく利用するのが顔検出だと思いますので、ここでは割愛します。Should I Sleepについては、[ディスプレイを見ている時はスリープさせない賢さを手に入れる - ザリガニが見ていた...。](http://d.hatena.ne.jp/zariganitosh/20121026/should_i_sleep)が参考になります。
+顔検出以外に、アドオンを購入することで、さまざまな検出方法を設定できますが、もっともよく利用するのが顔検出だと思いますので、ここでは割愛します。Should I Sleepについては、[ディスプレイを見ている時はスリープさせない賢さを手に入れる - ザリガニが見ていた...。](https://zariganitosh.hatenablog.jp/entry/20121026/should_i_sleep)が参考になります。
 
 
 

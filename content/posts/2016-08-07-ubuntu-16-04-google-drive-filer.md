@@ -23,7 +23,7 @@ tags:
 
 
 
-https://ottan.xyz/vmware-fusion-8-ubuntu-iso-3446/
+https://ottan.xyz/vmware-fusion-8-ubuntu-iso-6836/
 
 
 

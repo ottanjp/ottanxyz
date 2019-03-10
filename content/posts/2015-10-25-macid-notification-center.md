@@ -76,7 +76,7 @@ MacBookを持ち歩く場合、セキュリティ対策としてログインパ�
 
 **Mac**
 
-http://macid.co/
+https://macid.co/
 
 **iPhone**
 

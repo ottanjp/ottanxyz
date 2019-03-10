@@ -24,7 +24,7 @@ tags:
 
 
 
-https://ottan.xyz/vccw-wordmove-deploy-4092/
+https://ottan.xyz/vccw-wordmove-deploy-6858/
 
 
 

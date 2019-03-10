@@ -123,7 +123,7 @@ PCとFireタブレットを接続すると、PCに不明なデバイスとして
 
 
 
-http://developer.android.com/sdk/win-usb.html
+https://developer.android.com/studio/run/win-usb
 
 
 

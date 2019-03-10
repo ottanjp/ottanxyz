@@ -19,7 +19,7 @@ tags:
 
 
 
-Remix OSは、Android OSをベースとしたデスクトップ向けに最適化されたOSです。[PCで動く「Android互換OS」を試してみた。マルチウィンドウが使えるRemix OS for PC α版が登場 - Engadget Japanese](http://japanese.engadget.com/2016/01/13/pc-android-os-remix-os-for-pc/)などでも、内容が詳しく紹介されていますので、詳細はそちらを参照してください。
+Remix OSは、Android OSをベースとしたデスクトップ向けに最適化されたOSです。[PCで動く「Android互換OS」を試してみた。マルチウィンドウが使えるRemix OS for PC α版が登場 - Engadget Japanese](https://japanese.engadget.com/2016/01/13/pc-android-os-remix-os-for-pc/)などでも、内容が詳しく紹介されていますので、詳細はそちらを参照してください。
 
 
 

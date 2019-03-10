@@ -265,7 +265,7 @@ Vagrantで仮想マシンを構築するにあたっては、仮想マシンの�
 
 
 
-[node.js](http://nodejs.org/)のインストールには[Homebrew — OS X用パッケージマネージャー](http://brew.sh/index_ja.html)が便利です。Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)で詳しくご紹介していますので、こちらも合わせてご覧ください。
+[node.js](https://nodejs.org/)のインストールには[Homebrew — OS X用パッケージマネージャー](https://brew.sh/index_ja.html)が便利です。Homebrewについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)で詳しくご紹介していますので、こちらも合わせてご覧ください。
 
 
 

@@ -64,7 +64,7 @@ sudo kextcache -system-caches
 
 Bonjour環境を構築する「mDNSResponder」など、macOSを構成するプロセスについて、システム終了時に「待ち」が発生しシャットダウンを遅くする事例が報告されているそうです。
 
-<http://forums.macrumors.com/showthread.php?t=1589712>
+<https://forums.macrumors.com/threads/1589712>
 
 これらのデーモンの処理終了時に強制終了されるまでのタイムアウト（待ち）時間はデフォルトで20秒となっていますが、これを短縮することでシステム停止にかかる時間が大幅に短縮される可能性があります。
 

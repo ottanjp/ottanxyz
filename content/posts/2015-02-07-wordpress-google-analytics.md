@@ -355,7 +355,7 @@ Google Analyticsから取得したページビューをWordPressのデータベ�
 
 なお、`wp_postmeta`テーブルから値を取得するためには、`get_post_meta`関数を使用します。
 
-<http://codex.wordpress.org/Function_Reference/get_post_meta>
+<https://codex.wordpress.org/Function_Reference/get_post_meta>
 
 #### Google Analyticsからの情報取得時の注意点
 
@@ -430,4 +430,4 @@ cronによる定期実行が現実的ですが、cronが利用できない場合
 
 <http://www.karakaram.com/google-analytics-api-batch>
 
-<http://hayashikejinan.com/wordpress/tips/372/>
+<https://hayashikejinan.com/wordpress/tips/372/>

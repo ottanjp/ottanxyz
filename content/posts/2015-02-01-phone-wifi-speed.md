@@ -494,7 +494,7 @@ NURO光は、世界最速下り2Gbpsを謳うSo-netが扱うインターネッ�
 
 
 
-http://kakaku.com/bb/
+https://kakaku.com/bb/
 
 
 

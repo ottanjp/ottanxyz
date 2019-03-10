@@ -35,7 +35,7 @@ CC-BYは、「著作権の改変・再利用を許可」「著作物の商用利
 
 #### 「LibreStock」の使用方法
 
-まず、[Free Stock Photos · Search 40+ sites with LibreStock](http://librestock.com/)にアクセスしましょう。
+まず、[Free Stock Photos · Search 40+ sites with LibreStock](https://librestock.com/)にアクセスしましょう。
 
 ![](/images/2017/03/170319-58cdee5a377cf.png)
 
@@ -63,9 +63,11 @@ LibreStockを使用する上で注意したいのが、**最終的に画像フ�
 
 もし、MacのランチャーであるAlfredを使用している場合には、[こちら](/alfred-guidance-181/)でご紹介している「Web Search」に登録しておくことによって、Alfredから画像ファイルを検索できます。
 
-| キーワード | Search URL                                  | 説明                         |
-| ---------- | ------------------------------------------- | ---------------------------- |
-| pic-ls     | http://librestock.com/search/?query={query} | LibreStockから画像を検索する |
+<!-- textlint-disable -->
+| キーワード | Search URL                                   | 説明                         |
+| ---------- | -------------------------------------------- | ---------------------------- |
+| pic-ls     | http\://librestock.com/search/?query={query} | LibreStockから画像を検索する |
+<!-- textlint-enable -->
 
 ## まとめ
 

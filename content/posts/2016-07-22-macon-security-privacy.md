@@ -196,7 +196,7 @@ osx-config-checkでは、macOSのシステム全体、Safari、メール、Googl
 
 
 
-Homebrewの統計情報収集が無効化されていること。[Homebrew — macOS 用パッケージマネージャー](http://brew.sh/index_ja.html)では、以前のアップデートで、Google Analyticsを使用した統計情報（使用者のIPアドレス、使用しているパッケージ等）を収集するようになりました。情報を収集されたくない場合は、設定を有効化しておきます。
+Homebrewの統計情報収集が無効化されていること。[Homebrew — macOS 用パッケージマネージャー](https://brew.sh/index_ja.html)では、以前のアップデートで、Google Analyticsを使用した統計情報（使用者のIPアドレス、使用しているパッケージ等）を収集するようになりました。情報を収集されたくない場合は、設定を有効化しておきます。
 
 
 

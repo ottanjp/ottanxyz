@@ -154,8 +154,7 @@ Boot Campアシスタントを使ってWindows 7をインストールする場�
 
 
 
-https://www.microsoft.com/ja-jp/software-download/Windows 7
-
+https://www.microsoft.com/ja-jp/software-download/windows7
 
 
 プロダクトキーを入力して「確認」ボタンをクリックします。画面の手順にしたがって、Windows 7のイメージファイルをダウンロードしてください。

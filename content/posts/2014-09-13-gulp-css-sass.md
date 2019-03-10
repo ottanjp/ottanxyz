@@ -19,7 +19,7 @@ tags:
 
 「gulp.js」で使用するパッケージ（プラグイン）の管理は、すべて「Node.js」で行います。「Node.js」はHomebrewを使用してインストールできます。まずは、Homebrewをインストールしましょう。
 
-Homebrewのインストール方法は、[Homebrew — The missing package manager for macOS](http://brew.sh/) に記載されているインストール方法に従うだけです。記事執筆時点のインストール方法は、以下のコマンドを実行するだけです。また、Homebrewについては[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)でも詳細を解説していますので、こちらも合わせてご覧ください。
+Homebrewのインストール方法は、[Homebrew — The missing package manager for macOS](https://brew.sh/) に記載されているインストール方法に従うだけです。記事執筆時点のインストール方法は、以下のコマンドを実行するだけです。また、Homebrewについては[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)でも詳細を解説していますので、こちらも合わせてご覧ください。
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -108,7 +108,7 @@ npm init
 
 ### パッケージのインストール
 
-gulp.jsは、単独でできることは限られていますが、プラグインを利用することで機能を補完できます。[gulp plugin search](http://gulpjs.com/plugins/) でプラグインが公開されていますので、参考にしてみてください。思わぬプラグインが見つかるかもしれません。
+gulp.jsは、単独でできることは限られていますが、プラグインを利用することで機能を補完できます。[gulp plugin search](https://gulpjs.com/plugins/) でプラグインが公開されていますので、参考にしてみてください。思わぬプラグインが見つかるかもしれません。
 
 パッケージのインストールは、前述の`npm`コマンドを使用します。コマンド実行時に「--save-dev」オプションを付与しておきましょう。このオプションを付与することで、**Node.jsのプロジェクトを共有する**場合に絶大な効果を発揮します。
 
@@ -278,10 +278,10 @@ gulp.task('default', ['cssmin', 'sass', jsmin]);
 
 #### タスクが非同期に実行される場合の注意点
 
-gulp.jsのタスクは、原則、非同期で実行されます。タスク同士に依存関係を持たせたい場合の方法は割愛します。[gulp/docs/API.md at master · gulpjs/gulp · GitHub](https://github.com/gulpjs/gulp/blob/master/docs/API.md) を参考にしてください。
+gulp.jsのタスクは、原則、非同期で実行されます。タスク同士に依存関係を持たせたい場合の方法は割愛します。[gulpjs/gulp: The streaming build system](https://github.com/gulpjs/gulp/)を参考にしてください。
 
 非同期で実行される場合の注意点としては、繰り返しになりますが
-**タスクが順番に実行される訳ではない**ということです。たとえば、今回の場合、「cssmin」「sass」の両タスクに依存関係は存在しないため、どちらが先に実行されるかはわかりません。依存関係を付けたい場合は、
+**タスクが順番に実行される訳ではない**ということです。たとえば、今回の場合、「cssmin」「sass」の両タスクに依存関係は存在しないため、どちらが先に実行されるかはわかりません。依存関係を付けたい場合は、以下のようにする必要があります。
 
 ```js
 gulp.task('sass,  ['cssmin'], function() {
@@ -289,7 +289,7 @@ gulp.task('sass,  ['cssmin'], function() {
 });
 ```
 
-とする必要があります。非同期で実行されても問題ないようにタスクを組むのが一番懸命なやり方です。
+非同期で実行されても問題ないようにタスクを組むのが一番懸命なやり方です。
 
 ### タスクを実行する
 

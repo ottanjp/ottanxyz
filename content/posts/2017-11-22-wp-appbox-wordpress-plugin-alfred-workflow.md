@@ -41,7 +41,7 @@ AlfredでApp Storeを指定したキーワードで検索し、検索した結�
 
 ### App Storeから検索するWorkflowを自作する
 
-App Storeには、開発者向けのREST APIが用意されています。詳細は、[iTunes Search API JP – Affiliate Resources](https://affiliate.itunes.apple.com/resources/documentation/itunes_search_api_jp/)で説明されています。検索結果はJSON形式で返却されるため、JSONデータを加工してAlfredに出力します。
+App Storeには、開発者向けのREST APIが用意されています。詳細は、[iTunes Search API JP – Affiliate Resources](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)で説明されています。検索結果はJSON形式で返却されるため、JSONデータを加工してAlfredに出力します。
 
 #### AlfredでWorkflowを新規作成する
 

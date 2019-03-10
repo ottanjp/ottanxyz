@@ -149,7 +149,7 @@ iPhoneの通知センターは便利ですが、Macでは活用機会が見出�
 
 [Google 日本語入力](http://www.google.co.jp/ime/)、便利ですよね。でも、私は断然「ことえり」派です。なぜなら、ことえりは変換候補のウインドウのフォントの種類とサイズが変更できるからです。このような些細な気配りが[Google 日本語入力](http://www.google.co.jp/ime/)には足りないのです。
 
-[iOSでATOKが解禁されれば](http://japanese.engadget.com/2014/06/02/ios-8-atok/)、あっさりとことえりを裏切ってATOKに乗り換えるつもりですが…。
+[iOSでATOKが解禁されれば](https://japanese.engadget.com/2014/06/02/ios-8-atok/)、あっさりとことえりを裏切ってATOKに乗り換えるつもりですが…。
 
 -   入力ソースはお好みで。私は（現在のところ）ことえりから離れられません
 

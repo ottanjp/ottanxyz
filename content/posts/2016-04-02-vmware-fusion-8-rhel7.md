@@ -57,7 +57,7 @@ https://access.redhat.com/documentation/ja-JP/Red_Hat_Enterprise_Linux/7/html/In
 
 
 
-http://developers.redhat.com/products/rhel/download/
+https://developers.redhat.com/products/rhel/download/
 
 
 

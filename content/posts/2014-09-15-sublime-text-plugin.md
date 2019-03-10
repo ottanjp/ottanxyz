@@ -177,7 +177,7 @@ Sublime Textは、さまざまなキーボードショートカットを使用�
 
 
 
-[Can I use](http://caniuse.com/)は、CSS3やHTML5の各主要ブラウザの対応状態を確認できるWebサービス。このパッケージを導入すれば、選択した単語をすぐに[Can I use](http://caniuse.com/)で検索できて便利です。
+[Can I use](https://caniuse.com/)は、CSS3やHTML5の各主要ブラウザの対応状態を確認できるWebサービス。このパッケージを導入すれば、選択した単語をすぐに[Can I use](https://caniuse.com/)で検索できて便利です。
 
 
 

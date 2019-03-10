@@ -24,7 +24,7 @@ Android互換OS「Remix OS」をインストールして使用する方法をご
 
 
 
-https://ottan.xyz/virtualbox-remixos-3197/
+https://ottan.xyz/virtualbox-remixos-6826/
 
 
 

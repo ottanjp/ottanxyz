@@ -31,7 +31,7 @@ tags:
 
 なお、2011年以降に発売されたAirMac Extreme、およびAirMac TimeCapsuleにはチャンネルボンディング技術が搭載されています。
 
-<http://michisugara.jp/archives/2014/wifi.html>
+<https://michisugara.jp/archives/2014/wifi.html>
 
 ### MIMO
 

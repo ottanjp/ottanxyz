@@ -51,7 +51,7 @@ Homebrewの準備ができたら「LaTeXiT」に必要なパッケージのイ�
 brew install imagemagick ghostscript pdf2svg
 ```
 
-<http://brew.sh/>
+<https://brew.sh/>
 
 以上で、Homebrewの準備は完了です。
 

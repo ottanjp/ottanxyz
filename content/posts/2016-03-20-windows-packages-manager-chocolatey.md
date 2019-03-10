@@ -18,7 +18,7 @@ tags:
 
 
 
-Macなら、[Homebrew](http://brew.sh/index_ja.html)で簡単にターミナルからCUIベースでパッケージ管理を行う事が可能です。今回は、Windowsでも同様のCUI　ベースでのパッケージ管理が可能となる、「Chocolatey」をご紹介します。
+Macなら、[Homebrew](https://brew.sh/index_ja.html)で簡単にターミナルからCUIベースでパッケージ管理を行う事が可能です。今回は、Windowsでも同様のCUI　ベースでのパッケージ管理が可能となる、「Chocolatey」をご紹介します。
 
 
 
