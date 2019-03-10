@@ -22,7 +22,7 @@ tags:
 
 
 
-/efficiency-blog-736/
+https://ottan.xyz/efficiency-blog-736/
 
 
 

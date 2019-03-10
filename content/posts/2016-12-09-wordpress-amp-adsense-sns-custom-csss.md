@@ -8,7 +8,6 @@ url: /wordpress-amp-adsense-sns-custom-csss-5319/
 categories:
 - Blog
 tags:
-- WordPress
 - Development
 ---
 
@@ -163,7 +162,7 @@ https://github.com/Automattic/amp-wp
 
 
 
-{{< gist ottanxyz bb03aade6544114f03c0da95a5917224 >}}
+https://gist.github.com/ottanxyz/bb03aade6544114f03c0da95a5917224
 
 
 
@@ -171,7 +170,7 @@ https://github.com/Automattic/amp-wp
 
 
 
-{{< gist ottanxyz fad23452969e7081364e588bbcdd1db0 >}}
+https://gist.github.com/ottanxyz/fad23452969e7081364e588bbcdd1db0
 
 
 
@@ -242,7 +241,7 @@ http://fontawesome.io/
 
 
 
-{{< gist ottanxyz 9fa7b7cab517781159a04ad0691db627 >}}
+https://gist.github.com/ottanxyz/9fa7b7cab517781159a04ad0691db627
 
 
 
@@ -275,7 +274,7 @@ http://fontawesome.io/
 
 
 
-{{< gist ottanxyz f3ae66a753d5498af27d74f67023064f >}}
+https://gist.github.com/ottanxyz/f3ae66a753d5498af27d74f67023064f
 
 
 

@@ -22,7 +22,8 @@ tags:
 先日、[macOS El CapitanのBoot Campアシスタントを使ってWindows 7をインストールする方法](/el-capitan-bootcamp-2774/)で、macOS El Capitanの環境下でBootCampアシスタントを使用して、Windows 7をインストールする方法をご紹介しました。
 
 
-* [OTTAN.XYZ | macOS El CapitanのBoot Campアシスタントを使ってWindows 7をインストールする方法](/el-capitan-bootcamp-2774/)
+
+https://ottan.xyz/el-capitan-bootcamp-2774/
 
 
 

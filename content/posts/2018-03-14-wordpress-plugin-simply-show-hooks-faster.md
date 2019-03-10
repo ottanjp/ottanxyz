@@ -9,7 +9,7 @@ categories:
 - Blog
 tags:
 - Plugin
-- WordPress
+- Blog
 ---
 
 ![](/images/2018/03/180314-5aa8ea3d6c266.jpg)

@@ -20,7 +20,7 @@ tags:
 
 
 
-* [Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！](/pocket-to-instapaper-5181/)
+https://ottan.xyz/pocket-to-instapaper-5181/
 
 
 

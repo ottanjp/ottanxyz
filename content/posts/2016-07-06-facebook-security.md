@@ -6,7 +6,7 @@ title: Facebookを安全に使用するための3ヶ条
 type: post
 url: /facebook-security-4580/
 categories:
-- iPhone
+- Web
 tags:
 - Security
 ---
@@ -221,7 +221,8 @@ Facebookは実名制です。それがゆえに、あなたのアカウントを
 同じく「セキュリティ」のメニューに、「ログイン承認」という項目があります。こちらを有効にしておくことで、あなたが使ったことのない端末やブラウザからログインする場合は、ログインパスワード以外に、セキュリティコードによる認証（多要素認証）を要求するというものです。たとえば、あなたしか持ち得ないスマホの電話番号宛にSMSでログインパスワードとは別のワンタイムパスワードを送信できます。これで、あなたのスマホを持っていない人は、あなたのアカウントを使用することができなくなります。詳細は、過去のリンクをご参照ください。
 
 
-* [OTTAN.XYZ | Facebookアカウントの2段階認証を有効にする方法](/facebook-two-step-authentication-934/)
+
+https://ottan.xyz/facebook-two-step-authentication-934/
 
 
 

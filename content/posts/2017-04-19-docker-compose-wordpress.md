@@ -10,7 +10,6 @@ categories:
 tags:
 - Development
 - Docker
-- WordPress
 ---
 
 ![](/images/2017/04/170419-58f6c1df347fc.jpg)

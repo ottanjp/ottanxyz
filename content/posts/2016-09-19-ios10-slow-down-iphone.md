@@ -58,7 +58,8 @@ iOS 10にアップデート後に動作が遅くなったと感じたことは�
 
 
 
-* [OTTAN.XYZ | iPhoneの動作が遅い、バッテリーの減りが早いと感じた時はiOSのクリーンインストールを試してみよう！](/iphone-clean-install-4955/)
+https://ottan.xyz/iphone-clean-install-4955/
+
 
 
 ### 使用していないウィジェットの使用を停止する
@@ -122,7 +123,8 @@ iOS 10からロック画面から、ホーム画面から、すぐにウィジ�
 
 
 
-* [OTTAN.XYZ | iOS 10で大幅に進化したiMessageを楽しもう！快適に使用するための設定方法もご紹介](/ios10-imessage-enjoy-4939/)
+https://ottan.xyz/ios10-imessage-enjoy-4939/
+
 
 
 ※iOS 10.1へのアップデートで改善されました。詳細は上記の関連記事をご覧ください。

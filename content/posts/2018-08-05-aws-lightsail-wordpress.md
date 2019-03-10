@@ -10,7 +10,7 @@ categories:
 tags:
 - Amazon
 - AWS
-- WordPress
+- Blog
 ---
 
 ![](/images/2018/08/wordpress-265132_640.jpg)

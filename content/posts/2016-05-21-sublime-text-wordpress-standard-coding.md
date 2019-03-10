@@ -10,7 +10,6 @@ categories:
 - Blog
 tags:
 - Development
-- WordPress
 ---
 
 ![](/images/2016/05/160521-573fe31dc0073.jpg)
@@ -192,7 +191,8 @@ PHP CodeSnifferでダウンロードしたWordPress Coding Standardが使用で�
 事前準備は完了です。続いて、Sublime Textを開き、PHP CodeSnifferが使用できるようにします。Package Controlを開き、「SublimeLinter-phpcs」パッケージをインストールしてください。なお、「Package Control」の使い方については、以下のリンクを参照してください。また、「SublimeLinter-phpcs」を使用するためには、事前に「SublimeLinter」パッケージをインストールしておく必要があります。
 
 
-* [OTTAN.XYZ | Sublime Textに導入しているオススメのプラグイン23選](/sublime-text-plugin-321/)
+
+https://ottan.xyz/sublime-text-plugin-321/
 
 
 

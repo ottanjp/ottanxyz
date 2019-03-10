@@ -10,7 +10,7 @@ categories:
 tags:
 - CMS
 - Netlify
-- WordPress
+- Blog
 ---
 
 ![](/images/2018/10/181013-5bc19bd103c86.png)

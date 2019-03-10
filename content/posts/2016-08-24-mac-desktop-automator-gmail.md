@@ -21,7 +21,8 @@ tags:
 先日、iPhoneやMacで送受信するメールをすべてGmailに集約する方法をご紹介しました。不要なインターネットアカウントをすべて削除し、Googleのみに集約でき、管理を一元化できるというメリットがあることをご紹介しました。
 
 
-* [OTTAN.XYZ | iPhoneでGmailをプッシュ通知！すべてのメールアドレスをGmailに転送し、Gmailからすべて送受信する方法](/phone-gmail-push-inbox-4770/)
+
+https://ottan.xyz/phone-gmail-push-inbox-4770/
 
 
 

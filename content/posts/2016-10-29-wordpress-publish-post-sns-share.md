@@ -10,7 +10,6 @@ categories:
 tags:
 - Development
 - IFTTT
-- WordPress
 ---
 
 ![](/images/2016/10/161029-5814029bd3472.jpg)
@@ -30,7 +29,7 @@ tags:
 
 
 
-* [WordPressで記事を投稿した瞬間に外部にメールを送信する方法](/wordpress-publish-mail-push-5145/)
+https://ottan.xyz/wordpress-publish-mail-push-5145/
 
 
 

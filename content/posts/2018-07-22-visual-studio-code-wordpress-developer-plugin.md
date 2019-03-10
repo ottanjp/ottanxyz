@@ -12,7 +12,7 @@ tags:
 - JavaScript
 - PHP
 - VS Code
-- WordPress
+- Blog
 ---
 
 ![](/images/2018/07/180722-5b53eb5f83ba4.jpg)

@@ -9,7 +9,6 @@ categories:
 - Blog
 tags:
 - Development
-- WordPress
 ---
 
  ![](/images/2017/04/170422-58faefe1b74dd.jpg)
@@ -35,7 +34,7 @@ tags:
 
 
 
-では、[プラグインを使わずにGistのコードをWordPressに埋め込む方法 – OTTAN.XYZ](/gist-wordpress-embed-4108/)でご紹介した手法を元に、「Mastodon」のトゥートを表示する方法を考えましょう。まず、トゥート表示の元となるURLの形式は以下を満たしているとします。
+では、[プラグインを使わずにGistのコードをWordPressに埋め込む方法 – OTTAN.XYZ](/gist-wordpress-embed-6861/)でご紹介した手法を元に、「Mastodon」のトゥートを表示する方法を考えましょう。まず、トゥート表示の元となるURLの形式は以下を満たしているとします。
 
 
 
@@ -89,7 +88,7 @@ Gistにプログラムを公開しています。以下のプログラムをダ�
 
 
 
-{{< gist ottanxyz 9aeae0609e035479e937d4895a681701 >}}
+https://gist.github.com/ottanxyz/9aeae0609e035479e937d4895a681701
 
 
 

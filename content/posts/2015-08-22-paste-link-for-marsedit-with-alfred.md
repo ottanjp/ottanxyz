@@ -10,7 +10,6 @@ categories:
 - Mac
 - Blog
 tags:
-- WordPress
 - Alfred
 - Apps
 - MarsEdit

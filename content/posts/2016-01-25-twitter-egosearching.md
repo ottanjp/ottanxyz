@@ -7,6 +7,7 @@ type: post
 url: /twitter-egosearching-6829/
 categories:
 - iPhone
+- Web
 tags:
 - IFTTT
 - Tips
@@ -300,7 +301,7 @@ IFTTTがTwitterにアクセスするための認証画面が求められるた�
 
 
 
-実際に、弊サイトでご紹介した記事である、[誤って削除した重要なカレンダーのイベントやリマインダーを復旧する方法](/icloud-calendar-reminder-3236/)を、Twitterでテスト配信してみたところ、このようにIFアプリによって通知されました。ツイートに短縮URLが使用されていても問題なく通知されます。
+実際に、弊サイトでご紹介した記事である、[誤って削除した重要なカレンダーのイベントやリマインダーを復旧する方法](/icloud-calendar-reminder-6828/)を、Twitterでテスト配信してみたところ、このようにIFアプリによって通知されました。ツイートに短縮URLが使用されていても問題なく通知されます。
 
 
 

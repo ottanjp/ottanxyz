@@ -12,7 +12,6 @@ categories:
 tags:
 - Atom
 - Development
-- WordPress
 ---
 
 ![](/images/2016/05/160528-57490732a2c14.jpg)
@@ -25,7 +24,8 @@ tags:
 Sublime Textはお気に入りのエディターですが、有償のソフトウェアです。無期限で試用することはできますが、永続的に使用するためにはライセンス料を支払う必要があります。高機能なエディターで非常に便利ですが、ライセンス料がやや高く、初心者にとっては敷居が高いかもしれません。
 
 
-* [OTTAN.XYZ | WordPress開発のためにAtomに導入しておきたい最低限のプラグイン8選](/atom-plugin-8-2207/)
+
+https://ottan.xyz/atom-plugin-8-2207/
 
 
 

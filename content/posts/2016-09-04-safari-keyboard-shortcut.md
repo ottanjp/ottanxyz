@@ -40,7 +40,8 @@ Safariについては、以下のリンクも参照してください。
 
 
 
-* [OTTAN.XYZ | Safariをもっと便利に使いこなそう！Apple公式サイトから入手できるSafariの拡張機能](/safari-mac-extensions-4741/)
+https://ottan.xyz/safari-mac-extensions-4741/
+
 
 
 ## Safariをショートカットで自由自在に操る

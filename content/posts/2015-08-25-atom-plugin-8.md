@@ -12,7 +12,6 @@ categories:
 tags:
 - Atom
 - Development
-- WordPress
 ---
 
 ![](/images/2015/08/150824-55db27a42384f.png)

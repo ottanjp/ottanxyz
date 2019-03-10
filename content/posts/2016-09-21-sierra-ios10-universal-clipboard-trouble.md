@@ -313,7 +313,8 @@ iOS 10の場合、Wi-Fiと同様です。「機内モード」のオン、オフ
 
 
 
-* [OTTAN.XYZ | インタスタントホットスポットとHandoffが使用できない場合の対処法](/instant-hotspot-handoff-disable-1397/)
+https://ottan.xyz/instant-hotspot-handoff-disable-1397/
+
 
 
 ## まとめ

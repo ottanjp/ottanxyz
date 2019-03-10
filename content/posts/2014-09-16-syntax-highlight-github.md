@@ -9,7 +9,6 @@ categories:
 - Blog
 tags:
 - Development
-- WordPress
 ---
 
 ![](/images/2014/09/140916-5417c007730c4.png)

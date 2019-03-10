@@ -6,7 +6,7 @@ title: 定期実行されるGoogle Apps Scriptのトリガーをすべて削除�
 type: post
 url: /google-apps-script-trigger-delete-6841/
 categories:
-- iPhone
+- Web
 tags:
 - Development
 ---

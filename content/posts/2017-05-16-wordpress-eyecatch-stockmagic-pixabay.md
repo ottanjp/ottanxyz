@@ -10,7 +10,6 @@ categories:
 - Blog
 tags:
 - Apps
-- WordPress
 ---
 
 ![](/images/2017/05/170516-591a94e1a22d0.jpg)
