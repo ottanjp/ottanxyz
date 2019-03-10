@@ -30,7 +30,7 @@ PopClipはmacOSで使用できる拡張機能です。マウスやトラック�
 
 
 
-https://ottan.xyz/popclip-extensions-htmlencode-4750/
+https://ottan.xyz/popclip-extensions-htmlencode-customize-4750/
 
 
 
@@ -422,7 +422,7 @@ macOS等の情報が公開されているWebページで下記のような記述
 
 
 
-https://ottan.xyz/popclip-extensions-htmlencode-4750/
+https://ottan.xyz/popclip-extensions-htmlencode-customize-4750/
 
 
 
@@ -436,4 +436,4 @@ PopClipは拡張機能を導入することで、その威力を思う存分発�
 
 
 
-https://ottan.xyz/popclip-extensions-htmlencode-4750/
+https://ottan.xyz/popclip-extensions-htmlencode-customize-4750/

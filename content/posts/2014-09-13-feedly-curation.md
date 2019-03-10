@@ -6,7 +6,9 @@ title: feedlyで作る自分だけのキュレーションアプリ
 type: post
 url: /feedly-curation-314/
 categories:
-- Web
+- iPhone
+tags:
+- Feedly
 ---
 
 ![](/images/2014/09/140913-5413925b584f2.png)

@@ -35,7 +35,7 @@ Automatorが起動したら、画面左側のライブラリの中から、「�
 
 ![](/images/2015/04/150419-5533aea8544da.png)
 
-URLをYouTubeのURL（<https://www.youtube.com/）に編集します。>
+URLをYouTubeのURL（https\://www.youtube.com/）に編集します。
 
 ![](/images/2015/04/150419-5533aeaadfb74.png)
 

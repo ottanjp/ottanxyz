@@ -32,7 +32,7 @@ https://ottan.xyz/docker-for-mac-wordpress-4711/
 
 
 
-https://ottan.xyz/vccw-wordmove-deploy-4092/
+https://ottan.xyz/vccw-wordmove-deploy-6858/
 
 
 
@@ -180,7 +180,7 @@ https://ottan.xyz/vccw-wordmove-deploy-4092/
 
 
 
-https://ottan.xyz/vccw-wordmove-deploy-4092/
+https://ottan.xyz/vccw-wordmove-deploy-6858/
 
 
 

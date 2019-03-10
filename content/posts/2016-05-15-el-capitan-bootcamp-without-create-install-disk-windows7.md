@@ -153,7 +153,7 @@ ZIPファイルをダウンロードしたら解凍し、先ほどフォーマ�
 
 
 
-https://www.microsoft.com/ja-jp/software-download/Windows 7
+https://www.microsoft.com/ja-jp/software-download/windows7
 
 
 

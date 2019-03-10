@@ -53,7 +53,7 @@ Macのアプリケーションは、以下のリンク先からダウンロー�
 
 
 
-http://macid.co/
+https://macid.co/
 
 
 

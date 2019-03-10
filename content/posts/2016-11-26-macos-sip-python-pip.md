@@ -134,7 +134,7 @@ macOS SierraでPythonは標準で使用できます。また、「EasyInstall」
 
 
 
-macOS Sierraで、Pythonを快適に使用するためには、OS標準のPythonではなく、[Homebrew](http://brew.sh/)を使用しましょう。Homebrewの導入は、リンク先を参照してください。ターミナルからワンライナーでインストールできます。
+macOS Sierraで、Pythonを快適に使用するためには、OS標準のPythonではなく、[Homebrew](https://brew.sh/)を使用しましょう。Homebrewの導入は、リンク先を参照してください。ターミナルからワンライナーでインストールできます。
 
 
 

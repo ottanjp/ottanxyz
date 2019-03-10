@@ -42,7 +42,7 @@ GIFアニメーションを作成するためには、[ImageMagick: Convert, Edi
 
 
 
-Homebrewのインストールについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)でも詳しくご紹介していますのでご覧ください。インストールは以下のコマンドを実行するだけです。インストール方法は随時変更になる可能性もありますので、詳細は[Homebrew — macOS 用パッケージマネージャー](http://brew.sh/index_ja.html)を参照してください。
+Homebrewのインストールについては、[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)でも詳しくご紹介していますのでご覧ください。インストールは以下のコマンドを実行するだけです。インストール方法は随時変更になる可能性もありますので、詳細は[Homebrew — macOS 用パッケージマネージャー](https://brew.sh/index_ja.html)を参照してください。
 
 
 
@@ -212,4 +212,4 @@ GIFアニメーションを作成するための元となる画像を複数用�
 
 
 
-via：[Make Animated GIFs In macOS With A Right-click | Jacob Salmela](http://jacobsalmela.com/make-animated-gifs-in-os-x-with-a-right-click/)
+via：[Make Animated GIFs In macOS With A Right-click | Jacob Salmela](https://jacobsalmela.com/2015/11/02/make-animated-gifs-in-os-x-with-a-right-click/)

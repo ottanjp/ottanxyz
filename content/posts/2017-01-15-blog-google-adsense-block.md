@@ -19,7 +19,7 @@ tags:
 
 
 
-[How to Track AdBlock Users to your Website with Google Analytics](https://www.bforblogging.com/track-adblock-users-with-google-analytics/)で紹介されていた方法です。レンタルサーバー料金、独自ドメイン更新料など、ブログを運営していく上で欠かせないのが、その維持費です。維持費を捻出するためにGoogle AdSenseを導入されている方も多いのではないでしょうか。弊サイトでも、同様の目的でGoogle AdSenseを導入しています。
+レンタルサーバー料金、独自ドメイン更新料など、ブログを運営していく上で欠かせないのが、その維持費です。維持費を捻出するためにGoogle AdSenseを導入されている方も多いのではないでしょうか。弊サイトでも、同様の目的でGoogle AdSenseを導入しています。
 
 
 

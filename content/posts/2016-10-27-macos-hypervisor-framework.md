@@ -61,7 +61,7 @@ https://veertu.com
 
 
 
-https://www.microsoft.com/ja-jp/software-download/Windows 10ISO
+https://www.microsoft.com/ja-jp/software-download/Windows10ISO
 
 
 

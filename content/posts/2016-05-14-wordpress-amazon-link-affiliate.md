@@ -22,10 +22,6 @@ tags:
 
 
 
-https://ottan.xyz/wordpress-app-store-itunes-link-affiliate-4120/
-
-
-
 Amazonの商品情報を取得するためには、Amazon Product Advertising APIを使用します。このAPIの制約の1つに、「1リクエスト/秒」という制限があります。この制約を超えて使用した場合、リクエストに制限を受けてしまう可能性があるため、これを回避するためにも、前回と同様、一度取得した情報はWordPressのキャッシュとして保存するようにします。
 
 
@@ -116,14 +112,6 @@ https://gist.github.com/ottanxyz/18dbf434402fdb4abdd2b27d5d17df04
 
 
 https://affiliate.amazon.co.jp/gp/advertising/api/detail/main.html
-
-
-
-また、アクセスキーIDと秘密アクセスキーは、以下のURLを参照して取得してください。
-
-
-
-http://www.ajaxtower.jp/ecs/pre/index1.html
 
 
 

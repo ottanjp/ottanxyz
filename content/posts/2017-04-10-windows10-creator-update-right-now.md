@@ -34,8 +34,7 @@ Windows 10の最新アップデートである「Creators Update」の配信が�
 
 
 
-https://www.microsoft.com/ja-jp/software-download/Windows 10
-
+https://www.microsoft.com/ja-jp/software-download/windows10ISO
 
 
 ![](/images/2017/04/170410-58ec182f7cc53.png)

@@ -22,7 +22,7 @@ JTBの個人情報流出が明るみになったのは記憶に新しい事で�
 
 
 
-http://news.mynavi.jp/articles/2016/06/17/plugx/
+https://news.mynavi.jp/article/20160617-plugx/
 
 
 

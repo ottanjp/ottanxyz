@@ -55,7 +55,7 @@ jQuery(function($) {
 
 ## 解説
 
-今回のサンプルは[Bootstrap](http://getbootstrap.com/)、および[Font Awesome](http://fortawesome.github.io/Font-Awesome/)を利用していますが必須ではありません。ただし、[jQuery 1.x](http://jquery.com/)を使用するためあらかじめダウンロードして置いてください。
+今回のサンプルは[Bootstrap](https://getbootstrap.com/)、および[Font Awesome](https://fontawesome.com//)を利用していますが必須ではありません。ただし、[jQuery 1.x](http://jquery.com/)を使用するためあらかじめダウンロードして置いてください。
 
 ### HTML
 
@@ -76,7 +76,7 @@ jQuery(function($) {
 | class    | `social_twitter` 、`social_facebook` 、`social_gplus` 、`social_hatena` から選択 |
 | data-url | ソーシャルネットワークのシェア数を取得するURLを指定する。                        |
 
-jQueryによる取得が完了したら、`<span>` タグの中身をまるっと入れ替えます。デフォルトでは、[Font Awesome Examples](http://fortawesome.github.io/Font-Awesome/examples/)の「Spinning Icons」を指定し、ロードが完了すると`<span>` タグの中身がまるっと入れ替わるようになっています。
+jQueryによる取得が完了したら、`<span>` タグの中身をまるっと入れ替えます。デフォルトでは、[Font Awesome Examples](https://fontawesome.com//examples/)の「Spinning Icons」を指定し、ロードが完了すると`<span>` タグの中身がまるっと入れ替わるようになっています。
 
 ### JavaScript
 

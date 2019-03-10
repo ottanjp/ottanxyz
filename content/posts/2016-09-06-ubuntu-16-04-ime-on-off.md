@@ -35,7 +35,7 @@ Ubuntu 16.04 LTSについては、下記の記事でもご紹介しています�
 
 
 
-https://ottan.xyz/el-capitan-ubuntu-dual-boot-4020/
+https://ottan.xyz/el-capitan-ubuntu-dual-boot-6856/
 
 
 

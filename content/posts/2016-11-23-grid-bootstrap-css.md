@@ -49,7 +49,7 @@ tags:
 
 
 
-See the Pen [oYWyqo](http://codepen.io/ottanxyz/pen/oYWyqo/) by ottan ([@ottanxyz](http://codepen.io/ottanxyz)) on [CodePen](http://codepen.io).
+See the Pen [oYWyqo](https://codepen.io/ottanxyz/pen/oYWyqo/) by ottan ([@ottanxyz](https://codepen.io/ottanxyz)) on [CodePen](https://codepen.io).
 
 
 
@@ -74,7 +74,7 @@ See the Pen [oYWyqo](http://codepen.io/ottanxyz/pen/oYWyqo/) by ottan ([@ottanxy
 
 
 
-See the Pen [ZBKRoQ](http://codepen.io/ottanxyz/pen/ZBKRoQ/) by ottan ([@ottanxyz](http://codepen.io/ottanxyz)) on [CodePen](http://codepen.io).
+See the Pen [ZBKRoQ](https://codepen.io/ottanxyz/pen/ZBKRoQ/) by ottan ([@ottanxyz](https://codepen.io/ottanxyz)) on [CodePen](https://codepen.io).
 
 
 
@@ -179,4 +179,4 @@ See the Pen [ZBKRoQ](http://codepen.io/ottanxyz/pen/ZBKRoQ/) by ottan ([@ottanxy
 
 
 
-http://design-spice.com/2014/03/24/percentag/
+https://design-spice.com/2014/03/24/percentag/

@@ -39,13 +39,13 @@ qlmanage -r
 
 ## Homebrewのインストール
 
-[Homebrew](http://brew.sh/)は、Macのパッケージ管理ソフトです。ターミナル（CUI）でパッケージの管理ができるため、GUI操作と比較して素早くミスなく、そして何よりコピー＆ペーストでインストールできます。Homebrewのインストールについては、[macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介](/macos-package-manager-homebrew-6216/)でご紹介しています。
+[Homebrew](https://brew.sh/)は、Macのパッケージ管理ソフトです。ターミナル（CUI）でパッケージの管理ができるため、GUI操作と比較して素早くミスなく、そして何よりコピー＆ペーストでインストールできます。Homebrewのインストールについては、[macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介](/macos-package-manager-homebrew-6216/)でご紹介しています。
 
 ### Homebrew Caskのインストール
 
 著名なQuick Lookプラグインについては、[Homebrew Cask](http://caskroom.io/)でインストールできるようになりました。
 
-Homebrew Caskは、Homebrewの拡張機能です。[Homebrew](http://brew.sh/)によるパッケージ管理の他、Google ChromeなどGUIアプリケーションも同機能で管理できるようになります。Homebrew Caskをインストールするためには、以下のコマンドを実行します。
+Homebrew Caskは、Homebrewの拡張機能です。[Homebrew](https://brew.sh/)によるパッケージ管理の他、Google ChromeなどGUIアプリケーションも同機能で管理できるようになります。Homebrew Caskをインストールするためには、以下のコマンドを実行します。
 
 ```bash
 brew install caskroom/cask/brew-cask
@@ -55,7 +55,7 @@ Homebrew Caskでインストールできるアプリケーションは、公式�
 
 <http://caskroom.io/>
 
-<http://nanapi.co.jp/blog/2014/03/05/homebrew-cask/>
+<https://supership.jp/#/blog/2014/03/05/homebrew-cask/>
 
 ## Quick Lookプラグインのインストール
 

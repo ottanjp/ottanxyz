@@ -47,7 +47,7 @@ WordPressに限らず、Webサイト表示のロード時間の大部分を要�
 
 
 
-どちらもCUIで使用するツールです。macOSのパッケージ管理ソフト「[Homebrew](http://brew.sh/)」でインストールできます。[Homebrew](http://brew.sh/)のインストールについては、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)を参照してください。
+どちらもCUIで使用するツールです。macOSのパッケージ管理ソフト「[Homebrew](https://brew.sh/)」でインストールできます。[Homebrew](https://brew.sh/)のインストールについては、[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/gulp-css-sass-268/)を参照してください。
 
 
 
@@ -356,7 +356,7 @@ Webサーバ（Apache）の設定は「.htaccess」ファイルで行います�
 
 
 
-http://oxynotes.com/?p=6519
+https://oxynotes.com/?p=6519
 
 
 

@@ -77,8 +77,7 @@ https://atom.io/packages/color-picker
 
 
 
-Emmetは、コーディングにはもはや欠かせないツールとなりつつあります。Emmetについては、[今からでも遅くない！今日から始めるEmmet入門](/emmet-getting-started-2-1759/)で詳しくご紹介していますので、こちらをご覧ください。
-
+Emmetは、コーディングにはもはや欠かせないツールとなりつつあります。
 
 
 https://atom.io/packages/emmet
@@ -209,7 +208,7 @@ https://atom.io/packages/linter
 
 
 
-http://atomlinter.github.io/
+https://atomlinter.github.io/
 
 
 
@@ -491,8 +490,8 @@ PHPにも2種類のパッケージが用意されています。まず、はじ�
      7. Data directory                                : /usr/data
      8. User-modifiable configuration files directory : /usr/cfg
      9. Public Web Files directory                    : /usr/www
-    10. Tests directory                               : /usr/tests
-    11. Name of configuration file                    : /private/etc/pear.conf
+    1.  Tests directory                               : /usr/tests
+    2.  Name of configuration file                    : /private/etc/pear.conf
     
     1-11, 'all' or Enter to continue: 
 
@@ -581,7 +580,7 @@ https://atom.io/packages/file-icons
 
 
 
-CSSCombのAtom版です。[【便利ツール】CSScomb for sublime text 2で、CSSプロパティを整理・整頓【16日目】 ｜ Developers.IO](http://dev.classmethod.jp/tool/csscomb/)のページで詳しく紹介されています。
+CSSCombのAtom版です。[【便利ツール】CSScomb for sublime text 2で、CSSプロパティを整理・整頓【16日目】 ｜ Developers.IO](https://dev.classmethod.jp/tool/csscomb/)のページで詳しく紹介されています。
 
 
 

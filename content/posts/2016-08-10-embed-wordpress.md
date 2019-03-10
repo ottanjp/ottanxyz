@@ -226,4 +226,4 @@ https://gist.github.com/ottanxyz/518542b8e8872a3e6f84d753a0eb0803
 
 
 
-http://hayashikejinan.com/webwork/bookmarklet/1249/
+https://hayashikejinan.com/webwork/bookmarklet/1249/

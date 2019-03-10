@@ -201,7 +201,7 @@ Ubuntuのサポート期間には、通常版と長期サポート版（Long Ter
 
 <http://packages.ubuntu.com/trusty/amd64/fakeroot/download>
 
-<http://packages.ubuntu.com/trusty-updates/all/dkms/download>
+<https://packages.ubuntu.com/trusty-updates/all/dkms/download>
 
 <http://packages.ubuntu.com/trusty-updates/amd64/bcmwl-kernel-source/download>
 

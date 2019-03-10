@@ -30,7 +30,7 @@ tags:
 
 
 
-[highlight.js](http://highlightjs.org/)は、さまざまな言語に対応したシンタックスハイライト。既存のコードにスタイルシートとJavaScriptを埋め込むだけで使用できます。特徴は、何と言っても**対応している言語の多さとデフォルトで用意されているさまざまなスタイルシート**です。
+[highlight.js](https://highlightjs.org/)は、さまざまな言語に対応したシンタックスハイライト。既存のコードにスタイルシートとJavaScriptを埋め込むだけで使用できます。特徴は、何と言っても**対応している言語の多さとデフォルトで用意されているさまざまなスタイルシート**です。
 
 
 
@@ -55,7 +55,7 @@ tags:
 
 
 
-highlight.jsのダウンロードは、[Getting highlight.js](http://highlightjs.org/download/)から行います。ダウンロード時に必要な言語に絞ってダウンロードができるため、ダウンロードしてから加工するといった操作も一切不要。スタイルシートはすべてのセットがダウンロードされるため、好きなスタイルのみをロードするようにしましょう。
+highlight.jsのダウンロードは、[Getting highlight.js](https://highlightjs.org/download/)から行います。ダウンロード時に必要な言語に絞ってダウンロードができるため、ダウンロードしてから加工するといった操作も一切不要。スタイルシートはすべてのセットがダウンロードされるため、好きなスタイルのみをロードするようにしましょう。
 
 
 
@@ -103,7 +103,7 @@ highlight.jsのダウンロードは、[Getting highlight.js](http://highlightjs
 
 
 
-シンタックスハイライトを使いたいソースコードに対して、`<pre><code class="xxxx"></code></pre>`で囲みます。「xxxx」には「xml」「php」などの言語が入ります。使用できる言語の名称は、[CSS classes reference — highlight.js 8.1 documentation](http://highlightjs.readthedocs.org/en/latest/css-classes-reference.html)で確認できます。
+シンタックスハイライトを使いたいソースコードに対して、`<pre><code class="xxxx"></code></pre>`で囲みます。「xxxx」には「xml」「php」などの言語が入ります。使用できる言語の名称は、[CSS classes reference — highlight.js 8.1 documentation](https://highlightjs.readthedocs.org/en/latest/css-classes-reference.html)で確認できます。
 
 
 

@@ -216,7 +216,7 @@ https://gist.github.com/ottanxyz/fad23452969e7081364e588bbcdd1db0
 
 
 
-http://fontawesome.io/
+https://fontawesome.com//
 
 
 
