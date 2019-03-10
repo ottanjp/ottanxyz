@@ -18,7 +18,7 @@ tags:
 
 
 
-Windows 10の大型アップデートであるCreators Updateが日本時間4月11日未明に始まりました。まだ、アップデートが完了してないという方は、[今すぐ最新のWindows 10 Creators Updateを手に入れよう！Windows Updateでアップデートできない場合にも試したい方法 – OTTAN.XYZ](/Windows 10-creator-update-right-now-5647/)を参考に入手してみてください。
+Windows 10の大型アップデートであるCreators Updateが日本時間4月11日未明に始まりました。まだ、アップデートが完了してないという方は、[今すぐ最新のWindows 10 Creators Updateを手に入れよう！Windows Updateでアップデートできない場合にも試したい方法 – OTTAN.XYZ](/windows-10-creator-update-right-now-5647/)を参考に入手してみてください。
 
 
 

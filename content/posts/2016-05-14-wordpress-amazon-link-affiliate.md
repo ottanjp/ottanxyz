@@ -18,7 +18,7 @@ tags:
 
 
 
-先日、[WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする](/wordpress-app-store-itunes-link-affiliate-4120/)で、App StoreのURLをWordPressの本文に貼り付けるだけで、アフィリエイトリンクを作成する方法をご紹介しましたが、今回はAmazon版です。
+先日、[WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする](/wordpress-app-store-itunes-link-affiliate-6862/)で、App StoreのURLをWordPressの本文に貼り付けるだけで、アフィリエイトリンクを作成する方法をご紹介しましたが、今回はAmazon版です。
 
 
 

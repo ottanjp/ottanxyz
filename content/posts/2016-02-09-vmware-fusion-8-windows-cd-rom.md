@@ -31,7 +31,7 @@ tags:
 
 
 
-VMware Fusion 8にWindows 7をインストールするためには、ISOファイルを使用する方法と、CD-ROMを使用する方法がありますが、今回はCD-ROMを使用してインストールする方法をご紹介します。なお、ISOファイルを使用してインストールする方法は、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](/vmware-fusion-8-windows-iso-3426/)で詳しくご紹介していますので、そちらを参照してください。
+VMware Fusion 8にWindows 7をインストールするためには、ISOファイルを使用する方法と、CD-ROMを使用する方法がありますが、今回はCD-ROMを使用してインストールする方法をご紹介します。なお、ISOファイルを使用してインストールする方法は、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](/vmware-fusion-8-windows-iso-6835/)で詳しくご紹介していますので、そちらを参照してください。
 
 
 
@@ -89,7 +89,7 @@ MacBook Proの場合、別売のSuperDrive経由でWindows 7のCD-ROMをあら�
 
 
 
-「さらに分離」を選択し、「続ける」をクリックします。統合については、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](/vmware-fusion-8-windows-iso-3426/)でもご紹介していますので参照ください。
+「さらに分離」を選択し、「続ける」をクリックします。統合については、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](/vmware-fusion-8-windows-iso-6835/)でもご紹介していますので参照ください。
 
 
 
@@ -115,7 +115,7 @@ MacBook Proの場合、別売のSuperDrive経由でWindows 7のCD-ROMをあら�
 
 
 
-任意の場所に仮想マシンを保存したらセットアップ完了です。後は、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](/vmware-fusion-8-windows-iso-3426/)とまったく同様の手順です。VMware Toolsのインストールをお忘れなく！
+任意の場所に仮想マシンを保存したらセットアップ完了です。後は、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](/vmware-fusion-8-windows-iso-6835/)とまったく同様の手順です。VMware Toolsのインストールをお忘れなく！
 
 
 

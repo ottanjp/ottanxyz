@@ -25,7 +25,7 @@ tags:
 
 
 
-https://ottan.xyz/wordpress-app-store-itunes-link-affiliate-4120/
+https://ottan.xyz/wordpress-app-store-itunes-link-affiliate-6862/
 
 
 

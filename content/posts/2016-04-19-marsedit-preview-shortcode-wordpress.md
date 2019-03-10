@@ -20,11 +20,7 @@ tags:
 
 
 
-MacでWordPressを使ってブログを書くなら使いたい「MarsEdit」、弊サイトでも、度々その使い方についてご紹介してきました。過去記事については、[MarsEditのプレビュー画面で、「highlight.js」のシンタックスハイライトをリアルタイムでプレビューする](/marsedit-preview-syntax-highlight-3811/)、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](/efficiency-blog-736/)などをご覧いただくとして、今回はMarsEditの要でもあるプレビュー画面に、WordPressのショートコードをリアルタイムに展開するための方法をご紹介します。
-
-
-
-https://ottan.xyz/marsedit-preview-syntax-highlight-3811/
+MacでWordPressを使ってブログを書くなら使いたい「MarsEdit」、弊サイトでも、度々その使い方についてご紹介してきました。過去記事については、[MarsEditのプレビュー画面で、「highlight.js」のシンタックスハイライトをリアルタイムでプレビューする](/marsedit-preview-syntax-highlight-6853/)、[WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ](/efficiency-blog-736/)などをご覧いただくとして、今回はMarsEditの要でもあるプレビュー画面に、WordPressのショートコードをリアルタイムに展開するための方法をご紹介します。
 
 
 
@@ -170,7 +166,7 @@ VCCWを使用してWordPressの開発環境を構築した場合は、WordPress�
 
 
 
-続いて、記事の編集画面を開きます。プレビュー画面も開いておきます。記事の編集画面に任意のショートコードを入力します。たとえば、代表的なショートコードとして、ここでは`[[article]]`を例にあげます。`[[article]]`については、[WordPressのショートコード入門](/wordpress-shortcode-getting-start-3873/)をご覧ください。
+続いて、記事の編集画面を開きます。プレビュー画面も開いておきます。記事の編集画面に任意のショートコードを入力します。たとえば、代表的なショートコードとして、ここでは`[[article]]`を例にあげます。`[[article]]`については、[WordPressのショートコード入門](/wordpress-shortcode-getting-start-6855/)をご覧ください。
 
 
 

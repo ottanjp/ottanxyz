@@ -18,11 +18,9 @@ tags:
 
 
 
-先日、[Windows Insider Preview（Build 14291）で、Microsoft Edgeの拡張機能を体験しよう！](/windows-insider-preview-build-14291-microsoft-edge-3768/)で、Microsoft Edgeの拡張機能が利用できるようになったことをお伝えしましたが、Google ChromeやSafariでは有名な、コンテンツブロッカーである「AdBlock」および「AdBlock Plus」のMicrosoft Edge向けの拡張機能がWindowsストアにリリースされました。
+先日、[Windows Insider Preview（Build 14291）で、Microsoft Edgeの拡張機能を体験しよう！](/windows-insider-preview-build-14291-microsoft-edge-6849/)で、Microsoft Edgeの拡張機能が利用できるようになったことをお伝えしましたが、Google ChromeやSafariでは有名な、コンテンツブロッカーである「AdBlock」および「AdBlock Plus」のMicrosoft Edge向けの拡張機能がWindowsストアにリリースされました。
 
 
-
-https://ottan.xyz/windows-insider-preview-build-14291-microsoft-edge-3768/
 
 
 

@@ -18,7 +18,7 @@ tags:
 
 
 
-過去に、[WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/wordpress-app-store-itunes-link-affiliate-4120/)という記事を書きました。横着したかっただけなのですが、意外とご好評いただいているようです。今回は、これを応用して、内部リンク、外部リンクのURLをWordPressの本文に貼り付けるだけで、オシャレなリンクをいとも簡単に生成できるようにしてみます。
+過去に、[WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/wordpress-app-store-itunes-link-affiliate-6862/)という記事を書きました。横着したかっただけなのですが、意外とご好評いただいているようです。今回は、これを応用して、内部リンク、外部リンクのURLをWordPressの本文に貼り付けるだけで、オシャレなリンクをいとも簡単に生成できるようにしてみます。
 
 
 
@@ -131,7 +131,7 @@ https://gist.github.com/ottanxyz/518542b8e8872a3e6f84d753a0eb0803
 
 
 
-ポイントは、[WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/wordpress-app-store-itunes-link-affiliate-4120/)でご紹介した方法と同様です。`wp_embed_register_handler()`に、「http〜」から始る文字列を登録します。
+ポイントは、[WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/wordpress-app-store-itunes-link-affiliate-6862/)でご紹介した方法と同様です。`wp_embed_register_handler()`に、「http〜」から始る文字列を登録します。
 
 
 
@@ -179,7 +179,7 @@ https://gist.github.com/ottanxyz/518542b8e8872a3e6f84d753a0eb0803
 
 
 
-記事内で何回もご紹介した[WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/wordpress-app-store-itunes-link-affiliate-4120/)で公開しているクラスと思い切り競合するなど、使い方には注意点があります。
+記事内で何回もご紹介した[WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/wordpress-app-store-itunes-link-affiliate-6862/)で公開しているクラスと思い切り競合するなど、使い方には注意点があります。
 
 
 
