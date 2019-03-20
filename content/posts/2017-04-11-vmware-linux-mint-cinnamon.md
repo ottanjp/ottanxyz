@@ -67,7 +67,7 @@ https://linuxmint.com/download.php
 
 
 
-http://www.utorrent.com/intl/ja/
+https://www.utorrent.com/intl/ja/
 
 
 

@@ -94,13 +94,13 @@ Alfredは、ランチャーのみならず、ファイラーとしても機能�
 <!-- textlint-disable -->
 | キーワード | Search URL                                                                           | 説明                              |
 | ---------- | ------------------------------------------------------------------------------------ | --------------------------------- |
-| amazon     | http://www.amazon.co.jp/s?field-keywords={query}                                     | Amazonから商品を検索する          |
+| amazon     | http\://www.amazon.co.jp/s?field-keywords={query}                                    | Amazonから商品を検索する          |
 | apple-app  | itunes://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?term={query}   | App Storeからアプリを検索する     |
 | apple-mac  | macappstore://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query} | Mac App Storeからアプリを検索する |
 | apple-mac  | macappstore://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query} | Mac App Storeからアプリを検索する |
-| pic-pp     | http://photopin.com/search/{query}                                                   |                                   | PHOTO PINからブログに使用する画像を検索する |
-| q-jqp      | http://plugins.jquery.com/?s={query}                                                 | jQueryのプラグインを検索する      |
-| q-github   | http://php.net/manual-lookup.php?pattern={query}〈=ja                                 |                                   | PHPのマニュアルから検索する                 |
+| pic-pp     | http\://photopin.com/search/{query}                                                  |                                   | PHOTO PINからブログに使用する画像を検索する |
+| q-jqp      | http\://plugins.jquery.com/?s={query}                                                | jQueryのプラグインを検索する      |
+| q-github   | http\://php.net/manual-lookup.php?pattern={query}〈=ja                                |                                   | PHPのマニュアルから検索する                 |
 <!-- textlint-enable -->
 
 なお、ここで設定した検索エンジンを「Default Search」でご紹介した「Fallbacks」に登録できます。

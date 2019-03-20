@@ -248,8 +248,5 @@ URLに`orderby`が含まれ、かつ`orderby`の値が`Views`に等しいとき�
 
 今回、この記事を執筆するにあたって参考にさせていただいたサイトは以下の通りです。
 
-<http://notnil-creative.com/blog/archives/1476>
-
-<http://www.webopixel.net/wordpress/167.html>
-
-<http://motty.jimdo.com/2011/10/06/%E7%AE%A1%E7%90%86%E7%94%BB%E9%9D%A2%E3%81%AE%E6%8A%95%E7%A8%BF%E4%B8%80%E8%A6%A7%E3%81%AB%E8%87%AA%E5%88%86%E3%81%A7%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%9F%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%82%92%E3%82%BD%E3%83%BC%E3%83%88/>
+- http://notnil-creative.com/blog/archives/1476
+- http://www.webopixel.net/wordpress/167.html

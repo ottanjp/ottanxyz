@@ -61,8 +61,6 @@ brew install imagemagick ghostscript pdf2svg
 
 <https://tug.org/mactex/>
 
-<http://tug.org/cgi-bin/mactex-download/MacTeX.pkg>
-
 ## MacTexのインストール
 
 ![](/images/2016/12/161204-5844066909668.png)

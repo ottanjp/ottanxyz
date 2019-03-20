@@ -19,7 +19,7 @@ tags:
 
 
 
-[仮想化を使用して Mac 上で Windows を実行： VMware Fusion の無償評価版 | VMware 日本](http://www.vmware.com/jp/products/fusion)で、VMware Fusion 8の無償評価版を手に入れたので、早速仮想マシンにUbuntuをインストールしてみました。VMware Fusionに関する記事については、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](/vmware-fusion-8-windows-iso-6835/)も参考にしてください。
+[仮想化を使用して Mac 上で Windows を実行： VMware Fusion の無償評価版 | VMware 日本](https://www.vmware.com/jp/products/fusion.html)で、VMware Fusion 8の無償評価版を手に入れたので、早速仮想マシンにUbuntuをインストールしてみました。VMware Fusionに関する記事については、[VMware Fusion 8にWindows 7をインストールする（ISOファイル編）](/vmware-fusion-8-windows-iso-6835/)も参考にしてください。
 
 
 

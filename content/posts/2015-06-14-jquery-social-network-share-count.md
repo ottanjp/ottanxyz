@@ -76,7 +76,7 @@ jQuery(function($) {
 | class    | `social_twitter` 、`social_facebook` 、`social_gplus` 、`social_hatena` から選択 |
 | data-url | ソーシャルネットワークのシェア数を取得するURLを指定する。                        |
 
-jQueryによる取得が完了したら、`<span>` タグの中身をまるっと入れ替えます。デフォルトでは、[Font Awesome Examples](https://fontawesome.com//examples/)の「Spinning Icons」を指定し、ロードが完了すると`<span>` タグの中身がまるっと入れ替わるようになっています。
+jQueryによる取得が完了したら、`<span>` タグの中身をまるっと入れ替えます。デフォルトでは、「Spinning Icons」を指定し、ロードが完了すると`<span>` タグの中身がまるっと入れ替わるようになっています。
 
 ### JavaScript
 
