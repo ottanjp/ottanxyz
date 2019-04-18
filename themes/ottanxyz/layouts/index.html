@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<div class="container">
+
+	<div class="column is-full article-list">
+		{{ range .Paginator.Pages }}
+		{{ .Render "li" }}
+		{{ end }}
+	</div>
+
+	{{/* pagination */}}
+	<div class="column is-full">
+		{{ partial "pagination.html" . }}
+	</div>
+</div>
+
+{{ end }}

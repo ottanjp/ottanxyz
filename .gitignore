@@ -1,0 +1,11 @@
+.history/
+public/
+node_modules/
+.DS_Store
+npm-debug.log
+themes/ottanxyz/src/node_modules
+resources/*
+.vscode
+!.gitkeep
+.env
+yarn-error.log

@@ -1,0 +1,39 @@
+<footer>
+	<nav class="navbar is-dark" role="navigation">
+		<div class="navbar-menu">
+			<div class="navbar-end">
+				{{ with .Param "facebook" }}
+				<a href="{{ . | lower | absURL }}" target="_blank" class="navbar-item">
+					<span class="icon">
+						<i class="fab fa-facebook"></i>
+					</span>
+				</a>
+				{{ end }}
+				{{ with .Param "twitter" }}
+				<a href="{{ . | lower | absURL }}" target="_blank" class="navbar-item">
+					<span class="icon">
+						<i class="fab fa-twitter"></i>
+					</span>
+				</a>
+				{{ end }}
+				{{ with .Param "github" }}
+				<a href="{{ . | lower | absURL }}" target="_blank" class="navbar-item">
+					<span class="icon">
+						<i class="fab fa-github"></i>
+					</span>
+				</a>
+				{{ end }}
+				{{ with .Param "rss" }}
+				<a href="{{ . | lower | absURL }}" target="_blank" class="navbar-item">
+					<span class="icon">
+						<i class="fas fa-rss-square"></i>
+					</span>
+				</a>
+				{{ end }}
+				<a href="{{ .Site.BaseURL }}" class="navbar-item">
+					&copy; {{ now.Format "2006" }} {{ .Site.Title }}
+				</a>
+			</div>
+		</div>
+	</nav>
+</footer>

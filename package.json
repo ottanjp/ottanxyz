@@ -1,0 +1,28 @@
+{
+	"name": "ottanxyz",
+	"version": "1.0.0",
+	"description": "",
+	"main": "",
+	"dependencies": {},
+	"devDependencies": {
+		"textlint": "11.2.1",
+		"textlint-filter-rule-comments": "1.2.2",
+		"textlint-rule-preset-ja-technical-writing": "3.1.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"hugo:build": "env GOOGLEPLAY_API=http://localhost:9000/googleplay AMAZON_API=http://localhost:9000/amazon CHROME_WEBSTORE_API=http://localhost:9000/chrome hugo",
+		"hugo:serve": "env GOOGLEPLAY_API=http://localhost:9000/googleplay AMAZON_API=http://localhost:9000/amazon CHROME_WEBSTORE_API=http://localhost:9000/chrome hugo server --bind=\"0.0.0.0\" --baseURL=\"macbook-pro.local\" -D --gc --minify"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ottanxyz/ottanxyz.git"
+	},
+	"keywords": [],
+	"author": "OTTAN.XYZ",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ottanxyz/ottanxyz/issues"
+	},
+	"homepage": "https://github.com/ottanxyz/ottanxyz#readme"
+}

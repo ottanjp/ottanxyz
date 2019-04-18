@@ -1,0 +1,45 @@
+<article>
+
+	<div class="columns">
+
+		<div class="column is-one-third">
+			<a href="{{ .RelPermalink }}" class="image">{{ partial "eyecatch.html" . }}</a>
+		</div>
+
+		<div class="column">
+
+			<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+				<span class="icon">
+					<i class="far fa-calendar"></i>
+				</span>
+				{{- .Date.Format "2006.01.02" -}}
+			</time>
+
+			<div class="title is-3">
+				<a href="{{ .RelPermalink }}">{{- .Title -}}</a>
+			</div>
+
+			<div class="content">{{- .Summary -}} ...</div>
+
+			{{ if .Params.categories }}
+			<span class="icon">
+				<i class="fas fa-pencil-alt"></i>
+			</span>
+			{{ range .Params.categories }}
+			<a class="tag" href="/categories/{{ . | urlize }}">{{- . -}}</a>
+			{{ end }}
+			{{ end }}
+
+			{{ if .Params.tags }}
+			<span class="icon">
+				<i class="fas fa-tag"></i>
+			</span>
+			{{ range .Params.tags }}
+			<a class="tag" href="/tags/{{ . | urlize }}">{{- . -}}</a>
+			{{ end }}
+			{{ end }}
+
+		</div>
+	</div>
+
+</article>
