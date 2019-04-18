@@ -1,4 +1,0 @@
-{{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
-{{ range $eyecatch_image }}
-{{ . | safeHTML }}
-{{ end }}
