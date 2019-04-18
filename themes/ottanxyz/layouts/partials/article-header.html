@@ -1,0 +1,28 @@
+<h1 class="title">
+	{{- .Title -}}
+</h1>
+
+<span class="icon">
+	<i class="far fa-clock"></i>
+</span>
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+	{{- .Date.Format "2006.01.02 15:04:05" -}}
+</time>
+
+{{ if .Params.categories }}
+<span class="icon">
+	<i class="fas fa-pencil-alt"></i>
+</span>
+{{ range .Params.categories }}
+<a class="tag" href="/categories/{{ . | urlize }}">{{- . -}}</a>
+{{ end }}
+{{ end }}
+
+{{ if .Params.tags }}
+<span class="icon">
+	<i class="fas fa-tag"></i>
+</span>
+{{ range .Params.tags }}
+<a class="tag" href="/tags/{{ . | urlize }}">{{- . -}}</a>
+{{ end }}
+{{ end }}

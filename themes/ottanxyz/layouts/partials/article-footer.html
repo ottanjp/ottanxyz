@@ -1,0 +1,14 @@
+<div class="columns is-desktop">
+	{{ with .PrevInSection }}
+	<div class="column">
+		<span class="icon"><i class="fas fa-angle-left"></i></span>
+		<a href="{{.Permalink}}"> {{.Title}}</a>
+	</div>
+	{{ end }}
+	{{ with .NextInSection }}
+	<div class="column">
+		<span class="icon"><i class="fas fa-angle-right"></i></span>
+		<a href="{{.Permalink}}"> {{.Title}}</a>
+	</div>
+	{{ end }}
+</div>

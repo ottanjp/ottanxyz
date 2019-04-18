@@ -1,0 +1,24 @@
+{{ $id := .Get 0 }}
+{{ $dataJ := getJSON ( printf ( print ( getenv "CHROME_WEBSTORE_API" ) "?id=%s" ) $id ) }}
+{{ with $dataJ }}
+<div class="columns appbox">
+	<div class="column is-one-quarter">
+		<a href="{{ .url }}" target="_blank"><img class="thumbnail" src="{{ .images.image }}"></a>
+	</div>
+	<div class="cell auto">
+		<div>
+			<a href="{{ .url }}" target="_blank">
+				<span class="title is-4">{{ .name }}</span>
+			</a>
+			<span class="icon">
+					<i class="fab fa-chrome"></i>
+			</span>
+			<span class="badge-itunes">{{ .rating.average | lang.NumFmt 1 }}</span>
+		</div>
+
+		<ul>
+			<li>提供元:&nbsp;<a class="link" href="{{ .author.url }}">{{ .author.name }}</a></li>
+		</ul>
+	</div>
+</div>
+{{ end }}
