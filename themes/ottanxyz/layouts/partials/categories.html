@@ -1,8 +1,0 @@
-<div>
-	{{ range .Params.categories }}
-		<i class="fas fa-folder-open"></i>
-		<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">
-			{{- . -}}
-		</a>
-	{{ end }}
-</div>
