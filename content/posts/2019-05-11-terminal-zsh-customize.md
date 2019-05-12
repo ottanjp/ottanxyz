@@ -12,8 +12,6 @@ toc: true
 
 ![](/images/2019/05/190511-183c72b78ba92af5.jpg)
 
-# Macのターミナル（iTerm）で生産性を上げるための方法
-
 ターミナル、デフォルトのまま使用してませんか。ターミナルはもっとかっこよく、そして生産性を高く上げることができます。そのためのツールが数多く存在しますが、今回はその中でも基本となるツール群をご紹介します。
 
 変更前の状態です。（テーマだけ「Pro」に変更しています）
@@ -169,4 +167,4 @@ $(brew --prefix)/opt/fzf/install
 -   [zsh-users/zsh-syntax-highlighting: Fish shell like syntax highlighting for Zsh.](https://github.com/zsh-users/zsh-syntax-highlighting)
 -   [zsh-users/zsh-autosuggestions: Fish-like autosuggestions for zsh](https://github.com/zsh-users/zsh-autosuggestions)
 -   [junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf)
--   \[iTerm2 - macOS Terminal Replacement
+-   [iTerm2 - macOS Terminal Replacement](https://www.iterm2.com/)
