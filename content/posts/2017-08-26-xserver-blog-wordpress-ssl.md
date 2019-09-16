@@ -49,7 +49,7 @@ SSL設定が完了していない段階で、Google Chromeから接続しよう�
 
 ![](/images/2017/08/170826-59a0f4f41476a.png)
 
-WordPressのダッシュボードにログイン後、「設定」→「一般設定」で「WordPressアドレス」「サイトアドレス」を変更します。各々「http\://<Domain Name>」から「http**s**\://<Domain Name>」に置換して保存します。
+WordPressのダッシュボードにログイン後、「設定」→「一般設定」で「WordPressアドレス」「サイトアドレス」を変更します。各々「http\\://<Domain Name>」から「http**s**\\://<Domain Name>」に置換して保存します。
 
 ### 「Search Regex」プラグインで内部リンクをすべてHTTPSに置換する
 
