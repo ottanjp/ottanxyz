@@ -45,16 +45,6 @@ AdGuard のフィルターログを参照すれば、どのスクリプトがブ
 
 ![](/images/2018/04/180427-5ae3253a07f99.png)
 
-### No Coin
-
-{{< chrome gojamcfopckidlocpkbelmpjcgmbgjcl >}}
-
-最近、流行している仮想通貨のマイニングスクリプトの実行を防止する拡張機能です。今後、増加の一途をたどると思われるスクリプトに対していたちごっこのような気がしないでもないですが、拡張機能としてダウンロードしたはずの拡張機能に悪意のあるスクリプトなどが仕込まれる時代ですから、とりあえず入れておいて損はないでしょう。
-
-    ~/Library/Application Support/Google/Chrome/Default/Extensions/gojamcfopckidlocpkbelmpjcgmbgjcl/X.X.X/blacklist.txt
-
-なお、ブロック対象のリストは上記に保管されています。`X.X.X`はバージョン名に読み替えてください。
-
 ### Disconnect Facebook
 
 {{< chrome nnkndeagapifodhlebifbgbonbfmlnfm >}}
