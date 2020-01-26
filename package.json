@@ -5,14 +5,16 @@
 	"main": "",
 	"dependencies": {},
 	"devDependencies": {
+		"autoprefixer": "^9.7.4",
+		"postcss-cli": "^7.1.0",
 		"textlint": "11.2.1",
 		"textlint-filter-rule-comments": "1.2.2",
 		"textlint-rule-preset-ja-technical-writing": "3.1.0"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"hugo:build": "env GOOGLEPLAY_API=http://localhost:9000/googleplay AMAZON_API=http://localhost:9000/amazon CHROME_WEBSTORE_API=http://localhost:9000/chrome hugo",
-		"hugo:serve": "env GOOGLEPLAY_API=http://localhost:9000/googleplay AMAZON_API=http://localhost:9000/amazon CHROME_WEBSTORE_API=http://localhost:9000/chrome hugo server --bind=\"0.0.0.0\" --baseURL=\"macbook-pro.local\" -D --gc --minify"
+		"hugo:build": "env GOOGLEPLAY_API=https://unruffled-fermat-a8dea3.netlify.com/.netlify/functions/googleplay CHROME_WEBSTORE_API=https://unruffled-fermat-a8dea3.netlify.com/.netlify/functions/chrome hugo",
+		"hugo:serve": "env GOOGLEPLAY_API=https://unruffled-fermat-a8dea3.netlify.com/.netlify/functions/googleplay CHROME_WEBSTORE_API=https://unruffled-fermat-a8dea3.netlify.com/.netlify/functions/chrome hugo server --bind=\"0.0.0.0\" --baseURL=\"macbook-pro.local\" -D --gc --minify"
 	},
 	"repository": {
 		"type": "git",
