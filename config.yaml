@@ -27,26 +27,7 @@ params:
   description: iPhone、Mac、Windows、ブログに関する様々なTips、トラブルシューティングをご紹介します
   locale: ja_JP
   fbappId: "808819212572711"
-  cloudinary: dcyxm0z8u
-  bonsai:
-    vars:
-      - title
-      - content
-      - date
-      - publishdate
-      - expirydate
-      - permalink
-    params:
-      - categories
-      - tags
 outputs:
   home:
     - HTML
     - RSS
-    - Bonsai
-outputFormats:
-  Bonsai:
-    baseName: bonsai
-    isPlainText: true
-    mediaType: text/html
-    notAlternative: true
