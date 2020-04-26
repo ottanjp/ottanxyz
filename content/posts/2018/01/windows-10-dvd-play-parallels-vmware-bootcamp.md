@@ -4,7 +4,7 @@ date: 2018-01-10 13:55:39+00:00
 draft: false
 title: Parallels DesktopやVMware FusionのWindows 10で、Apple USB SuperDriveを使用してDVDを再生する方法
 type: post
-url: /windows-10-dvd-play-parallels-vmware-bootcamp-6505/
+slug: windows-10-dvd-play-parallels-vmware-bootcamp-6505
 categories:
 - Mac
 - Windows

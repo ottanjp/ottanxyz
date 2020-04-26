@@ -4,7 +4,7 @@ date: 2015-06-21 13:23:38+00:00
 draft: false
 title: WordPressのサイト表示速度を高速化させるために行っている施策まとめ
 type: post
-url: /improve-page-speed-1737/
+slug: improve-page-speed-1737
 categories:
 - Blog
 tags:

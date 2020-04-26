@@ -4,7 +4,7 @@ date: 2016-10-19 12:33:52+00:00
 draft: false
 title: Safariが重い！MacのSafariでCookieは残してWebサイトの閲覧履歴をすべて削除する簡単な方法
 type: post
-url: /safari-history-delete-without-cookie-5124/
+slug: safari-history-delete-without-cookie-5124
 categories:
 - Mac
 tags:

@@ -4,7 +4,7 @@ date: 2016-03-27 12:52:38+00:00
 draft: false
 title: Windows 10の起動を高速化する方法
 type: post
-url: /Windows 10-fast-startup-6847/
+slug: Windows 10-fast-startup-6847
 categories:
 - Windows
 tags:

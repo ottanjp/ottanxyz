@@ -4,7 +4,7 @@ date: 2017-01-04 11:45:08+00:00
 draft: false
 title: Google Chromeのタブで流れ続ける音楽をミュートする方法
 type: post
-url: /google-chrome-tab-mute-audio-5438/
+slug: google-chrome-tab-mute-audio-5438
 categories:
 - Mac
 - Windows

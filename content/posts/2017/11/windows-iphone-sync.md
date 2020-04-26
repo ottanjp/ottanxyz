@@ -4,7 +4,7 @@ date: 2017-11-01 12:34:49+00:00
 draft: false
 title: iPhoneで閲覧しているWebページをWindows 10に引き継ぐ方法（Windows 10と同期する方法）
 type: post
-url: /windows-iphone-sync-6235/
+slug: windows-iphone-sync-6235
 categories:
 - iPhone
 - Windows

@@ -1,0 +1,190 @@
+// Variables
+$spacing: 0.8rem;
+$white: #fff;
+$black: #000;
+$radius: 4px;
+$grey-lighter: #dbdbdb;
+$radius-rounded: 290486px;
+$footer-background-color: #fafafa;
+
+$primary: #ffbc8c;
+
+.post-card a {
+  transition: color 0.2s ease;
+  color: $black;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+}
+
+// Global classes
+.background-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.posts {
+  padding: 2 * $spacing $spacing;
+}
+
+// Post Card
+.post-card {
+  position: relative;
+  border-radius: $radius;
+
+  &.bottom-border:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    left: 0;
+    height: 1px;
+    background-color: $grey-lighter;
+  }
+
+  &.has-border {
+    padding: $spacing;
+    border: 1px solid $grey-lighter;
+
+    &.bottom-border:after {
+      display: none;
+    }
+
+    .level {
+      margin-bottom: 0;
+    }
+  }
+
+  .item-link {
+    display: block;
+    position: relative;
+  }
+
+  figure {
+    margin-bottom: $spacing;
+    border-radius: $radius;
+  }
+
+  .item-featured {
+    position: absolute;
+    padding: $spacing/2;
+    top: 10px;
+    right: 10px;
+    background-color: rgba($black, 0.75);
+    border-radius: $radius-rounded;
+
+    .icon {
+      color: $primary;
+    }
+  }
+
+  .item-title {
+    margin-bottom: 1rem;
+  }
+
+  .item-description {
+    margin-bottom: $spacing;
+  }
+
+  .item-tags {
+    margin-bottom: $spacing;
+  }
+
+  .level {
+    display: flex;
+    margin-bottom: $spacing;
+
+    &-right {
+      margin-top: 0;
+    }
+  }
+}
+
+// Pagination
+.pagination {
+  margin: 2 * $spacing auto;
+
+  &-link {
+    padding-left: $spacing;
+    padding-right: $spacing;
+  }
+}
+
+// Footer
+.footer {
+  padding: 2 * $spacing 1.5 * $spacing 2 * $spacing;
+  &-link-title {
+    margin-bottom: $spacing;
+  }
+
+  .navbar-item {
+    padding: 0;
+    margin-bottom: $spacing/4;
+  }
+
+  .form-group,
+  .footer-text {
+    margin-bottom: $spacing;
+  }
+}
+
+// Post
+.post,
+.page {
+  padding-top: 2 * $spacing;
+}
+
+.post-tags,
+.social-share {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 $spacing;
+}
+
+.social-share p {
+  display: inline-flex;
+  margin-right: $spacing/2;
+  padding: 0.375em 0;
+}
+
+.post-content__inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: $spacing;
+
+  a {
+    font-weight: 700;
+  }
+}
+
+.related-posts {
+  padding: 2em 1em;
+  background-color: $footer-background-color;
+  border-bottom: 2px solid $white;
+}
+
+// Comments
+.comments {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: $spacing;
+  padding-top: 0;
+}
+
+// Prism setup
+.post-content .tag,
+.post-content .number {
+  display: inline;
+  padding: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
+  border-radius: inherit;
+  font-weight: inherit;
+  white-space: inherit;
+  background: inherit;
+  margin: inherit;
+}

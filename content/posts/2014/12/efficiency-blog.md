@@ -4,7 +4,7 @@ date: 2014-12-09 08:39:33+00:00
 draft: false
 title: WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ
 type: post
-url: /efficiency-blog-736/
+slug: efficiency-blog-736
 categories:
 - Mac
 - Blog

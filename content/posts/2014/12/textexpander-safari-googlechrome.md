@@ -4,7 +4,7 @@ date: 2014-12-03 08:15:42+00:00
 draft: false
 title: ブログ執筆時に便利！TextExpanderでSafari、Google ChromeからURL、タイトルを瞬時に取得する方法
 type: post
-url: /textexpander-safari-googlechrome-730/
+slug: textexpander-safari-googlechrome-730
 categories:
 - Mac
 tags:

@@ -4,7 +4,7 @@ date: 2017-04-10 08:33:27+00:00
 draft: false
 title: Instagramの2段階認証を設定してセキュリティを強化しよう！
 type: post
-url: /instagram-two-step-authentication-5640/
+slug: instagram-two-step-authentication-5640
 categories:
 - iPhone
 tags:

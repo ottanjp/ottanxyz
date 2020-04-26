@@ -4,7 +4,7 @@ date: 2015-07-30 10:37:11+00:00
 draft: false
 title: MacでWindows 10の起動ディスク（USBメモリ）を作成する方法
 type: post
-url: /mac-Windows 10-usb-1879/
+slug: mac-Windows 10-usb-1879
 categories:
 - Mac
 - Windows

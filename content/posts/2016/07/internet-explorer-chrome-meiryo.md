@@ -4,7 +4,7 @@ date: 2016-07-07 13:37:59+00:00
 draft: false
 title: WindowsのInternet ExplorerまたはGoogle Chromeで強制的にメイリオを使用する
 type: post
-url: /internet-explorer-chrome-meiryo-4591/
+slug: internet-explorer-chrome-meiryo-4591
 categories:
 - Windows
 tags:

@@ -4,7 +4,7 @@ date: 2015-09-27 13:47:32+00:00
 draft: false
 title: Windows 10で使えなくなってしまった「Google Chrome」の「タスクバーに追加」の代替手段
 type: post
-url: /google-chrome-windows-10-2655/
+slug: google-chrome-windows-10-2655
 categories:
 - Windows
 tags:

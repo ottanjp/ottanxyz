@@ -4,7 +4,7 @@ date: 2016-07-03 12:27:16+00:00
 draft: false
 title: Finderの右クリックメニュー、キーボードショートカットからPNGファイルを一括して圧縮する
 type: post
-url: /automator-finder-png-compress-4570/
+slug: automator-finder-png-compress-4570
 categories:
 - Mac
 tags:

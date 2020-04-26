@@ -4,7 +4,7 @@ date: 2016-09-06 23:00:00+00:00
 draft: false
 title: Ubuntu 16.04 LTSで、Macの「英数」「かな」キーにIMEオフ、オンを割り当てる
 type: post
-url: /ubuntu-16-04-ime-on-off-4913/
+slug: ubuntu-16-04-ime-on-off-4913
 categories:
 - Mac
 tags:

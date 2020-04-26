@@ -4,7 +4,7 @@ date: 2015-11-20 23:27:07+00:00
 draft: false
 title: iCloud Driveを有効活用しよう！メールに添付ファイルとしてiCloud Driveからファイルを選択する方法
 type: post
-url: /cloud-drive-mail-attachments-6818/
+slug: cloud-drive-mail-attachments-6818
 categories:
 - iPhone
 - Mac

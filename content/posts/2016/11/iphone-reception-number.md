@@ -4,7 +4,7 @@ date: 2016-11-18 11:39:35+00:00
 draft: false
 title: iPhoneの電波の強さ、偽物かも？電波の強さを数値化して可視化する裏技
 type: post
-url: /iphone-reception-number-5245/
+slug: iphone-reception-number-5245
 categories:
 - iPhone
 tags:

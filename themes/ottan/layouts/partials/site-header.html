@@ -1,0 +1,25 @@
+<header id="site-header">
+	<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="{{ .Site.BaseURL}}">
+				{{ .Site.Title }}
+			</a>
+
+			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+
+		<div class="navbar-menu" id="navMenu">
+			<div class="navbar-start">
+				{{ range $name, $items := .Site.Taxonomies.categories }}
+				<a href="{{ printf "%s/%s" "categories" ($name | urlize | lower) | absURL }}" class="navbar-item">
+					{{ $name }}
+				</a>
+				{{ end }}
+			</div>
+		</div>
+	</nav>
+</header>

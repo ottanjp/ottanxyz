@@ -4,7 +4,7 @@ date: 2016-04-08 13:42:01+00:00
 draft: false
 title: iPhoneを持って、Macから離れたり近づいたりするだけで、Macのロックを解除できるアプリ「Near Lock」
 type: post
-url: /near-lock-6852/
+slug: near-lock-6852
 categories:
 - iPhone
 - Mac

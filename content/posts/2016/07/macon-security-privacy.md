@@ -4,7 +4,7 @@ date: 2016-07-22 11:34:44+00:00
 draft: false
 title: 使用しているmacOSのセキュリティ強化、プライバシー保護が設定されているかどうかを自動的にチェックする
 type: post
-url: /macon-security-privacy-4664/
+slug: macon-security-privacy-4664
 categories:
 - Mac
 tags:

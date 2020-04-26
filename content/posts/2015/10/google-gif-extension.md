@@ -4,7 +4,7 @@ date: 2015-10-05 00:30:49+00:00
 draft: false
 title: Googleの画像検索結果でGIFアニメを再生してくれるGoogle Chrome拡張機能「GoogleGIFs」
 type: post
-url: /google-gif-extension-2738/
+slug: google-gif-extension-2738
 categories:
 - Mac
 - Windows

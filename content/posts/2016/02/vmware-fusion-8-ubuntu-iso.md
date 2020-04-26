@@ -4,7 +4,7 @@ date: 2016-02-09 02:15:46+00:00
 draft: false
 title: VMware Fusion 8にUbuntu 14.04.3 LTSをインストールして日本語化する
 type: post
-url: /vmware-fusion-8-ubuntu-iso-6836/
+slug: vmware-fusion-8-ubuntu-iso-6836
 categories:
 - Mac
 tags:

@@ -4,7 +4,7 @@ date: 2017-12-01 12:41:46+00:00
 draft: false
 title: Appleの公式サイトで配布されているSafariの機能拡張をカスタマイズして使用する方法
 type: post
-url: /high-sierra-safari-extensions-customize-6357/
+slug: high-sierra-safari-extensions-customize-6357
 categories:
 - Mac
 tags:

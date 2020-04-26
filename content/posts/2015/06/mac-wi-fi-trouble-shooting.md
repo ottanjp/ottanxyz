@@ -4,7 +4,7 @@ date: 2015-06-08 14:03:35+00:00
 draft: false
 title: MacでWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法
 type: post
-url: /mac-wi-fi-trouble-shooting-1660/
+slug: mac-wi-fi-trouble-shooting-1660
 categories:
 - Mac
 tags:

@@ -4,7 +4,7 @@ date: 2016-10-27 14:19:37+00:00
 draft: false
 title: macOSのネイティブなHypervisor.frameworkを使用したオープンソースソフトウェア「Veertu Desktop」
 type: post
-url: /macos-hypervisor-framework-5141/
+slug: macos-hypervisor-framework-5141
 categories:
 - Mac
 tags:

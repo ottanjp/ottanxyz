@@ -4,7 +4,7 @@ date: 2015-08-30 03:37:33+00:00
 draft: false
 title: モバイルデータ通信を節約しよう！TwitterとFacebookの動画を自動再生しないようにする方法
 type: post
-url: /twitter-facebook-autoplay-2244/
+slug: twitter-facebook-autoplay-2244
 categories:
 - iPhone
 tags:

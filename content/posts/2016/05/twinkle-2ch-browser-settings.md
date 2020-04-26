@@ -4,7 +4,7 @@ date: 2016-05-26 12:43:43+00:00
 draft: false
 title: iPhoneの高機能2ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法
 type: post
-url: /twinkle-2ch-browser-settings-4343/
+slug: twinkle-2ch-browser-settings-4343
 categories:
 - iPhone
 tags:

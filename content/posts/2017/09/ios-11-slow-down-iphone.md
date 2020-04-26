@@ -4,7 +4,7 @@ date: 2017-09-20 07:13:54+00:00
 draft: false
 title: これでスッキリ！iOS 11でiPhoneの動作が遅いと感じた時に試したいこと
 type: post
-url: /ios-11-slow-down-iphone-6146/
+slug: ios-11-slow-down-iphone-6146
 categories:
 - iPhone
 tags:

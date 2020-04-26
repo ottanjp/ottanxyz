@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline">
+      {{ range.Paginator.Pages }}
+      {{ .Render "li" }}
+      {{ end }}
+    </div>
+  </div>
+
+  {{/* pagination */}}
+  <div class="column">
+    {{ partial "pagination.html" . }}
+  </div>
+</section>
+
+{{ end }}

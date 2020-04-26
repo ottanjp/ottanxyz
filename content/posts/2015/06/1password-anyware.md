@@ -4,7 +4,7 @@ date: 2015-06-07 06:37:05+00:00
 draft: false
 title: 1Password Anywareで、会社のPCなど1Passwordが使えない状況で、パスワード情報にアクセスする方法
 type: post
-url: /1password-anyware-1638/
+slug: 1password-anyware-1638
 categories:
 - iPhone
 - Mac

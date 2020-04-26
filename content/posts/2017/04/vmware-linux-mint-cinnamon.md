@@ -4,7 +4,7 @@ date: 2017-04-11 09:08:36+00:00
 draft: false
 title: Linuxを使ってみよう！Linux Mint（Cinnamon）を導入する方法
 type: post
-url: /vmware-linux-mint-cinnamon-5663/
+slug: vmware-linux-mint-cinnamon-5663
 categories:
 - Mac
 tags:

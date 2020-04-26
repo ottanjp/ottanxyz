@@ -4,7 +4,7 @@ date: 2016-10-30 06:31:15+00:00
 draft: false
 title: Dockerで作る最強・最速のローカルWordPress環境
 type: post
-url: /docker-wordpress-best-practice-5164/
+slug: docker-wordpress-best-practice-5164
 categories:
 - Mac
 - Blog

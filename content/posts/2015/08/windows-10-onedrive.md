@@ -4,7 +4,7 @@ date: 2015-08-11 03:36:57+00:00
 draft: false
 title: Windows 10のエクスプローラーからOneDriveを抹消する方法
 type: post
-url: /windows-10-onedrive-1983/
+slug: windows-10-onedrive-1983
 categories:
 - Windows
 tags:

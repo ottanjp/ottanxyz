@@ -4,7 +4,7 @@ date: 2019-09-29T10:10:15+09:00
 draft: false
 title: "格安SIM使用時にiPhoneでモバイルデータ通信を節約する方法（iOS13対応版）"
 type: post
-url: /ios13-mobile-data-saving-20190929/
+slug: ios13-mobile-data-saving-20190929
 categories: ["iPhone"]
 tags: ["iOS"]
 toc: true

@@ -1,0 +1,37 @@
+<div class="column is-12-mobile is-6-tablet is-4-widescreen is-6-desktop">
+  <div
+    class="item post-card bottom-border {{ if not .Params.featured_image }}has-border{{ end }}"
+  >
+    {{ if .Params.featured_image }}
+    <a class="item-link" href="{{ .Permalink }}">
+      <figure
+        class="image is-2by1 item-figure background-img"
+        style="background-image:url('{{ .Params.featured_image }}')"
+        data-was-processed="true"
+      ></figure>
+    </a>
+    {{ end }}
+    <div class="item-tags">
+      {{ range .Params.tags }}
+      <a class="button is-rounded" href="/tags/{{ . | urlize }}">
+        #{{- . -}}
+      </a>
+      {{ end }}
+    </div>
+    <h2 class="title item-title is-size-4 has-text-weight-bold">
+      <a class="item-link" href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    {{ if not .Params.featured_image }}
+    <div class="item-description">
+      {{- .Summary -}}
+    </div>
+    {{ end }}
+    <div class="level">
+      <div class="level-right">
+        <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+          {{- .Date.Format "2006.01.02" -}}
+        </time>
+      </div>
+    </div>
+  </div>
+</div>

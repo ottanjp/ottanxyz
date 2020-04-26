@@ -4,7 +4,7 @@ date: 2017-09-25 23:39:18+00:00
 draft: false
 title: macOS High Sierraの起動可能なインストーラー（USBメモリ）を作成する
 type: post
-url: /macos-high-sierra-bootable-disk-usb-2-6148/
+slug: macos-high-sierra-bootable-disk-usb-2-6148
 categories:
 - Mac
 tags:

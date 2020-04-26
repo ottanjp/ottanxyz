@@ -4,7 +4,7 @@ date: 2015-05-28 12:29:13+00:00
 draft: false
 title: これは便利！Dropboxのバージョン管理をGUIから行う「Revisions for Dropbox」
 type: post
-url: /dropbox-gui-revisions-for-dropbox-1513/
+slug: dropbox-gui-revisions-for-dropbox-1513
 categories:
 - Mac
 tags:

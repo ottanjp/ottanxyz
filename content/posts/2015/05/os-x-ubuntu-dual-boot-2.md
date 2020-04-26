@@ -4,7 +4,7 @@ date: 2015-05-06 09:25:35+00:00
 draft: false
 title: macOS YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する
 type: post
-url: /os-x-ubuntu-dual-boot-2-1236/
+slug: os-x-ubuntu-dual-boot-2-1236
 categories:
 - Mac
 tags:

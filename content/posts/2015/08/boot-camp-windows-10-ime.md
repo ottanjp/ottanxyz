@@ -4,7 +4,7 @@ date: 2015-08-11 08:13:09+00:00
 draft: false
 title: Boot Camp環境のWindows 10で、かな、英数で日本語入力切り替えができない問題を解決する
 type: post
-url: /boot-camp-windows-10-ime-2008/
+slug: boot-camp-windows-10-ime-2008
 categories:
 - Mac
 - Windows

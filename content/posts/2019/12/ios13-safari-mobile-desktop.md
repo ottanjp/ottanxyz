@@ -4,7 +4,7 @@ date: 2019-12-10T21:39:34+09:00
 draft: false
 title: "iPhoneのSafariでデスクトップ用Webサイトが表示される場合の対処法（iOS13対応版）"
 type: post
-url: /ios13-safari-mobile-desktop-20191210/
+slug: ios13-safari-mobile-desktop-20191210
 categories: ["iPhone"]
 tags: ["Safari"]
 toc: true

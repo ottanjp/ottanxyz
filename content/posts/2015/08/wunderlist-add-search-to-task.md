@@ -4,7 +4,7 @@ date: 2015-08-06 12:22:04+00:00
 draft: false
 title: Wunderlistがバージョンアップし、アプリケーションを起動していなくてもタスクを追加、検索できるようになって超便利に！！
 type: post
-url: /wunderlist-add-search-to-task-1927/
+slug: wunderlist-add-search-to-task-1927
 categories:
 - Android
 - iPhone

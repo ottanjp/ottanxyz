@@ -4,7 +4,7 @@ date: 2016-09-18 12:56:51+00:00
 draft: false
 title: iPhoneの動作が遅い、バッテリーの減りが早いと感じた時はiOSのクリーンインストールを試してみよう！
 type: post
-url: /iphone-clean-install-4955/
+slug: iphone-clean-install-4955
 categories:
 - iPhone
 - Mac

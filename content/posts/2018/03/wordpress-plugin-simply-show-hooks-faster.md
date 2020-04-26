@@ -4,7 +4,7 @@ date: 2018-03-14 13:06:57+00:00
 draft: false
 title: WordPressの高速化！WordPressでそのページで実行されているアクションやフックの一覧を表示するプラグイン「Simply Show Hooks」
 type: post
-url: /wordpress-plugin-simply-show-hooks-faster-6669/
+slug: wordpress-plugin-simply-show-hooks-faster-6669
 categories:
 - Blog
 tags:

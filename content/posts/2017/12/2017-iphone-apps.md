@@ -4,7 +4,7 @@ date: 2017-12-28 15:28:31+00:00
 draft: false
 title: 2017年にお世話になったiPhoneアプリ、お世話にならなくなったアプリ
 type: post
-url: /2017-iphone-apps-6492/
+slug: 2017-iphone-apps-6492
 categories:
 - iPhone
 tags:

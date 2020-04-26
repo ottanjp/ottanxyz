@@ -4,7 +4,7 @@ date: 2014-11-11 05:46:50+00:00
 draft: false
 title: macOS Yosemiteインストール後にプリンターが追加できない場合の対処法
 type: post
-url: /yosemite-printer-install-674/
+slug: yosemite-printer-install-674
 categories:
 - Mac
 tags:

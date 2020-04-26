@@ -4,7 +4,7 @@ date: 2018-01-23 14:08:56+00:00
 draft: false
 title: マスク着用時にFace IDを使用せずにパスコードによる認証を行う方法
 type: post
-url: /face-id-passcode-iphonex-6564/
+slug: face-id-passcode-iphonex-6564
 categories:
 - iPhone
 tags:

@@ -4,7 +4,7 @@ date: 2018-11-13 15:30:22+00:00
 draft: false
 title: 解除パスワードのわからないExcelマクロ（Excel VBA）のパスワードを強制的に解除する方法
 type: post
-url: /excel-vba-password-force-unlock-7053/
+slug: excel-vba-password-force-unlock-7053
 categories:
   - Windows
 tags:

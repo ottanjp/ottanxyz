@@ -4,7 +4,7 @@ date: 2015-12-10 01:44:31+00:00
 draft: false
 title: iPhoneの動作がもたつく場合に試したい簡単にできる11の方法
 type: post
-url: /phone-slowly-easy-way-11-6821/
+slug: phone-slowly-easy-way-11-6821
 categories:
 - iPhone
 tags:

@@ -4,7 +4,7 @@ date: 2017-02-21 10:51:18+00:00
 draft: false
 title: Amazon.co.jpの2段階認証を今すぐ設定してセキュリティを強化しよう！
 type: post
-url: /amazon-two-step-authenticate-5552/
+slug: amazon-two-step-authenticate-5552
 categories:
 - iPhone
 - Mac

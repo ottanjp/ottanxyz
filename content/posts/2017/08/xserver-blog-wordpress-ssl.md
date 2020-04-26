@@ -4,7 +4,7 @@ date: 2017-08-26 04:48:59+00:00
 draft: false
 title: エックスサーバーでWordPressを運用する場合に独自SSLを設定する方法
 type: post
-url: /xserver-blog-wordpress-ssl-6113/
+slug: xserver-blog-wordpress-ssl-6113
 categories:
 - Blog
 tags:

@@ -1,0 +1,12 @@
+<section class="related-posts">
+  <div class="container">
+    <h4 class="has-text-centered">You might also like</h4>
+    <div class="columns is-multiline">
+      {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
+      {{ range . }}
+      {{ .Render "li" }}
+      {{ end }}
+      {{ end }}
+	  </div>	  
+  </div>
+</section>

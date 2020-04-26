@@ -4,7 +4,7 @@ date: 2018-01-28 03:49:13+00:00
 draft: false
 title: iPhoneやMacでWi-Fiの「体感速度」が遅く読み込みに時間がかかる場合の対処法
 type: post
-url: /wi-fi-slow-down-speed-iphone-mac-6585/
+slug: wi-fi-slow-down-speed-iphone-mac-6585
 categories:
 - iPhone
 - Mac

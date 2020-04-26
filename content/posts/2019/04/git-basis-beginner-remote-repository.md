@@ -4,7 +4,7 @@ date: 2019-04-06T22:57:01+09:00
 draft: false
 title: "Git初心者が最初から学ぶGitの入門（リモートリポジトリ）"
 type: post
-url: /git-basis-beginner-remote-repository-20190404/
+slug: git-basis-beginner-remote-repository-20190404
 categories: ["Mac"]
 tags: ["Git","GitHub","VS Code"]
 toc: true

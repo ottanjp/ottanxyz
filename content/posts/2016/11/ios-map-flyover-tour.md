@@ -4,7 +4,7 @@ date: 2016-11-07 12:11:12+00:00
 draft: false
 title: iPhoneで空中散歩！iOSの標準マップ「Flyoverツアー」で世界を旅しよう
 type: post
-url: /ios-map-flyover-tour-5194/
+slug: ios-map-flyover-tour-5194
 categories:
 - iPhone
 tags:

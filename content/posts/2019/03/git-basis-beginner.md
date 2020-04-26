@@ -4,7 +4,7 @@ date: 2019-03-23T14:33:42+09:00
 draft: false
 title: "Git初心者が最初から学ぶGitの入門"
 type: post
-url: /git-basis-beginner-20190303/
+slug: git-basis-beginner-20190303
 categories: ["Mac"]
 tags: ["Git","GitHub","VSCode"]
 toc: true

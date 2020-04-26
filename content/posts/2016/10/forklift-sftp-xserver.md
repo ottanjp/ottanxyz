@@ -4,7 +4,7 @@ date: 2016-10-08 13:24:01+00:00
 draft: false
 title: ファイラーとしても優秀なSFTP/FTPクライアント「ForkLift」を使用してXSERVERにSFTPで接続する方法
 type: post
-url: /forklift-sftp-xserver-5068/
+slug: forklift-sftp-xserver-5068
 categories:
 - Mac
 tags:

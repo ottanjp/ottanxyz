@@ -4,7 +4,7 @@ date: 2015-10-07 13:55:59+00:00
 draft: false
 title: Microsoft Edgeで広告を非表示にする方法
 type: post
-url: /edge-adblock-6808/
+slug: edge-adblock-6808
 categories:
 - Windows
 tags:

@@ -4,7 +4,7 @@ date: 2016-12-03 04:41:48+00:00
 draft: false
 title: macOS Sierraのバッテリー消費が激しい時に見直したい項目
 type: post
-url: /macos-battery-drain-5284/
+slug: macos-battery-drain-5284
 categories:
 - Mac
 tags:

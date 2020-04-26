@@ -4,7 +4,7 @@ date: 2017-12-02 00:00:00+00:00
 draft: false
 title: これだけは知っておきたいiPhone Xの基本的な操作方法のまとめ
 type: post
-url: /iphone-x-basic-control-6372/
+slug: iphone-x-basic-control-6372
 categories:
 - iPhone
 tags:

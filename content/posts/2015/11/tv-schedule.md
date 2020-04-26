@@ -4,7 +4,7 @@ date: 2015-11-06 09:04:34+00:00
 draft: false
 title: キーワード検索、プッシュ通知で見たい番組を見逃さない！シンプルで見やすい「超見やすいテレビ番組表」
 type: post
-url: /tv-schedule-6815/
+slug: tv-schedule-6815
 categories:
 - iPhone
 tags:

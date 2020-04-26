@@ -4,7 +4,7 @@ date: 2017-01-14 02:29:10+00:00
 draft: false
 title: Googleが公開したJPEGエンコーダー「Guetzli」をMacでコンパイルして使用する方法
 type: post
-url: /google-guetzli-mac-5466/
+slug: google-guetzli-mac-5466
 categories:
 - Mac
 tags:

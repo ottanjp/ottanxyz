@@ -4,7 +4,7 @@ date: 2016-08-29 03:23:42+00:00
 draft: false
 title: WordPressに投稿したらIFTTTとBufferを使用して自動的にTwitter、Facebookページ、Google+に投稿する方法
 type: post
-url: /wordpress-ifttt-buffer-sns-4845/
+slug: wordpress-ifttt-buffer-sns-4845
 categories:
 - Web
 - Blog

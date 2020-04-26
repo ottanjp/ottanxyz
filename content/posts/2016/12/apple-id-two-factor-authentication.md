@@ -4,7 +4,7 @@ date: 2016-12-15 11:30:29+00:00
 draft: false
 title: Apple IDの認証で、まだ2ステップ確認を使用しているの？2ファクター認証に切り替えると、セキュリティが強化される上さらに便利に！
 type: post
-url: /apple-id-two-factor-authentication-5362/
+slug: apple-id-two-factor-authentication-5362
 categories:
 - iPhone
 - Mac

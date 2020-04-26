@@ -4,7 +4,7 @@ date: 2016-06-18 04:35:59+00:00
 draft: false
 title: いつの間にかTumblrからアカウント情報が流出していたことが判明
 type: post
-url: /tumblr-account-outflow-4438/
+slug: tumblr-account-outflow-4438
 categories:
 - Web
 tags:

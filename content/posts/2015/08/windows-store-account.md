@@ -4,7 +4,7 @@ date: 2015-08-11 02:11:39+00:00
 draft: false
 title: ローカルアカウントのまま、Microsoftアカウントに切り替えることなくWindowsストアからアプリケーションを入手する方法
 type: post
-url: /windows-store-account-1972/
+slug: windows-store-account-1972
 categories:
 - Windows
 tags:

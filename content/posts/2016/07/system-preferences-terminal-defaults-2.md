@@ -4,7 +4,7 @@ date: 2016-07-10 13:02:03+00:00
 draft: false
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般）
 type: post
-url: /system-preferences-terminal-defaults-2-4643/
+slug: system-preferences-terminal-defaults-2-4643
 categories:
 - Mac
 tags:

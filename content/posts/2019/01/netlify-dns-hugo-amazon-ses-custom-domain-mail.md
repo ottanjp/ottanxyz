@@ -4,7 +4,7 @@ date: 2019-01-25T23:35:09+09:00
 draft: false
 title: 'Netlify CMS + Netlify DNS + Hugo + AWS SESで独自ドメインのメール送受信環境を構築'
 type: post
-url: /netlify-dns-hugo-amazon-ses-custom-domain-mail-20190125/
+slug: netlify-dns-hugo-amazon-ses-custom-domain-mail-20190125
 categories: ['Blog']
 tags: ['Netlify', 'Hugo', 'AWS', 'SES']
 toc: true

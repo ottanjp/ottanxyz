@@ -4,7 +4,7 @@ date: 2015-08-22 01:13:42+00:00
 draft: false
 title: Apple IDの2段階認証を有効にする方法
 type: post
-url: /appleid-two-step-authentication-2163/
+slug: appleid-two-step-authentication-2163
 categories:
 - iPhone
 - Mac

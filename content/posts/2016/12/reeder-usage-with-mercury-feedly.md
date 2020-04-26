@@ -4,7 +4,7 @@ date: 2016-12-21 05:42:46+00:00
 draft: false
 title: ReederがReadabilityからMercuryに移行し、再び記事表示時に本文抽出が可能に
 type: post
-url: /reeder-usage-with-mercury-feedly-5399/
+slug: reeder-usage-with-mercury-feedly-5399
 categories:
 - iPhone
 tags:

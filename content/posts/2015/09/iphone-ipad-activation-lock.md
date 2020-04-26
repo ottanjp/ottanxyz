@@ -4,7 +4,7 @@ date: 2015-09-05 04:19:03+00:00
 draft: false
 title: iPhoneやiPadを売買する前にアクティベーションロックがオフになっていることを確認する方法
 type: post
-url: /iphone-ipad-activation-lock-2365/
+slug: iphone-ipad-activation-lock-2365
 categories:
 - iPhone
 tags:

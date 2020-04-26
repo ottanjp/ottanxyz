@@ -4,7 +4,7 @@ date: 2015-02-07 13:21:08+00:00
 draft: false
 title: Google Analyticsと連携してページビューの多い人気記事を表示する
 type: post
-url: /wordpress-google-analytics-789/
+slug: wordpress-google-analytics-789
 categories:
 - Blog
 tags:

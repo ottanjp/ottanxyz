@@ -4,7 +4,7 @@ date: 2015-09-28 13:25:04+00:00
 draft: false
 title: Apple Musicの自動更新がオンになっていないかどうか確認しよう！Apple Musicの自動更新をオフにする方法
 type: post
-url: /apple-music-subscription-off-2663/
+slug: apple-music-subscription-off-2663
 categories:
 - iPhone
 - Mac

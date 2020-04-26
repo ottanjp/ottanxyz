@@ -4,7 +4,7 @@ date: 2015-09-21 12:23:19+00:00
 draft: false
 title: 毎日のアプリのセール情報を見逃さないために！有料アプリが無料になった場合のみメールで通知してくれるサービスを作ろう！
 type: post
-url: /ifttt-iphone-app-sale-2547/
+slug: ifttt-iphone-app-sale-2547
 categories:
 - iPhone
 - Mac

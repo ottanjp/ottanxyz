@@ -4,7 +4,7 @@ date: 2016-09-26 22:30:00+00:00
 draft: false
 title: macOS Sierraでリマインダーがゾンビのように復活し「実行済み」にできない場合の対処法
 type: post
-url: /macos-sierra-reminder-zombie-5023/
+slug: macos-sierra-reminder-zombie-5023
 categories:
 - Mac
 tags:

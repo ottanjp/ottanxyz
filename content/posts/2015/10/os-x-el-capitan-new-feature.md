@@ -4,7 +4,7 @@ date: 2015-10-03 01:53:49+00:00
 draft: false
 title: macOS El Capitanはここが変わった！macOS El Capitanの新機能40選を一挙ご紹介
 type: post
-url: /os-x-el-capitan-new-feature-2684/
+slug: os-x-el-capitan-new-feature-2684
 categories:
 - Mac
 tags:

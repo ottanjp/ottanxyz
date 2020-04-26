@@ -4,7 +4,7 @@ date: 2014-10-15 07:46:12+00:00
 draft: false
 title: iPhone4Sで快適にiOS8を使用するために見直したい項目
 type: post
-url: /iphone4s-ios8-644/
+slug: iphone4s-ios8-644
 categories:
 - iPhone
 tags:

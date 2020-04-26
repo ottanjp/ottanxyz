@@ -1,0 +1,25 @@
+{{ $id := string ( .Get 0 ) }}
+{{ $dataJ := getJSON ( printf "https://itunes.apple.com/lookup?id=%s&country=JP" $id ) }}
+{{ range first 1 $dataJ.results }}
+<div class="columns appbox">
+	<div class="column is-one-quarter">
+			<a href="{{ .trackViewUrl }}" target="_blank"><img class="thumbnail" src="{{ .artworkUrl512 }}"></a>
+	</div>
+	<div class="column">
+		<div>
+			<a href="{{ .trackViewUrl }}" target="_blank">
+				<span class="title is-4">{{ .trackName }}</span>
+			</a>
+			<span class="icon">
+				<i class="fab fa-app-store-ios"></i>
+			</span>
+			<span class="badge-itunes">{{ .trackContentRating }}</span>
+		</div>
+
+		<ul>
+			<li>販売元:&nbsp;<a class="link" href="{{ .artistViewUrl }}">{{ .sellerName }}</a></li>
+			<li>価格:&nbsp;{{ .formattedPrice }}</li>
+		</ul>
+	</div>
+</div>
+{{ end }}

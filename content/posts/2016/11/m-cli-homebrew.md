@@ -4,7 +4,7 @@ date: 2016-11-26 06:11:59+00:00
 draft: false
 title: Macをターミナルから操る「m-cli」のソースコードがタメになるというお話
 type: post
-url: /m-cli-homebrew-5266/
+slug: m-cli-homebrew-5266
 categories:
 - Mac
 tags:

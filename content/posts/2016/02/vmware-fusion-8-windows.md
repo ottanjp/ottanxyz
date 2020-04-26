@@ -4,7 +4,7 @@ date: 2016-02-10 08:36:15+00:00
 draft: false
 title: VMware Fusion 8にWindows 10をインストールする
 type: post
-url: /vmware-fusion-8-windows-6837/
+slug: vmware-fusion-8-windows-6837
 categories:
 - Mac
 - Windows

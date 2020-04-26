@@ -4,7 +4,7 @@ date: 2015-12-02 06:41:01+00:00
 draft: false
 title: AmazonのFireタブレットにGoogle Playのアプリケーションをインストールする方法②
 type: post
-url: /amazon-fire-google-play-2-6820/
+slug: amazon-fire-google-play-2-6820
 categories:
 - Android
 tags:

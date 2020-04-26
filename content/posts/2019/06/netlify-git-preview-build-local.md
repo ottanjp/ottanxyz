@@ -4,7 +4,7 @@ date: 2019-06-05T21:13:37+09:00
 draft: false
 title: "NetlifyとGitでmasterブランチにコミットする前にプレビューする3つの方法"
 type: post
-url: /netlify-git-preview-build-local-20190606/
+slug: netlify-git-preview-build-local-20190606
 categories: ["Blog"]
 tags: ["Netlify", "Git"]
 toc: true

@@ -4,7 +4,7 @@ date: 2014-09-13 01:39:56+00:00
 draft: false
 title: feedlyで作る自分だけのキュレーションアプリ
 type: post
-url: /feedly-curation-314/
+slug: feedly-curation-314
 categories:
 - iPhone
 tags:

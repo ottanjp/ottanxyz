@@ -4,7 +4,7 @@ date: 2016-12-12 12:30:02+00:00
 draft: false
 title: App Storeで公開されている気になるアプリが更新されたら通知する方法
 type: post
-url: /ios-app-store-notify-5336/
+slug: ios-app-store-notify-5336
 categories:
 - iPhone
 tags:

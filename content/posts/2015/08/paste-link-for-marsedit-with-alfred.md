@@ -5,7 +5,7 @@ draft: false
 title: WordPressの過去記事参照に！Alfredから記事を検索してMarsEditに貼り付けられる「Paste link for MarsEdit with
   Alfred」
 type: post
-url: /paste-link-for-marsedit-with-alfred-2174/
+slug: paste-link-for-marsedit-with-alfred-2174
 categories:
 - Mac
 - Blog

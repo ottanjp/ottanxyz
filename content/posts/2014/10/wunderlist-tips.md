@@ -4,7 +4,7 @@ date: 2014-10-28 07:22:37+00:00
 draft: false
 title: タスク管理アプリ「Wunderlist」との上手な付き合い方
 type: post
-url: /wunderlist-tips-663/
+slug: wunderlist-tips-663
 categories:
 - Android
 - iPhone

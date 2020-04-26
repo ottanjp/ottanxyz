@@ -4,7 +4,7 @@ date: 2015-08-19 13:28:35+00:00
 draft: false
 title: Microsoft Azure上にWindows 10のバックアップを保存する
 type: post
-url: /azure-windows-backup-2122/
+slug: azure-windows-backup-2122
 categories:
 - Windows
 tags:

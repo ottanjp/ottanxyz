@@ -4,7 +4,7 @@ date: 2016-05-14 07:01:19+00:00
 draft: false
 title: WordPressの本文にAmazonのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする
 type: post
-url: /wordpress-amazon-link-affiliate-6864/
+slug: wordpress-amazon-link-affiliate-6864
 categories:
 - Blog
 tags:

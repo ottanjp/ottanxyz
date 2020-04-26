@@ -4,7 +4,7 @@ date: 2014-10-11 04:10:19+00:00
 draft: false
 title: iTunesによるWi-Fi同期ができなくなった場合の4つの対処方法
 type: post
-url: /itunes-wifi-635/
+slug: itunes-wifi-635
 categories:
 - iPhone
 - Mac

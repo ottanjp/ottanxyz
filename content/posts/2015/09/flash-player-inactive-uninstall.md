@@ -4,7 +4,7 @@ date: 2015-09-06 04:51:00+00:00
 draft: false
 title: 徹底的にFlash Playerプラグインを無効化・アンインストールする方法
 type: post
-url: /flash-player-inactive-uninstall-2388/
+slug: flash-player-inactive-uninstall-2388
 categories:
 - Mac
 tags:

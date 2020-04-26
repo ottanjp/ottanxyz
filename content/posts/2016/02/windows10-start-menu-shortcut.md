@@ -4,7 +4,7 @@ date: 2016-02-16 13:43:38+00:00
 draft: false
 title: Windows 10でスタートメニューのアプリケーションのショートカットをデスクトップに作成する方法
 type: post
-url: /Windows 10-start-menu-shortcut-6843/
+slug: Windows 10-start-menu-shortcut-6843
 categories:
 - Windows
 tags:

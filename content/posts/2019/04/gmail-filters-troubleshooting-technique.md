@@ -4,7 +4,7 @@ date: 2019-04-24T23:05:16+09:00
 draft: false
 title: "Gmailのフィルタに関する「あるある」とその対処策"
 type: post
-url: /gmail-filters-troubleshooting-technique-20190424/
+slug: gmail-filters-troubleshooting-technique-20190424
 categories: ["Web"]
 tags: ["Google","Gmail"]
 toc: true

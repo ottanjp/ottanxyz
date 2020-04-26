@@ -4,7 +4,7 @@ date: 2016-01-23 07:49:27+00:00
 draft: false
 title: 誤って削除した重要なカレンダーのイベントやリマインダーを復旧する方法
 type: post
-url: /icloud-calendar-reminder-6828/
+slug: icloud-calendar-reminder-6828
 categories:
 - iPhone
 - Mac

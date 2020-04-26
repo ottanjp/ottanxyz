@@ -4,7 +4,7 @@ date: 2015-08-27 12:50:21+00:00
 draft: false
 title: Androidのバッテリーを劇的に改善する5つの方法
 type: post
-url: /android-battery-2230/
+slug: android-battery-2230
 categories:
 - Android
 tags:

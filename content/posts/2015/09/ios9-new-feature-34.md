@@ -4,7 +4,7 @@ date: 2015-09-25 01:11:26+00:00
 draft: false
 title: ここが変わった！知っておくべき便利なiOS9の新機能34選
 type: post
-url: /ios9-new-feature-34-2613/
+slug: ios9-new-feature-34-2613
 categories:
 - iPhone
 tags:

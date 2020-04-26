@@ -4,7 +4,7 @@ date: 2018-06-16 08:11:42+00:00
 draft: false
 title: 毎日ブログ書くのってしんどくない？国内外問わず目的の情報をiPhoneで自動的に収集するのに欠かせないアプリ3選と、情報の効率的な集め方
 type: post
-url: /iphone-ipad-news-apps-6780/
+slug: iphone-ipad-news-apps-6780
 categories:
 - iPhone
 tags:
