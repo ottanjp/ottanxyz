@@ -5,11 +5,11 @@
 
 	<ul class="pagination-list">
 		{{ if $pag.HasPrev }}
-		<li><a class="pagination-previous has-text-weight-bold" href="{{ $pag.Prev.URL }}">Newer Posts</a></li>
+		<li><a class="pagination-previous has-text-weight-bold" href="{{ $pag.Prev.URL }}">次へ</a></li>
 		{{ end }}
-		<li><a class="pagination-link button has-text-weight-bold is-primary">Page {{ $pag.PageNumber }} of {{ $pag.TotalPages }}</a></li>
+		<li><span class="has-text-weight-bold">{{ $pag.PageNumber }} / {{ $pag.TotalPages }}</span></li>
 		{{ if $pag.HasNext }}
-		<li><a class="pagination-next has-text-weight-bold" href="{{ $pag.Next.URL }}">Older Posts</a></li>
+		<li><a class="pagination-next has-text-weight-bold" href="{{ $pag.Next.URL }}">前へ</a></li>
 		{{ end }}
 	</ul>
 
