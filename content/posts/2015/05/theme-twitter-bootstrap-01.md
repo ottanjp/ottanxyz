@@ -124,7 +124,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
 
 
 
-以下のソースをコピーして、「index.html」と同じ階層に**style.css**という名前で格納してください。`Theme Name:` がWordPressが認識するテーマの名前になります。なお、`Theme URI:` 、`Author`、`Version` については任意の文字列に変更してください。
+以下のソースをコピーして、「index.html」と同じ階層に**style.css**という名前で格納してください。`Theme Name:` がWordPressが認識するテーマの名前になります。なお、`Theme URI:` 、`author`、`Version` については任意の文字列に変更してください。
 
 
 
@@ -133,8 +133,8 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
     /*
     Theme Name: initializr
     Theme URI: http://wordpress.local/
-    Author: Ottan
-    Author URI: http://wordpress.local/
+    author: Ottan
+    author URI: http://wordpress.local/
     Description: Version: 0.1.0
     License: GNU General Public License v2 or later
     License URI: http://www.gnu.org/licenses/gpl-2.0.html

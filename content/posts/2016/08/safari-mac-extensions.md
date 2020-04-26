@@ -86,7 +86,7 @@ https://safari-extensions.apple.com/details/?id=com.diigo.safari.awesomescreensh
 
 
 
-あとから読むための「Pocket」の拡張機能。事前に「Pocket」のアカウントが必要です。Safariの場合、「Pocket」の拡張機能を入れていなくても、「Pocket」アプリが導入されていれば、「共有」メニューから「Pocket」に簡単に保存できます。ただし、ボタン１つで導入できるので入れておいて損はない拡張機能。
+あとから読むための「Pocket」の拡張機能。事前に「Pocket」のアカウントが必要です。Safariの場合、「Pocket」の拡張機能を入れていなくても、「Pocket」アプリが導入されていれば、「共有」メニューから「Pocket」に簡単に保存できます。ただし、ボタン1つで導入できるので入れておいて損はない拡張機能。
 
 
 

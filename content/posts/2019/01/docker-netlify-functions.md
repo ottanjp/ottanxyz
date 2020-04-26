@@ -98,7 +98,7 @@ http://localhost:9000/.netlify/functions/hello
 
 <!-- textlint-enable -->
 
-`docker run`コマンドのオプションに`-v`があります。これは、ローカルホストのボリュームをコンテナにマウントします。ローカルホストで編集したファイルの変更をコンテナに簡単に反映できます。例えば、`docker run`コマンド実行時に、以下のように実行します。
+`docker run`コマンドのオプションに`-v`があります。これは、ローカルホストのボリュームをコンテナにマウントします。ローカルホストで編集したファイルの変更をコンテナに簡単に反映できます。たとえば、`docker run`コマンド実行時に、以下のように実行します。
 
 ```bash
 docker run --rm -it -p 9000:9000 -v $(pwd):/app netlify-functions /bin/bash

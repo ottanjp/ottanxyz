@@ -37,7 +37,7 @@ tags:
 
 ## Mac、iPhoneで連携できて、かつWordPressへのパブリッシング機能も兼ね備えるMarkdownエディター「MWeb」
 
-iPhoneはフリック入力というインターフェース上、Macのキーボード入力と比較すると、タイピング速度が落ちることは否めません。また、MarsEditでのブログ執筆時はいわゆる「HTMLモード」で書いています。ただ、Macの「[Dash](https://kapeli.com/dash)」や「[Alfred](https://www.alfredapp.com/)」のような便利なスニペット展開アプリがiPhoneにある訳ではないため、iPhoneではなるべく**文章を書くことだけに集中したい**と考えていました。
+iPhoneはフリック入力というインターフェイス上、Macのキーボード入力と比較すると、タイピング速度が落ちることは否めません。また、MarsEditでのブログ執筆時はいわゆる「HTMLモード」で書いています。ただ、Macの「[Dash](https://kapeli.com/dash)」や「[Alfred](https://www.alfredapp.com/)」のような便利なスニペット展開アプリがiPhoneにある訳ではないため、iPhoneではなるべく**文章を書くことだけに集中したい**と考えていました。
 
 そこで、候補に上がったのがMarkdownでした。HTMLのタグによるマークアップと比較すると明らかに記述量が少なくなります。これまでも「[# Type](https://itunes.apple.com/jp/app/type/id1214613873?mt=8)」など他のiOS用のMarkdownエディターや、MarsEditのMarkdown形式での編集は使用した事がありました。そのため、Markdown自体にとくに抵抗はなかったのですが、重視した点がいくつかあります。
 

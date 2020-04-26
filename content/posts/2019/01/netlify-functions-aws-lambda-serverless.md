@@ -36,7 +36,7 @@ Netlifyへデプロイする前に、ローカル環境でNetlify Functionsを�
 yarn global add netlify-lambda
 ```
 
-`netlify-lambda`の使い方は、以下の通りです。ローカルホストの9000番ポートを使用します。9000番ポートがすでに使用されている場合は実行に失敗します。既に9000番ポートを使用しているアプリケーションを終了した上で、Netlify Functionsを実行してください。
+`netlify-lambda`の使い方は、以下の通りです。ローカルホストの9000番ポートを使用します。9000番ポートがすでに使用されている場合は実行に失敗します。すでに9000番ポートを使用しているアプリケーションを終了した上で、Netlify Functionsを実行してください。
 
 ```bash
 netlify-lambda serve <source-folder>
@@ -122,7 +122,7 @@ hello_slack.js  18.3 KiB       4  [emitted]  hello_slack
 
 #### Hello, World!
 
-Netlify Functionsで最も基本となる、アクセスすると「Hello, World!」と表示するだけのサンプルアプリケーションです。ブラウザを開いて、以下のURLにアクセスしてください。Netlifyにデプロイ後は、`localhost:9000`をNetlifyのドメインに置き換えてください。
+Netlify Functionsでもっとも基本となる、アクセスすると「Hello, World!」と表示するだけのサンプルアプリケーションです。ブラウザを開いて、以下のURLにアクセスしてください。Netlifyにデプロイ後は、`localhost:9000`をNetlifyのドメインに置き換えてください。
 
 ```http
 http://localhost:9000/.netlify/functions/hello
@@ -279,7 +279,7 @@ exports.handler = async (event, context) => {
 http://localhost:9000/.netlify/functions/googleplay?appId=com.google.android.googlequicksearchbox
 ```
 
-例えば、ブラウザから上記のURLにアクセスしてみてください。
+たとえば、ブラウザから上記のURLにアクセスしてみてください。
 
 ```json
 {
@@ -350,7 +350,7 @@ http://localhost:9000/.netlify/functions/googleplay?appId=com.google.android.goo
   functions = "dist/server"
 ```
 
-例えば、Netlify Functionsのサンプルをそのままデプロイする場合は、上記のように書きます。`command`に指定するコマンドは必ず`build`を指定してましょう。誤って`yarn start:server`と記載してしまうと、待ち受け状態となったままビルドが完了しません。Netlifyの自動デプロイをキャンセルする手段はないため、タイムアウト（30分）が経過するのを待つことになります。
+たとえば、Netlify Functionsのサンプルをそのままデプロイする場合は、上記のように書きます。`command`に指定するコマンドは必ず`build`を指定してましょう。誤って`yarn start:server`と記載してしまうと、待ち受け状態となったままビルドが完了しません。Netlifyの自動デプロイをキャンセルする手段はないため、タイムアウト（30分）が経過するのを待つことになります。
 
 ## 関連リンク
 

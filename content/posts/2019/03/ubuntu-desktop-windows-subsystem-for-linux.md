@@ -16,7 +16,7 @@ Windows 10（バージョン1809）で試しました。Windows 10上でWSLか�
 
 ## WSLでUbuntu 18.04 LTS (GNOME)のデスクトップ環境を動かす
 
-Windows 10からWSL（Windows Subsystem for Linux）が使用できるようになりました。Windows 10上に様々なLinuxディストリビューションをインストールできます。今回は、Ubuntu 18.04 LTSで試しました。
+Windows 10からWSL（Windows Subsystem for Linux）が使用できるようになりました。Windows 10上にさまざまなLinuxディストリビューションをインストールできます。今回は、Ubuntu 18.04 LTSで試しました。
 
 ### Windows Subsystem for Linux (WSL) の有効化
 
@@ -106,7 +106,7 @@ Windows 10の便利な機能の1つに仮想デスクトップがあります。
 sudo chmod 777 -R ~/.cache/
 ```
 
-以下のコマンドを実行して、Ubuntu Desktopを起動します。VcXsrvが問題なく起動していれば、作成した仮想デスクトップ上にGUI環境が起動しているはずです。なお、Ubuntuのターミナル上に様々なエラーが表示されますが、今回は無視します。また、D-Busに関するFATALエラーが表示されるため、回避するための暫定対処策としてD-BUsのサービスを再起動しておきます。起動する前に、毎回実施してください。
+以下のコマンドを実行して、Ubuntu Desktopを起動します。VcXsrvが問題なく起動していれば、作成した仮想デスクトップ上にGUI環境が起動しているはずです。なお、Ubuntuのターミナル上にさまざまなエラーが表示されますが、今回は無視します。また、D-Busに関するFATALエラーが表示されるため、回避するための暫定対処策としてD-BUsのサービスを再起動しておきます。起動する前に、毎回実施してください。
 
 ```bash
 sudo service dbus restart 

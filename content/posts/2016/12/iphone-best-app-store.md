@@ -586,7 +586,7 @@ MVNO利用者なら絶対に導入しておきたい通信量チェッカー。i
 
 
 
-参考：[Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい６つの理由 – OTTAN.XYZ](/wunderlist-recommend-271/)
+参考：[Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい6つの理由 – OTTAN.XYZ](/wunderlist-recommend-271/)
 
 
 

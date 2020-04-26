@@ -110,7 +110,7 @@ defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 32 "<dic
 defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 34 "<dict><key>enabled</key><true/><key>value</key><dict><key>parameters</key><array><integer>65535</integer><integer>122</integer><integer>131072</integer></array><key>type</key><string>standard</string></dict></dict>"
 ```
 
-少し解説します。まず、「32」「34」が「Mission Control」を意味します。この機能に対して割り当てるキーを設定します。割り当てるキーには、３つのパラメーターを設定します。まず、「65535」はASCIIコード以外の文字列（今回の場合は、ファンクションキー）を意味します。逆に言うと、ASCIIコードに対応した文字列を指定できるのでしょうが、今回は検証していません。次に、「122」は「F1」キーを指します。最後の「0」は修飾キーなしという意味です。ファンクションキーに割り当てられた値は以下の通りです。
+少し解説します。まず、「32」「34」が「Mission Control」を意味します。この機能に対して割り当てるキーを設定します。割り当てるキーには、3つのパラメーターを設定します。まず、「65535」はASCIIコード以外の文字列（今回の場合は、ファンクションキー）を意味します。逆に言うと、ASCIIコードに対応した文字列を指定できるのでしょうが、今回は検証していません。次に、「122」は「F1」キーを指します。最後の「0」は修飾キーなしという意味です。ファンクションキーに割り当てられた値は以下の通りです。
 
 | 値  | 文字 |
 | --- | ---- |

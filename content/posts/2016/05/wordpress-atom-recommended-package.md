@@ -29,7 +29,7 @@ https://ottan.xyz/atom-plugin-8-2207/
 
 
 
-そこで、今回は無償で、かつWindows、Macの両方で使用できる「Atom」を紹介します。「Atom」については以前も１回まとめていますので、こちらもご参照ください。
+そこで、今回は無償で、かつWindows、Macの両方で使用できる「Atom」を紹介します。「Atom」については以前も1回まとめていますので、こちらもご参照ください。
 
 
 
@@ -366,7 +366,7 @@ Atomにはプロジェクトいう概念が存在しますが、プロジェク�
 
 
 
-メニューの「File」→「Add Project Folder」から、１つのプロジェクトにまとめたいフォルダーを追加します。この状態で、メニューの「Packages」→「Project Manager」→「Save Project」でプロジェクトを保存します。
+メニューの「File」→「Add Project Folder」から、1つのプロジェクトにまとめたいフォルダーを追加します。この状態で、メニューの「Packages」→「Project Manager」→「Save Project」でプロジェクトを保存します。
 
 
 

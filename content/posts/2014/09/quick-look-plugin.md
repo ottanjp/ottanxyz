@@ -17,7 +17,7 @@ Quick Lookは、macOSを代表する便利な機能です。フォルダーや�
 
 ## プラグインのインストール方法
 
-プラグインの中には、後述のHomebrew Caskを使用したCUIからのインストールが可能なものと、直接公式サイトからダウンロードして手動で導入するものの２種類があります。Homebrew Caskについては後述しますので、手動でインストールする場合の方法をご紹介します。
+プラグインの中には、後述のHomebrew Caskを使用したCUIからのインストールが可能なものと、直接公式サイトからダウンロードして手動で導入するものの2種類があります。Homebrew Caskについては後述しますので、手動でインストールする場合の方法をご紹介します。
 
 ### 手動でインストールする場合
 
@@ -367,7 +367,7 @@ defaults write com.apple.finder QLEnableTextSelection -bool true && killall Find
 
 ## まとめ
 
-今回ご紹介したプラグインは、以下のコマンドを実行するだけですべて導入可能です。１つずつインストールするのが面倒だ、という方はこのコマンドを使用してください。
+今回ご紹介したプラグインは、以下のコマンドを実行するだけですべて導入可能です。1つずつインストールするのが面倒だ、という方はこのコマンドを使用してください。
 
 ```bash
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv betterzipql 

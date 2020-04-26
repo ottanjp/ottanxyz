@@ -272,15 +272,15 @@ WordMoveによる開発環境から本番環境への接続方法には、FTP、
 
 
 
-さて、Movefileですが、１行ごとのインデントが非常に重要です。半角スペース１つずれると動作しません。不安な場合は、[YAMLlint - The YAML Validator](http://www.yamllint.com/)に値を貼り付けて、チェックしてみてください。ハマリがちなのが、コメントアウトする箇所。
+さて、Movefileですが、1行ごとのインデントが非常に重要です。半角スペース1つずれると動作しません。不安な場合は、[YAMLlint - The YAML Validator](http://www.yamllint.com/)に値を貼り付けて、チェックしてみてください。ハマリがちなのが、コメントアウトする箇所。
 
 
 
 
 
 
-  * `ssh:`の前の半角スペースは２つ
-  * `host:`、`user:`、`port:`、`rsync_options:`の前の半角スペースは４つ
+  * `ssh:`の前の半角スペースは2つ
+  * `host:`、`user:`、`port:`、`rsync_options:`の前の半角スペースは4つ
 
 
 

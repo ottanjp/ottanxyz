@@ -79,4 +79,4 @@ chrome://inspect/#devices
 
 ![](/uploads/2019/02/190223-49981de49a2eeeca.png)
 
-無事に Google Chrome のデベロッパーコンソールが起動しました。デベロッパーコンソールの機能は全て使用できます。DOM 操作をしたり、JavaScript のデバッグをしたり、Google Chrome のデベロッパーコンソールを使用して、良きデバッグライフを！
+無事に Google Chrome のデベロッパーコンソールが起動しました。デベロッパーコンソールの機能はすべて使用できます。DOM 操作をしたり、JavaScript のデバッグをしたり、Google Chrome のデベロッパーコンソールを使用して、良きデバッグライフを！

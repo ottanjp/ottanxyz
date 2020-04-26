@@ -331,7 +331,7 @@ Amazon Link Builderのポイントを簡単にご紹介します。
 
 
   * `wp_embed_register_handler()`でパターンにマッチしたURLをショートコードに変換する
-  * 毎回、Amazon Product Advertising APIを使用して商品情報を取得すると、WordPressの動作が重くなるの、またAPIの制限に引っかかる可能性があるので、取得した情報はWordPressのTransient APIを使用してキャッシュとして保持する（キャッシュ期間は１日）
+  * 毎回、Amazon Product Advertising APIを使用して商品情報を取得すると、WordPressの動作が重くなるの、またAPIの制限に引っかかる可能性があるので、取得した情報はWordPressのTransient APIを使用してキャッシュとして保持する（キャッシュ期間は1日）
   * テーマやCSSが変わった場合に変更するのは、このクラスの`display()`関数だけ！
   * Amazonの価格情報はセールなどで随時変更されるため書き方に要注意
   * 場合によっては動かないことがあるかもしれません。コメント欄で教えていただけると助かります

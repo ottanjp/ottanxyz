@@ -78,7 +78,7 @@ iTunes Link Builder（と呼んでいます）の簡単な使い方と制限事�
 iTunes Link Builderのポイントを簡単にご紹介します。応用すれば、Amazon Link Builderなんてものも作れそうです。
 
 -   `wp_embed_register_handler()`でパターンにマッチしたURLをショートコードに変換する
--   毎回、iTunes Search APIを使用してアプリの情報を取得すると、WordPressの動作が重くなります。取得した情報はWordPressのTransient APIを使用してキャッシュとして保持する（キャッシュ期間は１日）。取得した情報は下図のようにデータベースにシリアライズされて保持されます
+-   毎回、iTunes Search APIを使用してアプリの情報を取得すると、WordPressの動作が重くなります。取得した情報はWordPressのTransient APIを使用してキャッシュとして保持する（キャッシュ期間は1日）。取得した情報は下図のようにデータベースにシリアライズされて保持されます
 -   テーマやCSSが変わった場合に変更するのは、このクラスの`display()`関数だけ！
 -   App Store、Mac App Storeの価格情報はセールなどで随時変更されるため書き方に要注意
 -   場合によっては動かないことがあるかもしれません。コメント欄で教えていただけると助かります
