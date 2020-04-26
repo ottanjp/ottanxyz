@@ -23,12 +23,12 @@
 	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
 	<link rel="canonical" href="{{ .Permalink }}">
-
-	{{ block "katex-stylesheet" . }}{{ end }}
+	{{ block "header-image" . }}{{ end }}
 
 	{{- template "_internal/opengraph.html" . -}}
 	<meta property="og:site_name" content="{{ .Site.Title }}" />
 	<meta property="og:locale" content="{{ $.Site.Params.locale }}" />
+	<meta property="fb:app_id" content="{{ $.Site.Params.fbappId }}">
 
 	{{- template "_internal/google_news.html" . -}}
 	{{- template "_internal/schema.html" . -}}
