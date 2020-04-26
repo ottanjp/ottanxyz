@@ -36,36 +36,26 @@
 
 <section class="page">
 	<div class="container">
-	  <div class="columns">
-		<div class="column">
-		  <div class="post-content">
-
+		<div class="post-content">
 			<div class="post-tags">
 				{{ range .Params.tags }}
-            <a class="button is-rounded" href="/tags/{{ . | urlize }}">
-              #{{- . -}}
-            </a>
-            {{ end }}
-                            </div>
-
+					<a class="button is-rounded" href="/tags/{{ . | urlize }}">#{{- . -}}</a>
+				{{ end }}
+			</div>
 			<div class="post-content__inner">
-
 				<div class="content markdown-body">
 					{{ .Content | safeHTML }}
 				</div>
-	
 			</div>
-		  </div>
-
-		  {{ partial "social-share.html" . }}
-
-		  <div class="comments" id="comments">
-			<hr>
-			{{ template "_internal/disqus.html" . }}  
-		  </div>
-
 		</div>
-	  </div>
+
+		{{ partial "social-share.html" . }}
+
+		<hr>
+		<div class="comments" id="comments">
+		{{ template "_internal/disqus.html" . }}  
+		</div>
+
 	</div>
   </section>
 
