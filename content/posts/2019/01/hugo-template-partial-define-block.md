@@ -22,7 +22,7 @@ Hugo Static Site Generator v0.53/extended darwin/amd64 BuildDate: unknown
 
 ## Hugo のテンプレート構文
 
-Hugo には様々なテンプレート構文が用意されています。今回は、その中でも基本となる以下の 4 つについて、特につまずきやすい点を中心に解説します。記事の内容に対するご質問やご指摘等はコメント欄でお待ちしております。
+Hugo にはさまざまなテンプレート構文が用意されています。今回は、その中でも基本となる以下の 4 つについて、とくにつまずきやすい点を中心に解説します。記事の内容に対するご質問やご指摘等はコメント欄でお待ちしております。
 
 -   `template`
 -   `partial`
@@ -50,7 +50,7 @@ Hugo 0.53 では、以下のテンプレートが用意されています。テ�
 -   [hugo/schema.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/schema.html)
 -   [hugo/twitter_cards.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/twitter_cards.html)
 
-内包されているテンプレートのソースも、Hugo の構文に従って記載されています。そのため、テンプレートのソースを読み込むことで、Hugo の構文の理解に役立ちます。時間のあるときに一度目を通しておくことをオススメします。オススメは、[hugo/opengraph.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/opengraph.html)です。
+内包されているテンプレートのソースも、Hugo の構文にしたがって記載されています。そのため、テンプレートのソースを読み込むことで、Hugo の構文の理解に役立ちます。時間のあるときに一度目を通しておくことをオススメします。オススメは、[hugo/opengraph.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/opengraph.html)です。
 
 ### partial
 
@@ -134,7 +134,7 @@ Hugo のテンプレートには予約されているファイルがあります
 └── index.html
 ```
 
-`index.html`は、トップページ（フロントページ）のレンダリングに使用されます。`list.html`は、カテゴリーやタグ、またフロントページ等に表示する記事の一覧を表示させるためのテンプレートです。最後の`single.html`は、記事単体をレンダリングするための、最も重要なテンプレートファイルとなります。`baseof.html`ファイルは、すべてのファイルが読み込まれる際に合わせて読み込まれます。
+`index.html`は、トップページ（フロントページ）のレンダリングに使用されます。`list.html`は、カテゴリーやタグ、またフロントページ等に表示する記事の一覧を表示させるためのテンプレートです。最後の`single.html`は、記事単体をレンダリングするための、もっとも重要なテンプレートファイルとなります。`baseof.html`ファイルは、すべてのファイルが読み込まれる際に合わせて読み込まれます。
 
 通常は、これらに前述の Partial Template 等を組み合わせて使用することとなります。
 
@@ -175,7 +175,7 @@ Hugo のテンプレートには予約されているファイルがあります
 </html>
 ```
 
-このテンプレートには、Hugo で生成される静的サイトの骨格とも言える内容が含まれています。例えば、`<head>`タグに囲まれた内容は、記事の内容を問わず毎回レンダリングすべき内容です。`index.html`、`list.html`、`single.html`のすべてのファイルに同一の内容を記述しても良いのですが、冗長であることは言うまでもありません。`baseof.html`にまとめて記述しておくことで、サイトの共通部分をすべて 1 つにまとめることができます。
+このテンプレートには、Hugo で生成される静的サイトの骨格とも言える内容が含まれています。たとえば、`<head>`タグに囲まれた内容は、記事の内容を問わず毎回レンダリングすべき内容です。`index.html`、`list.html`、`single.html`のすべてのファイルに同一の内容を記述しても良いのですが、冗長であることは言うまでもありません。`baseof.html`にまとめて記述しておくことで、サイトの共通部分をすべて 1 つにまとめることができます。
 
 ここで、下記の部分に注目してください。
 

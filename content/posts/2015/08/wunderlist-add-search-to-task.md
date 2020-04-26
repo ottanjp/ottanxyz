@@ -52,7 +52,7 @@ Wunderlistをバージョンアップしたら、一度起動します。ダイ�
 
 
 
-Wanderlustについては、[Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい６つの理由](/wunderlist-recommend-271/)で十分に書いたつもりでしたが、バージョンアップにより、ますます便利になりました。
+Wanderlustについては、[Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい6つの理由](/wunderlist-recommend-271/)で十分に書いたつもりでしたが、バージョンアップにより、ますます便利になりました。
 
 
 

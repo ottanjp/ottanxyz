@@ -20,9 +20,9 @@ WordPressなどのCMSは標準で検索機能を有しています。しかし�
 
 そこで考えられる方法として挙げられるのが、静的サイトのビルド時に全文検索用のインデックスファイルを生成する方法です。
 
-例えば、ビルド時に全ページのタイトルやコンテンツ情報を含むインデックスファイルを作成します。ユーザーが検索ボックスに単語を入力すると、ブラウザがあらかじめ作成したインデックスファイルの読み込み、検索を実施し、キーワードに一致した結果を表示するというものです。
+たとえば、ビルド時に全ページのタイトルやコンテンツ情報を含むインデックスファイルを作成します。ユーザーが検索ボックスに単語を入力すると、ブラウザがあらかじめ作成したインデックスファイルの読み込み、検索を実施し、キーワードに一致した結果を表示するというものです。
 
-ただし、この方法には欠点があります。それは、**ファイルサイズの肥大化**です。コンテンツの量に比例して、当たり前ですがインデックスのファイルサイズは大きくなります。例えば、一般的なブログで検索に必要な要素としては、以下が挙げられます。
+ただし、この方法には欠点があります。それは、**ファイルサイズの肥大化**です。コンテンツの量に比例して、当たり前ですがインデックスのファイルサイズは大きくなります。たとえば、一般的なブログで検索に必要な要素としては、以下が挙げられます。
 
 * コンテンツのタイトル
 * コンテンツのパーマリンク（URL）
@@ -57,7 +57,7 @@ DocSearchが利用できれば、Algoliaのクローラーにインデックス�
 
 ## Elasticsearch（Bonsai.io） + Netlify Functionsによる全文検索を構築する
 
-Bonsaiは、Elasticsearchのマネージド型サービスです。Hugoの公式ドキュメントでも紹介されています。AWS Elasticsearch Serviceなど様々なサービスが存在する中、Bonsaiは商用利用以外の範囲内では無料で使用できます。
+Bonsaiは、Elasticsearchのマネージド型サービスです。Hugoの公式ドキュメントでも紹介されています。AWS Elasticsearch Serviceなどさまざまなサービスが存在する中、Bonsaiは商用利用以外の範囲内では無料で使用できます。
 
 * [Search for your Hugo Website | Hugo](https://gohugo.io/tools/search/#readout)
 
@@ -112,7 +112,7 @@ curl -XPUT https://user123:pass456@my-awesome-cluster-1234.us-east-1.bonsai.io/h
 
 #### bonsai.htmlの作成
 
-続いて、Elasticsearchに登録するためのファイルを生成します。Elasticsearchには、`bulk`と呼ばれるAPIが用意されており、一括でドキュメントを登録できます。`bulk`のパラメータは、ndJSON（Newline Delimited JSON）形式で作成する必要があります。ndJSONは、文字通り改行（`\n`）で区切られたJSON形式のファイルです。**ファイルの末尾に改行を含む必要があります**ので注意してください。また、**\n以外の改行コードを含むことはできません**。特に、Windowsで作業している場合は注意してください。
+続いて、Elasticsearchに登録するためのファイルを生成します。Elasticsearchには、`bulk`と呼ばれるAPIが用意されており、一括でドキュメントを登録できます。`bulk`のパラメータは、ndJSON（Newline Delimited JSON）形式で作成する必要があります。ndJSONは、文字通り改行（`\n`）で区切られたJSON形式のファイルです。**ファイルの末尾に改行を含む必要があります**ので注意してください。また、**\n以外の改行コードを含むことはできません**。とくに、Windowsで作業している場合は注意してください。
 
 `layouts/_default/list.bonsai.html`を作成します。サンプルではJSONファイル（`list.bonsai.json`）として生成していますが、あえてHTMLファイルとしています。`hugo`コマンドがndJSONを認識できないため、`--minify`オプションを付与してビルドした際にエラーが発生するのを避けるためです。（`text/plain`などでも良いです）また、全文検索用インデックスを作成するため、`.Summary`の代わりに`.Plain`を出力するように変更しています。
 
@@ -123,7 +123,7 @@ curl -XPUT https://user123:pass456@my-awesome-cluster-1234.us-east-1.bonsai.io/h
   {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
     {{/* action / metadata */}}
     {{ (dict "index" (dict "_index" "hugo" "_type" "doc"  "_id" .UniqueID)) | jsonify }}
-    {{ (dict "objectID" .UniqueID "date" .Date.UTC.Unix "description" .Description "dir" .Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "content" .Plain "title" .Title "type" .Type "url" .URL "weight" .Weight "wordcount" .WordCount "section" .Section "tags" .Params.Tags "categories" .Params.Categories "authors" .Params.Authors) | jsonify }}
+    {{ (dict "objectID" .UniqueID "date" .Date.UTC.Unix "description" .Description "dir" .Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "content" .Plain "title" .Title "type" .Type "url" .URL "weight" .Weight "wordcount" .WordCount "section" .Section "tags" .Params.Tags "categories" .Params.Categories "authors" .Params.authors) | jsonify }}
   {{- end -}}
 {{- end }}
 ```

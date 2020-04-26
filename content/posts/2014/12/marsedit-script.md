@@ -209,4 +209,4 @@ WordPressのプラグインに目次を生成するプラグインは多数存�
 
 
 
-MarsEditで記事を執筆する上で役に立つ３つのツールをご紹介しました。ツールに関する質問はコメント欄および[@ottanxyz](https://twitter.com/ottanxyz)で受け付けています。お気軽にどうぞ。
+MarsEditで記事を執筆する上で役に立つ3つのツールをご紹介しました。ツールに関する質問はコメント欄および[@ottanxyz](https://twitter.com/ottanxyz)で受け付けています。お気軽にどうぞ。

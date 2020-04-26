@@ -123,7 +123,7 @@ function get_most_viewed() {
 
 ```html
 <ul>
-<li>WordPressのfunctions.phpの肥大化を防ぐ２つの方法 - 2Views</li>
+<li>WordPressのfunctions.phpの肥大化を防ぐ2つの方法 - 2Views</li>
 <li>Alfredのカスタムサーチを利用して検索エンジンをハックする - 2Views</li>
 <li>三日坊主でもできる、魅力にあふれた日記をiPhoneでつける方法 - 2Views</li>
 <li>体が疲れてなかなか眠れない時はiPhoneを枕の下に置いてみよう - 1Views</li>

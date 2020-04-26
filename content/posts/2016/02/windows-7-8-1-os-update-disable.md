@@ -30,7 +30,7 @@ tags:
 
 
 
-Windows 7、もしくはWindows 8.1ユーザの場合、Windows Update経由でWindows Updateを抑止する方法は２種類あります。１点目は、Windowsのローカルポリシーエディターを使用する方法ですが、Windows 7 Professional、Windows 8 Pro以上のエディションを使用しているユーザしか使用することができません（Homeエディションを使用しているユーザは使用できません）。そこで、今回は、ローカルのレジストリエディターを変更して、この問題を回避する方法をご紹介します。
+Windows 7、もしくはWindows 8.1ユーザの場合、Windows Update経由でWindows Updateを抑止する方法は2種類あります。1点目は、Windowsのローカルポリシーエディターを使用する方法ですが、Windows 7 Professional、Windows 8 Pro以上のエディションを使用しているユーザしか使用することができません（Homeエディションを使用しているユーザは使用できません）。そこで、今回は、ローカルのレジストリエディターを変更して、この問題を回避する方法をご紹介します。
 
 
 

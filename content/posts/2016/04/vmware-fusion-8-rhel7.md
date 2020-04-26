@@ -346,7 +346,7 @@ https://developers.redhat.com/products/rhel/download/
 
 
 
-特権ユーザー（root）のパスワードを２回入力し、「完了」ボタンをクリックします。
+特権ユーザー（root）のパスワードを2回入力し、「完了」ボタンをクリックします。
 
 
 

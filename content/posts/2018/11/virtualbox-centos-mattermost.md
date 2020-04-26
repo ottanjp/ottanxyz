@@ -108,7 +108,7 @@ Vagrant により作成した仮想マシンにログインするためには、
 「/etc/sudoers」の内容は多岐に渡りますが、その中に「env_keep」と呼ばれる、「sudo」した際に引き継ぐ環境変数を設定することができる項目があります。「env_keep」という単語を検索して以下の行を見つけてください。そして、その直後に「.bash_profile」に設定した環境変数の内容が引き継がれるように設定します。
 
     ...
-    Defaults    env_keep += "LC_TIME LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XAUTHORITY"
+    Defaults    env_keep += "LC_TIME LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XauthorITY"
     Defaults    env_keep += "http_proxy https_proxy ftp_proxy"
 
 「env_keep +=」の「+」を忘れないでください。「env_keep」に追記するという意味です。「+」をつけないと前の行までの設定が失われてしまいます。さて、「/etc/sudoers」の編集が完了したら、もう一度冒頭のコマンドを実行します。今度はうまく実行できましたか？次回以降は不要な作業ですので、とりあえず我慢してセットアップを進めましょう。
