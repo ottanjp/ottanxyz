@@ -58,25 +58,8 @@
 
 			<div class="post-content__inner">
 
-				{{- $h_tag := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
-				{{- $position := div (len $h_tag) 2 -}}
-				{{- $contents := split .Content "\n" -}}
-				{{ $.Scratch.Set "Content" "" }}
-				{{ $.Scratch.Set "Counter" 0 }}
-				{{ range $contents }}
-					{{ if hasPrefix . "<h" }}
-						{{ $.Scratch.Add "Counter" 1 }}
-							{{ if eq ($.Scratch.Get "Counter") $position }}
-								{{ $.Scratch.Add "Content" (partial "google-adsense3.html") }}
-						{{ end }}
-					{{ end }}
-					{{ $.Scratch.Add "Content" (print . "\n") }}
-				{{ end }}
-
 				<div class="content markdown-body">
-					{{ partial "google-adsense1.html" }}
-					{{ $.Scratch.Get "Content" | safeHTML }}
-					{{ partial "google-adsense2.html" }}
+					{{ .Content | safeHTML }}
 				</div>
 	
 			</div>
