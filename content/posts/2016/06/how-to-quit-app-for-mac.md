@@ -4,7 +4,7 @@ date: 2016-06-02 13:14:43+00:00
 draft: false
 title: Macの基礎：Macでアプリケーションを終了させる6つの方法
 type: post
-url: /how-to-quit-app-for-mac-4398/
+slug: how-to-quit-app-for-mac-4398
 categories:
 - Mac
 tags:

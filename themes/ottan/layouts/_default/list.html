@@ -1,0 +1,30 @@
+{{ define "description"}}
+<meta name="description" content="{{ .Title }}に関連する記事一覧です。" />
+{{ end }}
+
+{{ define "main" }}
+
+<section class="hero background-img is-medium {{ if not .Params.featured_image }}is-light is-bold{{ end }}" {{ if .Params.featured_image }}style="background-image: url('{{ .Params.featured_image }}')"{{ end }}>
+	<div class="hero-body">
+		<div class="container has-text-centered">
+		<h1 class="title is-size-1 {{ if .Params.featured_image }}has-text-white{{ end }}">
+			{{ .Title }}
+		</h1>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline">
+      {{ range.Paginator.Pages }} {{ .Render "li" }} {{ end }}
+    </div>
+  </div>
+
+  {{/* pagination */}}
+  <div class="column">
+    {{ partial "pagination.html" . }}
+  </div>
+</section>
+
+{{ end }}

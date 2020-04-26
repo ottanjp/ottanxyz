@@ -4,7 +4,7 @@ date: 2017-12-16 08:27:38+00:00
 draft: false
 title: iCloud Driveから消えてしまった重要なファイルをTime Machineを使って復元する方法
 type: post
-url: /icloud-drive-time-machine-6453/
+slug: icloud-drive-time-machine-6453
 categories:
 - Mac
 tags:

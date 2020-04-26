@@ -4,7 +4,7 @@ date: 2018-06-10 05:59:19+00:00
 draft: false
 title: macOS High Sierraを使いながらmacOS Mojave（モハべ）のDeveloper Beta（開発者向けβ版）をインストールする
 type: post
-url: /macos-mojave-download-how-to-install-6768/
+slug: macos-mojave-download-how-to-install-6768
 categories:
 - Mac
 tags:

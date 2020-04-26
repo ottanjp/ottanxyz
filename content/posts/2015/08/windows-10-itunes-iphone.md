@@ -4,7 +4,7 @@ date: 2015-08-14 12:29:30+00:00
 draft: false
 title: Windows 10でiTunesにiPhoneが認識されない問題の対処法
 type: post
-url: /windows-10-itunes-iphone-2042/
+slug: windows-10-itunes-iphone-2042
 categories:
 - iPhone
 - Windows

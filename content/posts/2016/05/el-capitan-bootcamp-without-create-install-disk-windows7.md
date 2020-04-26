@@ -4,7 +4,7 @@ date: 2016-05-15 12:04:25+00:00
 draft: false
 title: macOS El CapitanのBootCampアシスタントで「インストールディスクを作成」が表示されない場合でも正常にWindows 7をインストールする
 type: post
-url: /el-capitan-bootcamp-without-create-install-disk-Windows 7-6866/
+slug: el-capitan-bootcamp-without-create-install-disk-Windows 7-6866
 categories:
 - Mac
 - Windows

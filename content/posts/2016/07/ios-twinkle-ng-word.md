@@ -4,7 +4,7 @@ date: 2016-07-12 12:29:16+00:00
 draft: false
 title: iPhoneの高機能2ちゃんねるブラウザ「twinkle」でNGワードを設定する方法
 type: post
-url: /ios-twinkle-ng-word-4655/
+slug: ios-twinkle-ng-word-4655
 categories:
 - iPhone
 tags:

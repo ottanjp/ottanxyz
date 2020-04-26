@@ -4,7 +4,7 @@ date: 2015-04-10 12:21:19+00:00
 draft: false
 title: iPhoneの写真ライブラリからスクリーンショットだけを削除できる「Screenshots」
 type: post
-url: /iphone-screenshots-delete-1011/
+slug: iphone-screenshots-delete-1011
 categories:
 - iPhone
 tags:

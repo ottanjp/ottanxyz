@@ -4,7 +4,7 @@ date: 2016-02-13 07:11:04+00:00
 draft: false
 title: 定期実行されるGoogle Apps Scriptのトリガーをすべて削除する方法
 type: post
-url: /google-apps-script-trigger-delete-6841/
+slug: google-apps-script-trigger-delete-6841
 categories:
 - Web
 tags:

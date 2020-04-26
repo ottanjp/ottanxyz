@@ -4,7 +4,7 @@ date: 2015-06-18 06:27:08+00:00
 draft: false
 title: 本番環境と開発環境のWordPressを自動的に同期する方法
 type: post
-url: /wordpress-sync-auto-1713/
+slug: wordpress-sync-auto-1713
 categories:
 - Blog
 tags:

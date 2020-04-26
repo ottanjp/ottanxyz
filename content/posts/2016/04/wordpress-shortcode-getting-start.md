@@ -4,7 +4,7 @@ date: 2016-04-23 06:08:04+00:00
 draft: false
 title: WordPressのショートコード入門
 type: post
-url: /wordpress-shortcode-getting-start-6855/
+slug: wordpress-shortcode-getting-start-6855
 categories:
 - Blog
 tags:

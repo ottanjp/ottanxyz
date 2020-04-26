@@ -4,7 +4,7 @@ date: 2018-08-26 03:39:41+00:00
 draft: false
 title: iPhoneから公開鍵認証（SSH）でAWS Lightsail（EC2）に接続する
 type: post
-url: /iphone-aws-public-private-key-ssh-ec2-lightsail-6964/
+slug: iphone-aws-public-private-key-ssh-ec2-lightsail-6964
 categories:
 - iPhone
 - Blog

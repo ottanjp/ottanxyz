@@ -4,7 +4,7 @@ date: 2015-09-15 13:09:07+00:00
 draft: false
 title: iPhoneを購入したら導入しておきたいオススメのアプリ60選
 type: post
-url: /iphone-app-62-2500/
+slug: iphone-app-62-2500
 categories:
 - iPhone
 tags:

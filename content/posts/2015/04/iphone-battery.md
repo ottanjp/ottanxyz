@@ -4,7 +4,7 @@ date: 2015-04-26 09:17:49+00:00
 draft: false
 title: iPhoneのバッテリーを劇的に改善する27の方法
 type: post
-url: /iphone-battery-1139/
+slug: iphone-battery-1139
 categories:
 - iPhone
 tags:

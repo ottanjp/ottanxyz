@@ -4,7 +4,7 @@ date: 2019-03-10T16:19:06+09:00
 draft: false
 title: "Windows Subsystem for LinuxでUbuntu Desktop (GNOME)を動かす"
 type: post
-url: /ubuntu-desktop-windows-subsystem-for-linux-20190303/
+slug: ubuntu-desktop-windows-subsystem-for-linux-20190303
 categories:
 tags:
 toc: true

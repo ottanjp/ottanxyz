@@ -4,7 +4,7 @@ date: 2015-08-20 12:40:32+00:00
 draft: false
 title: Windows 10でカレンダーやメールにiCloudアカウントが同期されない問題の対処法
 type: post
-url: /windows-10-calendar-mail-icloud-2137/
+slug: windows-10-calendar-mail-icloud-2137
 categories:
 - iPhone
 - Mac

@@ -4,7 +4,7 @@ date: 2017-04-14 00:27:51+00:00
 draft: false
 title: Windows 10 Creators Update対応版！Windows 10の広告を消して快適に試用する方法
 type: post
-url: /Windows 10-creators-update-ads-off-5674/
+slug: Windows 10-creators-update-ads-off-5674
 categories:
 - Windows
 tags:

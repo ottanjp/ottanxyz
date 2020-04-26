@@ -4,7 +4,7 @@ date: 2017-11-05 14:29:33+00:00
 draft: false
 title: iPhone X（SIMフリー版）を入荷待ちなしでApple Storeで当日受け取る方法
 type: post
-url: /iphone-x-apple-store-6249/
+slug: iphone-x-apple-store-6249
 categories:
 - iPhone
 tags:

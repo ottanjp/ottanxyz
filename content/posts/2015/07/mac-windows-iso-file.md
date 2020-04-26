@@ -4,7 +4,7 @@ date: 2015-07-31 23:51:28+00:00
 draft: false
 title: MacでWindowsのインストールメディア（DVD）からイメージファイル（ISO）を作成する方法
 type: post
-url: /mac-windows-iso-file-1896/
+slug: mac-windows-iso-file-1896
 categories:
 - Mac
 - Windows

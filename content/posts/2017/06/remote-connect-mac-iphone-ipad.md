@@ -4,7 +4,7 @@ date: 2017-06-25 06:49:19+00:00
 draft: false
 title: 外出先のiPhoneやiPadから自宅のMacに接続する方法
 type: post
-url: /remote-connect-mac-iphone-ipad-5999/
+slug: remote-connect-mac-iphone-ipad-5999
 categories:
   - iPhone
   - Mac

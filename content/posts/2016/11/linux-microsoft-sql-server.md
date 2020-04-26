@@ -4,7 +4,7 @@ date: 2016-11-20 11:38:30+00:00
 draft: false
 title: LinuxにMicrosoft SQL Serverをインストールする方法
 type: post
-url: /linux-microsoft-sql-server-5249/
+slug: linux-microsoft-sql-server-5249
 categories:
 - Windows
 tags:

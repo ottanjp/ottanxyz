@@ -4,7 +4,7 @@ date: 2017-06-24 07:43:44+00:00
 draft: false
 title: Google検索で確実に欲しい情報を手に入れるための3つの基本的なTips
 type: post
-url: /google-search-tips-5981/
+slug: google-search-tips-5981
 categories:
 - Android
 - iPhone

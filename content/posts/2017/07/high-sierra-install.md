@@ -4,7 +4,7 @@ date: 2017-07-01 02:47:21+00:00
 draft: false
 title: macOS Sierraの環境を壊さずに、macOS High SierraのPublic Betaをインストールする
 type: post
-url: /high-sierra-install-6019/
+slug: high-sierra-install-6019
 categories:
 - Mac
 tags:

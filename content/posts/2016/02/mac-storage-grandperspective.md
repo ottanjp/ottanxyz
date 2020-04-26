@@ -4,7 +4,7 @@ date: 2016-02-12 01:25:07+00:00
 draft: false
 title: Macのストレージの空き容量が少なくなったら、GrandPerspectiveで肥大化させている項目を特定しよう！
 type: post
-url: /mac-storage-grandperspective-6840/
+slug: mac-storage-grandperspective-6840
 categories:
 - Mac
 tags:

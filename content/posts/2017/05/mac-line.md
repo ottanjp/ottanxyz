@@ -4,7 +4,7 @@ date: 2017-05-29 07:30:51+00:00
 draft: false
 title: アップデートにより改善したMac版LINEの初期設定と便利な使い方
 type: post
-url: /mac-line-5903/
+slug: mac-line-5903
 categories:
 - Android
 - iPhone

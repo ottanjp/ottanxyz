@@ -4,7 +4,7 @@ date: 2017-10-31 13:30:14+00:00
 draft: false
 title: macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介
 type: post
-url: /macos-package-manager-homebrew-6216/
+slug: macos-package-manager-homebrew-6216
 categories:
 - Mac
 tags:

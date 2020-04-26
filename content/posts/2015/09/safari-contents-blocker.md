@@ -4,7 +4,7 @@ date: 2015-09-17 13:56:11+00:00
 draft: false
 title: Safariで広告を非表示にするコンテンツブロッカーを使用する方法
 type: post
-url: /safari-contents-blocker-2518/
+slug: safari-contents-blocker-2518
 categories:
 - iPhone
 tags:

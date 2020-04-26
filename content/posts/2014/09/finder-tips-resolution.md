@@ -4,7 +4,7 @@ date: 2014-09-17 08:23:01+00:00
 draft: false
 title: これは便利！Finderで画像ファイルの解像度と大きさを確認する方法
 type: post
-url: /finder-tips-resolution-464/
+slug: finder-tips-resolution-464
 categories:
 - Mac
 tags:

@@ -4,7 +4,7 @@ date: 2016-07-20 12:15:23+00:00
 draft: false
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（Mission Control）
 type: post
-url: /system-preferences-terminal-defaults-mission-control-4656/
+slug: system-preferences-terminal-defaults-mission-control-4656
 categories:
 - Mac
 tags:

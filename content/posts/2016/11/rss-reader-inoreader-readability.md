@@ -4,7 +4,7 @@ date: 2016-11-08 13:25:39+00:00
 draft: false
 title: RSSリーダーはFeedlyからのインポートが可能な「Inoreader」がオススメ！
 type: post
-url: /rss-reader-inoreader-readability-5213/
+slug: rss-reader-inoreader-readability-5213
 categories:
 - iPhone
 tags:

@@ -4,7 +4,7 @@ date: 2016-02-14 13:03:45+00:00
 draft: false
 title: VMware Fusion 8にmacOS Yosemite 10.10をインストールする
 type: post
-url: /vmware-fusion-8-yosemite-6842/
+slug: vmware-fusion-8-yosemite-6842
 categories:
 - Mac
 tags:

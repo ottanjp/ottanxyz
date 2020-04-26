@@ -4,7 +4,7 @@ date: 2015-04-08 08:38:04+00:00
 draft: false
 title: Evernoteアカウントの2段階認証を有効にする方法
 type: post
-url: /evernote-two-step-authentication-909/
+slug: evernote-two-step-authentication-909
 categories:
 - Web
 tags:

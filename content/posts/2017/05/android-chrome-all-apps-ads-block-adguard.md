@@ -4,7 +4,7 @@ date: 2017-05-11 03:15:18+00:00
 draft: false
 title: Android標準のChromeやその他のアプリからありとあらゆる広告を消し去る魔法のアプリ「Adguard」
 type: post
-url: /android-chrome-all-apps-ads-block-adguard-5815/
+slug: android-chrome-all-apps-ads-block-adguard-5815
 categories:
 - Android
 tags:

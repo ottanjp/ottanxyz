@@ -4,7 +4,7 @@ date: 2019-03-02T16:48:56+09:00
 draft: false
 title: "HugoでMarkdownのランダムな位置にGoogle AdSenseのコードを挿入する"
 type: post
-url: /hugo-content-markdown-random-20190303/
+slug: hugo-content-markdown-random-20190303
 categories: ["Blog"]
 tags: ["Hugo"]
 toc: true

@@ -4,7 +4,7 @@ date: 2015-05-27 02:03:18+00:00
 draft: false
 title: optionキーを使って隠れたオプションや情報にアクセスしよう！
 type: post
-url: /option-hidden-option-information-1495/
+slug: option-hidden-option-information-1495
 categories:
 - Mac
 tags:

@@ -4,7 +4,7 @@ date: 2015-08-06 10:30:30+00:00
 draft: false
 title: Objective-Cで書かれたソースコードをSwiftに変換してくれる「Objective-C to Swift Converter」
 type: post
-url: /objective-c-to-swift-1915/
+slug: objective-c-to-swift-1915
 categories:
 - Web
 tags:

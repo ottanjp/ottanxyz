@@ -4,7 +4,7 @@ date: 2015-05-16 06:41:58+00:00
 draft: false
 title: Office for Mac 2011を完全にアンインストールする方法
 type: post
-url: /office-mac-2011-uninstall-1375/
+slug: office-mac-2011-uninstall-1375
 categories:
 - Mac
 tags:

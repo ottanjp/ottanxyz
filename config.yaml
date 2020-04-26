@@ -4,7 +4,7 @@ defaultContentLanguage: ja
 publishDir: public
 contentDir: content
 title: OTTAN.XYZ
-theme: hugorify
+theme: ottan
 hasCJKLanguage: true
 summaryLength: 150
 canonifyURLs: true
@@ -12,11 +12,11 @@ disqusShortname: ottanxyz
 paginate: 20
 googleAnalytics: UA-54519352-1
 rssLimit: 15
-pygmentsCodeFences: true
-pygmentsStyle: github
-blackfriday:
-  hrefTargetBlank: true
-  smartypants: false
+permalinks:
+  posts: /:slug/
+markup:
+  highlight:
+    style: github
 params:
   author: ottan
   favicon: images/favicon.ico
@@ -27,7 +27,3 @@ params:
   description: iPhone、Mac、Windows、ブログに関する様々なTips、トラブルシューティングをご紹介します
   locale: ja_JP
   fbappId: "808819212572711"
-outputs:
-  home:
-    - HTML
-    - RSS

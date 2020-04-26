@@ -4,7 +4,7 @@ date: 2019-01-20T22:10:18+09:00
 draft: false
 title: 'Netlify FunctionsをDockerで実行する'
 type: post
-url: /docker-netlify-functions-20190120/
+slug: docker-netlify-functions-20190120
 categories: ['Mac', 'Blog']
 tags: ['Docker', 'Netlify']
 toc: true

@@ -4,7 +4,7 @@ date: 2016-09-25 11:37:40+00:00
 draft: false
 title: iOSの3D Touchとプリント機能を使用して、どこからでもPDFファイルを作成する方法
 type: post
-url: /ios-3d-touch-print-pdf-5016/
+slug: ios-3d-touch-print-pdf-5016
 categories:
 - iPhone
 tags:

@@ -4,7 +4,7 @@ date: 2015-07-15 14:44:35+00:00
 draft: false
 title: 現在接続しているWi-Fiネットワークのパスワードを確認する方法
 type: post
-url: /wifi-password-1817/
+slug: wifi-password-1817
 categories:
 - Mac
 tags:

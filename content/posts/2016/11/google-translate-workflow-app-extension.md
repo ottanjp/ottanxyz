@@ -4,7 +4,7 @@ date: 2016-11-13 11:18:43+00:00
 draft: false
 title: 翻訳精度が向上したGoogle翻訳をiPhoneの色々なアプリから呼び出す拡張機能
 type: post
-url: /google-translate-workflow-app-extension-5238/
+slug: google-translate-workflow-app-extension-5238
 categories:
 - iPhone
 tags:

@@ -4,7 +4,7 @@ date: 2017-10-23 06:54:23+00:00
 draft: false
 title: iTunes 12.7からiTunes 12.6.3にダウングレードする方法
 type: post
-url: /itunes-from-12-7-to-12-6-3-6180/
+slug: itunes-from-12-7-to-12-6-3-6180
 categories:
 - Mac
 tags:

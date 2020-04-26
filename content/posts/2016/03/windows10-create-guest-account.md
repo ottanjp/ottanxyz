@@ -4,7 +4,7 @@ date: 2016-03-19 06:25:53+00:00
 draft: false
 title: Windows 10でゲストアカウントを作成する方法
 type: post
-url: /Windows 10-create-guest-account-6844/
+slug: Windows 10-create-guest-account-6844
 categories:
 - Windows
 tags:

@@ -4,7 +4,7 @@ date: 2017-05-02 00:16:24+00:00
 draft: false
 title: iPhoneの任意のアプリのURLスキームを調べる方法
 type: post
-url: /iphone-url-scheme-5717/
+slug: iphone-url-scheme-5717
 categories:
 - iPhone
 - Mac

@@ -4,7 +4,7 @@ date: 2017-01-22 05:57:52+00:00
 draft: false
 title: Windows 10にUbuntuをインストールして快適に使うための方法
 type: post
-url: /windows-ubuntu-linux-5481/
+slug: windows-ubuntu-linux-5481
 categories:
 - Windows
 tags:

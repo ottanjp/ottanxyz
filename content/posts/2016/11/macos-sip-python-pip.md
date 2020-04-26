@@ -4,7 +4,7 @@ date: 2016-11-26 05:42:16+00:00
 draft: false
 title: macOS SierraでPythonのパッケージマネージャー「pip」でインストールできない時の対処法
 type: post
-url: /macos-sip-python-pip-5264/
+slug: macos-sip-python-pip-5264
 categories:
 - Mac
 tags:

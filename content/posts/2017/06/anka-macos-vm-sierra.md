@@ -4,7 +4,7 @@ date: 2017-06-13 09:34:13+00:00
 draft: false
 title: macOSのネイティブな仮想化フレームワークを使用した軽量仮想化ソフトウェア「Anka」のβ版を使用してmacOSのテスト環境を構築する
 type: post
-url: /anka-macos-vm-sierra-5960/
+slug: anka-macos-vm-sierra-5960
 categories:
 - Mac
 tags:

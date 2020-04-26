@@ -4,7 +4,7 @@ date: 2018-10-25 10:52:43+00:00
 draft: false
 title: Netlify CMS（Hugo）のテーマをGitの使い方を覚えながらカスタマイズしてデプロイしてみよう
 type: post
-url: /netlify-cms-hugo-deploy-github-slack-7023/
+slug: netlify-cms-hugo-deploy-github-slack-7023
 categories:
   - Blog
 tags:

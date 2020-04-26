@@ -4,7 +4,7 @@ date: 2017-12-09 13:38:21+00:00
 draft: false
 title: Apple Music（iCloudミュージックライブラリ）上の楽曲をスマートに一括してダウンロードする方法
 type: post
-url: /apple-music-icloud-music-library-download-all-6411/
+slug: apple-music-icloud-music-library-download-all-6411
 categories:
 - iPhone
 tags:

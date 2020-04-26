@@ -4,7 +4,7 @@ date: 2014-09-20 04:33:13+00:00
 draft: false
 title: iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法
 type: post
-url: /iphone-gmail-push-490/
+slug: iphone-gmail-push-490
 categories:
 - iPhone
 tags:

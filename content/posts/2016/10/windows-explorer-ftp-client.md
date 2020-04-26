@@ -4,7 +4,7 @@ date: 2016-10-11 12:45:58+00:00
 draft: false
 title: もうFTPクライアントは不要？WindowsエクスプローラーからFTPでサーバに接続する方法
 type: post
-url: /windows-explorer-ftp-client-5089/
+slug: windows-explorer-ftp-client-5089
 categories:
 - Windows
 tags:

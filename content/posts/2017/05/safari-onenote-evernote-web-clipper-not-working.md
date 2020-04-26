@@ -4,7 +4,7 @@ date: 2017-05-26 01:41:47+00:00
 draft: false
 title: SafariでOneNote Web Clipper、またはEvernote Web Clipperが使用できない場合の対処法
 type: post
-url: /safari-onenote-evernote-web-clipper-not-working-5887/
+slug: safari-onenote-evernote-web-clipper-not-working-5887
 categories:
 - Mac
 tags:

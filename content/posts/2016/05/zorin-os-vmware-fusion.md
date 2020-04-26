@@ -4,7 +4,7 @@ date: 2016-05-11 13:45:24+00:00
 draft: false
 title: XPマシンの救世主と言われるZorin OSをVMware Fusionにインストールしてみた
 type: post
-url: /zorin-os-vmware-fusion-6863/
+slug: zorin-os-vmware-fusion-6863
 categories:
 - Mac
 - Windows

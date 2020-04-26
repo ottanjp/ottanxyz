@@ -4,7 +4,7 @@ date: 2015-05-30 00:18:22+00:00
 draft: false
 title: 超簡単！MacでNexusにAndroid Mをインストールする方法
 type: post
-url: /nexus-mac-android-m-1568/
+slug: nexus-mac-android-m-1568
 categories:
 - Android
 - Mac

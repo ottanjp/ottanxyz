@@ -4,7 +4,7 @@ date: 2016-08-31 12:47:10+00:00
 draft: false
 title: ブログの記事が「はてな新着エントリー」に掲載されたらSlackに通知する
 type: post
-url: /blog-hatena-entry-slack-ifttt-4859/
+slug: blog-hatena-entry-slack-ifttt-4859
 categories:
 - Web
 - Blog

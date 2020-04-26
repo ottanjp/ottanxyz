@@ -4,7 +4,7 @@ date: 2017-11-22 17:15:11+00:00
 draft: false
 title: AlfredのWorkflowを使用して、WordPressプラグイン「WP-Appbox」でApp Storeのアプリの紹介を便利にする
 type: post
-url: /wp-appbox-wordpress-plugin-alfred-workflow-6311/
+slug: wp-appbox-wordpress-plugin-alfred-workflow-6311
 categories:
 - Mac
 - Blog

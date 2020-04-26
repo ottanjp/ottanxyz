@@ -4,7 +4,7 @@ date: 2016-10-29 01:57:18+00:00
 draft: false
 title: WordPressで記事を投稿した瞬間に外部にメールを送信する方法
 type: post
-url: /wordpress-publish-mail-push-5145/
+slug: wordpress-publish-mail-push-5145
 categories:
 - Blog
 tags:

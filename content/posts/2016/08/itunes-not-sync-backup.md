@@ -4,7 +4,7 @@ date: 2016-08-08 13:24:09+00:00
 draft: false
 title: iTunesで同期またはバックアップできない時の対処法
 type: post
-url: /itunes-not-sync-backup-4733/
+slug: itunes-not-sync-backup-4733
 categories:
 - iPhone
 - Mac

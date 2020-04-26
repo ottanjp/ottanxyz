@@ -4,7 +4,7 @@ date: 2016-10-16 12:13:02+00:00
 draft: false
 title: Safariで「Google Safe Browsing Serviceを利用できません」と表示される場合の対処法
 type: post
-url: /safari-google-safe-browsing-service-5105/
+slug: safari-google-safe-browsing-service-5105
 categories:
 - Mac
 tags:

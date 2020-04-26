@@ -4,7 +4,7 @@ date: 2016-06-06 13:42:21+00:00
 draft: false
 title: iPhoneのSafariと、MacのGoogle ChromeをHandoffで連携する
 type: post
-url: /phone-safari-mac-google-chrome-handoff-4420/
+slug: phone-safari-mac-google-chrome-handoff-4420
 categories:
 - iPhone
 - Mac

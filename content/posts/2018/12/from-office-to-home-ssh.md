@@ -4,7 +4,7 @@ date: 2018-12-07 13:38:33+00:00
 draft: false
 title: 職場のプロキシの支配から卒業する方法
 type: post
-url: /from-office-to-home-ssh-7087/
+slug: from-office-to-home-ssh-7087
 categories:
 - Mac
 tags:

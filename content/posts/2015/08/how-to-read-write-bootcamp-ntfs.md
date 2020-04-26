@@ -4,7 +4,7 @@ date: 2015-08-02 06:00:16+00:00
 draft: false
 title: NTFSフォーマットされたBootCamp領域をmacOSで読み書きできるようにする方法
 type: post
-url: /how-to-read-write-bootcamp-ntfs-1900/
+slug: how-to-read-write-bootcamp-ntfs-1900
 categories:
 - Mac
 - Windows

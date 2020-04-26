@@ -4,7 +4,7 @@ date: 2014-09-16 05:46:01+00:00
 draft: false
 title: 動作が軽快なシンタックスハイライター「highlight.js」
 type: post
-url: /syntax-highlight-github-435/
+slug: syntax-highlight-github-435
 categories:
 - Blog
 tags:

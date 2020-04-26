@@ -4,7 +4,7 @@ date: 2016-05-18 12:33:21+00:00
 draft: false
 title: iTunes 12.4でApple Musicを非表示にする方法
 type: post
-url: /itunes-12-4-remove-apple-music-6867/
+slug: itunes-12-4-remove-apple-music-6867
 categories:
 - Mac
 tags:

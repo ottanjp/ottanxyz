@@ -4,7 +4,7 @@ date: 2015-08-12 10:36:45+00:00
 draft: false
 title: Windows環境で超簡単にWordPressの開発環境を構築する方法
 type: post
-url: /windows-wordpress-2022/
+slug: windows-wordpress-2022
 categories:
 - Windows
 - Blog

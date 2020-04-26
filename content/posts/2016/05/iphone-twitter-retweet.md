@@ -4,7 +4,7 @@ date: 2016-05-14 11:58:05+00:00
 draft: false
 title: iPhoneの公式Twitterアプリで、自分のツイートを引用ツイートする方法
 type: post
-url: /iphone-twitter-retweet-6865/
+slug: iphone-twitter-retweet-6865
 categories:
 - iPhone
 tags:

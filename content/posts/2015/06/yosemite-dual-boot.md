@@ -4,7 +4,7 @@ date: 2015-06-13 01:52:20+00:00
 draft: false
 title: macOS YosemiteとEl Captain（β版）のデュアルブート環境を構築する
 type: post
-url: /yosemite-dual-boot-1688/
+slug: yosemite-dual-boot-1688
 categories:
 - Mac
 tags:

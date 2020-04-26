@@ -4,7 +4,7 @@ date: 2015-04-20 12:05:08+00:00
 draft: false
 title: プログラミングの知識ゼロで「YouTube」アプリケーションを作成しよう！
 type: post
-url: /how-to-create-youtube-app-1099/
+slug: how-to-create-youtube-app-1099
 categories:
 - Mac
 tags:

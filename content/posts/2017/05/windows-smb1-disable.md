@@ -4,7 +4,7 @@ date: 2017-05-20 02:45:46+00:00
 draft: false
 title: Windows 10（Creator Update）で、脆弱性のあるSMB1を無効化する方法
 type: post
-url: /windows-smb1-disable-5867/
+slug: windows-smb1-disable-5867
 categories:
 - Windows
 tags:

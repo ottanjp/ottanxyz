@@ -1,0 +1,104 @@
+{{ define "header" }}
+{{ partial "site-header.html" . }}
+{{ end }}
+
+{{ define "description"}}
+<meta name="description" content="{{ .Summary }}" />
+{{ end }}
+
+{{ define "header-description" }}
+<meta name="description" content="{{ .Summary }}..." />
+<meta property="og:description" content="{{ .Summary }}..." />
+<meta name="twitter:description" content="{{ .Summary }}..." />
+<meta property="og:type" content="article" />
+<meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+{{ range.Params.tags }}
+<meta property="og:article:tag" content="{{ . }}" />
+{{ end }}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
+<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+{{ end }}
+
+{{ define "katex-stylesheet" }}
+{{ if .Params.katex }}
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+{{ end }}
+{{ end }}
+
+{{ define "katex-javascript" }}
+{{ if .Params.katex }}
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+
+<section class="hero background-img is-medium {{ if not .Params.featured_image }}is-light is-bold{{ end }}" {{ if .Params.featured_image }}style="background-image: url('{{ .Params.featured_image }}')"{{ end }}>
+<div class="hero-body">
+	<div class="container has-text-centered">
+	<h1 class="title is-size-1 {{ if .Params.featured_image }}has-text-white{{ end }}">
+		{{ .Title }}
+	</h1>
+	</div>
+</div>
+</section>
+
+<section class="page">
+	<div class="container">
+	  <div class="columns">
+		<div class="column">
+		  <div class="post-content">
+
+			<div class="post-tags">
+				{{ range .Params.tags }}
+            <a class="button is-rounded" href="/tags/{{ . | urlize }}">
+              #{{- . -}}
+            </a>
+            {{ end }}
+                            </div>
+
+			<div class="post-content__inner">
+
+				{{- $h_tag := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
+				{{- $position := div (len $h_tag) 2 -}}
+				{{- $contents := split .Content "\n" -}}
+				{{ $.Scratch.Set "Content" "" }}
+				{{ $.Scratch.Set "Counter" 0 }}
+				{{ range $contents }}
+					{{ if hasPrefix . "<h" }}
+						{{ $.Scratch.Add "Counter" 1 }}
+							{{ if eq ($.Scratch.Get "Counter") $position }}
+								{{ $.Scratch.Add "Content" (partial "google-adsense3.html") }}
+						{{ end }}
+					{{ end }}
+					{{ $.Scratch.Add "Content" (print . "\n") }}
+				{{ end }}
+
+				<div class="content markdown-body">
+					{{ partial "google-adsense1.html" }}
+					{{ $.Scratch.Get "Content" | safeHTML }}
+					{{ partial "google-adsense2.html" }}
+				</div>
+	
+			</div>
+		  </div>
+
+		  {{ partial "social-share.html" . }}
+
+		  <div class="comments" id="comments">
+			<hr>
+			{{ template "_internal/disqus.html" . }}  
+		  </div>
+
+		</div>
+	  </div>
+	</div>
+  </section>
+
+  {{ partial "related-posts.html" . }}
+
+{{ end }}

@@ -4,7 +4,7 @@ date: 2016-02-05 07:03:37+00:00
 draft: false
 title: Windows 7、8.1でWindows Update経由のWindows 10アップデート、またはアップデート通知ダイアログを無効にする方法
 type: post
-url: /windows-7-8-1-os-update-disable-6832/
+slug: windows-7-8-1-os-update-disable-6832
 categories:
 - Windows
 tags:

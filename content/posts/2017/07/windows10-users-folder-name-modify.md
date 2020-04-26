@@ -4,7 +4,7 @@ date: 2017-07-07 03:00:39+00:00
 draft: false
 title: Windows 10でユーザーフォルダーの名称を変更する方法
 type: post
-url: /Windows 10-users-folder-name-modify-6062/
+slug: Windows 10-users-folder-name-modify-6062
 categories:
 - Windows
 tags:

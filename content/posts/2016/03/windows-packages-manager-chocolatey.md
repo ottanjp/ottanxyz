@@ -4,7 +4,7 @@ date: 2016-03-20 04:46:04+00:00
 draft: false
 title: PowerShellが使える環境ならどこでも使用できる、Windows用のパッケージ管理マネージャー「Chocolatey」
 type: post
-url: /windows-packages-manager-chocolatey-6845/
+slug: windows-packages-manager-chocolatey-6845
 categories:
 - Windows
 tags:

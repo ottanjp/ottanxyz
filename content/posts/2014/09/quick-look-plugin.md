@@ -4,7 +4,7 @@ date: 2014-09-08 11:19:11+00:00
 draft: false
 title: Macを購入したら最初に導入しておきたいQuick Lookのプラグイン
 type: post
-url: /quick-look-plugin-78/
+slug: quick-look-plugin-78
 categories:
 - Mac
 tags:

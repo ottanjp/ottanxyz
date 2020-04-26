@@ -4,7 +4,7 @@ date: 2016-08-29 02:33:15+00:00
 draft: false
 title: iPhoneを購入したら導入したいオススメのアプリ52選（2016年8月版）
 type: post
-url: /iphone-apps-recommend-4821/
+slug: iphone-apps-recommend-4821
 categories:
   - iPhone
 tags:

@@ -4,7 +4,7 @@ date: 2016-09-13 22:22:11+00:00
 draft: false
 title: iOS10でホームボタンを押さずにTouch IDのみでロック解除する方法
 type: post
-url: /ios10-home-unlock-touchid-4923/
+slug: ios10-home-unlock-touchid-4923
 categories:
 - iPhone
 tags:

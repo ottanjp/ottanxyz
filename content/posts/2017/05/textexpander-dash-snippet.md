@@ -4,7 +4,7 @@ date: 2017-05-30 05:50:59+00:00
 draft: false
 title: スニペット展開アプリのTextExpanderの代替アプリとしてDashを使用する
 type: post
-url: /textexpander-dash-snippet-5908/
+slug: textexpander-dash-snippet-5908
 categories:
 - Mac
 - Blog

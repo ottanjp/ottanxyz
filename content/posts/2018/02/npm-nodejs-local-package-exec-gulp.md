@@ -4,7 +4,7 @@ date: 2018-02-28 06:43:33+00:00
 draft: false
 title: いまどきの「Node.js」のローカルパッケージを実行する手順
 type: post
-url: /npm-nodejs-local-package-exec-gulp-6654/
+slug: npm-nodejs-local-package-exec-gulp-6654
 categories:
 - Blog
 tags:

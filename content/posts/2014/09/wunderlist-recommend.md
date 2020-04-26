@@ -4,7 +4,7 @@ date: 2014-09-15 00:53:20+00:00
 draft: false
 title: Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい６つの理由
 type: post
-url: /wunderlist-recommend-271/
+slug: wunderlist-recommend-271
 categories:
 - Android
 - iPhone

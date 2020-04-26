@@ -4,7 +4,7 @@ date: 2019-01-12T19:44:20+09:00
 draft: false
 title: 'Parallels Desktop 12 for MacでUbuntu 18.04 LTSへのParallels Toolsのインストールに失敗する場合の対処法'
 type: post
-url: /ubunt-18.04-install-parallels-desktop-12-parallels-tools-20190112/
+slug: ubunt-18.04-install-parallels-desktop-12-parallels-tools-20190112
 categories: ['Mac']
 tags: ['Ubuntu', 'Paralles Desktop']
 toc: true

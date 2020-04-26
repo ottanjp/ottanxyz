@@ -4,7 +4,7 @@ date: 2014-09-09 06:15:27+00:00
 draft: false
 title: Google Chromeのメモリ使用量を50%以上削減する魔法のコマンド
 type: post
-url: /chrome-memory-reduce-219/
+slug: chrome-memory-reduce-219
 categories:
 - Mac
 tags:

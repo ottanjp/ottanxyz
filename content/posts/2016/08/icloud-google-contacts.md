@@ -4,7 +4,7 @@ date: 2016-08-20 01:34:09+00:00
 draft: false
 title: Inboxで連絡先情報を有効活用するために、iCloud.comの連絡先をGoogleコンタクトに移行する方法
 type: post
-url: /icloud-google-contacts-4786/
+slug: icloud-google-contacts-4786
 categories:
 - iPhone
 tags:

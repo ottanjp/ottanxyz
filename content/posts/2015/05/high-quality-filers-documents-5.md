@@ -4,7 +4,7 @@ date: 2015-05-10 02:57:38+00:00
 draft: false
 title: iPhone、iPadユーザーなら必ずダウンロードしておきたい！無料とは思えない高クオリティなファイラー「Documents 5」をオススメする理由
 type: post
-url: /high-quality-filers-documents-5-1305/
+slug: high-quality-filers-documents-5-1305
 categories:
 - iPhone
 tags:

@@ -4,7 +4,7 @@ date: 2018-10-13 10:21:19+00:00
 draft: false
 title: Netlify CMS（Hugo）でMarkdownで記述可能な無料ブログを構築する（構築編）
 type: post
-url: /netlify-cms-hugo-markdown-blog-7017/
+slug: netlify-cms-hugo-markdown-blog-7017
 categories:
 - Blog
 tags:

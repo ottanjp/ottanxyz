@@ -4,7 +4,7 @@ date: 2016-08-08 11:44:41+00:00
 draft: false
 title: Windows 10 Anniversary Updateでダークモードを有効にする方法
 type: post
-url: /windows-10-anniversary-update-darkmode-4731/
+slug: windows-10-anniversary-update-darkmode-4731
 categories:
 - Windows
 tags:

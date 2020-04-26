@@ -4,7 +4,7 @@ date: 2016-01-06 14:06:22+00:00
 draft: false
 title: App Storeから古いバージョンのアプリケーションをダウンロードする方法
 type: post
-url: /app-store-old-version-apps-6824/
+slug: app-store-old-version-apps-6824
 categories:
 - Mac
 tags:

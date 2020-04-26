@@ -4,7 +4,7 @@ date: 2015-06-03 12:32:28+00:00
 draft: false
 title: VirtualBoxにmacOS Yosemiteをインストールする
 type: post
-url: /virtualbox-yosemite-1605/
+slug: virtualbox-yosemite-1605
 categories:
 - Mac
 tags:

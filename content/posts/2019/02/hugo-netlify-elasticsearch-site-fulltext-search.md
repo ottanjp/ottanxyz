@@ -4,7 +4,7 @@ date: 2019-02-02T21:51:00+09:00
 draft: false
 title: "Netlify + Hugo + Elasticsearchで静的サイトの全文検索を行う"
 type: post
-url: /hugo-netlify-elasticsearch-site-fulltext-search-20190202/
+slug: hugo-netlify-elasticsearch-site-fulltext-search-20190202
 categories: ['Blog']
 tags: ['Netlify','Hugo','Elasticsearch']
 toc: true

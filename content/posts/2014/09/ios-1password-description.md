@@ -4,7 +4,7 @@ date: 2014-09-23 12:08:00+00:00
 draft: false
 title: iOS版の1Passwordでウェブページの登録から使い方まで徹底解説！
 type: post
-url: /ios-1password-description-554/
+slug: ios-1password-description-554
 categories:
 - iPhone
 tags:
