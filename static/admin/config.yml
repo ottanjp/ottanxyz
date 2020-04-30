@@ -13,7 +13,7 @@ collections:
     create: true
     slug: '{{fields.slug}}'
     path: '{{year}}/{{month}}/{{slug}}'
-    preview_path: posts/{{year}}/{{month}}/{{slug}}/
+    preview_path: '{{slug}}'
     media_folder: '../../../uploads/{{year}}/{{month}}'
     public_folder: '/uploads/{{year}}/{{month}}'
     identifier_field: title
