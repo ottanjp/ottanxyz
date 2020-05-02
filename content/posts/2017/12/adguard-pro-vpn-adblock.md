@@ -14,7 +14,7 @@ tags:
 
 ![](/uploads/2017/12/171226-5a425afe3e027.jpg)
 
-以前、[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」（v4対応版）の使用方法](/ios-adblock-content-blocker-local-dns-6173/)で、Safariのコンテンツブロッカー以外に、iPhone、iPad、iPod touchなどのiOSデバイスにインストールされている、ありとあらゆるアプリから広告ネットワーク（厳密には指定したドメイン）との通信を遮断し、広告を非表示にする「AdBlock」と呼ばれるアプリをご紹介しました。
+以前、[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」（v4対応版）の使用方法](/posts/2017/10/ios-adblock-content-blocker-local-dns-6173/)で、Safariのコンテンツブロッカー以外に、iPhone、iPad、iPod touchなどのiOSデバイスにインストールされている、ありとあらゆるアプリから広告ネットワーク（厳密には指定したドメイン）との通信を遮断し、広告を非表示にする「AdBlock」と呼ばれるアプリをご紹介しました。
 
 今回は、「AdBlock」と肩を並べてApp Storeでも人気を誇る「AdGuard Pro」をご紹介します。「AdGurad Pro」と「AdBlock」の基本的な仕組みは同一ですので、詳細については冒頭の記事をご参照ください。なお、App Storeには「AdGuard」という名称のアプリも存在しますが、こちらはSafariのコンテンツブロッカーです。そのため、広告をブロックできるのはSafariに限られます（※App Storeでは、「AdGuard Pro」もコンテンツブロッカーの扱いです。実際にコンテンツブロッカーとしても機能しますが、過度な期待は禁物です）
 
@@ -53,7 +53,7 @@ VPN接続を行うためのプロファイルのインストールの許可を�
 
 ### 効率的にBlocklistを更新する方法
 
-[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」（v4対応版）の使用方法](/ios-adblock-content-blocker-local-dns-6173/)でもご紹介しましたが、今回も「Workflow」を使用します。
+[iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」（v4対応版）の使用方法](/posts/2017/10/ios-adblock-content-blocker-local-dns-6173/)でもご紹介しましたが、今回も「Workflow」を使用します。
 
 {{< itunes 915249334 >}}
 

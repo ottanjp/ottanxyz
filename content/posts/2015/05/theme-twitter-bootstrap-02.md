@@ -13,7 +13,7 @@ tags:
 
 ![](/uploads/2015/05/150523-556023a46a7b7.jpg)
 
-[Twitter Bootstrap 3を用いてWordPressテーマを作成しよう①](/theme-twitter-bootstrap-01-1453/)までで、[Initializr](http://www.initializr.com/)を使用したプロトタイプの作成から、ヘッダー、フッターの分割までを行いました。今回は、メインとなる投稿一覧の表示部分をカスタマイズしていきたいと思います。前回の記事をまだご覧になっていない方はそちらからご覧ください。
+[Twitter Bootstrap 3を用いてWordPressテーマを作成しよう①](/posts/2015/05/theme-twitter-bootstrap-01-1453/)までで、[Initializr](http://www.initializr.com/)を使用したプロトタイプの作成から、ヘッダー、フッターの分割までを行いました。今回は、メインとなる投稿一覧の表示部分をカスタマイズしていきたいと思います。前回の記事をまだご覧になっていない方はそちらからご覧ください。
 
 ## Twitter Bootstrapのグリッドシステム
 

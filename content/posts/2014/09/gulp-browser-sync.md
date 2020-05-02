@@ -15,7 +15,7 @@ tags:
 
 ## Browser Sync のインストール
 
-まず、[BrowserSync](http://www.browsersync.io/)をダウンロードします。BrowserSync をダウンロードには`npm`コマンドを使用します。`npm`コマンドを使用するための設定については、[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう](/gulp-css-sass-268/)を参考にしてください。
+まず、[BrowserSync](http://www.browsersync.io/)をダウンロードします。BrowserSync をダウンロードには`npm`コマンドを使用します。`npm`コマンドを使用するための設定については、[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう gulp-css-sass-268](//)を参考にしてください。
 
     $ sudo npm install -g browser-sync
 
@@ -72,7 +72,7 @@ https://www.virtualbox.org/
 
 ### Vagrant のインストール
 
-仮想マシンをエミュレートするソフトウエアを「Vagrant」では「Provider」（プロバイダーー）と表現しており、「VirtualBox」の他、有償ソフトウエアとして VMware 社の「VMware Fusion」や Parallels 社の「Parallels Desktop」をサポートしています。そのため、「Vagrant」とここでご紹介したエミュレーターソフトウエアが1つあれば、CUI 操作のみで誰でも簡単に仮想マシンを構築できます。
+仮想マシンをエミュレートするソフトウエアを「Vagrant」では「Provider」（プロバイダーー）と表現しており、「VirtualBox」の他、有償ソフトウエアとして VMware 社の「VMware Fusion」や Parallels 社の「Parallels Desktop」をサポートしています。そのため、「Vagrant」とここでご紹介したエミュレーターソフトウエアが 1 つあれば、CUI 操作のみで誰でも簡単に仮想マシンを構築できます。
 
 https://www.vagrantup.com/
 
@@ -102,17 +102,17 @@ Vagrant で仮想マシンを構築するにあたっては、仮想マシンの
 
 ## gulp.js のインストール
 
-続いて、[BrowserSync](http://www.browsersync.io/)をより効率的に使用するために、Node.js ベースのタスクランナーである「gulp.js」をインストールします。なお、「gulp.js」については、[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう](/gulp-css-sass-268/)で詳しくご紹介していますので、こちらもご覧ください。
+続いて、[BrowserSync](http://www.browsersync.io/)をより効率的に使用するために、Node.js ベースのタスクランナーである「gulp.js」をインストールします。なお、「gulp.js」については、[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう](/posts/2014/09/gulp-css-sass-268/)で詳しくご紹介していますので、こちらもご覧ください。
 
 ### Node.js のインストール
 
-[node.js](https://nodejs.org/)のインストールには[Homebrew — OS X 用パッケージマネージャー](https://brew.sh/index_ja.html)が便利です。Homebrew については、[Mac でプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)で詳しくご紹介していますので、こちらも合わせてご覧ください。
+[node.js](https://nodejs.org/)のインストールには[Homebrew — OS X 用パッケージマネージャー](https://brew.sh/index_ja.html)が便利です。Homebrew については、[Mac でプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/posts/2014/09/mac-latex-presentation-92/)で詳しくご紹介していますので、こちらも合わせてご覧ください。
 
     $ brew install node
 
 ### gulp.js のインストール
 
-続いて、gulp.js のインストールを行います。gulp.js は Node.js ベースであるため、プラグインの管理はすべて`npm`コマンドで行います。まずは、`gulp`コマンドを利用するために、「gulp.js」をグローバルインストールします。ローカルインストール、グローバルインストールの違いについては[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう](/gulp-css-sass-268/)をご覧ください。
+続いて、gulp.js のインストールを行います。gulp.js は Node.js ベースであるため、プラグインの管理はすべて`npm`コマンドで行います。まずは、`gulp`コマンドを利用するために、「gulp.js」をグローバルインストールします。ローカルインストール、グローバルインストールの違いについては[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう](/posts/2014/09/gulp-css-sass-268/)をご覧ください。
 
     $ sudo npm install -g gulp
 

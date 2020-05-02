@@ -13,7 +13,7 @@ paginate: 20
 googleAnalytics: UA-54519352-1
 rssLimit: 15
 permalinks:
-  posts: /:slug/
+  posts: /posts/:year/:month/:slug
 markup:
   highlight:
     style: github

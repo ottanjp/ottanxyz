@@ -338,7 +338,7 @@ http://localhost:9000/.netlify/functions/googleplay?appId=com.google.android.goo
 
 ## Netlifyへのデプロイ
 
-では、実際にNetlifyへデプロイしてみましょう。デプロイ手順は、以前[こちら](/netlify-cms-hugo-markdown-blog-7017/)で紹介した内容と同一のため割愛します。GitHubやGitLabにパブリック、またはプライベートリポジトリを作成し、Netlifyからのアクセスを許可するだけです。あとは指定したリポジトリに更新があった場合に、自動的にNetlify上へデプロイされます。
+では、実際にNetlifyへデプロイしてみましょう。デプロイ手順は、以前[こちら](/posts/2018/10/netlify-cms-hugo-markdown-blog-7017/)で紹介した内容と同一のため割愛します。GitHubやGitLabにパブリック、またはプライベートリポジトリを作成し、Netlifyからのアクセスを許可するだけです。あとは指定したリポジトリに更新があった場合に、自動的にNetlify上へデプロイされます。
 
 ### netlify.toml
 

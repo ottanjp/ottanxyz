@@ -19,7 +19,7 @@ PopClipはmacOSで使用できる拡張機能です。マウスやトラック�
 
 また、PopClipは公式ページから拡張機能をダウンロードできます。拡張機能を自作することもできますが、まずは公式ページからダウンロードして、拡張機能がどういうものか試してみると良いでしょう。ダウンロードした拡張機能は、ZIPで圧縮されています。解凍するとフォルダーができ上がるのでその中身に拡張機能の定義ファイルが用意されています。仕組みを知りたい場合は、解凍したフォルダーの中身を見てみましょう。
 
-<https://ottan.xyz/popclip-extensions-htmlencode-customize-4750/>
+* [PopClipの拡張機能をカスタマイズしてみよう！PopClipの拡張機能「HTML Encode」でダブルクオーテションを変換しないようにする - OTTAN.XYZ](/posts/2016/08/popclip-extensions-htmlencode-customize-4750/)
 
 こちらでもちょっとしたカスタマイズをご紹介していますので、ぜひ活用してみてくださいね。
 
@@ -67,7 +67,7 @@ Webページなどで選択したテキストの書式をそのまま活かし�
 
 選択したテキストを「Wunderlist」のTodoとして保存できる拡張機能です。
 
-<https://ottan.xyz/wunderlist-recommend-271/>
+* [Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい6つの理由 - OTTAN.XYZ](/posts/2014/09/wunderlist-recommend-271/)
 
 「Wunderlist」は弊サイトでもご紹介したことのあるタスク管理アプリです。今でもよく読まれる人気記事の1つです。
 
@@ -129,7 +129,7 @@ macOS標準の機能を使用して、選択したテキストをTwitterで呟�
 
 選択したURLをInstapaperに保存できるアプリです。ブラウザに拡張機能を入れる必要はもはやありません。ブラウザの拡張機能を減らしてメモリを節約し、軽量なPopClipを活用しましょう。「Pocket」版もあります。
 
-<https://ottan.xyz/pocket-to-instapaper-5181/>
+* [Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！ - OTTAN.XYZ](/posts/2016/11/pocket-to-instapaper-5181/)
 
 ### Terminal
 
@@ -153,10 +153,10 @@ macOS等の情報が公開されているWebページで下記のような記述
 
 ブロガーなら導入しておきたい、HTMLエンティティをエンコードしてくれる拡張機能です。たとえば、HTMLのタグをブログで紹介した場合に、そのままタグとして貼り付けてしまった場合は、HTMLとして認識されてしまうためあらかじめエンコードしておく必要がありますが、この拡張機能を使用すれば、選択したHTMLをエンコードしてくれます。
 
-<https://ottan.xyz/popclip-extensions-htmlencode-customize-4750/>
+* [PopClipの拡張機能をカスタマイズしてみよう！PopClipの拡張機能「HTML Encode」でダブルクオーテションを変換しないようにする - OTTAN.XYZ](/posts/2016/08/popclip-extensions-htmlencode-customize-4750/)
 
 ## まとめ
 
 PopClipは拡張機能を導入することで、その威力を思う存分発揮してくれるアプリです。慣れてきたら自分で拡張機能をぜひ自作してみましょう。想像以上になんでもできるようになりますよ。カスタマイズしてみたい、という場合には下記の記事を参考にしてみてください。
 
-<https://ottan.xyz/popclip-extensions-htmlencode-customize-4750/>
+* [PopClipの拡張機能をカスタマイズしてみよう！PopClipの拡張機能「HTML Encode」でダブルクオーテションを変換しないようにする - OTTAN.XYZ](/posts/2016/08/popclip-extensions-htmlencode-customize-4750/)

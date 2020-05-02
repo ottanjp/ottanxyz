@@ -14,7 +14,7 @@ tags:
 
 ![](/uploads/2017/12/171203-5a237a8ae9047.png)
 
-WordPressの開発環境の構築には、Dockerが便利であることは[Dockerで作る最強・最速のローカルWordPress環境](/docker-wordpress-best-practice-5164/)でご紹介しています。WordPressのデータベースには、Oracle社のMySQLが使用されていますが、MySQLを操作するための代表的なソフトウェアに[phpMyAdmin](https://www.phpmyadmin.net/)があります。phpMyAdminを使用するための専用のコンテナーを構築する方法をご紹介しましたが、MacでMySQLなどのRDBMSを操作するためには便利なソフトウェアがあるので、今回はこちらをご紹介します。
+WordPressの開発環境の構築には、Dockerが便利であることは[Dockerで作る最強・最速のローカルWordPress環境](/posts/2016/10/docker-wordpress-best-practice-5164/)でご紹介しています。WordPressのデータベースには、Oracle社のMySQLが使用されていますが、MySQLを操作するための代表的なソフトウェアに[phpMyAdmin](https://www.phpmyadmin.net/)があります。phpMyAdminを使用するための専用のコンテナーを構築する方法をご紹介しましたが、MacでMySQLなどのRDBMSを操作するためには便利なソフトウェアがあるので、今回はこちらをご紹介します。
 
 ## MySQLのデータベースをGUIから簡単に追加、変更、更新できる「Sequel Pro」
 
@@ -30,7 +30,7 @@ phpMyAdminをDockerの専用コンテナーとして作成しても良いので�
 
 ### Dockerで構築したMySQLにMac（ホスト）からアクセスできるようにする
 
-[Docker ComposeでWordPress環境をもっと楽に管理しよう！](/docker-compose-wordpress-5694/)で、Docker Composeの使用方法についてご紹介しました。Docker Composeの設定ファイルはYAML（Yet Another Multicolumn Layout）形式で記述する必要がある旨をご紹介しました。前回ご紹介したYAMLファイルでは、MySQLにホストであるMacから直接アクセスすることはできませんでした（コンテナー間の通信は可能）。そこで、前回ご紹介したYAMLファイルを編集し、ホストからMySQLへ接続できるようにします。
+[Docker ComposeでWordPress環境をもっと楽に管理しよう！](/posts/2017/04/docker-compose-wordpress-5694/)で、Docker Composeの使用方法についてご紹介しました。Docker Composeの設定ファイルはYAML（Yet Another Multicolumn Layout）形式で記述する必要がある旨をご紹介しました。前回ご紹介したYAMLファイルでは、MySQLにホストであるMacから直接アクセスすることはできませんでした（コンテナー間の通信は可能）。そこで、前回ご紹介したYAMLファイルを編集し、ホストからMySQLへ接続できるようにします。
 
 ```yaml
 # mysql

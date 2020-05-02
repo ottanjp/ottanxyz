@@ -15,7 +15,7 @@ tags:
 
 ![](/uploads/2018/04/180405-5ac62b3619f6a.jpg)
 
-[NURO光のZTE社製ルーター「F660T」「F660A」でDNSによる名前解決が遅い時に試したいこと](/nuro-sonet-zte-f660t-f660a-6679/)や、[iPhoneやMacでWi-Fiの「体感速度」が遅く読み込みに時間がかかる場合の対処法](/wi-fi-slow-down-speed-iphone-mac-6585/)で、DNSの変更についてご紹介しています。ちょうどこの記事を公開した時期と同時期に、話題になったのが、米CDN（コンテンツデリバリーネットワーク）大手Cloudflareの[1.1.1.1 — the Internet’s Fastest, Privacy-First DNS Resolver](https://1.1.1.1/)です。
+[NURO光のZTE社製ルーター「F660T」「F660A」でDNSによる名前解決が遅い時に試したいこと](/posts/2018/03/nuro-sonet-zte-f660t-f660a-6679/)や、[iPhoneやMacでWi-Fiの「体感速度」が遅く読み込みに時間がかかる場合の対処法](/posts/2018/01/wi-fi-slow-down-speed-iphone-mac-6585/)で、DNSの変更についてご紹介しています。ちょうどこの記事を公開した時期と同時期に、話題になったのが、米CDN（コンテンツデリバリーネットワーク）大手Cloudflareの[1.1.1.1 — the Internet’s Fastest, Privacy-First DNS Resolver](https://1.1.1.1/)です。
 
 世界最速、かつプライバシーを保護したDNSリゾルバーであることを謳う同サービスですが、「本当に速いの？」と目くじらを立てたくなるものです。DNSリゾルバーと言えば、Google Public DNSが有名ですが、DNSPerfによるとGoogle Public DNSより勝ると言います。では、実際に応答速度を計測してみましょう。
 
