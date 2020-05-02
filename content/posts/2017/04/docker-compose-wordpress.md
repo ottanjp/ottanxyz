@@ -16,9 +16,9 @@ tags:
 
 [Docker For Mac](https://www.docker.com/docker-mac)を使用すると、あらかじめ用意されたイメージ（テンプレート）を使用して、簡単にWordPress環境を構築できます。ローカルの開発環境の場合、インターネット接続環境であれば、ものの数分でWordPress環境を作成できます。また、イメージのダウンロードは初回のみで、次回以降は数秒でWordPress環境の起動、停止を行うことができます。Docker for MacによるWordPress環境の構築からカスタマイズについては、以下の記事をご参照ください。
 
--   [詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！ – OTTAN.XYZ](/docker-for-mac-wordpress-4711/)
--   [Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ – OTTAN.XYZ](/docker-for-mac-wordpress-customize-4714/)
--   [Dockerで作る最強・最速のローカルWordPress環境 – OTTAN.XYZ](/docker-wordpress-best-practice-5164/)
+-   [詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！ – OTTAN.XYZ](/posts/2016/08/docker-for-mac-wordpress-4711/)
+-   [Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ – OTTAN.XYZ](/posts/2016/08/docker-for-mac-wordpress-customize-4714/)
+-   [Dockerで作る最強・最速のローカルWordPress環境 – OTTAN.XYZ](/posts/2016/10/docker-wordpress-best-practice-5164/)
 
 上記の記事内で、Webサーバ（WordPress）、DBサーバ（MySQL）のコンテナー（Dockerの互いに隔離されたホスト）を作成し、`docker`コマンドを使用してWordPress、MySQLの起動、停止を行いましたが、コンテナーが複数になると毎回の起動、停止や、コンテナーの再作成や再起動がややめんどうくさくなります。そこで、今回は`docker-compose`を使用して、より簡単にコンテナーを起動、停止できる方法を考えます。
 

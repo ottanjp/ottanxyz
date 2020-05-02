@@ -14,7 +14,7 @@ tags:
 
 ![](/uploads/2018/03/180321-5ab2516925b6a.jpeg)
 
-[WordPressの高速化！WordPressでそのページで実行されているアクションやフックの一覧を表示するプラグイン「Simply Show Hooks」](/wordpress-plugin-simply-show-hooks-faster-6669/)で、WordPressで呼び出されているアクションとフックの一覧を表示するプラグインをご紹介し、不必要なアクションやフックは徹底的に排除しようということをしましたが、今回は`wp_enqueue_script()`関数や`wp_enqueue_style()`関数で読み込まれているJavaScriptとCSSの一覧を取得する方法をご紹介します。
+[WordPressの高速化！WordPressでそのページで実行されているアクションやフックの一覧を表示するプラグイン「Simply Show Hooks」](/posts/2018/03/wordpress-plugin-simply-show-hooks-faster-6669/)で、WordPressで呼び出されているアクションとフックの一覧を表示するプラグインをご紹介し、不必要なアクションやフックは徹底的に排除しようということをしましたが、今回は`wp_enqueue_script()`関数や`wp_enqueue_style()`関数で読み込まれているJavaScriptとCSSの一覧を取得する方法をご紹介します。
 
 WordPressには便利なプラグインが多数ありますが、プラグインを導入しすぎると、プラグインによって勝手にJavaScriptやCSSが出力され、ページ読み込み速度に影響を与えるということが多々あります。このような場合には、今回ご紹介する方法を使用して、キューに入っているスクリプトやCSSファイルをデキュー（キューから追い出す）するのがオススメです。
 

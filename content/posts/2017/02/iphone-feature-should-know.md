@@ -29,7 +29,7 @@ iPhone 6 Plus、iPhone 7 Plus など、画面サイズの大きな iPhone を使
 
 iOS 10 から iMessage でエフェクト付きのメッセージを送れるようになりました。たとえば、誕生日や祝い事など、相手にちょっとした驚きを与えるために、エフェクトを活用したメッセージを送ってみてはどうでしょうか。このエフェクトは、iMessage のみで使用可能であり、SMS/MMS では使用できません。
 
-https://ottan.xyz/ios10-imessage-enjoy-4939/
+* [iOS 10で大幅に進化したiMessageを楽しもう！快適に使用するための設定方法もご紹介 - OTTAN.XYZ](/posts/2016/09/ios10-imessage-enjoy-4939/)
 
 ### App アイコンのバッジを非表示
 

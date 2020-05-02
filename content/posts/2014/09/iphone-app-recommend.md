@@ -121,7 +121,7 @@ Apple Store の公式アプリ。アプリの中で iPhone、iPad、Mac、その
 
 ### Evernote
 
-「Evernote」の公式アプリ。[三日坊主から卒業！iPhone で日記を書き続けよう](/unsteady-worker-diary-343/)でもご紹介していますが、Evernote の使い方は千差万別。自分にあった Evernote の使い方を見つけよう！迷ってしまう人は、まずは Web クリップから始めてみましょう。
+「Evernote」の公式アプリ。[三日坊主から卒業！iPhone で日記を書き続けよう](/posts/2014/09/unsteady-worker-diary-343/)でもご紹介していますが、Evernote の使い方は千差万別。自分にあった Evernote の使い方を見つけよう！迷ってしまう人は、まずは Web クリップから始めてみましょう。
 
 {{< itunes 281796108 >}}
 
@@ -157,7 +157,7 @@ Apple はカメラを QR コードリーダーとして機能させる気はさ�
 
 ### Wunderlist
 
-[Wunderlist のここがすごい！山ほどあるタスク管理アプリの中から Wunderlist をオススメしたい6つの理由](/wunderlist-recommend-271/)に書いている通り、とにかく快適！間違いなくオススメです！
+[Wunderlist のここがすごい！山ほどあるタスク管理アプリの中から Wunderlist をオススメしたい6つの理由](/posts/2014/09/wunderlist-recommend-271/)に書いている通り、とにかく快適！間違いなくオススメです！
 
 {{< itunes 406644151 >}}
 

@@ -162,7 +162,7 @@ Docker のバージョンが表示されましたか。
 
 ### Docker Compose のインストール
 
-[Docker Compose で WordPress 環境をもっと楽に管理しよう！](/docker-compose-wordpress-5694/)でもご紹介していますが、Mattermost も「Docker Compose」を使用します。[Releases · docker/compose](https://github.com/docker/compose/releases/)に最新のインストール手順がありますので、基本的にはそちらを参照してください。今回は、執筆時点で最新のバージョンである「1.22.0」を使用することを前提にインストールを進めます。
+[Docker Compose で WordPress 環境をもっと楽に管理しよう！](/posts/2017/04/docker-compose-wordpress-5694/)でもご紹介していますが、Mattermost も「Docker Compose」を使用します。[Releases · docker/compose](https://github.com/docker/compose/releases/)に最新のインストール手順がありますので、基本的にはそちらを参照してください。今回は、執筆時点で最新のバージョンである「1.22.0」を使用することを前提にインストールを進めます。
 
     sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
     sudo chmod +x /usr/local/bin/docker-compose

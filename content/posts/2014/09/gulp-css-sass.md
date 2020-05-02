@@ -19,7 +19,7 @@ tags:
 
 「gulp.js」で使用するパッケージ（プラグイン）の管理は、すべて「Node.js」で行います。「Node.js」はHomebrewを使用してインストールできます。まずは、Homebrewをインストールしましょう。
 
-Homebrewのインストール方法は、[Homebrew — The missing package manager for macOS](https://brew.sh/) に記載されているインストール方法に従うだけです。記事執筆時点のインストール方法は、以下のコマンドを実行するだけです。また、Homebrewについては[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/mac-latex-presentation-92/)でも詳細を解説していますので、こちらも合わせてご覧ください。
+Homebrewのインストール方法は、[Homebrew — The missing package manager for macOS](https://brew.sh/) に記載されているインストール方法に従うだけです。記事執筆時点のインストール方法は、以下のコマンドを実行するだけです。また、Homebrewについては[Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/posts/2014/09/mac-latex-presentation-92/)でも詳細を解説していますので、こちらも合わせてご覧ください。
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

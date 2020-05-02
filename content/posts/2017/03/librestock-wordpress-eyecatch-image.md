@@ -61,7 +61,7 @@ LibreStockを使用する上で注意したいのが、**最終的に画像フ�
 
 ### Alfredの拡張検索に追加する
 
-もし、MacのランチャーであるAlfredを使用している場合には、[こちら](/alfred-guidance-181/)でご紹介している「Web Search」に登録しておくことによって、Alfredから画像ファイルを検索できます。
+もし、MacのランチャーであるAlfredを使用している場合には、[こちら](/posts/2014/09/alfred-guidance-181/)でご紹介している「Web Search」に登録しておくことによって、Alfredから画像ファイルを検索できます。
 
 <!-- textlint-disable -->
 | キーワード | Search URL                                   | 説明                         |

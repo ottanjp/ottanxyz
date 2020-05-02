@@ -52,7 +52,7 @@ Alfred の終了も環境設定から行います。「General」タブの下方
 
     /opt/homebrew-cask/Caskroom
 
-「Homebrew Cask」経由でインストールしたアプリケーションも認識されるようになります。なお、「Homebrew Cask」については、[Mac を購入したらまず導入しておきたい Quick Look のプラグイン](/quick-look-plugin-78/)もご覧ください。
+「Homebrew Cask」経由でインストールしたアプリケーションも認識されるようになります。なお、「Homebrew Cask」については、[Mac を購入したらまず導入しておきたい Quick Look のプラグイン](/posts/2014/09/quick-look-plugin-78/)もご覧ください。
 
 ![](/uploads/2014/09/140908-540e42a258eaf.png)
 

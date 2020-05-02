@@ -138,7 +138,7 @@ AWS コンソール上で「MAIL FROM domain status」が「verified」と表示
 
 さて、ここまでで SES によるメール送信環境が整いました。お疲れ様でした！ここからはメール受信の環境構築になりますが、Netlify DNS 範疇外になります。そのため、手前味噌ですが、設定方法の一例については当サイトの別記事に譲りたいと思います。主にメール受信に関する設定についてじっくり解説していますので、参考にしてみてください！
 
--   [Amazon Lightsail で月 5 ドルから始める WordPress（独自ドメインでのメール送受信）](/aws-lightsail-wordpress-domain-mail-6945/)
+-   [Amazon Lightsail で月 5 ドルから始める WordPress（独自ドメインでのメール送受信）](/posts/2018/08/aws-lightsail-wordpress-domain-mail-6945/)
 
 ## まとめ
 

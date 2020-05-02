@@ -2,11 +2,11 @@
 author: ottan
 date: 2019-01-20T22:10:18+09:00
 draft: false
-title: 'Netlify FunctionsをDockerで実行する'
+title: "Netlify FunctionsをDockerで実行する"
 type: post
 slug: docker-netlify-functions-20190120
-categories: ['Mac', 'Blog']
-tags: ['Docker', 'Netlify']
+categories: ["Mac", "Blog"]
+tags: ["Docker", "Netlify"]
 toc: true
 ---
 
@@ -16,7 +16,7 @@ toc: true
 
 <!-- textlint-disable -->
 
--   [無償で利用可能な Netlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本](/netlify-functions-aws-lambda-serverless-20190115/)
+- [無償で利用可能な Netlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本](/posts/2019/01/netlify-functions-aws-lambda-serverless-20190115/)
 
 <!-- textlint-enable -->
 
