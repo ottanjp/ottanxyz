@@ -16,7 +16,7 @@ tags:
 
 弊サイトでも推奨しまくりの[VCCW - A WordPress development environment.](http://vccw.cc/)ですが、構築方法については[gulp.js と Browser Sync で快適な WordPress 開発環境を手に入れる](/posts/2014/09/gulp-browser-sync-476/)をご覧いただくとして、今回は VCCW と XSERVER（エックスサーバー）上に構築した WordPress の環境を同期し、簡単に開発環境（VCCW）に本番環境のデータを適用する方法をご紹介します。
 
-https://ottan.xyz/gulp-browser-sync-476/
+* [gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる - OTTAN.XYZ](/posts/2014/09/gulp-browser-sync-476/)
 
 ## VCCW ＋ WordMove で本番環境と開発環境を同期する
 

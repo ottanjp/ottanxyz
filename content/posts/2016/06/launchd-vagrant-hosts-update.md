@@ -15,7 +15,7 @@ tags:
 
 WordPressの開発環境を即座に用意したいのであれば、Vagrantが便利です。Vagrantを使用すれば、簡単に仮想マシンを構築できます。また、さらにWordPressの開発環境に特化した仮想マシンを簡単に構築したければ、VCCWを使用するのが便利です。
 
-<https://ottan.xyz/gulp-browser-sync-476/>
+* [gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる - OTTAN.XYZ](/posts/2014/09/gulp-browser-sync-476/)
 
 VCCWのインストールについては、上記リンクをご参照ください。さて、仮想マシンはOS再起動時に自動的にシャットダウンされてしまいます。再起動の都度、毎回仮想マシンを起動するのは手間がかかるため、今回はログイン時に自動起動するよう設定してみましょう。
 

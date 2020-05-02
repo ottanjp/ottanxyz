@@ -18,7 +18,7 @@ tags:
 
 そのため、今回は同様に IFTTT と Buffer の仕組みは使用するものの、最大 15 分の遅延なしに即座にトリガーを発動する方法を利用し、記事投稿後にすぐに各種 SNS に拡散する方法をご紹介します。
 
-https://ottan.xyz/wordpress-publish-mail-push-5145/
+* [WordPressで記事を投稿した瞬間に外部にメールを送信する方法 - OTTAN.XYZ](/posts/2016/10/wordpress-publish-mail-push-5145/)
 
 事前に、上記記事内でご紹介している、記事投稿後にメールで通知する機能を有効化しておいてください。
 

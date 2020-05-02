@@ -16,7 +16,7 @@ tags:
 
 先日、[macOS El Capitan の Boot Camp アシスタントを使って Windows 7 をインストールする方法](/posts/2015/10/el-capitan-bootcamp-2774/)で、macOS El Capitan の環境下で BootCamp アシスタントを使用して、Windows 7 をインストールする方法をご紹介しました。
 
-https://ottan.xyz/el-capitan-bootcamp-2774/
+* [macOS El CapitanのBoot Campアシスタントを使ってWindows 7をインストールする方法 - OTTAN.XYZ](/posts/2015/10/el-capitan-bootcamp-2774/)
 
 [Twitter](https://twitter.com/ottanxyz)で以下のような質問をいただきました。「Boot Camp アシスタントの『インストールディスクを作成』が表示されないが、どうしたらいいか」というもの。
 

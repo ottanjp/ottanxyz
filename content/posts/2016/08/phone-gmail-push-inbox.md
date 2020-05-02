@@ -93,7 +93,7 @@ Gmailの管理画面の右上の歯車アイコンをクリックして、「設
 
 EZwebのユーザー名、パスワードの確認の仕方については下記を参照してください（iPhone限定）。
 
-<https://ottan.xyz/ezweb-pc-mail-2631/>
+* [@ezweb.ne.jp宛のメールをパソコンで受信する方法 - OTTAN.XYZ](/posts/2015/09/ezweb-pc-mail-2631/)
 
 ![](/uploads/2016/08/160817-57b4558168082.png)
 

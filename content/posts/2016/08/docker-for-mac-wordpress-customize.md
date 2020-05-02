@@ -17,11 +17,11 @@ tags:
 
 [詳細な解説付き！今から始める Docker for Mac！快適な WordPress 開発環境を手に入れよう！ – OTTAN.XYZ](/posts/2016/08/docker-for-mac-wordpress-4711/)でご紹介した、Docker for Mac を使った WordPress の開発環境の構築。超高速に WordPress 環境を構築できる代わりに、デフォルトの状態では少し貧弱ですね。
 
-https://ottan.xyz/docker-for-mac-wordpress-4711/
+* [詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！ - OTTAN.XYZ](/posts/2016/08/docker-for-mac-wordpress-4711/)
 
 そこで、以前ご紹介した本番環境の WordPress と MySQL の内容含めて丸ごと同期できる「WordMove」くらい動作させたいものです。そこで、空状態だった「WordPress」イメージを、「WordMove」を動作させるまでの過程をご紹介します。これを機に思う存分カスタマイズしてみてください。
 
-https://ottan.xyz/vccw-wordmove-deploy-6858/
+* [VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）＋WordMoveで、本番環境から開発環境にデータを簡単に同期する！ - OTTAN.XYZ](/posts/2016/05/vccw-wordmove-deploy-6858/)
 
 ## Docker コンテナーのカスタマイズ
 
@@ -77,7 +77,7 @@ https://ottan.xyz/vccw-wordmove-deploy-6858/
 
 「WordMove」のインストールが完了しました。あとは、以下でご紹介している記事を参照しながら、本番環境のホストに繋いで「WordMove」を実行するだけだ！と思い込んでいたのですが。
 
-https://ottan.xyz/vccw-wordmove-deploy-6858/
+* [VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）＋WordMoveで、本番環境から開発環境にデータを簡単に同期する！ - OTTAN.XYZ](/posts/2016/05/vccw-wordmove-deploy-6858/)
 
 よくよく考えると、エックスサーバーに接続するための「ssh」コマンドも用意されていない。というわけで、以下のコマンドを実行し、「ssh」を導入します。
 

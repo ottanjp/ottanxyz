@@ -16,7 +16,7 @@ tags:
 
 以前、[macOS Yosemite と Ubuntu 14.04.2 LTS のデュアルブート環境を構築する](/posts/2015/05/os-x-ubuntu-dual-boot-2-1236/)で、macOS Yosemite と Ubuntu のデュアルブート環境を構築する方法をご紹介しましたが、公開してから記事の内容がだいぶ古くなってしまったので、今回は最新の OS である macOS El Capitan と Ubuntu 16.04 LTS を使用してデュアルブート環境を構築してみます。
 
-https://ottan.xyz/os-x-ubuntu-dual-boot-2-1236/
+* [macOS YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する - OTTAN.XYZ](/posts/2015/05/os-x-ubuntu-dual-boot-2-1236/)
 
 ![](/uploads/2016/04/160430-57244646d588d.png)
 

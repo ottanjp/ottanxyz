@@ -16,7 +16,7 @@ tags:
 
 あとで読むサービスは、代表的なものに Pocket、Instapaper、Readability（サービス終了）がありますが、Instapaper を利用するためには有償プランを選択する必要があったため、無料の Pocket を利用している方も多いのではないでしょうか。しかし、Instapaper が Pinterest に買収されてから、同サービスはすべての機能が無料で使用できるようになりました。Instapaper が好きだった私は、早速 Pocket から Instapaper に移行しました。その理由については、下記の記事でご紹介しています。
 
-https://ottan.xyz/pocket-to-instapaper-5181/
+* [Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！ - OTTAN.XYZ](/posts/2016/11/pocket-to-instapaper-5181/)
 
 ## Mac で Instapaper を使用する
 

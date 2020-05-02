@@ -85,15 +85,15 @@ tags:
 
 なお、2 段階認証については、過去記事をご参照ください。ここでは 2 段階認証が有効になっていることを前提に話を進めていきます。
 
-https://ottan.xyz/google-two-step-authentication-890/
+* [Googleアカウントの2段階認証を有効にする方法 - OTTAN.XYZ](/posts/2015/04/google-two-step-authentication-890/)
 
-https://ottan.xyz/evernote-two-step-authentication-909/
+* [Evernoteアカウントの2段階認証を有効にする方法 - OTTAN.XYZ](/posts/2015/04/evernote-two-step-authentication-909/)
 
-https://ottan.xyz/dropbox-two-step-authentication-929/
+* [Dropboxアカウントの2段階認証を有効にする方法 - OTTAN.XYZ](/posts/2015/04/dropbox-two-step-authentication-929/)
 
-https://ottan.xyz/facebook-two-step-authentication-934/
+* [Facebookアカウントの2段階認証を有効にする方法 - OTTAN.XYZ](/posts/2015/04/facebook-two-step-authentication-934/)
 
-https://ottan.xyz/yahoo-two-step-authentication-958/
+* [Yahooアカウントの2段階認証を有効にする方法 - OTTAN.XYZ](/posts/2015/04/yahoo-two-step-authentication-958/)
 
 #### Google アカウントのワンタイムパスワードを登録する
 

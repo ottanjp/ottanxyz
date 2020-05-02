@@ -16,7 +16,7 @@ tags:
 
 ローカルの WordPress の開発環境を用意するのであれば、[VCCW - A WordPress development environment.](http://vccw.cc/)を使用しましょう。Vagrant と VirtualBox さえあれば、なんでもそろった無償の開発環境を迅速に構築できます。VCCW の構築方法については、[gulp.js と Browser Sync で快適な WordPress 開発環境を手に入れる](/posts/2014/09/gulp-browser-sync-476/)をご参照ください。
 
-https://ottan.xyz/gulp-browser-sync-476/
+* [gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる - OTTAN.XYZ](/posts/2014/09/gulp-browser-sync-476/)
 
 ## VCCW の開発環境でメール送信テストを行う
 
