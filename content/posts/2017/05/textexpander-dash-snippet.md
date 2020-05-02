@@ -15,7 +15,7 @@ tags:
 
 ![](/uploads/2017/05/170530-592cff148d6b6.jpg)
 
-Macでブログを書くとき、文字入力の補助としてスニペット展開アプリである[TextExpander](https://smilesoftware.com/textexpander)を使用してきました。しかし、そろそろ最新版以外のサポートの打ち切りが見えてきたため、将来性を鑑みスニペットを移行することとしました。弊サイトにおいても、[こちら](/textexpander-safari-googlechrome-730/)でご紹介したように、TextExpanderによる作業効率化の恩恵は多々受けていたのですが、月額制に移行するほどのものではないと思い、[Dash](https://kapeli.com/dash)に移行しました。
+Macでブログを書くとき、文字入力の補助としてスニペット展開アプリである[TextExpander](https://smilesoftware.com/textexpander)を使用してきました。しかし、そろそろ最新版以外のサポートの打ち切りが見えてきたため、将来性を鑑みスニペットを移行することとしました。弊サイトにおいても、[こちら](/posts/2014/12/textexpander-safari-googlechrome-730/)でご紹介したように、TextExpanderによる作業効率化の恩恵は多々受けていたのですが、月額制に移行するほどのものではないと思い、[Dash](https://kapeli.com/dash)に移行しました。
 
 ## ドキュメント検索からスニペット展開までを補う開発者必携アプリ「Dash」
 

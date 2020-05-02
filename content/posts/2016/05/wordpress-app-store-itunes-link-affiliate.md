@@ -25,7 +25,7 @@ WordPressを使用していて、App Storeに公開されているiPhone、iPad�
 
 <https://gist.github.com/ottanxyz/fa722621d551eb76c6302166681c10a2>
 
-原理は、[プラグインを使わずにGistのコードをWordPressに埋め込む方法](/gist-wordpress-embed-6861/)でご紹介した方法と同様です。ポイントとなるのは、`wp_embed_register_handler()`関数です。詳細は、[wp_embed_register_handler() | Function | WordPress Developer Resources](https://developer.wordpress.org/reference/functions/wp_embed_register_handler/)を参照してください。
+原理は、[プラグインを使わずにGistのコードをWordPressに埋め込む方法](/posts/2016/05/gist-wordpress-embed-6861/)でご紹介した方法と同様です。ポイントとなるのは、`wp_embed_register_handler()`関数です。詳細は、[wp_embed_register_handler() | Function | WordPress Developer Resources](https://developer.wordpress.org/reference/functions/wp_embed_register_handler/)を参照してください。
 
 ### 使い方と制限事項
 

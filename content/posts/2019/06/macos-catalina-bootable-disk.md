@@ -16,7 +16,7 @@ macOS Catalina（Public beta）をクリーンインストールするために�
 
 ## macOS Catalinaの起動ディスクを作成する
 
-まずは、[macOS Mojaveの環境を壊さずにmacOS Catalinaを試す方法](/install-catalina-20190629/)でご紹介した方法を用いて、macOS Catalinaのインストーラをダウンロードします。以下の画面が表示されるまで手順を続けます。
+まずは、[macOS Mojaveの環境を壊さずにmacOS Catalinaを試す方法](/posts/2019/06/install-catalina-20190629/)でご紹介した方法を用いて、macOS Catalinaのインストーラをダウンロードします。以下の画面が表示されるまで手順を続けます。
 
 ![](/uploads/2019/06/190629-dd925d36177a728d.png)
 

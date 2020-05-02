@@ -57,7 +57,7 @@ $r = new WP_Query( array(
 
 ### 人気記事を取得
 
-人気記事の取得方法については、[Google Analyticsと連携してページビューの多い人気記事を表示する](/wordpress-google-analytics-789/)を参考にしてください。
+人気記事の取得方法については、[Google Analyticsと連携してページビューの多い人気記事を表示する](/posts/2015/02/wordpress-google-analytics-789/)を参考にしてください。
 
 `_custom_pageviews` というカスタムフィールドにページビューが格納されているとした場合に、ページビューで並び替えるためのクエリは以下の通りになります。ポイントは、**`meta_key`にカスタムフィールド名を指定**することです。
 

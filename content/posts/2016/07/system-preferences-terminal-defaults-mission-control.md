@@ -13,7 +13,7 @@ tags:
 
 ![](/uploads/2016/07/160720-578f42b571a37.jpg)
 
-[システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般） – OTTAN.XYZ](/system-preferences-terminal-defaults-2-4643/)に引き続き、`defaults`コマンドシリーズです。今回は、「Mission Control」編です。ニッチな機能、追求するのがムダな機能は割愛しています。
+[システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般） – OTTAN.XYZ](/posts/2016/07/system-preferences-terminal-defaults-2-4643/)に引き続き、`defaults`コマンドシリーズです。今回は、「Mission Control」編です。ニッチな機能、追求するのがムダな機能は割愛しています。
 
 ## システム環境設定をターミナルから設定する（Mission Control編）
 

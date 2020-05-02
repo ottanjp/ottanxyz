@@ -17,7 +17,7 @@ tags:
 
 ![](/uploads/2018/10/181021-5bcc2e4617f47.jpg)
 
-[Netlify CMS（Hugo）で Markdown で記述可能な無料ブログを構築する（構築編）](/netlify-cms-hugo-markdown-blog-7017/)で、Netlify 上に静的サイトを構築する方法をご紹介しました。今回は、Hugo（Go 言語の静的サイトジェネレーター）のスターターキットで構築したテーマをカスタマイズして、GitHub 上のソースコードの修正、Netlify による自動デプロイ、デプロイ結果の Slack への通知までを行います。
+[Netlify CMS（Hugo）で Markdown で記述可能な無料ブログを構築する（構築編）](/posts/2018/10/netlify-cms-hugo-markdown-blog-7017/)で、Netlify 上に静的サイトを構築する方法をご紹介しました。今回は、Hugo（Go 言語の静的サイトジェネレーター）のスターターキットで構築したテーマをカスタマイズして、GitHub 上のソースコードの修正、Netlify による自動デプロイ、デプロイ結果の Slack への通知までを行います。
 
 なお、今回はデプロイすることが目的であるため、IDE（統合開発環境）は使用しませんが、通常は Visual Studio Code などを使用した方が効率的でしょう。
 

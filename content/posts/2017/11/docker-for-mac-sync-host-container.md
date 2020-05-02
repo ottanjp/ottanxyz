@@ -15,7 +15,7 @@ tags:
 ![](/uploads/2017/11/171123-5a16b059c8a78.jpg)
  photo credit: maijou2501 [Docker-4](http://www.flickr.com/photos/134416355@N07/31518969030) via [photopin](http://photopin.com) [(license)](https://creativecommons.org/licenses/by-sa/2.0/)
 
-弊サイトでは、Mac の WordPress 開発環境の構築に[Docker For Mac | Docker](https://www.docker.com/docker-mac)をオススメしています。弊サイトでも、[Docker で作る最強・最速のローカル WordPress 環境 – OTTAN.XYZ](/docker-wordpress-best-practice-5164/)で、Docker の基本的な操作方法から、WordMove による本番環境と開発環境の同期方法までご紹介していますが、Docker for Mac には 1 点問題がありました。それは、ホスト側（Mac）からコンテナー側にマウントしているボリュームの同期速度が遅い点。ホスト側のファイルを更新するだけで、コンテナー側のファイルを更新できるため非常に便利なのですが、Docker のファイルシステム（osxfs）の仕様上、ファイル更新からコンテナーへの反映までにラグがありました。
+弊サイトでは、Mac の WordPress 開発環境の構築に[Docker For Mac | Docker](https://www.docker.com/docker-mac)をオススメしています。弊サイトでも、[Docker で作る最強・最速のローカル WordPress 環境 – OTTAN.XYZ](/posts/2016/10/docker-wordpress-best-practice-5164/)で、Docker の基本的な操作方法から、WordMove による本番環境と開発環境の同期方法までご紹介していますが、Docker for Mac には 1 点問題がありました。それは、ホスト側（Mac）からコンテナー側にマウントしているボリュームの同期速度が遅い点。ホスト側のファイルを更新するだけで、コンテナー側のファイルを更新できるため非常に便利なのですが、Docker のファイルシステム（osxfs）の仕様上、ファイル更新からコンテナーへの反映までにラグがありました。
 
 たとえば、ホスト側で CSS ファイルを編集し、編集した内容が正しく反映できているかどうかを確認するために、ブラウザを立ち上げてキャッシュを削除してリロードしても、更新が反映されるまではかなりのラグがありました。
 
@@ -27,7 +27,7 @@ tags:
 
 ## ホストとコンテナーのボリュームの同期が遅い問題を解決する
 
-Docker によるコンテナーの管理は、`docker-compose`が便利です。詳細については、[たった 1 行で複数コンテナーを起動！Docker Compose で WordPress 環境をもっと楽に管理しよう！ – OTTAN.XYZ](/docker-compose-wordpress-5694/)をご参照ください。
+Docker によるコンテナーの管理は、`docker-compose`が便利です。詳細については、[たった 1 行で複数コンテナーを起動！Docker Compose で WordPress 環境をもっと楽に管理しよう！ – OTTAN.XYZ](/posts/2017/04/docker-compose-wordpress-5694/)をご参照ください。
 
 ### docker-compose.yml に追加するたった 1 つの単語
 

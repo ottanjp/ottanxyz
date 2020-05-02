@@ -15,8 +15,8 @@ tags:
 
 日常的にMacを愛用していると、すべてのデスクトップ環境をMac風にカスタマイズしたくなるものです（※個人差があります）。今回は、Ubuntu 16.04 LTS版を用いて、Ubuntuのデスクトップ環境であるGNOME ShellをHigh Sierra風にカスタマイズしてみたいと思います。2018年4月に、次期UbuntuのLTS（Long Term Support）版である、18.04が正式リリースされる見込みですが、18.04では標準のデスクトップ環境がUnityからGNOME Shellに移行される見込みのため、GNOME版のみのご紹介です。UnityやCinnamon（Linux Mintのデフォルトのデスクトップ環境であり、別途導入が必要）のカスタマイズも可能ですが、今回は割愛します。なお、基本的なUbuntuのセットアップ方法については、
 
--   [Ubuntu 16.04 LTSで、Macの「英数」「かな」キーにIMEオフ、オンを割り当てる](/ubuntu-16-04-ime-on-off-4913/)
--   [Ubuntu 16.04でキーボードレイアウトをMacBook Pro向けに変更する](/ubuntu-keyboard-layout-mac-6095/)
+-   [Ubuntu 16.04 LTSで、Macの「英数」「かな」キーにIMEオフ、オンを割り当てる](/posts/2016/09/ubuntu-16-04-ime-on-off-4913/)
+-   [Ubuntu 16.04でキーボードレイアウトをMacBook Pro向けに変更する](/posts/2017/08/ubuntu-keyboard-layout-mac-6095/)
 
 でご紹介していますので、そちらをご参照ください。ここでは初期セットアップはすでに完了していることを前提としてご紹介します。
 

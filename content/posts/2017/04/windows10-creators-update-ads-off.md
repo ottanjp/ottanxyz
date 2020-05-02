@@ -13,7 +13,7 @@ tags:
 
 ![](/uploads/2017/04/170414-58f012e8445a2.jpg)
 
-Windows 10の大型アップデートであるCreators Updateが日本時間4月11日未明に始まりました。まだ、アップデートが完了してないという方は、[今すぐ最新のWindows 10 Creators Updateを手に入れよう！Windows Updateでアップデートできない場合にも試したい方法 – OTTAN.XYZ](/windows-10-creator-update-right-now-5647/)を参考に入手してみてください。
+Windows 10の大型アップデートであるCreators Updateが日本時間4月11日未明に始まりました。まだ、アップデートが完了してないという方は、[今すぐ最新のWindows 10 Creators Updateを手に入れよう！Windows Updateでアップデートできない場合にも試したい方法 – OTTAN.XYZ](/posts/2017/04/windows-10-creator-update-right-now-5647/)を参考に入手してみてください。
 
 Windows 10には、Windows 10を快適に使用するためのさまざまな機能が搭載されていますが、実装当初から賛否両論となっていたのが、Windows 10の所々に表示される広告です。それほど邪魔になるわけではありませんが、Windows 10のスタートメニューやエクスプローラーなどさまざまな場面で登場するので、広告を消したいと思ったことは誰しもが思うはずです。そこで、今回は、Windows 10 Creators Updateを快適に使用するために、できうる限り広告をオフにする方法ご紹介します。その他にもあればコメント欄、もしくはご意見ボードでご指摘いただけると助かります。
 

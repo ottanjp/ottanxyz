@@ -94,7 +94,7 @@ Algoliaとの違いは、オペレーション（検索、追加、更新、削�
 
 ただ、Netlify Functionsを使用するということは、同サービスの制限（125,000リクエスト/月など）を受けることになります。詳細は以下をご覧ください。その他にもAWS Lambdaを使用する方法（そもそもNetlify FunctionsもLambdaのラッパー）等がありますが、今回は割愛します。
 
-* [Netlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本](/netlify-functions-aws-lambda-serverless-20190115/)
+* [Netlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本](/posts/2019/01/netlify-functions-aws-lambda-serverless-20190115/)
 
 ### Bonsai.ioの使い方
 
