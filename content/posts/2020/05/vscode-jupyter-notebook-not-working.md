@@ -19,16 +19,16 @@ Jupyter Server: Not Started
 
 ## 原因はワークスペースに複数のフォルダを追加している場合の環境設定
 
-空のJupyter Notebookを起動すると、自動的にJupyter Notebook環境がローカルホスト上で起動します。また、選択されている仮想環境にJupyter Notebook起動に必要なパッケージが揃っているかどうかがチェックされ、揃っていない場合は自動的にインストールされます。
+空のJupyter Notebookを起動すると、自動的にJupyter Notebook環境がローカルホスト上で起動します。また、Jupyter Notebook起動に必要なパッケージが選択されている仮想環境に揃っているかどうか起動時にチェックされ、揃っていない場合は自動的にインストールされます。何も考えず、Jupyter Notebookを利用できるので非常に便利です。
 
 ただし、以下の条件が揃った場合にJupyter Notebook環境が自動的に起動しないことがあります。
 
 * ワークスペースに複数のフォルダが追加されている
-* 過去にVS Codeからリモート、もしくはローカルホスト上の別のJupyter Notebookに接続したことがある
+* 過去にVS Codeからリモート、もしくはローカルホスト上のVS Code環境外のJupyter Notebookに接続したことがある
 
 ![](/uploads/2020/05/screenshot-2020-05-03-15.56.51.png)
 
-このような場合、空のJupyter Notebookを起動しても「Jupyter Server: Not Started」と表示され、Jupyter Serverが起動されていません。
+このような場合、空のJupyter Notebookを起動しても「Jupyter Server: Not Started」と表示され、Jupyter Serverが起動されないことがあります。
 
 ![](/uploads/2020/05/screenshot-2020-05-03-15.57.05.png)
 
