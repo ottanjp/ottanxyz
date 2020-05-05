@@ -6,7 +6,7 @@ title: "Git初心者が最初から学ぶGitの入門"
 type: post
 slug: git-basis-beginner-20190303
 categories: ["Mac"]
-tags: ["Git","GitHub","VSCode"]
+tags: ["Git","GitHub","VS Code"]
 toc: true
 ---
 
