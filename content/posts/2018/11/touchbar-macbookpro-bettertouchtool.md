@@ -73,15 +73,15 @@ BetterTouchTool の環境設定を開いたら、何もないところで右ク�
 
 #### バッテリー残量表示
 
-https://gist.github.com/ottanxyz/94fb2441ee57667473c21836dda604ff
+{{< gist ottanjp 94fb2441ee57667473c21836dda604ff >}}
 
 #### CPU 使用率
 
-https://gist.github.com/ottanxyz/89b8d45f164d32ccad32812ce68e3385
+{{< gist ottanjp 89b8d45f164d32ccad32812ce68e3385 >}}
 
 #### メモリ使用率
 
-https://gist.github.com/ottanxyz/b940022d3b0482df9e1733e8473d9113
+{{< gist ottanjp b940022d3b0482df9e1733e8473d9113 >}}
 
 CPU、メモリ使用率について補足します。CPU、メモリ使用率は macOS 標準の下記コマンドを使用して取得したものを表示しています。つまり、`ps`コマンドで取得可能な、プロセス毎の CPU、メモリ使用率の累計です。
 
@@ -91,7 +91,7 @@ CPU、メモリ使用率について補足します。CPU、メモリ使用率�
 
 #### 日時
 
-https://gist.github.com/ottanxyz/4a16a9ac2e283115552ccb8c75f8f70e
+{{< gist ottanjp 4a16a9ac2e283115552ccb8c75f8f70e >}}
 
 日時のウィジェットは、Touch Bar の右寄せにしています。ウィジェットの詳細設定で、「Item Placemment: Stick to the right side of the Touch Bar」を選択することで、ウィジェットを右寄せ固定にできます。
 
@@ -100,7 +100,7 @@ https://gist.github.com/ottanxyz/4a16a9ac2e283115552ccb8c75f8f70e
 
 #### Esc キー
 
-https://gist.github.com/ottanxyz/806c17f25cabfde9d8018ad89bb4054a
+{{< gist ottanjp 806c17f25cabfde9d8018ad89bb4054a >}}
 
 ESC キーについては、左上に表示されていた方が、従来のキーボード同様の使い勝手になると思われるため、左寄せ固定にしています。ウィジェットの詳細設定で、「Item Placemment: Stick to the left side of the Touch Bar」を選択することで、ウィジェットを右寄せ固定にできます。
 

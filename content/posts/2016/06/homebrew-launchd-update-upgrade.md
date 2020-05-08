@@ -51,7 +51,7 @@ terminal-notifier は、文字通りターミナルから macOS の通知を利�
 
 最後に、Homebrew を定期的にアップデート、アップグレードするために、以下のファイルをダウンロードして、`~/Library/LaunchAgents`に保存します。
 
-https://gist.github.com/ottanxyz/ab8e843a1f54f06128a0647d5326afb2
+{{< gist ottanjp ab8e843a1f54f06128a0647d5326afb2 >}}
 
 `launchd`については、以下の記事で詳細を解説しています。ユーザログイン時に、バックグラウンドで実行され、完了すると terminal-notifier により完了したことが通知されます。また、以降は 8 時間毎に定期的に実行されます。
 
