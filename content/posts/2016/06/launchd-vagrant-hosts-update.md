@@ -51,7 +51,7 @@ Vagrantで構築した仮想マシンを起動することは非常に簡単で�
 
 仮想マシンを自動起動するための定義ファイル（プロパティリスト）は以下のようになります。以下のファイルをダウンロードし、`~/Library/LaunchAgents`配下に格納してください。
 
-<https://gist.github.com/ottanxyz/ecb4df89b78b8ff792c44c4df458906d>
+{{< gist ottanjp ecb4df89b78b8ff792c44c4df458906d >}}
 
 各項目の意味は以下の通りです。
 

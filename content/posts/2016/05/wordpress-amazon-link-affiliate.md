@@ -29,7 +29,7 @@ Amazon の URL は複雑です。単純に Amazon のリンクを貼り付ける
 
 しかし、毎回毎回 Amazon の商品ページから ASIN を探し出すのは非常に面倒です。そこで、以下のブックマークレットを使用します。任意のページをブックマークに追加し、アドレスに以下のコードを貼り付けます。
 
-https://gist.github.com/ottanxyz/18dbf434402fdb4abdd2b27d5d17df04
+{{< gist ottanjp 18dbf434402fdb4abdd2b27d5d17df04 >}}
 
 たとえば、Safari のお気に入りに追加する場合は、以下のようなイメージです。ブックマークの名称は任意に変更してください。
 
@@ -63,7 +63,7 @@ https://github.com/Exeu/apai-io
 
 次に、以下のソースコードを**class-amazon-link-builder.php**という名称で保存します。この PHP ファイルと同一階層に先ほどコピーした「ApaiIO」フォルダーをコピーします。そして、**functions.php**から、**class-amazon-link-builder.php**を読み込んでください。
 
-https://gist.github.com/ottanxyz/4a44a5094bf27606c12803590a92d131
+{{< gist ottanjp 4a44a5094bf27606c12803590a92d131 >}}
 
 #### 2016/05/20 追記
 

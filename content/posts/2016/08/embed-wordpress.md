@@ -54,7 +54,7 @@ http://embed.ly/
 
 というわけで、「Embedly」を最大限に使用するために、投稿記事の本文に URL を貼り付けたら、自動的に「Embedly」で展開されるようにした結果が、こちらです。
 
-https://gist.github.com/ottanxyz/518542b8e8872a3e6f84d753a0eb0803
+{{< gist ottanjp 518542b8e8872a3e6f84d753a0eb0803 >}}
 
 ポイントは、[WordPress の本文に App Store の URL を貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/posts/2016/05/wordpress-app-store-itunes-link-affiliate-6862/)でご紹介した方法と同様です。`wp_embed_register_handler()`に、「http〜」から始る文字列を登録します。
 
