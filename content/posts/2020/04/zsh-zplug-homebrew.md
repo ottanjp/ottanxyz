@@ -1,6 +1,6 @@
 ---
 title: zplugとpreztoでzshをいい感じにする
-date: 2020-04-26
+date: 2020-04-26T00:00:00.000Z
 tags:
   - zsh
   - zplug
@@ -35,7 +35,7 @@ chsh -s /usr/local/bin/zsh
 
 `~/.zshrc`を以下のように編集します。一部、oh-my-zshのgitプラグインなども導入してます。
 
-{{< gist ottanxyz 79870f8090e418c679fb176506e23331 >}}
+{{< gist ottanjp 79870f8090e418c679fb176506e23331 >}}
 
 最後に、編集した`~/.zshrc`を読み込みます。
 
@@ -94,7 +94,7 @@ source ~/.zshrc
 
 `~/.zshrc`は以下のようになりました。
 
-{{< gist ottanxyz 79870f8090e418c679fb176506e23331 >}}
+{{< gist ottanjp 79870f8090e418c679fb176506e23331 >}}
 
 ## 環境をリセットする
 
