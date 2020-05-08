@@ -61,23 +61,11 @@ Webページなどで選択したテキストの書式をそのまま活かし�
 
 {{< itunes 1091189122 >}}
 
-### Wunderlist
-
-![](/uploads/2017/04/170404-58e2e417bf030.png)
-
-選択したテキストを「Wunderlist」のTodoとして保存できる拡張機能です。
-
-* [Wunderlistのここがすごい！山ほどあるタスク管理アプリの中からWunderlistをオススメしたい6つの理由 - OTTAN.XYZ](/posts/2014/09/wunderlist-recommend-271/)
-
-「Wunderlist」は弊サイトでもご紹介したことのあるタスク管理アプリです。今でもよく読まれる人気記事の1つです。
-
-{{< itunes 410628904 >}}
-
 ### Todoist
 
 ![](/uploads/2017/04/170404-58e2e41cd8e80.png)
 
-選択したテキストを「Todoist」のTodoとして保存できる拡張機能です。「Wunderlist」と「Todoist」の選択は好みがあるため、好きな方の拡張機能を導入しておくと良いでしょう。
+選択したテキストを「Todoist」のTodoとして保存できる拡張機能です。
 
 {{< itunes 585829637 >}}
 
