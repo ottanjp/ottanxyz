@@ -1,33 +1,18 @@
 <div class="social-share">
   <p class="is-hidden-mobile">Share this</p>
-  <a
-    href="https://twitter.com/intent/tweet?text={{ .Title  | safeJS }}%20%7C%20{{ .Site.Title | safeJS }}%20{{ .Permalink | safeJS }}"
-    onclick="window.open(this.href, 'twitter-share', 'width=580, height=296'); return false;"
-    title="Share on Twitter"
-    aria-label="Share on Twitter"
-    tabindex="-1"
-    class="button is-rounded social-share__item twitter"
-  >
+  <a href="https://twitter.com/intent/tweet?text={{ .Title  | safeJS }}%20%7C%20{{ .Site.Title | safeJS }}%20{{ .Permalink | safeJS }}"
+    onclick="window.open(this.href, 'twitter-share', 'width=580, height=296'); return false;" title="Share on Twitter"
+    aria-label="Share on Twitter" tabindex="-1" class="button is-rounded social-share__item twitter">
     Twitter
   </a>
-  <a
-    href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | safeJS }}"
-    onclick="window.open(this.href, 'facebook-share', 'width=580, height=296'); return false;"
-    title="Share on Facebook"
-    aria-label="Share on Facebook"
-    tabindex="-1"
-    class="button is-rounded social-share__item facebook"
-  >
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | safeJS }}"
+    onclick="window.open(this.href, 'facebook-share', 'width=580, height=296'); return false;" title="Share on Facebook"
+    aria-label="Share on Facebook" tabindex="-1" class="button is-rounded social-share__item facebook">
     Facebook
   </a>
-  <a
-    href="https://b.hatena.ne.jp/entry/{{ .Permalink | safeJS }}"
-    onclick="window.open(this.href, 'hatena-share', 'width=580, height=296'); return false;"
-    title="Share on hatena"
-    aria-label="Share on hatena"
-    tabindex="-1"
-    class="button is-rounded social-share__item hatena"
-  >
+  <a href="https://b.hatena.ne.jp/entry/{{ .Permalink | safeJS }}"
+    onclick="window.open(this.href, 'hatena-share', 'width=580, height=296'); return false;" title="Share on hatena"
+    aria-label="Share on hatena" tabindex="-1" class="button is-rounded social-share__item hatena">
     はてな
   </a>
 </div>

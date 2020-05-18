@@ -1,14 +1,9 @@
 <div class="column is-12-mobile is-6-tablet is-4-widescreen is-6-desktop">
-  <div
-    class="item post-card bottom-border {{ if not .Params.featured_image }}has-border{{ end }}"
-  >
+  <div class="item post-card bottom-border {{ if not .Params.featured_image }}has-border{{ end }}">
     {{ if .Params.featured_image }}
     <a class="item-link" href="{{ .Permalink }}">
-      <figure
-        class="image is-2by1 item-figure background-img"
-        style="background-image:url('{{ .Params.featured_image }}')"
-        data-was-processed="true"
-      ></figure>
+      <figure class="image is-2by1 item-figure background-img"
+        style="background-image:url('{{ .Params.featured_image }}')" data-was-processed="true"></figure>
     </a>
     {{ end }}
     <div class="item-tags">

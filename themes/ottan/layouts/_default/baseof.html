@@ -10,18 +10,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	{{ hugo.Generator }}
 	<meta name="robots" content="index, follow">
-	{{ block "description" . }}<meta name="description" content="{{ $.Site.Params.description }}">{{ end }}
+	{{ block "description" . }}
+	<meta name="description" content="{{ $.Site.Params.description }}">{{ end }}
 
 	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" as="style">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" media="print" onload="this.media='all'">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" media="print"
+		onload="this.media='all'">
 	{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
 	<link rel="preload" href="{{ $style.Permalink }}" as="style">
 	<link rel="stylesheet" href="{{ $style.Permalink }}" media="print" onload="this.media='all'">
-	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" as="style">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" media="print" onload="this.media='all'">
+	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
+		as="style">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
+		media="print" onload="this.media='all'">
 
-	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="alternate"
+		type="application/rss+xml" title="{{ .Site.Title }}" />
+	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="feed"
+		type="application/rss+xml" title="{{ .Site.Title }}" />
 	<link rel="canonical" href="{{ .Permalink }}">
 	{{ block "header-image" . }}{{ end }}
 
@@ -50,7 +56,7 @@
 			const $navbarBurgers = Array.prototype.slice.call(
 				document.querySelectorAll('.navbar-burger'),
 				0,
-				)
+			)
 
 			if ($navbarBurgers.length > 0) {
 				$navbarBurgers.forEach(el => {
@@ -66,4 +72,5 @@
 		})
 	</script>
 </body>
+
 </html>

@@ -1,8 +1,8 @@
 <div>
 	{{ range .Params.tags }}
-		<i class="fas fa-tags"></i>
-		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
-			{{- . -}}
-		</a>
+	<i class="fas fa-tags"></i>
+	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+		{{- . -}}
+	</a>
 	{{ end }}
 </div>

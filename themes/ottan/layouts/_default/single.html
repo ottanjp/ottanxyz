@@ -39,7 +39,7 @@
 		<div class="post-content">
 			<div class="post-tags">
 				{{ range .Params.tags }}
-					<a class="button is-rounded" href="/tags/{{ . | urlize }}">#{{- . -}}</a>
+				<a class="button is-rounded" href="/tags/{{ . | urlize }}">#{{- . -}}</a>
 				{{ end }}
 			</div>
 			<div class="post-content__inner">
@@ -53,12 +53,12 @@
 
 		<hr>
 		<div class="comments" id="comments">
-		{{ template "_internal/disqus.html" . }}  
+			{{ template "_internal/disqus.html" . }}
 		</div>
 
 	</div>
-  </section>
+</section>
 
-  {{ partial "related-posts.html" . }}
+{{ partial "related-posts.html" . }}
 
 {{ end }}
