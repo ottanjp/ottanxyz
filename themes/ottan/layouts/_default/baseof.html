@@ -47,6 +47,8 @@
 	{{- template "_internal/google_analytics_async.html" . -}}
 	{{- partial "google-adsense.html" -}}
 
+	{{ block "katex-stylesheet" . }}{{ end }}
+
 </head>
 
 <body>
@@ -55,26 +57,8 @@
 		{{ block "main" . }}{{ end }}
 	</main>
 	{{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
-	<script>
-		document.addEventListener('DOMContentLoaded', () => {
-			const $navbarBurgers = Array.prototype.slice.call(
-				document.querySelectorAll('.navbar-burger'),
-				0,
-			)
-
-			if ($navbarBurgers.length > 0) {
-				$navbarBurgers.forEach(el => {
-					el.addEventListener('click', () => {
-						const target = el.dataset.target
-						const $target = document.getElementById(target)
-
-						el.classList.toggle('is-active')
-						$target.classList.toggle('is-active')
-					})
-				})
-			}
-		})
-	</script>
+	{{- partial "site-scripts.html" -}}
+	{{ block "katex-javascript" . }}{{ end }}
 </body>
 
 </html>

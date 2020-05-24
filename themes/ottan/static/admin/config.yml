@@ -25,4 +25,6 @@ collections:
       - { label: 'Categories', name: 'categories', widget: 'list' }
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Featured Image', name: 'featured_image', widget: 'image', required: false }
+      - { label: 'KaTeX', name: 'katex', widget: 'boolean', default: false }
+      - { label: 'Markup', name: 'markup', widget: 'string', required: false }
     sortableFields: ['title', 'date']
