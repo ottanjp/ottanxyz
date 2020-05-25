@@ -1,10 +1,10 @@
-import markdownIt from 'markdown-it';
-import markdownItKatex from 'markdown-it-katex';
+import markdown from 'markdown-it';
+import katex from '@iktakahiro/markdown-it-katex';
 import htm from 'htm';
 import hljs from 'highlight.js';
 
 const html = htm.bind(h);
-const md = new markdownIt({
+const md = new markdown({
   html: true,
   typographer: true,
   linkify: true,
@@ -24,21 +24,22 @@ const md = new markdownIt({
     );
   },
 });
-md.use(markdownItKatex);
+md.use(katex);
 
 const Post = createClass({
   render() {
     const entry = this.props.entry;
     const title = entry.getIn(['data', 'title'], null);
-    const body = entry.getIn(['data', 'body'], null);
-    const bodyRendered = md.render(body || '');
+    let body = entry.getIn(['data', 'body'], null);
+    body = md.render(body || '');
+    // body = katex.renderToString(body, { throwOnError: false });
 
     return html`
       <body>
         <main>
           <article class="markdown-body">
             <h1>${title}</h1>
-            <div dangerouslySetInnerHTML=${{ __html: bodyRendered }}></div>
+            <div dangerouslySetInnerHTML=${{ __html: body }}></div>
           </article>
         </main>
       </body>

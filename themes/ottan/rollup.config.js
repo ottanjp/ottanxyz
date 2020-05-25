@@ -1,7 +1,7 @@
-const builtins = require('rollup-plugin-node-builtins');
-const commonjs = require('rollup-plugin-commonjs');
-const nodeResolve = require('rollup-plugin-node-resolve');
-const json = require('rollup-plugin-json');
+import builtins from 'rollup-plugin-node-builtins';
+import commonjs from '@rollup/plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
+import json from '@rollup/plugin-json';
 
 export default {
   input: 'assets/js/index.js',
@@ -9,10 +9,5 @@ export default {
     file: 'static/admin/index.js',
     format: 'esm',
   },
-  plugins: [
-    nodeResolve({ browser: true, preferBuiltins: true }),
-    commonjs({ ignore: ['conditional-runtime-dependency'] }),
-    builtins(),
-    json(),
-  ],
+  plugins: [resolve({ preferBuiltins: true }), commonjs(), builtins(), json()],
 };
