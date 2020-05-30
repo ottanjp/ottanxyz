@@ -1,6 +1,6 @@
 ---
 title: HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする
-date: 2020-05-25
+date: 2020-05-25T00:00:00.000Z
 tags:
   - Hugo
   - KaTeX
@@ -39,16 +39,16 @@ $$
 ```tex
 $$
  \begin{bmatrix}
-  a & b \\
-  c & d \\
+  a & b \cr
+  c & d 
   \end{bmatrix}
 $$
 ```
 
 $$
  \begin{bmatrix}
-  a & b \\
-  c & d \\
+  a & b \cr
+  c & d 
   \end{bmatrix}
 $$
 
