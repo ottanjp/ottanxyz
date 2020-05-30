@@ -1,6 +1,6 @@
 ---
 title: HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする
-date: 2020-05-25
+date: 2020-05-25T00:00:00.000Z
 tags:
   - Hugo
   - KaTeX
@@ -39,16 +39,16 @@ $$
 ```tex
 $$
  \begin{bmatrix}
-  a & b \\
-  c & d \\
+  a & b \cr
+  c & d 
   \end{bmatrix}
 $$
 ```
 
 $$
  \begin{bmatrix}
-  a & b \\
-  c & d \\
+  a & b \cr
+  c & d 
   \end{bmatrix}
 $$
 
@@ -101,7 +101,9 @@ markup:
 {{ define "katex-javascript" }}
 {{ if .Params.katex }}
 <script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body,{delimiters: [{ left: '\\[', right: '\\]', display: true },{ left: '$', right: '$', display: false }],});">
+</script>
+t>
 {{ end }}
 {{ end }}
 ```
