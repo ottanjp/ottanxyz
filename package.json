@@ -1,0 +1,20 @@
+{
+  "name": "ottanxyz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fuse.js": "^6.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottanjp/ottanxyz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ottanjp/ottanxyz/issues"
+  },
+  "homepage": "https://github.com/ottanjp/ottanxyz#readme"
+}
