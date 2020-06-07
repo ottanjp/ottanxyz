@@ -46,7 +46,7 @@
             const isLanguage = pre.children[0].className.indexOf('language-');
             if (isLanguage === 0) {
                 let button = document.createElement('button');
-                button.className = 'copy-button';
+                button.className = 'button is-small is-light copy-button';
                 button.textContent = 'Copy';
                 pre.appendChild(button);
             }
