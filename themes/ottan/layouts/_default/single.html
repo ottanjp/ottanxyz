@@ -55,6 +55,9 @@
 
 <section class="page">
 	<div class="container">
+
+		{{- partial "google-adsense1" -}}
+
 		<div class="post-content">
 			<div class="post-tags">
 				{{ range .Params.tags }}
@@ -69,6 +72,8 @@
 		</div>
 
 		{{ partial "social-share.html" . }}
+
+		{{- partial "google-adsense2" -}}
 
 		<hr>
 		<div class="comments" id="comments">
