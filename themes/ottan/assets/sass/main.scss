@@ -15,8 +15,8 @@ $primary: #ffbc8c;
 }
 
 body {
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans", Meiryo, sans-serif;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN',
+    'Hiragino Sans', Meiryo, sans-serif;
 }
 
 // Global classes
@@ -37,7 +37,7 @@ body {
 
   &.bottom-border:after {
     position: absolute;
-    content: "";
+    content: '';
     right: 0;
     left: 0;
     height: 1px;
@@ -191,4 +191,8 @@ body {
   white-space: inherit;
   background: inherit;
   margin: inherit;
+}
+
+.gist .file {
+  display: inherit !important;
 }
