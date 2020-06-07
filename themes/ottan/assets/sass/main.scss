@@ -196,3 +196,22 @@ body {
 .gist .file {
   display: inherit !important;
 }
+
+.post-content {
+  pre {
+    position: relative;
+  }
+  .copy-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  .copy-button:hover {
+    background-color: black;
+    color: white;
+  }
+}
