@@ -4,10 +4,6 @@ $white: #fff;
 $black: #000;
 $radius: 4px;
 $grey-lighter: #dbdbdb;
-$radius-rounded: 290486px;
-$footer-background-color: #fafafa;
-
-$primary: #ffbc8c;
 
 .post-card a {
   transition: color 0.2s ease;
@@ -62,24 +58,6 @@ body {
     position: relative;
   }
 
-  figure {
-    margin-bottom: $spacing;
-    border-radius: $radius;
-  }
-
-  .item-featured {
-    position: absolute;
-    padding: $spacing/2;
-    top: 10px;
-    right: 10px;
-    background-color: rgba($black, 0.75);
-    border-radius: $radius-rounded;
-
-    .icon {
-      color: $primary;
-    }
-  }
-
   .item-title {
     margin-bottom: 1rem;
   }
@@ -112,48 +90,51 @@ body {
   }
 }
 
-// Footer
-.footer {
-  padding: 2 * $spacing 1.5 * $spacing 2 * $spacing;
-  &-link-title {
-    margin-bottom: $spacing;
-  }
-
-  .navbar-item {
-    padding: 0;
-    margin-bottom: $spacing/4;
-  }
-
-  .form-group,
-  .footer-text {
-    margin-bottom: $spacing;
-  }
-}
-
 // Post
 .post,
 .page {
   padding-top: 2 * $spacing;
 }
 
-.post-tags,
-.social-share {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 0 $spacing;
+.social-share-sticky {
+  position: sticky;
+  top: 20vh;
 }
 
-.social-share p {
-  display: inline-flex;
-  margin-right: $spacing/2;
-  padding: 0.375em 0;
+.social-share__icon {
+  margin-top: 8px;
+  margin-right: 34px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #aaa;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-.post-content__inner {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: $spacing;
+.social-share__sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
 
+.social-share__footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.gist .file {
+  display: inherit !important;
+}
+
+.content {
   a {
     font-weight: 700;
   }
@@ -161,43 +142,7 @@ body {
   ul {
     margin-left: 0;
   }
-}
 
-.related-posts {
-  padding: 2em 1em;
-  background-color: $footer-background-color;
-  border-bottom: 2px solid $white;
-}
-
-// Comments
-.comments {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: $spacing;
-  padding-top: 0;
-}
-
-// Prism setup
-.post-content .tag,
-.post-content .number {
-  display: inline;
-  padding: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  text-align: inherit;
-  vertical-align: inherit;
-  border-radius: inherit;
-  font-weight: inherit;
-  white-space: inherit;
-  background: inherit;
-  margin: inherit;
-}
-
-.gist .file {
-  display: inherit !important;
-}
-
-.post-content {
   pre {
     position: relative;
   }

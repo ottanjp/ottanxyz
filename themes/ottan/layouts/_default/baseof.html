@@ -13,8 +13,8 @@
 	{{ block "description" . }}
 	<meta name="description" content="{{ $.Site.Params.description }}">{{ end }}
 
-	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" as="style">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" media="print"
+	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css" as="style">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css" media="print"
 		onload="this.media='all'">
 	{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
 	<link rel="preload" href="{{ $style.Permalink }}" as="style">
@@ -47,7 +47,7 @@
 	{{- template "_internal/google_analytics_async.html" . -}}
 
 	{{ block "katex-stylesheet" . }}{{ end }}
-
+	<script src="https://kit.fontawesome.com/8e2069fe4b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>

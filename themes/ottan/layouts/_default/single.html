@@ -41,11 +41,11 @@
 {{ if .Params.katex }}
 <script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
 	integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous">
-</script>
+	</script>
 <script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
 	integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
 	onload="renderMathInElement(document.body,{delimiters: [{ left: '\\[', right: '\\]', display: true },{ left: '$', right: '$', display: false }],});">
-</script>
+	</script>
 {{ end }}
 {{ end }}
 
@@ -56,33 +56,54 @@
 <section class="page">
 	<div class="container">
 
-		{{- partial "google-adsense1" -}}
+		<div class="columns">
 
-		<div class="post-content">
-			<div class="post-tags">
-				{{ range .Params.tags }}
-				<a class="button is-rounded" href="/tags/{{ . | urlize }}">#{{- . -}}</a>
-				{{ end }}
-			</div>
-			<div class="post-content__inner">
-				<div class="content markdown-body">
-					{{ .Content | safeHTML }}
+			<div class="column is-1 is-hidden-mobile">
+				<div class="social-share-sticky">
+					<div class="social-share__sidebar">
+						{{- partial "social-share.html" . -}}
+					</div>
 				</div>
 			</div>
+
+			<div class="column is-7 is-desktop">
+
+				{{- partial "google-adsense1" -}}
+
+				<div class="content markdown-body">
+					{{- .Content | safeHTML -}}
+				</div>
+
+				<div class="social-share__footer">
+					{{- partial "social-share.html" . -}}
+				</div>
+
+				{{- partial "google-adsense2" -}}
+
+				<hr>
+				<div class="comments" id="comments">
+					{{ template "_internal/disqus.html" . }}
+				</div>
+
+			</div>
+
+			<div class="column is-desktop">
+				<div class="content">
+					<h2>関連記事</h2>
+					{{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
+					<ol>
+						{{ range . }}
+						<li><a class="{{ .Permalink }}">{{ .Title }}</a></li>
+						{{ end }}
+					</ol>
+					{{ end }}
+				</div>
+			</div>
+
 		</div>
-
-		{{ partial "social-share.html" . }}
-
-		{{- partial "google-adsense2" -}}
-
-		<hr>
-		<div class="comments" id="comments">
-			{{ template "_internal/disqus.html" . }}
-		</div>
-
 	</div>
+
 </section>
 
-{{ partial "related-posts.html" . }}
 
 {{ end }}
