@@ -53,56 +53,53 @@
 
 {{- partial "hero" . -}}
 
-<section class="page">
-	<div class="container">
+<section class="container">
 
-		<div class="columns">
+	<div class="columns is-desktop is-marginless">
 
-			<div class="column is-1 is-hidden-mobile">
-				<div class="social-share-sticky">
-					<div class="social-share__sidebar">
-						{{- partial "social-share.html" . -}}
-					</div>
-				</div>
-			</div>
-
-			<div class="column is-7 is-desktop">
-
-				{{- partial "google-adsense1" -}}
-
-				<div class="content markdown-body">
-					{{- .Content | safeHTML -}}
-				</div>
-
-				<div class="social-share__footer">
+		<div class="column is-1 is-hidden-mobile">
+			<div class="social-share-sticky">
+				<div class="social-share__sidebar">
 					{{- partial "social-share.html" . -}}
 				</div>
+			</div>
+		</div>
 
-				{{- partial "google-adsense2" -}}
+		<div class="column is-8">
 
-				<hr>
-				<div class="comments" id="comments">
-					{{ template "_internal/disqus.html" . }}
-				</div>
+			{{- partial "google-adsense1" -}}
 
+			<div class="content markdown-body">
+				{{- .Content | safeHTML -}}
 			</div>
 
-			<div class="column is-desktop">
-				<div class="content">
-					<h2>関連記事</h2>
-					{{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
-					<ol>
-						{{ range . }}
-						<li><a class="{{ .Permalink }}">{{ .Title }}</a></li>
-						{{ end }}
-					</ol>
-					{{ end }}
-				</div>
+			<div class="social-share__footer">
+				{{- partial "social-share.html" . -}}
+			</div>
+
+			{{- partial "google-adsense2" -}}
+
+			<hr>
+			<div class="comments" id="comments">
+				{{ template "_internal/disqus.html" . }}
 			</div>
 
 		</div>
-	</div>
 
+		<div class="column">
+			<div class="content">
+				<h2>関連記事</h2>
+				{{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
+				<ol>
+					{{ range . }}
+					<li><a class="{{ .Permalink }}">{{ .Title }}</a></li>
+					{{ end }}
+				</ol>
+				{{ end }}
+			</div>
+		</div>
+
+	</div>
 </section>
 
 
