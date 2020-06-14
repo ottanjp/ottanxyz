@@ -92,7 +92,7 @@
 				{{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
 				<ol>
 					{{ range . }}
-					<li><a class="{{ .Permalink }}">{{ .Title }}</a></li>
+					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 					{{ end }}
 				</ol>
 				{{ end }}
