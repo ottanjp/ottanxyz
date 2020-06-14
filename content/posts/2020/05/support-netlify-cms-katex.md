@@ -111,6 +111,7 @@ $\KaTeX$に必要なスクリプトは、冒頭の記事でご紹介している
           highlight: function (code, lang) {
             return hljs.highlightAuto(code, [lang]).value;
           },
+          renderer: renderer,
         });
         // 事前に生成したDOMにMarkdown→HTML変換済みの文字列を格納
         div.innerHTML = marked(body);
