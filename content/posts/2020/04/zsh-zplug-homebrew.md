@@ -8,6 +8,7 @@ tags:
 categories:
   - Mac
 slug: zsh-zplug-homebrew
+katex: false
 ---
 zplugは、zshのプラグインマネージャ、preztoは軽量なフレームワークです。zplug以外に、zinitなどがありますが、乗り換えるのが面倒であるため、現在はzplugで落ち着いています。また、下記の使い方であれば、preztoを入れる必要性をそこまで感じませんが、preztoに同梱されているモジュールが便利なのでそのまま使用しています。
 
@@ -35,7 +36,7 @@ chsh -s /usr/local/bin/zsh
 
 `~/.zshrc`を以下のように編集します。一部、oh-my-zshのgitプラグインなども導入してます。
 
-{{< gist ottanjp 79870f8090e418c679fb176506e23331 >}}
+{{< gist ottanjp 2a8c47197273a2d0ca2a86d6778c666a >}}
 
 最後に、編集した`~/.zshrc`を読み込みます。
 
@@ -94,7 +95,7 @@ source ~/.zshrc
 
 `~/.zshrc`は以下のようになりました。
 
-{{< gist ottanjp 79870f8090e418c679fb176506e23331 >}}
+{{< gist ottanjp 2a8c47197273a2d0ca2a86d6778c666a >}}
 
 ## 環境をリセットする
 
