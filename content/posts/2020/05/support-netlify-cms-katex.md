@@ -1,6 +1,6 @@
 ---
 title: Netlify CMSのプレビューでHightlight.js + KaTeX（LaTeX）をサポートする
-date: 2020-05-30
+date: 2020-05-30T00:00:00.000Z
 tags:
   - Netlify
   - Hugo
@@ -16,6 +16,22 @@ markup: mmark
 今回は、Netlify CMSのプレビューで、リアルタイムで$\KaTeX$による変換を行います。また、おまけ要素ですが、ついでにHighlight.jsを組み込み、プレビューでシンタックスハイライトが可能になるようにします。
 
 ブラウザだけで完結します。
+
+## 2020/6/14更新：Netlify CMSのプレビューでイメージファイルが正常に表示されない
+
+Marked.jsでMarkdownをそのままレンダリングした場合、Netlify CMSへアップロードした画像ファイルがプレビューに表示されない問題があったため、以下のコードを追加しました。
+
+```javascript
+        // 2020/6/14 imageのパスをNetlifyCMSが提供するgetAsset関数で正規のパスに変換
+        // 2020/6/14 Netlify CMSのプレビューでイメージファイルが表示されない問題に対応
+        const renderer = new marked.Renderer()
+        renderer.image = (href, title, text) => {
+          if (!href) return text;
+          // https://www.netlifycms.org/docs/customization/
+          const uri = this.props.getAsset(href).url;
+          return `<img src="${uri}" title="${title}" alt="${text}"/>`
+        }
+```
 
 ## Netlify CMS
 
@@ -78,6 +94,16 @@ $\KaTeX$に必要なスクリプトは、冒頭の記事でご紹介している
         let body = entry.getIn(['data', 'body'], '');
         // KaTeXのレンダリング関数へ渡すためのDOMを生成
         let div = document.createElement('div');
+
+        // 2020/6/14 imageのパスをNetlifyCMSが提供するgetAsset関数で正規のパスに変換
+        // 2020/6/14 Netlify CMSのプレビューでイメージファイルが表示されない問題に対応
+        const renderer = new marked.Renderer()
+        renderer.image = (href, title, text) => {
+          if (!href) return text;
+          // https://www.netlifycms.org/docs/customization/
+          const uri = this.props.getAsset(href).url;
+          return `<img src="${uri}" title="${title}" alt="${text}"/>`
+        }
 
         // Marked.jsのオプションでhighlight.jsをサポート
         // https://madogiwa0124.hatenablog.com/entry/2019/01/03/203334
