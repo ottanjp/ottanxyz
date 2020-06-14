@@ -1,6 +1,6 @@
 ---
 title: CSSフレームワーク「Bulma」の「columns」クラスに関する挙動について
-date: 2020-06-14
+date: 2020-06-14T00:00:00.000Z
 tags:
   - CSS
 categories:
@@ -29,6 +29,6 @@ katex: false
 </html>
 ```
 
-![](/uploads/2020/06/スクリーンショット-2020-06-14-16.26.06.png)
+![](/uploads/2020/06/screenshot-2020-06-14-16.32.21.png)
 
-![](/uploads/2020/06/スクリーンショット-2020-06-14-16.26.19.png)
+![](/uploads/2020/06/screenshot-2020-06-14-16.32.29.png)
