@@ -69,15 +69,6 @@ body {
   .item-tags {
     margin-bottom: $spacing;
   }
-
-  .level {
-    display: flex;
-    margin-bottom: $spacing;
-
-    &-right {
-      margin-top: 0;
-    }
-  }
 }
 
 // Pagination
