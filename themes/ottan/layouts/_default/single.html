@@ -58,45 +58,51 @@
 	<div class="columns is-desktop is-marginless">
 
 		<div class="column is-1 is-hidden-mobile">
-			<div class="social-share-sticky">
-				<div class="social-share__sidebar">
+			<div class="sticky">
+				<div class="sidebar">
 					{{- partial "social-share.html" . -}}
 				</div>
 			</div>
 		</div>
 
-		<div class="column is-8">
-
-			{{- partial "google-adsense1" -}}
+		<article class="column is-7">
 
 			<div class="content markdown-body">
 				{{- .Content | safeHTML -}}
 			</div>
 
-			<div class="social-share__footer">
+			<div class="article-footer">
 				{{- partial "social-share.html" . -}}
 			</div>
 
-			{{- partial "google-adsense2" -}}
+			<div class="has-text-centered">
+				<div class="adsense">
+					{{- partial "google-adsense1" -}}
+					{{- partial "google-adsense2" -}}
+				</div>
+			</div>
 
-			<hr>
 			<div class="comments" id="comments">
 				{{ template "_internal/disqus.html" . }}
 			</div>
 
-		</div>
+		</article>
 
 		<div class="column">
-			<div class="content">
-				<h2>関連記事</h2>
-				{{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
-				<ol>
-					{{ range . }}
-					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-					{{ end }}
-				</ol>
-				{{ end }}
+
+			<!-- <div class="social-share-sticky"> -->
+			<div class="sidebar">
+				<div class="adsense is-hidden-mobile has-text-centered">
+					{{- partial "google-adsense3" -}}
+					{{- partial "google-adsense4" -}}
+				</div>
+
+				<div class="toc">
+					{{- partial "related-posts" . -}}
+				</div>
 			</div>
+			<!-- </div> -->
+
 		</div>
 
 	</div>

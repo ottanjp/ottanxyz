@@ -1,12 +1,10 @@
-<section class="related-posts">
-  <div class="container">
-    <h4 class="has-text-centered">関連記事</h4>
-    <div class="columns is-multiline">
-      {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
-      {{ range . }}
-      {{ .Render "li" }}
-      {{ end }}
-      {{ end }}
-    </div>
-  </div>
-</section>
+<div class="content">
+  <h2>関連記事</h2>
+  {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
+  <ol>
+    {{ range . }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ol>
+  {{ end }}
+</div>

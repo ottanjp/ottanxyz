@@ -87,12 +87,12 @@ body {
   padding-top: 2 * $spacing;
 }
 
-.social-share-sticky {
+.sticky {
   position: sticky;
   top: 20vh;
 }
 
-.social-share__icon {
+.social-share {
   margin-top: 8px;
   margin-right: 34px;
   width: 32px;
@@ -107,14 +107,25 @@ body {
   cursor: pointer;
 }
 
-.social-share__sidebar {
+.sidebar {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
 }
 
-.social-share__footer {
+.adsense {
+  display: inline-block;
+}
+
+.toc {
+}
+
+.article-adsense {
+  text-align: center;
+}
+
+.article-footer {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -140,7 +151,7 @@ body {
   }
   .copy-button {
     position: absolute;
-    top: .25rem;
-    right: .25rem;
+    top: 0.25rem;
+    right: 0.25rem;
   }
 }
