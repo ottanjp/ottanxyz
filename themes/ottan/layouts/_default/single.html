@@ -58,10 +58,8 @@
 	<div class="columns is-desktop is-marginless">
 
 		<div class="column is-1 is-hidden-mobile">
-			<div class="sticky">
-				<div class="sidebar">
-					{{- partial "social-share.html" . -}}
-				</div>
+			<div class="sticky sticky-20vh">
+				{{- partial "social-share.html" . -}}
 			</div>
 		</div>
 
@@ -71,18 +69,18 @@
 				{{- .Content | safeHTML -}}
 			</div>
 
-			<div class="article-footer">
+			<div class="is-flex is-flex-centered mb-2">
 				{{- partial "social-share.html" . -}}
 			</div>
 
 			<div class="has-text-centered">
-				<div class="adsense">
+				<div class="is-flex-widescreen is-flex-space">
 					{{- partial "google-adsense1" -}}
 					{{- partial "google-adsense2" -}}
 				</div>
 			</div>
 
-			<div class="comments" id="comments">
+			<div class="my-2">
 				{{ template "_internal/disqus.html" . }}
 			</div>
 
@@ -91,13 +89,14 @@
 		<div class="column">
 
 			<!-- <div class="social-share-sticky"> -->
-			<div class="sidebar">
-				<div class="adsense is-hidden-mobile has-text-centered">
+			<div class="is-flex is-flex-column">
+				<div class="has-text-centered my-2 is-hidden-touch">
 					{{- partial "google-adsense3" -}}
+				</div>
+				<div class="has-text-centered my-2 is-hidden-touch">
 					{{- partial "google-adsense4" -}}
 				</div>
-
-				<div class="toc">
+				<div>
 					{{- partial "related-posts" . -}}
 				</div>
 			</div>

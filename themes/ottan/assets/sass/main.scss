@@ -5,70 +5,9 @@ $black: #000;
 $radius: 4px;
 $grey-lighter: #dbdbdb;
 
-.post-card a {
-  transition: color 0.2s ease;
-  color: $black;
-}
-
 body {
   font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN',
     'Hiragino Sans', Meiryo, sans-serif;
-}
-
-// Global classes
-.background-img {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.posts {
-  padding: 2 * $spacing $spacing;
-}
-
-// Post Card
-.post-card {
-  position: relative;
-  border-radius: $radius;
-
-  &.bottom-border:after {
-    position: absolute;
-    content: '';
-    right: 0;
-    left: 0;
-    height: 1px;
-    background-color: $grey-lighter;
-  }
-
-  &.has-border {
-    padding: $spacing;
-    border: 1px solid $grey-lighter;
-
-    &.bottom-border:after {
-      display: none;
-    }
-
-    .level {
-      margin-bottom: 0;
-    }
-  }
-
-  .item-link {
-    display: block;
-    position: relative;
-  }
-
-  .item-title {
-    margin-bottom: 1rem;
-  }
-
-  .item-description {
-    margin-bottom: $spacing;
-  }
-
-  .item-tags {
-    margin-bottom: $spacing;
-  }
 }
 
 // Pagination
@@ -81,15 +20,24 @@ body {
   }
 }
 
-// Post
-.post,
-.page {
-  padding-top: 2 * $spacing;
-}
-
 .sticky {
   position: sticky;
-  top: 20vh;
+  &.sticky-20vh {
+    top: 20vh;
+  }
+}
+.is-flex {
+  &-centered {
+    justify-content: center;
+  }
+  &-space,
+  &-widescreen-space {
+    justify-content: space-around;
+  }
+  &-column {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .social-share {
@@ -105,31 +53,6 @@ body {
   background-color: #aaa;
   font-size: 18px;
   cursor: pointer;
-}
-
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-
-.adsense {
-  display: inline-block;
-}
-
-.toc {
-}
-
-.article-adsense {
-  text-align: center;
-}
-
-.article-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: center;
 }
 
 .gist .file {
