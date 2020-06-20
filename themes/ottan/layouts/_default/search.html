@@ -39,7 +39,7 @@
         const search_term = param('q')
         const result = await fetch(
             `/.netlify/functions/search?q=${search_term}`).then(x => x
-            .json())
+                .json())
         if (result.length > 20) {
             document.getElementById('search-warning').classList.remove('is-hidden')
         } else if (result.length == 0) {
@@ -49,16 +49,18 @@
         let html = '';
         for (i = 0; i < count; i++) {
             let publish_date = formatDate(new Date(result[i].item.publish_date), "yyyy.MM.dd");
-            html += `<div class="column is-12-mobile is-6-tablet is-4-widescreen is-6-desktop">
-                <div class="item post-card bottom-border has-border">
-                    <h2 class="title item-title is-size-4 has-text-weight-bold">
-                        <a class="item-link" href="${result[i].item.permalink}">${result[i].item.title}</a>
-                    </h2>
-                    <div class="item-description">${result[i].item.summary}</div>
-                    <div class="level">
-                        <div class="level-right">
-                            <time>${publish_date}</time>
-                        </div>
+            html += `<div class="column is-12-mobile is-6-tablet is-4-desktop">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="title is-4"><a class="has-text-black-bis has-text-weight-bold" href="${result[i].item.permalink}">${result[i].item.title}</a></div>
+                        <div class="mb-2">${result[i].item.summary}...</div>
+                        <footer class="card-footer">
+                            <div class="card-footer-item">
+                            <time datetime=${publish_date}>
+                                <i class="far fa-calendar-alt"></i>&nbsp;${publish_date}
+                            </time>
+                            </div>
+                        </footer>
                     </div>
                 </div>
             </div>`
