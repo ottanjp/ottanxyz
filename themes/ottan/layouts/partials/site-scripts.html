@@ -1,3 +1,5 @@
+<script defer src="https://kit.fontawesome.com/8e2069fe4b.js" crossorigin="anonymous"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const $navbarBurgers = Array.prototype.slice.call(
@@ -16,40 +18,37 @@
                 })
             })
         }
-    })
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
-<script>
-    const copyCode = new ClipboardJS('.copy-button', {
-        target: function (trigger) {
-            return trigger.previousElementSibling;
-        }
-    });
-
-    copyCode.on('success', function (event) {
-        event.clearSelection();
-        event.trigger.textContent = 'Copied';
-        window.setTimeout(function () {
-            event.trigger.textContent = 'Copy';
-        }, 2000);
-    });
-    copyCode.on('error', function (event) {
-        event.trigger.textContent = 'Press "Ctrl + C" to copy';
-        window.setTimeout(function () {
-            event.trigger.textContent = 'Copy';
-        }, 2000);
-    });
-
-    const pres = document.querySelectorAll('pre');
-    pres.forEach((pre, i) => {
-        if (pre.parentNode.nodeName !== 'TD') {
-            const isLanguage = pre.children[0].className.indexOf('language-');
-            if (isLanguage === 0) {
-                let button = document.createElement('button');
-                button.className = 'button is-small is-light copy-button';
-                button.textContent = 'Copy';
-                pre.appendChild(button);
+        const copyCode = new ClipboardJS('.copy-button', {
+            target: function (trigger) {
+                return trigger.previousElementSibling;
             }
-        }
+        });
+
+        copyCode.on('success', function (event) {
+            event.clearSelection();
+            event.trigger.textContent = 'Copied';
+            window.setTimeout(function () {
+                event.trigger.textContent = 'Copy';
+            }, 2000);
+        });
+        copyCode.on('error', function (event) {
+            event.trigger.textContent = 'Press "Ctrl + C" to copy';
+            window.setTimeout(function () {
+                event.trigger.textContent = 'Copy';
+            }, 2000);
+        });
+
+        const pres = document.querySelectorAll('pre');
+        pres.forEach((pre, i) => {
+            if (pre.parentNode.nodeName !== 'TD') {
+                const isLanguage = pre.children[0].className.indexOf('language-');
+                if (isLanguage === 0) {
+                    let button = document.createElement('button');
+                    button.className = 'button is-small is-light copy-button';
+                    button.textContent = 'Copy';
+                    pre.appendChild(button);
+                }
+            }
+        })
     })
 </script>
