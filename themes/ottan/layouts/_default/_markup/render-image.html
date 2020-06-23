@@ -1,10 +1,17 @@
+{{ $image := (site.GetPage "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Destination) }}
+{{ with $image }}
+{{ $imageConf := (imageConfig (printf "content/uploads/%s" .Name)) }}
+
 <figure>
-    <img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}">
+    <img src="{{ $.Destination | safeURL }}" alt="{{ $.PlainText }}" width="{{ $imageConf.Width }}"
+        height="{{ $imageConf.Height }}">
     <figcaption>
-        {{ if .Title }}
-        <p>{{ .Title | markdownify }}</p>
-        {{ else if .Text }}
-        <p>{{ .Text | markdownify }}</p>
+        {{ if $.Title }}
+        <p>{{ $.Title | markdownify }}</p>
+        {{ else if $.Text }}
+        <p>{{ $.Text | markdownify }}</p>
         {{ end }}
     </figcaption>
 </figure>
+
+{{ end }}
