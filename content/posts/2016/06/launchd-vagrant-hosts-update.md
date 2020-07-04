@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-06-23 13:39:17+00:00
 draft: false
 title: ログイン時にVCCW（Vagrant＋VirtualBox）で構築した仮想マシンを自動起動する

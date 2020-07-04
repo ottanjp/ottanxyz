@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-18 12:33:21+00:00
 draft: false
 title: iTunes 12.4でApple Musicを非表示にする方法

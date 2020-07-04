@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-03-06 13:22:01+00:00
 draft: false
 title: AdGuard Proがワンタップでのドメインリストのインポートに対応しWorkflow不要でより便利に！

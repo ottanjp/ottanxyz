@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-01-14 10:08:02+00:00
 draft: false
 title: iPhone Xをもっと便利に使いこなすためのTips

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-10-28 07:48:48+00:00
 draft: false
 title: iPhoneを新規セットアップした時に「設定」アプリから設定しておきたい必須の項目

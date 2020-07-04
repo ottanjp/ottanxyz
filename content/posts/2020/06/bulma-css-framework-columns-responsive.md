@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: CSSフレームワーク「Bulma」の「columns」クラスに関する挙動について
 date: 2020-06-14T00:00:00.000Z
 tags:

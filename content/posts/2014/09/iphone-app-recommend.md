@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-09-18 07:00:00+00:00
 draft: false
 title: iPhoneを購入したら導入しておきたい無料のオススメアプリ49選

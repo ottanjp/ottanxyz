@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-06-15 00:32:33+00:00
 draft: false
 title: Macを購入したら導入したいメニューバーに常駐する便利なオススメのアプリケーション

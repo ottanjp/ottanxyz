@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-02-07 05:17:15+00:00
 draft: false
 title: 1Passwordで複数フィールドにまたがるユーザ情報を保存する方法と注意点

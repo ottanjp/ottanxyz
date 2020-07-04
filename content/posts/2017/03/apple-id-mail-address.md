@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-03-26 02:25:31+00:00
 draft: false
 title: Apple IDのメールアドレスを変更する方法

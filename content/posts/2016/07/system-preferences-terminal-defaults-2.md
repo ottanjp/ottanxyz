@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-07-10 13:02:03+00:00
 draft: false
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般）

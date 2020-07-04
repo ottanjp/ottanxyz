@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-02-01 09:00:49+00:00
 draft: false
 title: auユーザ、iPhoneユーザなら必ず設定しておきたい迷惑メール対策

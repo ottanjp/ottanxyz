@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-01-20T22:10:18+09:00
 draft: false
 title: "Netlify FunctionsをDockerで実行する"

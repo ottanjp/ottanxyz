@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-02-19 10:48:06+00:00
 draft: false
 title: WordPressのテーマ、プラグイン開発者にオススメできる軽量なテキストエディター「Boostnote」

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-09-21 14:40:06+00:00
 draft: false
 title: MacとiPhoneでクリップボードを共有する「ユニバーサルクリップボード」が使用できない場合の対処法

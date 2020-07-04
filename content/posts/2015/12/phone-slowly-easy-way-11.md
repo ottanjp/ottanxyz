@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-12-10 01:44:31+00:00
 draft: false
 title: iPhoneの動作がもたつく場合に試したい簡単にできる11の方法

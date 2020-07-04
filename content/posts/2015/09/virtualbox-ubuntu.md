@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-09-06 13:49:44+00:00
 draft: false
 title: VirtualBoxにUbuntu 14.04.2 LTSをインストールする方法

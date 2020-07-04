@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-12-05 13:38:43+00:00
 draft: false
 title: 【iPhone X体験記】iPhone Xのホーム画面やアプリ起動時に突如現れる四角いウインドウの正体は？！

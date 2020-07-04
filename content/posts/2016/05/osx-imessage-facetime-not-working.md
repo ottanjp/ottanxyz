@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-04 12:56:45+00:00
 draft: false
 title: iMessageとFaceTimeにサインインできない問題の対処法

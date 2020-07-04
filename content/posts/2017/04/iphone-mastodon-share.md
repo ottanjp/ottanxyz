@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-04-26 07:53:22+00:00
 draft: false
 title: iPhoneの任意のアプリからMastodonにシェアする方法

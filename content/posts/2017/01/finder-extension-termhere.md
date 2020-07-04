@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-01-07 02:27:02+00:00
 draft: false
 title: Finderの任意の場所から右クリック1つでターミナルを開くことができる「TermHere」

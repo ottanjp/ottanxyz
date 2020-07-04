@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-04-15 12:41:28+00:00
 draft: false
 title: iOS版の1Passwordでウェブページの登録からワンタイムパスワードの使い方まで徹底解説！

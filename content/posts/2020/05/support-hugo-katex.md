@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする
 date: 2020-05-25T00:00:00.000Z
 tags:

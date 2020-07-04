@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-03-25 13:59:11+00:00
 draft: false
 title: iOS9.3からiOS9.2.1にダウングレードする方法

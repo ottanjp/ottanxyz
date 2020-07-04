@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: VS CodeでRubyで書かれたプログラムを簡単デバッグ
 date: 2020-05-06
 tags:

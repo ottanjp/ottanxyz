@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-02-28 06:43:33+00:00
 draft: false
 title: いまどきの「Node.js」のローカルパッケージを実行する手順

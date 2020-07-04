@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-07-14 05:11:13+00:00
 draft: false
 title: Apple Musicの任意の曲をMy Musicに追加し、アラームのサウンドに設定する方法

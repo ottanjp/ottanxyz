@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-12-06 13:35:30+00:00
 draft: false
 title: iPhoneのGmailクライアントを徹底比較。あなたにとって最適なGmailクライアントは？

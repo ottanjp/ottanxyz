@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-01-07 05:53:56+00:00
 draft: false
 title: command + Qによる予期せぬアプリケーション終了を防ぐ「CommandQ」

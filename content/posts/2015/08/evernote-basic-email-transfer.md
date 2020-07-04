@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-08-08 12:43:30+00:00
 draft: false
 title: Gmailを一工夫！EvernoteベーシックプランでEvernoteメール転送機能の制限を回避する方法

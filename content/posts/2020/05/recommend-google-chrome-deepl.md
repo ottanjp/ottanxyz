@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: Google ChromeとDeepLの併用による英語記事サーフィンのおすすめ
 date: 2020-05-22T00:00:00.000Z
 tags:

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-08-17 13:17:18+00:00
 draft: false
 title: iPhoneでGmailをプッシュ通知！すべてのメールアドレスをGmailに転送し、Gmailからすべて送受信する方法

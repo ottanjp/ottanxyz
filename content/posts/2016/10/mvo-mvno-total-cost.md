@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-10-05 13:08:23+00:00
 draft: false
 title: iPhone 7を、三大キャリアと格安SIMで2年間使用した場合の金額の差はiPhone 7がもう1台購入できる値段に

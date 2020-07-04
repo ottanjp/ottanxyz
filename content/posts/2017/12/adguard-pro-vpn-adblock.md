@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-12-26 15:20:12+00:00
 draft: false
 title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdGuard Pro」の使用方法

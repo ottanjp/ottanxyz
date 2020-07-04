@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-11-11 06:34:42+00:00
 draft: false
 title: アップルが公開したiMessageをオフにしてくれるツールを試してみました

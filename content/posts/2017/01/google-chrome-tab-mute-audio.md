@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-01-04 11:45:08+00:00
 draft: false
 title: Google Chromeのタブで流れ続ける音楽をミュートする方法

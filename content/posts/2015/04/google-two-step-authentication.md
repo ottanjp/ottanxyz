@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-04-07 12:42:15+00:00
 draft: false
 title: Googleアカウントの2段階認証を有効にする方法

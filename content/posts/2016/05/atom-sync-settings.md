@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-29 05:23:26+00:00
 draft: false
 title: Atomの設定、キーマップ、スニペット、パッケージを複数の端末間で同期する「sync-settings」

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-07 15:03:15+00:00
 draft: false
 title: Microsoft Edgeの拡張機能にAdBlockおよびAdBlock Plusが登場！Windowsストアからダウンロードしよう！

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-06-06 13:42:21+00:00
 draft: false
 title: iPhoneのSafariと、MacのGoogle ChromeをHandoffで連携する

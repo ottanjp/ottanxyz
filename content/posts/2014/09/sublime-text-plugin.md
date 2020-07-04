@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-09-15 10:38:04+00:00
 draft: false
 title: Sublime Textに導入しているオススメのプラグイン23選

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-05-30 05:50:59+00:00
 draft: false
 title: スニペット展開アプリのTextExpanderの代替アプリとしてDashを使用する

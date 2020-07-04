@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-14 11:58:05+00:00
 draft: false
 title: iPhoneの公式Twitterアプリで、自分のツイートを引用ツイートする方法

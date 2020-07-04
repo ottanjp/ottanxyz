@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-07-15 14:44:35+00:00
 draft: false
 title: 現在接続しているWi-Fiネットワークのパスワードを確認する方法

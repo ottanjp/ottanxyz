@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-06-05T21:13:37+09:00
 draft: false
 title: "NetlifyとGitでmasterブランチにコミットする前にプレビューする3つの方法"

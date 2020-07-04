@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-10-19 12:33:52+00:00
 draft: false
 title: Safariが重い！MacのSafariでCookieは残してWebサイトの閲覧履歴をすべて削除する簡単な方法

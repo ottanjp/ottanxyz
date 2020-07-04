@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-11-26 05:42:16+00:00
 draft: false
 title: macOS SierraでPythonのパッケージマネージャー「pip」でインストールできない時の対処法

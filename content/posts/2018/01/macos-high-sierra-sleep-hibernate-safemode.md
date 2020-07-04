@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-01-28 07:45:17+00:00
 draft: false
 title: macOS High Sierraでスリープから復帰時にフリーズして操作できなくる事象を回避する

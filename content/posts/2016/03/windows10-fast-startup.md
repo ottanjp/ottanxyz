@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-03-27 12:52:38+00:00
 draft: false
 title: Windows 10の起動を高速化する方法

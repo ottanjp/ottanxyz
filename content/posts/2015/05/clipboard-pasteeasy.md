@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-05-28 23:58:53+00:00
 draft: false
 title: Mac、Windows、iPhone、Android間のクリップボードを自動で同期する「Pasteasy」

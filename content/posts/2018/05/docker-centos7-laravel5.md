@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-05-19 12:43:42+00:00
 draft: false
 title: Docker上のCentOS7でApache 2.3.x、PHP7.x、Laravel 5.xを動作させるための手順

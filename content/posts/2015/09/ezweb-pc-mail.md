@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-09-26 00:28:34+00:00
 draft: false
 title: '@ezweb.ne.jp宛のメールをパソコンで受信する方法'

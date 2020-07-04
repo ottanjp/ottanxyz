@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-12-19 13:51:56+00:00
 draft: false
 title: Macのアカウント名（ユーザ名）やホームディレクトリを変更する方法

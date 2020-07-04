@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: macOSでスクリーンショット撮影後に自動的に画像ファイルを圧縮する
 date: 2020-04-26
 tags:

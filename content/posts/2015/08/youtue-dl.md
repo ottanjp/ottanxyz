@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-08-23 06:53:14+00:00
 draft: false
 title: YouTubeから簡単に動画をダウンロードできる「youtube-dl」

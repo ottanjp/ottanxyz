@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-02-23T17:52:53+09:00
 draft: false
 title: 'MacのGoogle Chromeを使用して、iPhone、iPadのSafariでデバッグを行う方法'

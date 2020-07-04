@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-04-04 00:40:25+00:00
 draft: false
 title: 選択したテキストやURLをさまざまなものに保存、加工できるPopclipの便利な厳選拡張機能

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-03-06T22:20:45+09:00
 draft: false
 title: "VS Code（Code Helper）のCPU使用率が100%になってしまった場合のワークアラウンド"

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-04-06T22:57:01+09:00
 draft: false
 title: "Git初心者が最初から学ぶGitの入門（リモートリポジトリ）"

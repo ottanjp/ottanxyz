@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-04-14 11:41:57+00:00
 draft: false
 title: Facebookアカウントの2段階認証を有効にする方法

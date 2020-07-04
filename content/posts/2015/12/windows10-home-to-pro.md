@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-12-27 03:10:49+00:00
 draft: false
 title: Windows 10 HomeからProfessionalにエディションを変更する方法

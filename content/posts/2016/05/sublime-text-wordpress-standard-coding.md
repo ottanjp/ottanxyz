@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-21 05:07:21+00:00
 draft: false
 title: Sublime TextでWordPressのコーディング規約に遵守したコーディングを効率的に行おう！

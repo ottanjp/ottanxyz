@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-12-11 12:18:20+00:00
 draft: false
 title: ブログ画像に最適！Macの標準アプリを使用して、拡大鏡のような効果を演出する方法

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-12-11 15:19:05+00:00
 draft: false
 title: 「Google Home」または「Amazon Echo」から「iPhoneを探す」

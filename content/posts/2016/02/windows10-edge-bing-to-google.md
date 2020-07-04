@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-02-09 14:56:17+00:00
 draft: false
 title: Windows 10のMicrosoft Edgeのデフォルトの検索プロバイダーーをBingからGoogleに変更する方法

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-12-22 13:51:31+00:00
 draft: false
 title: iPhoneを購入したらダウンロードしたいオススメのアプリ（2016年版）

@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: GitHubのイベントをDiscordのチャンネルに通知する
 date: 2020-04-26
 tags:

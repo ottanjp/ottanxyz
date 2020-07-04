@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-08-06 10:30:30+00:00
 draft: false
 title: Objective-Cで書かれたソースコードをSwiftに変換してくれる「Objective-C to Swift Converter」

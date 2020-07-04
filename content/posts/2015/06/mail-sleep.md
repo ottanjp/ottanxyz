@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-06-26 12:34:54+00:00
 draft: false
 title: 外出先からメールを送って自宅のMacをスリープさせる方法

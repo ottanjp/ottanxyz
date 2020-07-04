@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-08-01 14:40:59+00:00
 draft: false
 title: 詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！

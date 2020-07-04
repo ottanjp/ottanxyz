@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: "VS Codeで「Failed to connect to Jupyter notebook」「Jupyter Server: Not
   Started」と表示されJupyter Notebookが起動できない場合の対処法"
 date: 2020-05-03T00:00:00.000Z

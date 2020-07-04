@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-07-12 12:29:16+00:00
 draft: false
 title: iPhoneの高機能2ちゃんねるブラウザ「twinkle」でNGワードを設定する方法

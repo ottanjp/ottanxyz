@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-01-12T19:44:20+09:00
 draft: false
 title: 'Parallels Desktop 12 for MacでUbuntu 18.04 LTSへのParallels Toolsのインストールに失敗する場合の対処法'

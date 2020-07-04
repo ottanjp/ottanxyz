@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-06-30T10:45:38+09:00
 draft: false
 title: "macOS Catalina（Public beta）の起動ディスクを作成する方法"

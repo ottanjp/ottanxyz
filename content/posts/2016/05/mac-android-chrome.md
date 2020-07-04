@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-22 12:28:46+00:00
 draft: false
 title: MacでAndroidの環境を簡単に再現する方法

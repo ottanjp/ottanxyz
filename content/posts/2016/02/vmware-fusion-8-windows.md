@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-02-10 08:36:15+00:00
 draft: false
 title: VMware Fusion 8にWindows 10をインストールする

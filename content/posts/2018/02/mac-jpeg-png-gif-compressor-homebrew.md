@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-02-25 13:08:48+00:00
 draft: false
 title: MacでJPEG、PNG、GIFを高速に圧縮できるHomebrewからインストール可能なCUIユーティリティ

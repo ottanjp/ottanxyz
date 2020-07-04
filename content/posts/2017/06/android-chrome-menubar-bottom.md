@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-06-11 23:59:18+00:00
 draft: false
 title: Chromeをもっと使いやすく！Android標準のChromeブラウザでメニューバーを画面下部に固定する方法

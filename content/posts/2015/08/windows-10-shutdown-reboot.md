@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-08-11 04:42:19+00:00
 draft: false
 title: Windows 10のシャットダウン、再起動が遅い時の対処法

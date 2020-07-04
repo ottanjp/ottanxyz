@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-09-14 13:08:34+00:00
 draft: false
 title: 三日坊主から卒業！iPhoneで日記を書き続けよう

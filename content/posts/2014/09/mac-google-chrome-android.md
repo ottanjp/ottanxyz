@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-09-24 09:06:30+00:00
 draft: false
 title: MacのGoogle Chrome上でAndroidアプリを動作させる方法

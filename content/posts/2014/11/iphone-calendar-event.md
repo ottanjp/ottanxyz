@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-11-20 07:06:09+00:00
 draft: false
 title: iPhoneのカレンダーに過去のイベントが表示されない場合の対処法

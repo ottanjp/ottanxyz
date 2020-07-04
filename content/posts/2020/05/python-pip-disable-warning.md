@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: "pipの警告「WARNING: You are using pip version x.x.x, however version y.y.y
   is available.」を抑止する"
 date: 2020-05-18

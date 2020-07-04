@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-04-08 08:38:04+00:00
 draft: false
 title: Evernoteアカウントの2段階認証を有効にする方法

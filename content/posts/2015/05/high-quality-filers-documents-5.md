@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-05-10 02:57:38+00:00
 draft: false
 title: iPhone、iPadユーザーなら必ずダウンロードしておきたい！無料とは思えない高クオリティなファイラー「Documents 5」をオススメする理由

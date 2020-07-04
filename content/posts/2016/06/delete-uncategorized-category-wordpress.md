@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-06-11 13:06:16+00:00
 draft: false
 title: WordPressのデフォルトカテゴリーである「未分類」を削除する

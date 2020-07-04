@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-04-22 13:23:18+00:00
 draft: false
 title: 管理者権限不要でリモートのSSHサーバをローカルにマウントし、リモートのファイルを大量処理する

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-08-27 12:50:21+00:00
 draft: false
 title: Androidのバッテリーを劇的に改善する5つの方法

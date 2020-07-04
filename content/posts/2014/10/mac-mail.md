@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-10-04 10:01:13+00:00
 draft: false
 title: Mac標準のメールアプリをもっと快適に使用する方法

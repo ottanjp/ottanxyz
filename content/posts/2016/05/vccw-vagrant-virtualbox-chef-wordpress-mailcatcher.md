@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-01 11:50:24+00:00
 draft: false
 title: VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）のメール送信テスト環境には、MailCatcherが最適！

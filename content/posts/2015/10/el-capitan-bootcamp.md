@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-10-10 00:48:03+00:00
 draft: false
 title: macOS El CapitanのBoot Campアシスタントを使ってWindows 7をインストールする方法

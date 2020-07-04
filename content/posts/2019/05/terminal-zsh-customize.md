@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-05-11T20:46:03+09:00
 draft: false
 title: "Macのターミナル（iTerm）で生産性を上げるための方法"

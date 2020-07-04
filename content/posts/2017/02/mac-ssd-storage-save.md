@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-02-11 03:52:08+00:00
 draft: false
 title: Macの内蔵ストレージを効率的に節約する方法（macOS Sierra編）

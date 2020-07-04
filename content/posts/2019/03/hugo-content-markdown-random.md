@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-03-02T16:48:56+09:00
 draft: false
 title: "HugoでMarkdownのランダムな位置にGoogle AdSenseのコードを挿入する"

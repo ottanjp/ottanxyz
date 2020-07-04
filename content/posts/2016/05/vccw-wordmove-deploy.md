@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-02 14:07:16+00:00
 draft: false
 title: VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）＋WordMoveで、本番環境から開発環境にデータを簡単に同期する！

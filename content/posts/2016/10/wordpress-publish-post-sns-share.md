@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-10-29 02:38:15+00:00
 draft: false
 title: WordPressで記事を投稿した瞬間に各種SNSに簡単にシェアする方法

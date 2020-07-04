@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-09-16 05:46:01+00:00
 draft: false
 title: 動作が軽快なシンタックスハイライター「highlight.js」

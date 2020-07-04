@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-05-24 09:00:00+00:00
 draft: false
 title: Safariで閲覧しているページをGoogle Chromeで開く「Switch」

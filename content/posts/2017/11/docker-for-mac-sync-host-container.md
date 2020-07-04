@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-11-23 11:43:16+00:00
 draft: false
 title: Docker for Macのホスト、コンテナー間の同期が遅い問題をDocker標準機能で解決する

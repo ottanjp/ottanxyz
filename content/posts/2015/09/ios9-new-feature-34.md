@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-09-25 01:11:26+00:00
 draft: false
 title: ここが変わった！知っておくべき便利なiOS9の新機能34選

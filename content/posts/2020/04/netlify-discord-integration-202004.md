@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: NetlifyのDeploy結果をDiscordへ通知する
 date: 2020-04-30
 tags:

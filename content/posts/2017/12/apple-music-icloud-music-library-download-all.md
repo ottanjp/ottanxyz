@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-12-09 13:38:21+00:00
 draft: false
 title: Apple Music（iCloudミュージックライブラリ）上の楽曲をスマートに一括してダウンロードする方法

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-12-01 12:41:46+00:00
 draft: false
 title: Appleの公式サイトで配布されているSafariの機能拡張をカスタマイズして使用する方法

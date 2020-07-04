@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-01-06 14:06:22+00:00
 draft: false
 title: App Storeから古いバージョンのアプリケーションをダウンロードする方法

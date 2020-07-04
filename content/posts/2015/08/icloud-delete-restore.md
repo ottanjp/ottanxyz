@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-08-15 00:03:27+00:00
 draft: false
 title: 誤って削除しても大丈夫！iCloudで誤って削除したファイルを復元する方法

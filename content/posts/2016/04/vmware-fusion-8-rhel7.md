@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-04-02 04:43:30+00:00
 draft: false
 title: VMware Fusion 8にRed Hat Enterprise Linux Server 7をインストールする

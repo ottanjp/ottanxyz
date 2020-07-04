@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-10-15 23:20:31+00:00
 draft: false
 title: 請求情報（クレジットカード）無しでApple IDを新規作成する方法（iPhone編）

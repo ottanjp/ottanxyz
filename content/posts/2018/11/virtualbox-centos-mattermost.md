@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-11-03 07:10:31+00:00
 draft: false
 title: 大人の事情で職場でSlackが使えない人に捧げるSlackコピーのOSS「Mattermost」を構築して社内コミュニケーションの活発化

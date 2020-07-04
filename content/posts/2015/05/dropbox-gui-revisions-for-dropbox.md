@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-05-28 12:29:13+00:00
 draft: false
 title: これは便利！Dropboxのバージョン管理をGUIから行う「Revisions for Dropbox」

@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: zplugとpreztoでzshをいい感じにする
 date: 2020-04-26T00:00:00.000Z
 tags:

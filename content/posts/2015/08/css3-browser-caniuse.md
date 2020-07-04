@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-08-12 14:16:15+00:00
 draft: false
 title: Webデザイナー必見！CSS3のブラウザの対応状況をコマンドラインで確認できる「caniuse-cmd」

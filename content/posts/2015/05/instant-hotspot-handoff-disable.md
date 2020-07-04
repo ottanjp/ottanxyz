@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-05-17 06:53:51+00:00
 draft: false
 title: インタスタントホットスポットとHandoffが使用できない場合の対処法

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-06-18 04:35:59+00:00
 draft: false
 title: いつの間にかTumblrからアカウント情報が流出していたことが判明

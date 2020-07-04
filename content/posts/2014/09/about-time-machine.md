@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-09-10 13:48:28+00:00
 draft: false
 title: Time Machineはどのようにしてバックアップを取得しているの？MacのTime Machineの疑問徹底解説

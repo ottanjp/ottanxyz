@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-02-04 08:19:44+00:00
 draft: false
 title: ホームポジションから指を離さず文字入力を高速化するキーボードショートカット

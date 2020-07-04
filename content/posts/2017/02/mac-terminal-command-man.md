@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-02-12 02:01:46+00:00
 draft: false
 title: Macのターミナルで調べたいコマンドのmanを別ウインドウで開き保存する方法

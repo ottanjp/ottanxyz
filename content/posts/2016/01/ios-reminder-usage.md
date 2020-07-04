@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-01-27 13:55:06+00:00
 draft: false
 title: 今さら聞けないリマインダーの基本から便利な使い方まで徹底解説します

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-05-17 04:46:35+00:00
 draft: false
 title: Wunderlistの代替となる買い物リストを家族で共有できるアプリ「買うものかご」

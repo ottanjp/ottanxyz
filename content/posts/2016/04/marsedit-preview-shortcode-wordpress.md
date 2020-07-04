@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-04-19 13:17:59+00:00
 draft: false
 title: MarsEditのプレビュー画面にWordPressのショートコードをリアルタイムに反映する

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-08-07 04:29:53+00:00
 draft: false
 title: Ubuntu 16.04の標準ファイラーで「Google Drive」にアクセスする方法

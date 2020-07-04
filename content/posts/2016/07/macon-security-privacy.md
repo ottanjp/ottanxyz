@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-07-22 11:34:44+00:00
 draft: false
 title: 使用しているmacOSのセキュリティ強化、プライバシー保護が設定されているかどうかを自動的にチェックする

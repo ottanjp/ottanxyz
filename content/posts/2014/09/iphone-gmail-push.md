@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-09-20 04:33:13+00:00
 draft: false
 title: iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法

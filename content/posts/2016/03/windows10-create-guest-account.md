@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-03-19 06:25:53+00:00
 draft: false
 title: Windows 10でゲストアカウントを作成する方法

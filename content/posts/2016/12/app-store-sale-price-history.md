@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-12-21 04:56:24+00:00
 draft: false
 title: App Store、Mac App Storeのアプリのセール情報や履歴を調べられる「Price Tag」

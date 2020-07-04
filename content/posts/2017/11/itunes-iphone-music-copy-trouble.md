@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-11-11 10:18:17+00:00
 draft: false
 title: 取り込んだ楽曲を手動でiPhoneにコピーする方法とiTunesの同期にまつわるトラブルシューティング

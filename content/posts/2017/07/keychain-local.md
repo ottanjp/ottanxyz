@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-07-26 01:26:59+00:00
 draft: false
 title: 「"xxxxxxx"がキーチェーン"ローカル項目"を使おうとしています。」という警告ダイアログが表示される場合の対処法

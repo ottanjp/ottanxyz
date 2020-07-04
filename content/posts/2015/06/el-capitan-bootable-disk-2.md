@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-06-12 13:13:05+00:00
 draft: false
 title: macOS 10.11 El Capitan（β版）の起動ディスク（USBメモリ）を作成する方法

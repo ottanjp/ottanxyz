@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-12-25 03:52:58+00:00
 draft: false
 title: Mac版Instapaperクライアントは、RSSリーダーとしても使用できる「Reeder for Mac」がオススメ

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-10-16 12:47:09+00:00
 draft: false
 title: MacでWindowsに搭載されているInternet Explorer 9でのレンダリングを確認する方法

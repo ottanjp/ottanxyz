@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-05-08 11:48:55+00:00
 draft: false
 title: プラグインを使わずにGistのコードをWordPressに埋め込む方法

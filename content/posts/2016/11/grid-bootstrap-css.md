@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-11-23 06:56:59+00:00
 draft: false
 title: グリッドレイアウトで高さも横幅もバラバラの画像を綺麗に並べる方法

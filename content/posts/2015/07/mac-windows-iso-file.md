@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-07-31 23:51:28+00:00
 draft: false
 title: MacでWindowsのインストールメディア（DVD）からイメージファイル（ISO）を作成する方法

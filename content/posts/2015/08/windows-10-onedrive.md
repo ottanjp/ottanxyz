@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-08-11 03:36:57+00:00
 draft: false
 title: Windows 10のエクスプローラーからOneDriveを抹消する方法

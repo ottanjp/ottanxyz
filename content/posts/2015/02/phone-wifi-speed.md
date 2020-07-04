@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-02-01 13:36:05+00:00
 draft: false
 title: iPhoneやMacのWi-Fi接続速度が遅い場合に見直したい項目

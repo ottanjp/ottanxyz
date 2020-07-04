@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2018-04-08 13:28:47+00:00
 draft: false
 title: インストール不要、管理者権限不要！VDI、SBC環境でも動作するWindowsでQuickLookを実現する「QuickLook」

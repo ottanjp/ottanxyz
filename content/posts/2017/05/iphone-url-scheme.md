@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-05-02 00:16:24+00:00
 draft: false
 title: iPhoneの任意のアプリのURLスキームを調べる方法

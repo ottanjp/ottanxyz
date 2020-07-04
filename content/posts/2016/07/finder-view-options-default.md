@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-07-25 13:21:26+00:00
 draft: false
 title: Finderの表示オプションの「デフォルトとして使用」がデフォルトにならない時の対処法

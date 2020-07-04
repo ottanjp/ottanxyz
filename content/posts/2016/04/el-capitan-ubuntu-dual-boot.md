@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-04-30 05:44:31+00:00
 draft: false
 title: macOS El CapitanとUbuntu 16.04 LTSのデュアルブート環境を構築する

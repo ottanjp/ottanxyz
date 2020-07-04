@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-09-02 13:20:23+00:00
 draft: false
 title: 簡単にMacとWindowsでファイルを共有する方法

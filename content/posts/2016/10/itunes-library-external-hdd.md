@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-10-14 23:30:00+00:00
 draft: false
 title: 内蔵ストレージもスッキリ！今さら聞けないiTunesライブラリを外付けHDDに移動する方法

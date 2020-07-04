@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-10-11 12:45:58+00:00
 draft: false
 title: もうFTPクライアントは不要？WindowsエクスプローラーからFTPでサーバに接続する方法

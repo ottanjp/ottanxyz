@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-08-07 10:27:09+00:00
 draft: false
 title: 何でもかんでもLINEに共有しよう！！Safariや写真アプリからLINEのトークに送信する方法

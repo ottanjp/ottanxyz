@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: Python:3.xコンテナでMeCab + IPADIC + NEologdをシステム辞書として使用するためのDockerfile
 date: 2020-05-09
 tags:

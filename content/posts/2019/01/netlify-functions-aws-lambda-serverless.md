@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-01-15T22:34:55+09:00
 draft: false
 title: "無償で利用可能なNetlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本"

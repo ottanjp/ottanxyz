@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-05-02 09:00:00+00:00
 draft: false
 title: MacでWi-Fiの速度が出ない、繋がらないなど、調子がおかしい時に試したい5つの対処法

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2014-09-08 11:19:11+00:00
 draft: false
 title: Macを購入したら最初に導入しておきたいQuick Lookのプラグイン

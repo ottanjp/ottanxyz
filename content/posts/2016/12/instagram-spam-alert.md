@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-12-12 12:45:48+00:00
 draft: false
 title: Instagramのスパムコメントを通報して削除する方法

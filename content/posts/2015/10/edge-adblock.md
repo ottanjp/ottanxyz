@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-10-07 13:55:59+00:00
 draft: false
 title: Microsoft Edgeで広告を非表示にする方法

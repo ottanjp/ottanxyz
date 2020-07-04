@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-06-09 12:24:19+00:00
 draft: false
 title: iPhoneでWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法

@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2019-03-23T14:33:42+09:00
 draft: false
 title: "Git初心者が最初から学ぶGitの入門"
@@ -292,13 +292,11 @@ git log
 ログには以下の内容が表示されます。過去にコミットされた内容が順番に適用されていることがわかります。`HEAD`は現在のブランチの最新のコミットであることを示しています。`HEAD`というキーワードは後々登場するため覚えておきましょう。最新のコミットを示していることを覚えておけば大丈夫です。
 
     commit be267b01f98f205d84baf85dbf7e71b6d5ab5ebf (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Wed Mar 20 22:26:27 2019 +0900
 
         remove training-3.txt
 
     commit 69bac0e51beb5a4625a26d2b9986c6cdac1ebce2
-    author: ottan <ottan@ottan.xyz>
     Date:   Wed Mar 20 22:21:22 2019 +0900
 
         add training-3.txt
@@ -548,13 +546,11 @@ git reset --hard HEAD
 コミット時のメッセージを誤ってしまった、コミットに含めるはずのファイルを含めるのを忘れてしまった、という場合に直前のコミットの内容を変更できます。現在の`git log`の状況が以下の場合を考えます。
 
     commit c17975b3b81b7d662dee3750613f43e782e0a760 (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Wed Mar 20 22:50:01 2019 +0900
 
         del training-4.txt
 
     commit 4b183b082ab7fb9b4aad94932a62b058d84cf0a6
-    author: ottan <ottan@ottan.xyz>
     Date:   Wed Mar 20 22:32:38 2019 +0900
 
         add training-4
@@ -575,13 +571,11 @@ git commit --amend -m "modify training-1.txt"
 `git log`の結果を見てみると、直前のコミットの内容が置き換わっていることがわかります。コミットのメッセージを修正する場合に、よく用いる方法です。
 
     commit cd271c61f573f3469c4a6f006c577de29f8ded7c (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Wed Mar 20 22:50:01 2019 +0900
 
         modify training-1.txt
 
     commit 4b183b082ab7fb9b4aad94932a62b058d84cf0a6
-    author: ottan <ottan@ottan.xyz>
     Date:   Wed Mar 20 22:32:38 2019 +0900
 
         add training-4
@@ -603,13 +597,11 @@ git commit -m "add training-4.txt"
 ファイルを新規作成し、新たにコミットした状態です。`git log`を確認すると以下のようになっています。
 
     commit 2b07d8c62bd8a5716e4b54c8f4f373787ad241be (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 00:25:27 2019 +0900
 
         add training-4.txt
 
     commit 69bac0e51beb5a4625a26d2b9986c6cdac1ebce2
-    author: ottan <ottan@ottan.xyz>
     Date:   Wed Mar 20 22:21:22 2019 +0900
 
         add training-3.txt
@@ -631,7 +623,6 @@ git reset --hard HEAD^
 `HEAD^`は最新のコミットの直前のコミットという意味でした。つまり、上記のコマンドを実行することで、最新のコミットの1つ手前の状態にリセットされます。この状態で`git log`を確認します。
 
     commit 69bac0e51beb5a4625a26d2b9986c6cdac1ebce2 (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Wed Mar 20 22:21:22 2019 +0900
 
         add training-3.txt
@@ -667,7 +658,6 @@ git reset --soft HEAD^
 この状態で`git log`の状態を確認します。`—hard`オプション同様に、直前のコミットが取り消されていることがわかります。
 
     commit 69bac0e51beb5a4625a26d2b9986c6cdac1ebce2 (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Wed Mar 20 22:21:22 2019 +0900
 
         add training-3.txt
@@ -707,7 +697,6 @@ git reset --soft HEAD^
 この状態で`git log`を確認してみます。
 
     commit e489af006c1570214efefe32c53a6df46839db35 (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
@@ -715,7 +704,6 @@ git reset --soft HEAD^
         This reverts commit 53f30defe10aad3e13dccafd24d13e902a6cf3dd.
 
     commit 53f30defe10aad3e13dccafd24d13e902a6cf3dd
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 00:37:35 2019 +0900
 
         add training-4.txt
@@ -807,7 +795,6 @@ git log
 ブランチを作成したばかりの状態では、`master`ブランチの最新、つまり`HEAD`の指す状態と同じであることがわかります。
 
     commit e489af006c1570214efefe32c53a6df46839db35 (HEAD -> issue1, master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
@@ -872,13 +859,11 @@ git log
 `git log`でコミットの履歴を確認すると、`master`ブランチよりも新しいコミットが作成されています。
 
     commit 41d677943a0586e51cf8583185d31b9058d8d6aa (HEAD -> issue1)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:55:24 2019 +0900
 
         add branch-1.txt
 
     commit e489af006c1570214efefe32c53a6df46839db35 (master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
@@ -905,7 +890,6 @@ git log
 `git log`コマンドでコミットの履歴を確認します。
 
     commit e489af006c1570214efefe32c53a6df46839db35 (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
@@ -961,13 +945,11 @@ git log
 このように、一方のブランチの`HEAD`の位置を、他方のブランチの`HEAD`の位置に合わせるマージ方法を、**Fast-forward**と言います。これが1つ目のマージです。
 
     commit 41d677943a0586e51cf8583185d31b9058d8d6aa (HEAD -> master, issue1)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:55:24 2019 +0900
 
         add branch-1.txt
 
     commit e489af006c1570214efefe32c53a6df46839db35
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
@@ -986,7 +968,6 @@ git log
 さて、`git log`でコミットの履歴を確認してみましょう。
 
     commit 41d677943a0586e51cf8583185d31b9058d8d6aa (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:55:24 2019 +0900
 
         add branch-1.txt
@@ -1007,7 +988,6 @@ git log
 コミットの履歴を確認してみます。今作成したブランチと、`master`ブランチの`HEAD`の示す位置が同じになっています。
 
     commit 41d677943a0586e51cf8583185d31b9058d8d6aa (HEAD -> issue2, master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:55:24 2019 +0900
 
         add branch-1.txt
@@ -1024,13 +1004,11 @@ git log
 この状態で`git log`を確認します。
 
     commit ff0790ec478f2d63b2107eeb866b861c2659cc67 (HEAD -> issue2)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 12:20:59 2019 +0900
 
         add branch-2.txt
 
     commit 41d677943a0586e51cf8583185d31b9058d8d6aa (master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:55:24 2019 +0900
 
         add branch-1.txt
@@ -1045,7 +1023,6 @@ git log
 `master`ブランチにマージするため、ブランチを切り替えます。コミットの履歴は以下のようになっています。
 
     commit 41d677943a0586e51cf8583185d31b9058d8d6aa (HEAD -> master)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:55:24 2019 +0900
 
         add branch-1.txt
@@ -1085,19 +1062,16 @@ git log
 
     commit ff172a93c4f13adaca799aad4e491fa238de9045 (HEAD -> master)
     Merge: 41d6779 ff0790e
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 12:22:07 2019 +0900
 
         Merge branch 'issue2'
 
     commit ff0790ec478f2d63b2107eeb866b861c2659cc67 (issue2)
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 12:20:59 2019 +0900
 
         add branch-2.txt
 
     commit 41d677943a0586e51cf8583185d31b9058d8d6aa
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:55:24 2019 +0900
 
         add branch-1.txt
@@ -1113,19 +1087,16 @@ git log
 
     commit ff172a93c4f13adaca799aad4e491fa238de9045 (HEAD -> master)
     Merge: 41d6779 ff0790e
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 12:22:07 2019 +0900
 
         Merge branch 'issue2'
 
     commit ff0790ec478f2d63b2107eeb866b861c2659cc67
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 12:20:59 2019 +0900
 
         add branch-2.txt
 
     commit 41d677943a0586e51cf8583185d31b9058d8d6aa
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 11:55:24 2019 +0900
 
         add branch-1.txt
@@ -1251,13 +1222,11 @@ git log
 
     commit a27898da0c9736bc92d9cb2ab8306f6095ed8c1b (HEAD -> master)
     Merge: 955123a 4e90a56
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 14:35:12 2019 +0900
 
         merge branch issue3
 
     commit 955123a3f466dc0594854d2d0374b4df15a5f17b
-    author: ottan <ottan@ottan.xyz>
     Date:   Thu Mar 21 14:27:12 2019 +0900
 
         modify branch-2.txt on master

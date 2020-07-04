@@ -1,4 +1,5 @@
 ---
+author: ["@ottanxyz"]
 title: データ分析（データサイエンス）に必要な環境（Jupyter Lab）を一発で整えるワンライナー
 date: 2020-04-26
 tags:

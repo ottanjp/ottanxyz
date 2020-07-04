@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2016-11-04 12:46:51+00:00
 draft: false
 title: Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！

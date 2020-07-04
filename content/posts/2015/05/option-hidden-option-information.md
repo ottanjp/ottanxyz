@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2015-05-27 02:03:18+00:00
 draft: false
 title: optionキーを使って隠れたオプションや情報にアクセスしよう！

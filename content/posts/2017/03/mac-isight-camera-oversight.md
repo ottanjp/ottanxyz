@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-03-04 04:12:08+00:00
 draft: false
 title: Macの内蔵iSightカメラが勝手に使用されていることを検知し防止できる「OverSight」

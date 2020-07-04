@@ -1,5 +1,5 @@
 ---
-author: ottan
+author: ["@ottanxyz"]
 date: 2017-05-02 05:42:24+00:00
 draft: false
 title: iPhoneのメモリを5秒で解放し空きメモリを増やす方法
