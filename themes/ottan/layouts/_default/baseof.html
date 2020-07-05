@@ -4,46 +4,35 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	{{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
 	<title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	{{ hugo.Generator }}
 	<meta name="robots" content="index, follow">
 	{{ block "description" . }}
-	<meta name="description" content="{{ $.Site.Params.description }}">{{ end }}
+	<meta name="description" content="{{ $.Site.Params.description }}">
+	{{ end }}
 
 	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css" as="style">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css" media="print"
-		onload="this.media='all'">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css" media="print" onload="this.media='all'">
 	{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
 	<link rel="preload" href="{{ $style.Permalink }}" as="style">
 	<link rel="stylesheet" href="{{ $style.Permalink }}" media="print" onload="this.media='all'">
-	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
-		as="style">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
-		media="print" onload="this.media='all'">
+	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" as="style">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" media="print" onload="this.media='all'">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 
-	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="alternate"
-		type="application/rss+xml" title="{{ .Site.Title }}" />
-	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="feed"
-		type="application/rss+xml" title="{{ .Site.Title }}" />
+	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
 	<link rel="canonical" href="{{ .Permalink }}">
-	{{ block "header-image" . }}{{ end }}
 
-	{{- template "_internal/opengraph.html" . -}}
-	<meta property="og:site_name" content="{{ .Site.Title }}" />
-	<meta property="og:locale" content="{{ $.Site.Params.locale }}" />
-	<meta property="fb:app_id" content="{{ $.Site.Params.fbappId }}">
+	{{ partial "opengraph.html" . }}
 
 	{{- template "_internal/google_news.html" . -}}
 	{{- template "_internal/schema.html" . -}}
-	{{- template "_internal/twitter_cards.html" . -}}
-
 	{{- template "_internal/google_analytics_async.html" . -}}
 
 	{{ block "katex-stylesheet" . }}{{ end }}

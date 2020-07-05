@@ -1,0 +1,16 @@
+{{ $ogp_image := path.Join "card" (.PublishDate.Format "2006/01") (print .File.BaseFileName ".png")}}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@{{ .Site.Params.author }}" />
+<meta name="twitter:creator" content="@{{ .Site.Params.author }}" />
+<meta name="twitter:image" content="{{ $ogp_image | absURL }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ .Title }}" />
+{{ if .IsPage }}
+<meta property="og:description" content="{{ .Summary }}" />
+{{ else }}
+<meta property="og:description" content="{{ .Site.Params.description }}" />
+{{ end }}
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:locale" content="{{ .Site.Params.locale }}" />
+<meta property="og:image" content="{{ $ogp_image | absURL }}" />
+<meta property="fb:app_id" content="{{ .Site.Params.fbappId }}">
