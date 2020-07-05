@@ -23,11 +23,9 @@
 {{ end }}
 
 {{ define "header-image" }}
-{{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
-{{ range $eyecatch_image }}
-<meta property="og:image" content="{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL }}">
-<meta property="twitter:image" content="{{ . | replaceRE ".*src=\"([^\"]+)\".*" "$1" | absURL }}">
-{{ end }}
+{{ $ogp_image := path.Join "card" (.PublishDate.Format "2006/01") (print .File.BaseFileName ".png")}}
+<meta property="og:image" content="{{ $ogp_image | absURL }}">
+<meta property="twitter:image" content="{{ $ogp_image | absURL }}">
 {{ end }}
 
 {{ define "katex-stylesheet" }}
