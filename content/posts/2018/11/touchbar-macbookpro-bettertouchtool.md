@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-11-25 13:50:27+00:00
+date: 2018-11-25T00:00:00+00:00
 draft: false
 title: MacBook ProのTouch BarにCPU、メモリ使用率、バッテリー残り時間、日時、ESCキーを表示して、メニューバーをスッキリさせる
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-04-19 02:25:40+00:00
+date: 2017-04-19T00:00:00+00:00
 draft: false
 title: Docker ComposeでWordPress環境をもっと楽に管理しよう！
 type: post

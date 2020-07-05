@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-04-05 14:22:44+00:00
+date: 2018-04-05T00:00:00+00:00
 draft: false
 title: 最速のDNSリゾルバーを見つけるためのパフォーマンス測定方法と「DNS Performance test」
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-11-22 17:15:11+00:00
+date: 2017-11-22T00:00:00+00:00
 draft: false
 title: AlfredのWorkflowを使用して、WordPressプラグイン「WP-Appbox」でApp Storeのアプリの紹介を便利にする
 type: post

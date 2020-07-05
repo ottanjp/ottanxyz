@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2014-09-13 08:11:46+00:00
+date: 2014-09-13T00:00:00+00:00
 draft: false
 title: はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう
 type: post

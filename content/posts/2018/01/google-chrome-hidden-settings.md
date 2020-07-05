@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-01-20 12:48:54+00:00
+date: 2018-01-20T00:00:00+00:00
 draft: false
 title: Google Chromeに隠された便利な機能を使いこなす
 type: post

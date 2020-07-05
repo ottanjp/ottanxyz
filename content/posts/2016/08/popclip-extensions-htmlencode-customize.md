@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-08-15 14:38:57+00:00
+date: 2016-08-15T00:00:00+00:00
 draft: false
 title: PopClipの拡張機能をカスタマイズしてみよう！PopClipの拡張機能「HTML Encode」でダブルクオーテションを変換しないようにする
 type: post

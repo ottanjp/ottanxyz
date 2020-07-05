@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-06-19 13:18:14+00:00
+date: 2016-06-19T00:00:00+00:00
 draft: false
 title: Remix OSをResident modeでVMware Fusionにインストールし、Google Playストアを使用できるようにする
 type: post

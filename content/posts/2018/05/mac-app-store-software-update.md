@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-05-31 09:01:39+00:00
+date: 2018-05-31T00:00:00+00:00
 draft: false
 title: Mac App Storeでアプリのアップデートが終わらないイライラを解消する方法
 type: post

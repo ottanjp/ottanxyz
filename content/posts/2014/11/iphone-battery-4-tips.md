@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2014-11-21 08:58:03+00:00
+date: 2014-11-21T00:00:00+00:00
 draft: false
 title: iPhoneのバッテリーを節約するための必要最小限の4つのTips（iOS8対応）
 type: post

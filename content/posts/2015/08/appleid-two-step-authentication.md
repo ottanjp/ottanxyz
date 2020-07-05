@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-08-22 01:13:42+00:00
+date: 2015-08-22T00:00:00+00:00
 draft: false
 title: Apple IDの2段階認証を有効にする方法
 type: post

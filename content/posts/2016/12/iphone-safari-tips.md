@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-12-29 06:18:09+00:00
+date: 2016-12-29T00:00:00+00:00
 draft: false
 title: iPhoneのSafariを使いこなすために知っておきたい便利なテクニック
 type: post

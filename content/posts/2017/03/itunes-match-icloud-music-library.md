@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-03-05 03:32:47+00:00
+date: 2017-03-05T00:00:00+00:00
 draft: false
 title: iTunes Match（iCloudミュージックライブラリ）を解約する方法とその注意点
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2019-01-25T23:35:09+09:00
+date: 2019-01-25T00:00:00+00:00
 draft: false
 title: 'Netlify CMS + Netlify DNS + Hugo + AWS SESで独自ドメインのメール送受信環境を構築'
 type: post

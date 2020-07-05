@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2014-09-09 06:15:27+00:00
+date: 2014-09-09T00:00:00+00:00
 draft: false
 title: Google Chromeのメモリ使用量を50%以上削減する魔法のコマンド
 type: post

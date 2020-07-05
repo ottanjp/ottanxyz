@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: macOSでスクリーンショットを撮影した際に、右下に表示されるサムネールを非表示にする
-date: 2020-04-26
+date: 2020-04-26T00:00:00+00:00
 tags:
   - Tips
 categories:

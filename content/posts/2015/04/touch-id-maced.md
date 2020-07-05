@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-04-18 12:24:02+00:00
+date: 2015-04-18T00:00:00+00:00
 draft: false
 title: Touch IDでMacのロックを解除したり、iPhoneを持ったままMacから離れると自動でMacをロックする「MacID」を徹底解説！
 type: post

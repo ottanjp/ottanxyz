@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-11-18 11:39:35+00:00
+date: 2016-11-18T00:00:00+00:00
 draft: false
 title: iPhoneの電波の強さ、偽物かも？電波の強さを数値化して可視化する裏技
 type: post

@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: Netlify Functions + Hugoで簡単サイト内検索
-date: 2020-06-03
+date: 2020-06-03T00:00:00+00:00
 tags:
   - Hugo
   - Netlify

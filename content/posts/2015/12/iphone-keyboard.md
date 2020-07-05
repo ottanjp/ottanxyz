@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-12-22 04:40:37+00:00
+date: 2015-12-22T00:00:00+00:00
 draft: false
 title: 意外と知られていないiPhoneのキーボードの便利な使い方
 type: post

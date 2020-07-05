@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2014-12-05 08:20:37+00:00
+date: 2014-12-05T00:00:00+00:00
 draft: false
 title: MarsEditをより便利に高速に活用するためのスクリプト集
 type: post

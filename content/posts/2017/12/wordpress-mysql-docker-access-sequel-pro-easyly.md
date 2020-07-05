@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-12-03 08:13:12+00:00
+date: 2017-12-03T00:00:00+00:00
 draft: false
 title: phpMyAdminは不要！Dockerで構築したMySQLにMacからSequel ProでGUI上からデータベースを簡単に編集する
 type: post

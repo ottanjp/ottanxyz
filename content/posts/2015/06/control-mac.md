@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-06-05 05:45:17+00:00
+date: 2015-06-05T00:00:00+00:00
 draft: false
 title: controlキーを使ってMacの作業効率は倍増！絶対に覚えるべきショートカット5つ
 type: post

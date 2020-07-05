@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: Windows 10（バージョン1909）でいますぐ変更しておきたいオススメの設定
-date: 2020-05-10
+date: 2020-05-10T00:00:00+00:00
 tags:
   - Windows 10
 categories:

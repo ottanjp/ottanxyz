@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-11-18 14:59:21+00:00
+date: 2017-11-18T00:00:00+00:00
 draft: false
 title: Amazon Echoの初期セットアップのトラブルシューティング（デバイスの登録に失敗しました or エラー1）
 type: post

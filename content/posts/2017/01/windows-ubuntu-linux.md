@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-01-22 05:57:52+00:00
+date: 2017-01-22T00:00:00+00:00
 draft: false
 title: Windows 10にUbuntuをインストールして快適に使うための方法
 type: post

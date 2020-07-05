@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-04-13 12:40:12+00:00
+date: 2015-04-13T00:00:00+00:00
 draft: false
 title: Yahooアカウントの2段階認証を有効にする方法
 type: post

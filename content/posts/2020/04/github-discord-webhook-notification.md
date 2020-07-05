@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: GitHubのイベントをDiscordのチャンネルに通知する
-date: 2020-04-26
+date: 2020-04-26T00:00:00+00:00
 tags:
   - Netlify
 categories:

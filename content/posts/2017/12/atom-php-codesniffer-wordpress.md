@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-12-24 07:12:40+00:00
+date: 2017-12-24T00:00:00+00:00
 draft: false
 title: AtomとPHP_CodeSnifferでWordPressコーディング規約に合わせてソースコードを自動修正
 type: post

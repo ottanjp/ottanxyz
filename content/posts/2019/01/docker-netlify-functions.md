@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2019-01-20T22:10:18+09:00
+date: 2019-01-20T00:00:00+00:00
 draft: false
 title: "Netlify FunctionsをDockerで実行する"
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-07-25 03:00:11+00:00
+date: 2015-07-25T00:00:00+00:00
 draft: false
 title: いくつ知ってる？意外と知られていない役に立つmacOSの標準アプリケーション
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-05-07 13:57:59+00:00
+date: 2015-05-07T00:00:00+00:00
 draft: false
 title: 知っておきたいMacのSafariの便利なTips
 type: post

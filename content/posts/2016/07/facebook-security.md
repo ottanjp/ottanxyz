@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-07-06 14:02:44+00:00
+date: 2016-07-06T00:00:00+00:00
 draft: false
 title: Facebookを安全に使用するための3ヶ条
 type: post

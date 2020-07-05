@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2014-09-10 00:34:59+00:00
+date: 2014-09-10T00:00:00+00:00
 draft: false
 title: コピペだけでできるMacのカスタマイズ19選
 type: post

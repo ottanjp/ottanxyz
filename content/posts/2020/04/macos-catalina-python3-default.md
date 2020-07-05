@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: macOS CatalinaのPythonのデフォルトを3.x.xにする
-date: 2020-04-26
+date: 2020-04-26T00:00:00+00:00
 tags:
   - Python
 categories:

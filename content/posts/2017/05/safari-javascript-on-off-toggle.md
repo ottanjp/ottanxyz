@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-05-08 01:38:39+00:00
+date: 2017-05-08T00:00:00+00:00
 draft: false
 title: MacのSafariでショートカットキー一発でJavaScriptのオン、オフを切り替える方法
 type: post

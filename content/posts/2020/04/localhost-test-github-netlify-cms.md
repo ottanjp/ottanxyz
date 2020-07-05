@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: ローカルホストでGitHubの環境を汚さずにNetlify CMSをテストする
-date: 2020-04-26
+date: 2020-04-26T00:00:00+00:00
 tags:
   - Netlify
 categories:

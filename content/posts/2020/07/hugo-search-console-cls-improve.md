@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: HugoでSearch Consoleに追加された「ウェブに関する主な指標レポート」（CLS）の問題に対応する
-date: 2020-07-03
+date: 2020-07-03T00:00:00+00:00
 tags:
   - Hugo
   - Google

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-07-11 14:18:59+00:00
+date: 2016-07-11T00:00:00+00:00
 draft: false
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（Dock）
 type: post

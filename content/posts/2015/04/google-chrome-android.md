@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-04-04 11:20:26+00:00
+date: 2015-04-04T00:00:00+00:00
 draft: false
 title: Google Chromeの拡張機能「ARC Welder」でAndroidのアプリケーションを動かそう！
 type: post

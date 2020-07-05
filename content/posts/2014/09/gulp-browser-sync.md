@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2014-09-21 04:19:05+00:00
+date: 2014-09-21T00:00:00+00:00
 draft: false
 title: gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる
 type: post

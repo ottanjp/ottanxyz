@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-05-19 09:38:53+00:00
+date: 2017-05-19T00:00:00+00:00
 draft: false
 title: Instagramのアカウントを一時停止、削除する方法
 type: post

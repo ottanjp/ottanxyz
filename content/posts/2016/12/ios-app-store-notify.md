@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-12-12 12:30:02+00:00
+date: 2016-12-12T00:00:00+00:00
 draft: false
 title: App Storeで公開されている気になるアプリが更新されたら通知する方法
 type: post

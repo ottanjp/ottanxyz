@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2019-02-02T21:51:00+09:00
+date: 2019-02-02T00:00:00+00:00
 draft: false
 title: "Netlify + Hugo + Elasticsearchで静的サイトの全文検索を行う"
 type: post

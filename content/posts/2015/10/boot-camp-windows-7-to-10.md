@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-10-10 14:03:41+00:00
+date: 2015-10-10T00:00:00+00:00
 draft: false
 title: Boot CampでインストールしたWindows 7を即座にWindows 10にアップグレードする方法
 type: post

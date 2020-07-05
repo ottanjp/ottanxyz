@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2014-09-06 10:30:21+00:00
+date: 2014-09-06T00:00:00+00:00
 draft: false
 title: Macのシャットダウンが遅くなってしまった場合に見直したい項目
 type: post

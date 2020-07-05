@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-04-08 13:42:01+00:00
+date: 2016-04-08T00:00:00+00:00
 draft: false
 title: iPhoneを持って、Macから離れたり近づいたりするだけで、Macのロックを解除できるアプリ「Near Lock」
 type: post

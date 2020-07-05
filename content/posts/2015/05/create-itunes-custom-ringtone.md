@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-05-19 12:29:29+00:00
+date: 2015-05-19T00:00:00+00:00
 draft: false
 title: iTunes Match対応版！iTunesで好きな楽曲の着信音を作成する方法
 type: post

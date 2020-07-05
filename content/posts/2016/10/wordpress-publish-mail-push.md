@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-10-29 01:57:18+00:00
+date: 2016-10-29T00:00:00+00:00
 draft: false
 title: WordPressで記事を投稿した瞬間に外部にメールを送信する方法
 type: post

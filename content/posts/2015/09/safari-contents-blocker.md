@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-09-17 13:56:11+00:00
+date: 2015-09-17T00:00:00+00:00
 draft: false
 title: Safariで広告を非表示にするコンテンツブロッカーを使用する方法
 type: post

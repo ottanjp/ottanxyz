@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-06-20 12:49:54+00:00
+date: 2015-06-20T00:00:00+00:00
 draft: false
 title: macOSとiOSでユーザ辞書が同期されない場合の対処法
 type: post

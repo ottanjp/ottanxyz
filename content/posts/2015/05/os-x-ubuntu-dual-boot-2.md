@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-05-06 09:25:35+00:00
+date: 2015-05-06T00:00:00+00:00
 draft: false
 title: macOS YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する
 type: post

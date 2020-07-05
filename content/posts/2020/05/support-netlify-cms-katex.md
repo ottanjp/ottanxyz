@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: Netlify CMSのプレビューでHightlight.js + KaTeX（LaTeX）をサポートする
-date: 2020-05-30T00:00:00.000Z
+date: 2020-05-30T00:00:00+00:00
 tags:
   - Netlify
   - Hugo

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-08-10 14:30:31+00:00
+date: 2016-08-10T00:00:00+00:00
 draft: false
 title: WordPressの本文に紹介したいサイトのURLを貼り付けるだけで、おしゃれなリンクを生成できるようにする
 type: post

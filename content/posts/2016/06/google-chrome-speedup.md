@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-06-25 13:32:54+00:00
+date: 2016-06-25T00:00:00+00:00
 draft: false
 title: Google Chromeを高速化する6つのテクニック
 type: post

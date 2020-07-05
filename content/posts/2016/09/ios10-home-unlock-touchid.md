@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-09-13 22:22:11+00:00
+date: 2016-09-13T00:00:00+00:00
 draft: false
 title: iOS10でホームボタンを押さずにTouch IDのみでロック解除する方法
 type: post

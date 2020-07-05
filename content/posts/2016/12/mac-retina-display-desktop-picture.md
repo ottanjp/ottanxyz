@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-12-01 11:58:14+00:00
+date: 2016-12-01T00:00:00+00:00
 draft: false
 title: Macの美しいRetinaディスプレイを一層美しく彩る壁紙の究極の楽しみを提供する「Irvue」
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-11-08 13:25:39+00:00
+date: 2016-11-08T00:00:00+00:00
 draft: false
 title: RSSリーダーはFeedlyからのインポートが可能な「Inoreader」がオススメ！
 type: post

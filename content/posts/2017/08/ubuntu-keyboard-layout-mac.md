@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-08-02 06:29:33+00:00
+date: 2017-08-02T00:00:00+00:00
 draft: false
 title: Ubuntu 16.04でキーボードレイアウトをMacBook Pro向けに変更する
 type: post

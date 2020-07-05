@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-12-03 04:41:48+00:00
+date: 2016-12-03T00:00:00+00:00
 draft: false
 title: macOS Sierraのバッテリー消費が激しい時に見直したい項目
 type: post

@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: Netlify CMS + HugoでPage Bundles（コンテントと画像を同じ場所に配置）に対応する
-date: 2020-04-26
+date: 2020-04-26T00:00:00+00:00
 tags:
   - Hugo
   - Netlify

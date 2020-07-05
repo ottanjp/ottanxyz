@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-12-28 15:28:31+00:00
+date: 2017-12-28T00:00:00+00:00
 draft: false
 title: 2017年にお世話になったiPhoneアプリ、お世話にならなくなったアプリ
 type: post

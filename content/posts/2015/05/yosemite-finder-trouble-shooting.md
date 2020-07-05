@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-05-20 04:41:22+00:00
+date: 2015-05-20T00:00:00+00:00
 draft: false
 title: macOS Yosemite 10.10.3でFinderの動作が異常に遅くなる問題の対処法
 type: post

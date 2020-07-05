@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-04-10 10:19:32+00:00
+date: 2015-04-10T00:00:00+00:00
 draft: false
 title: Dropboxアカウントの2段階認証を有効にする方法
 type: post

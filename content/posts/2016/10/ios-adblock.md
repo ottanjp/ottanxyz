@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-10-08 00:00:00+00:00
+date: 2016-10-08T00:00:00+00:00
 draft: false
 title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の仕組み
 type: post

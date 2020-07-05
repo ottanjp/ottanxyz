@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-05-23 08:25:46+00:00
+date: 2015-05-23T00:00:00+00:00
 draft: false
 title: Twitter Bootstrap 3を用いてWordPressテーマを作成しよう①
 type: post

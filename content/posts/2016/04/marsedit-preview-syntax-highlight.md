@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-04-10 04:05:31+00:00
+date: 2016-04-10T00:00:00+00:00
 draft: false
 title: MarsEditのプレビュー画面で、「highlight.js」のシンタックスハイライトをリアルタイムでプレビューする
 type: post

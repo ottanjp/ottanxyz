@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-09-24 02:32:17+00:00
+date: 2016-09-24T00:00:00+00:00
 draft: false
 title: macOS Sierraの起動可能なインストーラー（USBメモリ）を作成する方法
 type: post

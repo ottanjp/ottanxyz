@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: MacBook Proを購入したら最初に行うシステム環境設定（2020）
-date: 2020-04-26
+date: 2020-04-26T00:00:00+00:00
 tags:
   - Tips
 categories:

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-05-20 03:30:00+00:00
+date: 2017-05-20T00:00:00+00:00
 draft: false
 title: Twitterのプライバシーポリシーの変更に伴い無効化しておきたいプライバシー設定
 type: post

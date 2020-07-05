@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-10-25 10:52:43+00:00
+date: 2018-10-25T00:00:00+00:00
 draft: false
 title: Netlify CMS（Hugo）のテーマをGitの使い方を覚えながらカスタマイズしてデプロイしてみよう
 type: post

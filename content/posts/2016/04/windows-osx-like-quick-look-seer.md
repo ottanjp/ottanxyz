@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-04-06 13:38:43+00:00
+date: 2016-04-06T00:00:00+00:00
 draft: false
 title: Windowsで、macOSのQuick Lookを実現する「Seer」
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-11-08 12:45:32+00:00
+date: 2015-11-08T00:00:00+00:00
 draft: false
 title: macOSで右クリック1つでアニメーションGIFファイルを作る方法
 type: post

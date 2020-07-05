@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-02-14 13:03:45+00:00
+date: 2016-02-14T00:00:00+00:00
 draft: false
 title: VMware Fusion 8にmacOS Yosemite 10.10をインストールする
 type: post

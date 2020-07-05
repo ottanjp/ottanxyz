@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-07-02 04:57:24+00:00
+date: 2016-07-02T00:00:00+00:00
 draft: false
 title: VMware Fusion 8で作成した仮想マシンで静的IPアドレスを使用する方法
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-10-30 06:31:15+00:00
+date: 2016-10-30T00:00:00+00:00
 draft: false
 title: Dockerで作る最強・最速のローカルWordPress環境
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2019-06-29T12:05:10+09:00
+date: 2019-06-29T00:00:00+00:00
 draft: false
 title: "macOS Mojaveの環境を壊さずにmacOS Catalinaを試す方法"
 type: post

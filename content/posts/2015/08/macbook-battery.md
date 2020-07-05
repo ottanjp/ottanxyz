@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-08-26 00:09:25+00:00
+date: 2015-08-26T00:00:00+00:00
 draft: false
 title: MacBook Air、MacBook Pro、MacBookのバッテリーを節約する方法
 type: post

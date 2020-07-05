@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-09-03 13:08:50+00:00
+date: 2015-09-03T00:00:00+00:00
 draft: false
 title: 無料でいいの？！ランチャー系のアプリはもう不要！CPU使用率から明日の天気予報までなんでもありのウィジェット「Vidgets」
 type: post

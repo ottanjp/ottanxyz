@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-04-23 06:08:04+00:00
+date: 2016-04-23T00:00:00+00:00
 draft: false
 title: WordPressのショートコード入門
 type: post

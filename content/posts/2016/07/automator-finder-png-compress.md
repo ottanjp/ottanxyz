@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-07-03 12:27:16+00:00
+date: 2016-07-03T00:00:00+00:00
 draft: false
 title: Finderの右クリックメニュー、キーボードショートカットからPNGファイルを一括して圧縮する
 type: post

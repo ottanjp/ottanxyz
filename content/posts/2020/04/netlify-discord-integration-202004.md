@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: NetlifyのDeploy結果をDiscordへ通知する
-date: 2020-04-30
+date: 2020-04-30T00:00:00+00:00
 tags:
   - Hugo
   - Netlify

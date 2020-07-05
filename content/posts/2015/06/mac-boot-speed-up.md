@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-06-02 12:02:36+00:00
+date: 2015-06-02T00:00:00+00:00
 draft: false
 title: Macの起動が遅い！Macの起動を早くする7つの方法
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-07-22 04:02:28+00:00
+date: 2018-07-22T00:00:00+00:00
 draft: false
 title: 【随時更新】VS CodeでWordPressのテーマやプラグインを開発するために導入したいオススメの拡張機能
 type: post

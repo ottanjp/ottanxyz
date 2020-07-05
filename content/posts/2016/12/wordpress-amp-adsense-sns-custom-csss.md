@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-12-09 10:31:09+00:00
+date: 2016-12-09T00:00:00+00:00
 draft: false
 title: WordPressをAMPに対応させる方法とそのカスタマイズ
 type: post

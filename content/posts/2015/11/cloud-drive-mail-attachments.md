@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-11-20 23:27:07+00:00
+date: 2015-11-20T00:00:00+00:00
 draft: false
 title: iCloud Driveを有効活用しよう！メールに添付ファイルとしてiCloud Driveからファイルを選択する方法
 type: post

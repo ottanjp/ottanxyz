@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-04-03 13:58:37+00:00
+date: 2016-04-03T00:00:00+00:00
 draft: false
 title: Windows Insider Preview（Build 14291）で、Microsoft Edgeの拡張機能を体験しよう！
 type: post

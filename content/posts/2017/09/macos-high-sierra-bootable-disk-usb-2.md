@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-09-25 23:39:18+00:00
+date: 2017-09-25T00:00:00+00:00
 draft: false
 title: macOS High Sierraの起動可能なインストーラー（USBメモリ）を作成する
 type: post

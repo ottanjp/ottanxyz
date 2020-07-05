@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-10-27 14:19:37+00:00
+date: 2016-10-27T00:00:00+00:00
 draft: false
 title: macOSのネイティブなHypervisor.frameworkを使用したオープンソースソフトウェア「Veertu Desktop」
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-02-09 05:50:36+00:00
+date: 2016-02-09T00:00:00+00:00
 draft: false
 title: VMware Fusion 8にWindows 7をインストールする（CD-ROM編）
 type: post

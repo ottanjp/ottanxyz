@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-07-12 10:38:49+00:00
+date: 2015-07-12T00:00:00+00:00
 draft: false
 title: WordPressでプラグインを使わずに閲覧数の多い人気記事を取得し、管理画面に閲覧数を表示する
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-01-19 12:33:41+00:00
+date: 2016-01-19T00:00:00+00:00
 draft: false
 title: iPhoneにApp Store以外から任意のサードパーティ製アプリケーションをインストールする方法
 type: post

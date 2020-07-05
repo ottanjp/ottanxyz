@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-09-04 07:59:03+00:00
+date: 2016-09-04T00:00:00+00:00
 draft: false
 title: あなたはいくつ知ってる？MacのSafariでブラウジングが捗るショートカット
 type: post

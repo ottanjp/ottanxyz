@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-05-14 07:01:19+00:00
+date: 2016-05-14T00:00:00+00:00
 draft: false
 title: WordPressの本文にAmazonのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-08-04 13:28:10+00:00
+date: 2016-08-04T00:00:00+00:00
 draft: false
 title: Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ
 type: post

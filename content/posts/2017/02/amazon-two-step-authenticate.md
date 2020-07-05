@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-02-21 10:51:18+00:00
+date: 2017-02-21T00:00:00+00:00
 draft: false
 title: Amazon.co.jpの2段階認証を今すぐ設定してセキュリティを強化しよう！
 type: post

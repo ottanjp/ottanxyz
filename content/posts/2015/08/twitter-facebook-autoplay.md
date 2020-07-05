@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-08-30 03:37:33+00:00
+date: 2015-08-30T00:00:00+00:00
 draft: false
 title: モバイルデータ通信を節約しよう！TwitterとFacebookの動画を自動再生しないようにする方法
 type: post

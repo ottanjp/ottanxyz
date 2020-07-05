@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-10-20 00:48:47+00:00
+date: 2017-10-20T00:00:00+00:00
 draft: false
 title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」（v4対応版）の使用方法
 type: post

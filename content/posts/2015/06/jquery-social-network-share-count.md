@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-06-14 05:55:45+00:00
+date: 2015-06-14T00:00:00+00:00
 draft: false
 title: jQueryを使用してTwitter、Facebook、Google+、はてなブックマークのシェア数を非同期で取得する方法のまとめ
 type: post

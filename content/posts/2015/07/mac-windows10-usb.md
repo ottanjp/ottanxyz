@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-07-30 10:37:11+00:00
+date: 2015-07-30T00:00:00+00:00
 draft: false
 title: MacでWindows 10の起動ディスク（USBメモリ）を作成する方法
 type: post

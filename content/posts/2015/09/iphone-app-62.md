@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-09-15 13:09:07+00:00
+date: 2015-09-15T00:00:00+00:00
 draft: false
 title: iPhoneを購入したら導入しておきたいオススメのアプリ60選
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-08-08 11:44:41+00:00
+date: 2016-08-08T00:00:00+00:00
 draft: false
 title: Windows 10 Anniversary Updateでダークモードを有効にする方法
 type: post

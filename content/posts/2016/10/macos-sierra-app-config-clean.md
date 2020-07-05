@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-10-01 05:24:46+00:00
+date: 2016-10-01T00:00:00+00:00
 draft: false
 title: macOS Sierraで任意のアプリケーションの設定を初期化する方法
 type: post

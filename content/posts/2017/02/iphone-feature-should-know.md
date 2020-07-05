@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-02-01 10:31:44+00:00
+date: 2017-02-01T00:00:00+00:00
 draft: false
 title: iPhoneに隠された便利な18の機能、あなたはいくつ知ってますか？
 type: post

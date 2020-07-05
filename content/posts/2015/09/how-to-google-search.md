@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-09-02 09:38:33+00:00
+date: 2015-09-02T00:00:00+00:00
 draft: false
 title: いくつ知ってる？Google検索の意外な使い道17選
 type: post

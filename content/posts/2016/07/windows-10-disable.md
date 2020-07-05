@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-07-03 02:39:58+00:00
+date: 2016-07-03T00:00:00+00:00
 draft: false
 title: Windows 10にアップグレードしたら無効化しておきたい7つの設定
 type: post

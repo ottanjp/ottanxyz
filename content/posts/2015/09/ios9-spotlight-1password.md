@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-09-17 13:24:21+00:00
+date: 2015-09-17T00:00:00+00:00
 draft: false
 title: 1PasswordがSpotlight検索に対応し、より便利に進化！
 type: post

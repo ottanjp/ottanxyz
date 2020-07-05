@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-08-15 08:23:24+00:00
+date: 2015-08-15T00:00:00+00:00
 draft: false
 title: Windows 10のバッテリーを節約する方法
 type: post

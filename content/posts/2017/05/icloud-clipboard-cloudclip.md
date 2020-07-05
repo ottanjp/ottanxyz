@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-05-23 07:03:32+00:00
+date: 2017-05-23T00:00:00+00:00
 draft: false
 title: セットアップ不要！iCloud経由でクリップボード（テキスト）をiOS、macOS間で同期できる「CloudClip」
 type: post

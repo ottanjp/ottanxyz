@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-11-13 11:18:43+00:00
+date: 2016-11-13T00:00:00+00:00
 draft: false
 title: 翻訳精度が向上したGoogle翻訳をiPhoneの色々なアプリから呼び出す拡張機能
 type: post

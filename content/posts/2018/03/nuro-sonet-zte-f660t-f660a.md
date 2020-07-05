@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-03-29 13:55:40+00:00
+date: 2018-03-29T00:00:00+00:00
 draft: false
 title: NURO光のZTE社製ルーター「F660T」「F660A」でDNSによる名前解決が遅い時に試したいこと
 type: post

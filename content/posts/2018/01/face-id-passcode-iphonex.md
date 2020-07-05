@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-01-23 14:08:56+00:00
+date: 2018-01-23T00:00:00+00:00
 draft: false
 title: マスク着用時にFace IDを使用せずにパスコードによる認証を行う方法
 type: post

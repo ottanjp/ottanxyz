@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-02-08 12:39:35+00:00
+date: 2016-02-08T00:00:00+00:00
 draft: false
 title: VMware Fusion 8にWindows 7をインストールする（ISOファイル編）
 type: post

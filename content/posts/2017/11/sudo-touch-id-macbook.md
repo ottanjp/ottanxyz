@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-11-24 13:49:44+00:00
+date: 2017-11-24T00:00:00+00:00
 draft: false
 title: macOS High SierraでsudoコマンドをTouch IDで認証する方法
 type: post

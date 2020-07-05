@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-03-21 13:09:04+00:00
+date: 2018-03-21T00:00:00+00:00
 draft: false
 title: WordPressのwp_enqueue_script、wp_enqueue_style関数で呼び出されているスクリプトとCSSの一覧を確認する
 type: post

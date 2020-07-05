@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2014-09-07 08:53:21+00:00
+date: 2014-09-07T00:00:00+00:00
 draft: false
 title: Macを購入したら最初に設定しておきたいシステム環境設定
 type: post

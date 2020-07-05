@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-02-24 11:17:53+00:00
+date: 2017-02-24T00:00:00+00:00
 draft: false
 title: EvernoteのノートをBoostnoteのノート形式に手軽に変換できる「ever2boost」
 type: post

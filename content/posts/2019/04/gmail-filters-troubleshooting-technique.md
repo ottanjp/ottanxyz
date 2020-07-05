@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2019-04-24T23:05:16+09:00
+date: 2019-04-24T00:00:00+00:00
 draft: false
 title: "Gmailのフィルタに関する「あるある」とその対処策"
 type: post

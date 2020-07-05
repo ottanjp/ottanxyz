@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-07-07 13:37:59+00:00
+date: 2016-07-07T00:00:00+00:00
 draft: false
 title: WindowsのInternet ExplorerまたはGoogle Chromeで強制的にメイリオを使用する
 type: post

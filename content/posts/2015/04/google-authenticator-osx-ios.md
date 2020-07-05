@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-04-09 13:39:44+00:00
+date: 2015-04-09T00:00:00+00:00
 draft: false
 title: macOS Yosemite 10.10.3、iOS8.3でGoogleアカウントの2段階認証に対応！
 type: post

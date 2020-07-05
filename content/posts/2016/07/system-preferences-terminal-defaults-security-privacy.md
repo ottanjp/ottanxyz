@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-07-24 07:32:38+00:00
+date: 2016-07-24T00:00:00+00:00
 draft: false
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（セキュリティとプライバシー）
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2018-11-22 12:52:27+00:00
+date: 2018-11-22T00:00:00+00:00
 draft: false
 title: iCloud同期可能でWordPressや静的サイト向けデプロイ機能付きのMarkdownエディター
 type: post

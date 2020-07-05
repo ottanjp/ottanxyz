@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2014-09-19 06:00:00+00:00
+date: 2014-09-19T00:00:00+00:00
 draft: false
 title: Macがスリープから復帰するのが遅い場合の対処法
 type: post

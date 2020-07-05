@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-11-20 11:38:30+00:00
+date: 2016-11-20T00:00:00+00:00
 draft: false
 title: LinuxにMicrosoft SQL Serverをインストールする方法
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-08-12 10:36:45+00:00
+date: 2015-08-12T00:00:00+00:00
 draft: false
 title: Windows環境で超簡単にWordPressの開発環境を構築する方法
 type: post

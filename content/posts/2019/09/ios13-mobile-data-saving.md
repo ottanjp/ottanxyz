@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2019-09-29T10:10:15+09:00
+date: 2019-09-29T00:00:00+00:00
 draft: false
 title: "格安SIM使用時にiPhoneでモバイルデータ通信を節約する方法（iOS13対応版）"
 type: post

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-10-03 01:53:49+00:00
+date: 2015-10-03T00:00:00+00:00
 draft: false
 title: macOS El Capitanはここが変わった！macOS El Capitanの新機能40選を一挙ご紹介
 type: post

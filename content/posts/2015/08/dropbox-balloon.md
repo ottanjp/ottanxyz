@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-08-31 13:15:16+00:00
+date: 2015-08-31T00:00:00+00:00
 draft: false
 title: 複数人で作業するときに便利！Dropboxへの共有リンクを簡単に作成できる「Balloon.io」
 type: post

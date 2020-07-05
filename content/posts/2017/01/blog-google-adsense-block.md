@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-01-15 02:51:55+00:00
+date: 2017-01-15T00:00:00+00:00
 draft: false
 title: ブログを訪れたユーザーがどれだけGoogle AdSenseをブロックしているかを簡単に計測する方法
 type: post

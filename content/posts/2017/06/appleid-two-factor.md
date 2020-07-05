@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-06-05 01:56:47+00:00
+date: 2017-06-05T00:00:00+00:00
 draft: false
 title: 疑問を徹底解消！Apple IDの2要素認証でiPhone1台しか持ってない場合はどうするの？
 type: post

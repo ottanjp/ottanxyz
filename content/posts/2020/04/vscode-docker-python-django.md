@@ -1,7 +1,7 @@
 ---
 author: ["@ottanxyz"]
 title: DjangoやFlask（Python）アプリの開発を始めるならVS Code + Dockerが最適
-date: 2020-04-26
+date: 2020-04-26T00:00:00+00:00
 tags:
   - Docker
   - Python

@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-08-22 02:17:45+00:00
+date: 2015-08-22T00:00:00+00:00
 draft: false
 title:
   WordPressの過去記事参照に！Alfredから記事を検索してMarsEditに貼り付けられる「Paste link for MarsEdit with

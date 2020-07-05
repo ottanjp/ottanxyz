@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-06-10 13:49:02+00:00
+date: 2016-06-10T00:00:00+00:00
 draft: false
 title: MacBook Proのファンが唸り続ける時に試したい効果的な方法
 type: post

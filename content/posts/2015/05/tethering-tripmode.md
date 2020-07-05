@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-05-14 06:11:29+00:00
+date: 2015-05-14T00:00:00+00:00
 draft: false
 title: テザリング時に必須！許可したアプリケーションの通信のみ許可できる便利なMacのアプリ「TripMode」
 type: post

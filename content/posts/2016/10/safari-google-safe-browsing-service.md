@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2016-10-16 12:13:02+00:00
+date: 2016-10-16T00:00:00+00:00
 draft: false
 title: Safariで「Google Safe Browsing Serviceを利用できません」と表示される場合の対処法
 type: post

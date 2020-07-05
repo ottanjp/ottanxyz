@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-08-26 04:48:59+00:00
+date: 2017-08-26T00:00:00+00:00
 draft: false
 title: エックスサーバーでWordPressを運用する場合に独自SSLを設定する方法
 type: post

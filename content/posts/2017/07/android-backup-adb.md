@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-07-17 05:41:32+00:00
+date: 2017-07-17T00:00:00+00:00
 draft: false
 title: Androidデバイスにダウンロードしたアプリのデータを含めてバックアップを取得する
 type: post

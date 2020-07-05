@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2017-01-07 02:55:01+00:00
+date: 2017-01-07T00:00:00+00:00
 draft: false
 title: 「Caffeine」から乗り換えよう！メニューバーからクリック1つでmacOSの省電力設定を無効化、有効化できる「Amphetamine」
 type: post

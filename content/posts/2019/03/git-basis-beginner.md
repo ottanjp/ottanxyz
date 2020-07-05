@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2019-03-23T14:33:42+09:00
+date: 2019-03-23T00:00:00+00:00
 draft: false
 title: "Git初心者が最初から学ぶGitの入門"
 type: post

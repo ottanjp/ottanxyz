@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2019-04-07T21:52:28+09:00
+date: 2019-04-07T00:00:00+00:00
 draft: false
 title: "Windows 10でコントロールパネルや設定から削除できない「Xbox」アプリを削除する"
 type: post

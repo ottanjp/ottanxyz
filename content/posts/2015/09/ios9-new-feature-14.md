@@ -1,6 +1,6 @@
 ---
 author: ["@ottanxyz"]
-date: 2015-09-24 11:14:32+00:00
+date: 2015-09-24T00:00:00+00:00
 draft: false
 title: ここが変わった！知っておくべき便利なiOS9の新機能14選
 type: post
