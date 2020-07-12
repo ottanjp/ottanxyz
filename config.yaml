@@ -1,9 +1,9 @@
-baseURL: "https://ottan.xyz"
+baseURL: 'https://ottan.xyz'
 languageCode: ja
 defaultContentLanguage: ja
 publishDir: public
 contentDir: content
-title: OTTAN.XYZ
+title: OTTANXYZ
 theme: ottan
 hasCJKLanguage: true
 summaryLength: 150
@@ -20,12 +20,12 @@ markup:
 params:
   author: ottanxyz
   favicon: images/favicon.ico
-  twitter: "https://twitter.com/ottanxyz/"
-  facebook: "https://www.facebook.com/ottanxyz/"
-  github: "https://github.com/ottanxyz/"
-  rss: "https://ottan.xyz/index.xml"
+  twitter: 'https://twitter.com/ottanxyz/'
+  facebook: 'https://www.facebook.com/ottanxyz/'
+  github: 'https://github.com/ottanjp/'
+  rss: 'https://ottan.xyz/index.xml'
   description: iPhone、Mac、Windows、ブログに関する様々なTips、トラブルシューティングをご紹介します
   locale: ja_JP
-  fbappId: "808819212572711"
+  fbappId: '808819212572711'
 outputs:
-  home: [HTML,JSON,RSS]
+  home: [HTML, JSON, RSS]
