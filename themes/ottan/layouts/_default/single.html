@@ -29,24 +29,24 @@
 
 		<div class="column is-1 is-hidden-mobile">
 			<div class="sticky sticky-20vh">
-				{{- partial "social-share.html" . -}}
+				{{ partial "social-share.html" . }}
 			</div>
 		</div>
 
 		<article class="column is-7">
 
 			<div class="content markdown-body">
-				{{- .Content | safeHTML -}}
+				{{ .Content | safeHTML }}
 			</div>
 
 			<div class="is-flex is-flex-centered mb-2">
-				{{- partial "social-share.html" . -}}
+				{{ partial "social-share.html" . }}
 			</div>
 
 			<div class="has-text-centered">
 				<div class="is-flex-widescreen is-flex-space">
-					{{- partial "google-adsense1" -}}
-					{{- partial "google-adsense2" -}}
+					{{ partial "google-adsense1" }}
+					{{ partial "google-adsense2" }}
 				</div>
 			</div>
 
@@ -58,19 +58,17 @@
 
 		<div class="column">
 
-			<!-- <div class="social-share-sticky"> -->
 			<div class="is-flex is-flex-column">
 				<div class="has-text-centered my-2 is-hidden-touch">
-					{{- partial "google-adsense3" -}}
+					{{ partial "google-adsense3" }}
 				</div>
 				<div class="has-text-centered my-2 is-hidden-touch">
-					{{- partial "google-adsense4" -}}
+					{{ partial "google-adsense4" }}
 				</div>
 				<div>
-					{{- partial "related-posts" . -}}
+					{{ partial "related-posts" . }}
 				</div>
 			</div>
-			<!-- </div> -->
 
 		</div>
 
