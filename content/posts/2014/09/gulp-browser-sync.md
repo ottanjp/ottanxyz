@@ -15,36 +15,44 @@ tags:
 
 ## Browser Sync のインストール
 
-まず、[BrowserSync](http://www.browsersync.io/)をダウンロードします。BrowserSync をダウンロードには`npm`コマンドを使用します。`npm`コマンドを使用するための設定については、[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう gulp-css-sass-268](//)を参考にしてください。
+まず、[BrowserSync](http://www.browsersync.io/)をダウンロードします。BrowserSync をダウンロードには`npm`コマンドを使用します。`npm`コマンドを使用するための設定については、[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう gulp-css-sass-268](/posts/2014/09/gulp-css-sass-268/)を参考にしてください。
 
-    $ sudo npm install -g browser-sync
+```zsh
+npm install -g browser-sync
+```
 
 ### BrowserSync の動作確認
 
 BrowserSync のインストールが完了したら動作確認しましょう。BrowserSync を起動するためには、以下のコマンドを実行します。これで、`css`ディレクトリ配下に保存されている CSS ファイルが変更される都度、ブラウザがリロードされます。
 
-    $ browser-sync start --server --files "css/*.css"
+```zsh
+browser-sync start --server --files "css/*.css"
+```
 
 #### 動作確認
 
 以下のような HTML ファイルを作成します。
 
-    <!DOCTYPE html>
-    <html>
-    <head>
+```html
+<!DOCTYPE html>
+<html>
+  <head>
     <title>Hello, World!</title>
-    <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1 class="sample">Hello, World!</h1>
-    </body>
-    </html>
+  </body>
+</html>
+```
 
 スタイルシートの内容は以下の通りです。
 
-    .sample {
-    	color: black;
-    }
+```css
+.sample {
+  color: black;
+}
+```
 
 この状態でブラウザを見ると、以下のような状態になっています。
 
@@ -52,9 +60,11 @@ BrowserSync のインストールが完了したら動作確認しましょう�
 
 続いて、スタイルシートの内容を変更します。
 
-    .sample {
-    	color: red;
-    }
+```css
+.sample {
+  color: red;
+}
+```
 
 スタイルシートの変更がリアルタイムに反映されました。
 
@@ -82,23 +92,33 @@ https://www.vagrantup.com/
 
 [VCCW ](http://vccw.cc/)の手順に従いインストールします。「hostsupdater」とは、文字通り「hosts」ファイルを自動的に「update」してくれる優れたプラグインです。仮想マシン起動時、仮想マシンに割り当てたプライベート IP アドレス、ホスト名を自動的に「hosts」ファイルに追加してくれます。
 
-    $ vagrant plugin install vagrant-hostsupdater
+```zsh
+vagrant plugin install vagrant-hostsupdater
+```
 
 続いて、GitHub で公開されている VCCW の[git リポジトリ](https://github.com/miya0001)の最新版をコピーします。公開されている git リポジトリは、 git コマンドにより、ターミナルから簡単に取得できます。
 
-    $ git clone https://github.com/miya0001/vccw.git
+```zsh
+git clone https://github.com/miya0001/vccw.git
+```
 
 作業ディレクトリに移動します。
 
-    $ cd vccw
+```zsh
+cd vccw
+```
 
 Vagrant で仮想マシンを構築するにあたっては、仮想マシンの構成を記述した「[Vagrantfile](https://docs.vagrantup.com/v2/vagrantfile/)」が必要になります。VCCW では、あらかじめ最適な「Vagrantfile」が用意されているため、それをそのまま利用します。
 
-    $ cp Vagrantfile.sample Vagrantfile
+```zsh
+cp Vagrantfile.sample Vagrantfile
+```
 
 最後に仮想マシンを起動したら準備は完了です。仮想マシンの初期構築は、OS の設定、WordPress の構築など、多岐に亘る作業が自動的に行われるため、時間を要します。時間に余裕があるときに実行すると良いでしょう。
 
-    $ vagrant up
+```zsh
+vagrant up
+```
 
 ## gulp.js のインストール
 
@@ -108,13 +128,17 @@ Vagrant で仮想マシンを構築するにあたっては、仮想マシンの
 
 [node.js](https://nodejs.org/)のインストールには[Homebrew — OS X 用パッケージマネージャー](https://brew.sh/index_ja.html)が便利です。Homebrew については、[Mac でプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/posts/2014/09/mac-latex-presentation-92/)で詳しくご紹介していますので、こちらも合わせてご覧ください。
 
-    $ brew install node
+```zsh
+brew install node
+```
 
 ### gulp.js のインストール
 
 続いて、gulp.js のインストールを行います。gulp.js は Node.js ベースであるため、プラグインの管理はすべて`npm`コマンドで行います。まずは、`gulp`コマンドを利用するために、「gulp.js」をグローバルインストールします。ローカルインストール、グローバルインストールの違いについては[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう](/posts/2014/09/gulp-css-sass-268/)をご覧ください。
 
-    $ sudo npm install -g gulp
+```zsh
+npm install -g gulp
+```
 
 ### プラグインのインストール
 
@@ -127,81 +151,73 @@ Vagrant で仮想マシンを構築するにあたっては、仮想マシンの
 
 です。以下のコマンドを実行してプラグインをインストールしてください。
 
-    $ npm install --save-dev gulp
-
-
-
-
-    $ npm install --save-dev gulp-sass
-
-
-
-
-    $ npm install --save-dev gulp-autoprefixer
-
-
-
-
-    $ npm install --save-dev gulp-cssmin
-
-
-
-
-    $ npm install --save-dev gulp-rename
+```zsh
+npm install --save-dev gulp
+npm install --save-dev gulp-sass
+npm install --save-dev gulp-autoprefixer
+npm install --save-dev gulp-cssmin
+npm install --save-dev gulp-rename
+```
 
 ### browser-sync のインストール
 
 今回の主役である「BrowserSync」をローカルインストールします。
 
-    $ npm install --save-dev browser-sync
+```zsh
+npm install --save-dev browser-sync
+```
 
 ### gulpfile.js の作成
 
 次に gulp.js の構成定義ファイルである「gulpfile.js」を作成します。
 
-    var gulp = require('gulp');
-    var sass = require('gulp-sass');
-    var autoprefixer = require('gulp-autoprefixer');
-    var cssmin = require('gulp-cssmin');
-    var rename = require('gulp-rename');
-    var browserSync = require('browser-sync');
+```js
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
+var cssmin = require('gulp-cssmin');
+var rename = require('gulp-rename');
+var browserSync = require('browser-sync');
 
-    gulp.task('sass', function () {
-        gulp.src('/path/to/src/css/*.scss')
-            .pipe(sass())
-            .pipe(autoprefixer(["last 2 version", "ie 8", "ie 7"]))
-            .pipe(cssmin())
-            .pipe(rename({suffix: '.min'}))
-            .pipe(gulp.dest('/path/to/css'))
-            .pipe(browserSync.reload({stream: true}));
-    });
+gulp.task('sass', function () {
+    gulp.src('/path/to/src/css/*.scss')
+        .pipe(sass())
+        .pipe(autoprefixer(["last 2 version", "ie 8", "ie 7"]))
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('/path/to/css'))
+        .pipe(browserSync.reload({stream: true}));
+});
 
-    gulp.task('browser-sync', function () {
-        browserSync({
-            proxy: "wordpress.local"
-        });
+gulp.task('browser-sync', function () {
+    browserSync({
+        proxy: "wordpress.local"
     });
+});
 
-    gulp.task('bs-reload', function () {
-        browserSync.reload();
-    });
+gulp.task('bs-reload', function () {
+    browserSync.reload();
+});
 
-    gulp.task('default', ['browser-sync'], function () {
-        gulp.watch("/path/to/src/css/*.scss", ['sass']);
-        gulp.watch("/path/to/wordpress/theme/*.php", ['bs-reload']);
-    });
+gulp.task('default', ['browser-sync'], function () {
+    gulp.watch("/path/to/src/css/*.scss", ['sass']);
+    gulp.watch("/path/to/wordpress/theme/*.php", ['bs-reload']);
+});
+```
 
 #### 解説
 
-    gulp.task('sass', function () {
-        gulp.src('/path/to/src/css/*.scss')
-            .pipe(sass())
-            .pipe(autoprefixer(["last 2 version", "ie 8", "ie 7"]))
-            .pipe(cssmin())
-            .pipe(rename({suffix: '.min'}))
-            .pipe(gulp.dest('/path/to/css'))
-            .pipe(browserSync.reload({stream: true}));
-    });
+```js
+gulp.task('sass', function () {
+    gulp.src('/path/to/src/css/*.scss')
+        .pipe(sass())
+        .pipe(autoprefixer(["last 2 version", "ie 8", "ie 7"]))
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('/path/to/css'))
+        .pipe(browserSync.reload({stream: true}));
+});
+```
 
 「sass」というタスクを定義します。「/path/to/src/css」ディレクトリ配下の「scss」のコンパイルを`sass()`で実行します。
 
@@ -215,24 +231,30 @@ Vagrant で仮想マシンを構築するにあたっては、仮想マシンの
 
 BrowserSync は、**ストリーミング**をサポートしています。すなわち、タスクの中で変更が発生したファイルのみを読み込み、画面に再描画することができるようになっています。ただし、PHP のソースコードの変更など、ストリーミングによる再読み込みでは正しく描画できない場合は、ブラウザのリロードを意図的に行う必要があります。
 
-    gulp.task('bs-reload', function () {
-        browserSync.reload();
-    });
+```js
+gulp.task('bs-reload', function () {
+    browserSync.reload();
+});
+```
 
 gulp.js で BrowserSync のリロードを意図的に行うためには、上記のようなリロードを行うタスクを定義します。
 
-    gulp.task('browser-sync', function () {
-        browserSync({
-            proxy: "wordpress.local"
-        });
+```js
+gulp.task('browser-sync', function () {
+    browserSync({
+        proxy: "wordpress.local"
     });
+});
+```
 
 次に、BrowserSync を起動するためのタスクを定義します。ポイントは、`proxy`に「wordpress.local」を指定しているところです。`proxy`を定義することにより、構築済みの WordPress 環境に対して BrowserSync を適用できるようになります。
 
-    gulp.task('default', ['browser-sync'], function () {
-        gulp.watch("/path/to/src/css/*.scss", ['sass']);
-        gulp.watch("/path/to/wordpress/theme/*.php", ['bs-reload']);
-    });
+```js
+gulp.task('default', ['browser-sync'], function () {
+    gulp.watch("/path/to/src/css/*.scss", ['sass']);
+    gulp.watch("/path/to/wordpress/theme/*.php", ['bs-reload']);
+});
+```
 
 最後に、「default」タスクの定義を行います。「default」は、`gulp`コマンドの引数が何も指定されなかった場合に実行されるタスクです。`['browser-sync']`と記述することにより、「default」タスクが実行される前に「browser-sync」タスクが実行されます。
 
@@ -246,14 +268,20 @@ gulp.js で BrowserSync のリロードを意図的に行うためには、上�
 
 現在の SCSS ファイルの状態は以下のようになっています。
 
-    .entry-title h1 {
-      margin: 0 0 8px;
+```css
+.entry-title h1 {
+    margin: 0 0 8px;
+}
+```
 
 タイトルの文字数を少し大きくしてみます。
 
-    .entry-title h1 {
-      margin: 0 0 8px;
-      font-size: 2em;
+```css
+.entry-title h1 {
+    margin: 0 0 8px;
+    font-size: 2em;
+}
+```
 
 ブラウザが自動的にリロードされ、文字のサイズが大きくなりました。
 
@@ -265,23 +293,21 @@ gulp.js で BrowserSync のリロードを意図的に行うためには、上�
 
 タイトルの右端に投稿 ID を表示してみましょう。
 
-      <h1 class="h2">
-      <a href="<?php the_permalink(); ?>">
-        <?php the_title(); ?>
-      </a>
-      </h1>
-    </div>
+```php
+<h1 class="h2">
+    <a href="<?php the_permalink(); ?>">
+    <?php the_title(); ?>
+    </a>
+</h1>
+```
 
-
-
-
-
-      <h1 class="h2">
-      <a href="<?php the_permalink(); ?>">
-        <?php the_title(); ?> - <?php the_ID(); ?>
-      </a>
-      </h1>
-    </div>
+```php
+<h1 class="h2">
+    <a href="<?php the_permalink(); ?>">
+    <?php the_title(); ?> - <?php the_ID(); ?>
+    </a>
+</h1>
+```
 
 ![](/uploads/2014/09/140921-541e51c23295c.png)
 
