@@ -1,23 +1,12 @@
 // Variables
-$spacing: 0.8rem;
 $white: #fff;
 $black: #000;
 $radius: 4px;
 $grey-lighter: #dbdbdb;
 
 body {
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN',
-    'Hiragino Sans', Meiryo, sans-serif;
-}
-
-// Pagination
-.pagination {
-  margin: 2 * $spacing auto;
-
-  &-link {
-    padding-left: $spacing;
-    padding-right: $spacing;
-  }
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
 }
 
 .sticky {
