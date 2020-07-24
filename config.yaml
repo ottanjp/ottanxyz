@@ -4,7 +4,7 @@ defaultContentLanguage: ja
 publishDir: public
 contentDir: content
 title: OTTANXYZ
-theme: ottan
+theme: languor
 hasCJKLanguage: true
 summaryLength: 150
 canonifyURLs: true
