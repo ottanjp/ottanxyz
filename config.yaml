@@ -29,4 +29,4 @@ params:
   locale: ja_JP
   fbappId: '808819212572711'
 outputs:
-  posts: [HTML, JSON, RSS]
+  home: [HTML, JSON, RSS]
