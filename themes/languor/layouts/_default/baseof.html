@@ -16,8 +16,8 @@
 	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css" as="style">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css" media="print" onload="this.media='all'">
 	{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
-	<link rel="preload" href="{{ $style.Permalink }}" as="style">
-	<link rel="stylesheet" href="{{ $style.Permalink }}" media="print" onload="this.media='all'">
+	<link rel="preload" href="{{ $style.Permalink }}">
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
 	<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" as="style">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" media="print" onload="this.media='all'">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
