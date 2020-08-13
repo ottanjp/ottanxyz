@@ -1,6 +1,6 @@
 ---
 title: macOS CatalinaとBig Sur（パブリックベータ）のデュアルブート環境を構築
-date: 2020-08-12
+date: 2020-08-13
 tags:
   - Catalina
   - Big Sur
