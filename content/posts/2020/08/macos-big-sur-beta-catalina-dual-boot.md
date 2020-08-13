@@ -74,6 +74,6 @@ sudo /System/Library/PrivateFrameworks/Seeding.framework/Versions/A/Resources/se
 
 解除したい場合は、以下のコマンドを実行します。
 
-```
+```zsh
 sudo /System/Library/PrivateFrameworks/Seeding.framework/Versions/A/Resources/seedutil unenroll
 ```
