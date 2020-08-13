@@ -1,6 +1,7 @@
 ---
+author: ["@ottanxyz"]
 title: Macでアプリのキャッシュを根こそぎ削除する簡単な方法
-date: 2020-08-02
+date: 2020-08-02T00:00:00+00:00
 tags:
   - Tips
 categories:
