@@ -1,16 +1,18 @@
-{{ $ogp_image := path.Join "card" (.PublishDate.Format "2006/01") (print .File.BaseFileName ".png")}}
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@{{ .Site.Params.author }}" />
-<meta name="twitter:creator" content="@{{ .Site.Params.author }}" />
-<meta name="twitter:image" content="{{ $ogp_image | absURL }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:title" content="{{ .Title }}" />
 {{ if .IsPage }}
+<meta name="twitter:card" content="summary_card_large" />
+<meta name="twitter:site" content="@{{ .Site.Params.author }}" />
+<meta name="twitter:creator" content="@{{ .Site.Params.author }}" />
+<meta name="twitter:image" content="https://res.cloudinary.com/dcyxm0z8u/image/upload/l_text:Sawarabi%20Gothic_96_bold:{{ .Title }},w_1400,co_rgb:FFF,c_fit/v1599221992/template.png" />
+<meta property="og:image" content="https://res.cloudinary.com/dcyxm0z8u/image/upload/l_text:Sawarabi%20Gothic_96_bold:{{ .Title }},w_1400,co_rgb:FFF,c_fit/v1599221992/template.png" />
 <meta property="og:description" content="{{ .Summary }}" />
 {{ else }}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@{{ .Site.Params.author }}" />
+<meta name="twitter:creator" content="@{{ .Site.Params.author }}" />
 <meta property="og:description" content="{{ .Site.Params.description }}" />
-{{ end }}
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:locale" content="{{ .Site.Params.locale }}" />
-<meta property="og:image" content="{{ $ogp_image | absURL }}" />
 <meta property="fb:app_id" content="{{ .Site.Params.fbappId }}">
+{{ end }}
