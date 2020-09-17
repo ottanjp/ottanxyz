@@ -1,10 +1,11 @@
 <div class="content">
   <h2>関連記事</h2>
-  {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
-  <ol>
-    {{ range . }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ol>
+  {{ $related := .Site.RegularPages.Related . | first 5 }}
+  {{ with $related }}
+    <ol>
+      {{ range . }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ol>
   {{ end }}
 </div>

@@ -1,55 +1,63 @@
 {{ define "main" }}
-<section class="hero is-dark">
+  <section class="hero is-dark">
     <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title has-text-weight-bold">検索結果：<span id="search-term"></span></h1>
-            <h2 class="subtitle">ヒット件数：<span id="search-count"></span></h2>
-        </div>
+      <div class="container has-text-centered">
+        <h1 class="title has-text-weight-bold">
+          検索結果：<span id="search-term"></span>
+        </h1>
+        <h2 class="subtitle">ヒット件数：<span id="search-count"></span></h2>
+      </div>
     </div>
-</section>
-<section id="search-warning" class="message is-warning is-hidden">
+  </section>
+  <section id="search-warning" class="message is-warning is-hidden">
     <div class="message-body">
-        検索結果の件数が多すぎます。そのため、一部のみ表示しています。
+      検索結果の件数が多すぎます。そのため、一部のみ表示しています。
     </div>
-</section>
-<section id="search-notfound" class="message is-warning is-hidden">
+  </section>
+  <section id="search-notfound" class="message is-warning is-hidden">
     <div class="message-body">
-        検索結果が0件です。別のキーワードをお試しください。
+      検索結果が0件です。別のキーワードをお試しください。
     </div>
-</section>
-<section class="section">
+  </section>
+  <section class="section">
     <div class="container">
-        <div id="search-result" class="columns is-multiline">
-        </div>
+      <div id="search-result" class="columns is-multiline"></div>
     </div>
-</section>
-<script>
+  </section>
+  <script>
     function formatDate(date, format) {
-        format = format.replace(/yyyy/g, date.getFullYear());
-        format = format.replace(/MM/g, ('0' + (date.getMonth() + 1)).slice(-2));
-        format = format.replace(/dd/g, ('0' + date.getDate()).slice(-2));
-        return format;
+      format = format.replace(/yyyy/g, date.getFullYear());
+      format = format.replace(/MM/g, ("0" + (date.getMonth() + 1)).slice(-2));
+      format = format.replace(/dd/g, ("0" + date.getDate()).slice(-2));
+      return format;
     }
 
     function param(name) {
-        return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
+      return decodeURIComponent(
+        (location.search.split(name + "=")[1] || "").split("&")[0]
+      ).replace(/\+/g, " ");
     }
 
     window.onload = async () => {
-        const search_term = param('q')
-        const result = await fetch(
-            `/.netlify/functions/search?q=${search_term}`).then(x => x
-                .json())
-        if (result.length > 20) {
-            document.getElementById('search-warning').classList.remove('is-hidden')
-        } else if (result.length == 0) {
-            document.getElementById('search-notfound').classList.remove('is-hidden')
-        }
-        let count = Math.min(result.length, 20);
-        let html = '';
-        for (i = 0; i < count; i++) {
-            let publish_date = formatDate(new Date(result[i].item.publish_date), "yyyy.MM.dd");
-            html += `<div class="column is-12-mobile is-6-tablet is-4-desktop">
+      const search_term = param("q");
+      const result = await fetch(
+        `/.netlify/functions/search?q=${search_term}`
+      ).then((x) => x.json());
+      if (result.length > 20) {
+        document.getElementById("search-warning").classList.remove("is-hidden");
+      } else if (result.length == 0) {
+        document
+          .getElementById("search-notfound")
+          .classList.remove("is-hidden");
+      }
+      let count = Math.min(result.length, 20);
+      let html = "";
+      for (i = 0; i < count; i++) {
+        let publish_date = formatDate(
+          new Date(result[i].item.publish_date),
+          "yyyy.MM.dd"
+        );
+        html += `<div class="column is-12-mobile is-6-tablet is-4-desktop">
                 <div class="card">
                     <div class="card-content">
                         <div class="title is-4"><a class="has-text-black-bis has-text-weight-bold" href="${result[i].item.permalink}">${result[i].item.title}</a></div>
@@ -63,11 +71,11 @@
                         </footer>
                     </div>
                 </div>
-            </div>`
-        }
-        document.getElementById('search-result').innerHTML = html
-        document.getElementById('search-term').innerHTML = decodeURI(search_term)
-        document.getElementById('search-count').innerHTML = count
-    }
-</script>
+            </div>`;
+      }
+      document.getElementById("search-result").innerHTML = html;
+      document.getElementById("search-term").innerHTML = decodeURI(search_term);
+      document.getElementById("search-count").innerHTML = count;
+    };
+  </script>
 {{ end }}

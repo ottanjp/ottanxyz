@@ -1,22 +1,20 @@
-{{ define "description"}}
-<meta name="description" content="{{ .Title }}に関連する記事一覧です。" />
+{{ define "description" }}
+  <meta name="description" content="{{ .Title }}に関連する記事一覧です。" />
 {{ end }}
 
 {{ define "main" }}
+  {{- partial "hero" . -}}
 
-{{- partial "hero" . -}}
-
-<section class="section">
-  <div class="container">
-    <div class="columns is-multiline">
-      {{ range.Paginator.Pages }} {{ .Render "li" }} {{ end }}
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline">
+        {{ range.Paginator.Pages }} {{ .Render "li" }} {{ end }}
+      </div>
     </div>
-  </div>
 
-  {{/* pagination */}}
-  <div class="container">
-    {{ partial "pagination.html" . }}
-  </div>
-</section>
-
+    {{/* pagination */}}
+    <div class="container">
+      {{ partial "pagination.html" . }}
+    </div>
+  </section>
 {{ end }}

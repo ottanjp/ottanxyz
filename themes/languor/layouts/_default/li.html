@@ -1,18 +1,26 @@
 <div class="column is-12-mobile is-6-tablet is-4-desktop">
   <div class="card">
     <div class="card-content">
-      <div class="title is-4"><a class="has-text-black-bis has-text-weight-bold"
-          href="{{ .Permalink }}">{{ .Title }}</a></div>
+      <div class="title is-4">
+        <a
+          class="has-text-black-bis has-text-weight-bold"
+          href="{{ .Permalink }}"
+          >{{ .Title }}</a
+        >
+      </div>
       <div class="mb-2">{{ .Summary }}...</div>
       <div class="my-1">
         {{ range .Params.tags }}
-        <a class="tag is-dark mx-1" href="/tags/{{ . | urlize }}">#{{- . -}}</a>
+          <a class="tag is-dark mx-1" href="/tags/{{ . | urlize }}"
+            >#{{- . -}}</a
+          >
         {{ end }}
       </div>
       <footer class="card-footer">
         <div class="card-footer-item">
-          <time datetime='{{ .Date.Local.Format "2006-01-02T15:04:05Z07:00" }}'>
-            <i class="far fa-calendar-alt"></i>&nbsp;{{- .Date.Local.Format "2006.01.02" -}}
+          <time datetime="{{ .Date.Local.Format "2006-01-02T15:04:05Z07:00" }}">
+            <i class="far fa-calendar-alt"></i
+            >&nbsp;{{- .Date.Local.Format "2006.01.02" -}}
           </time>
         </div>
       </footer>

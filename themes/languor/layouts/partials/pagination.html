@@ -1,17 +1,34 @@
-<nav class="pagination is-rounded  is-centered" role="navigation" aria-label="pagination">
-
-	{{ $pag := $.Paginator }}
-	{{ if gt $pag.TotalPages 1 }}
-
-	<ul class="pagination-list">
-		{{ if $pag.HasPrev }}
-		<li><a class="pagination-previous has-text-weight-bold" href="{{ $pag.Prev.URL }}">次へ</a></li>
-		{{ end }}
-		<li><span class="has-text-weight-bold">{{ $pag.PageNumber }} / {{ $pag.TotalPages }}</span></li>
-		{{ if $pag.HasNext }}
-		<li><a class="pagination-next has-text-weight-bold" href="{{ $pag.Next.URL }}">前へ</a></li>
-		{{ end }}
-	</ul>
-
-	{{ end }}
+<nav
+  class="pagination is-rounded  is-centered"
+  role="navigation"
+  aria-label="pagination"
+>
+  {{ $pag := $.Paginator }}
+  {{ if gt $pag.TotalPages 1 }}
+    <ul class="pagination-list">
+      {{ if $pag.HasPrev }}
+        <li>
+          <a
+            class="pagination-previous has-text-weight-bold"
+            href="{{ $pag.Prev.URL }}"
+            >次へ</a
+          >
+        </li>
+      {{ end }}
+      <li>
+        <span class="has-text-weight-bold"
+          >{{ $pag.PageNumber }} / {{ $pag.TotalPages }}</span
+        >
+      </li>
+      {{ if $pag.HasNext }}
+        <li>
+          <a
+            class="pagination-next has-text-weight-bold"
+            href="{{ $pag.Next.URL }}"
+            >前へ</a
+          >
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
 </nav>
