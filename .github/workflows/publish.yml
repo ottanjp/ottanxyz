@@ -1,0 +1,51 @@
+name: Publish post from issue
+
+on:
+  issues:
+    types: ['labeled']
+
+jobs:
+  build:
+    if: ${{ github.event.label.name == 'publish' }}
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Generate Post
+        env:
+          POST_TITLE: ${{ github.event.issue.title }}
+          POST_BODY: ${{ github.event.issue.body }}
+          POST_ID: ${{ github.event.issue.id }}
+          POST_CATEGORY: ${{ github.event.issue.labels[0].name }}
+        run: |
+           YEAR=`date "+%Y"`
+           MONTH=`date "+%m"`
+           mkdir -p content/posts/$YEAR/$MONTH
+           cd content/posts/$YEAR/$MONTH
+           cat > $POST_ID.md << EOF
+           ---
+           draft: false
+           title: $POST_TITLE
+           date: ${{ github.event.issue.updated_at }}   
+           type: post
+           slug: $POST_ID
+           category: ["${POST_CATEGORY}"]
+           ---
+          
+           $POST_BODY
+           EOF
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          delete-branch: true
+          title: "publish: ${{ github.event.issue.title}}"
+          body: |
+            Automagically sprouted for publishing.
+            Merging will publish to: https://ottan.xyz/
+              Closes #${{ github.event.issue.number }}
+            reviewers: "${{ github.repository_owner }}"
+            commit-message: "post: ${{ github.event.issue.title }}"
