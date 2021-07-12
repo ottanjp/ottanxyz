@@ -43,6 +43,7 @@ jobs:
         with:
           delete-branch: true
           title: "publish: ${{ github.event.issue.title}}"
+          assignees: ottanjp
           body: |
             Automagically sprouted for publishing.
             Merging will publish to: https://ottan.xyz/
