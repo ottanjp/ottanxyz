@@ -24,8 +24,9 @@ jobs:
            YEAR=`date "+%Y"`
            MONTH=`date "+%m"`
            mkdir -p content/posts/$YEAR/$MONTH
-           cd content/posts/$YEAR/$MONTH
-           cat > $POST_ID.md << EOF
+           mkdir -p uploads/$YEAR/$MONTH
+           
+           cat > content/posts/$YEAR/$MONTH/$POST_ID.md << EOF
            ---
            draft: false
            title: $POST_TITLE
@@ -34,10 +35,17 @@ jobs:
            slug: $POST_ID
            category: ["${POST_CATEGORY}"]
            ---
-          
-           $POST_BODY
            EOF
-
+          
+           echo "$POST_BODY" | while read line; do
+             if [[ "$line" =~ \!\[.*\]\(https://(.*)\) ]]; then
+               url="https://${BASH_REMATCH[1]}"
+               wget -P uploads/$YEAR/$MONTH "$url"
+               line=${line//$url/\/uploads\/$YEAR\/$MONTH\/$(basename "$url")}
+             fi
+             echo $line >> content/posts/$YEAR/$MONTH/$POST_ID.md
+           done
+            
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
