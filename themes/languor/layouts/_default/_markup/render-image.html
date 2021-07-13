@@ -1,20 +1,41 @@
-{{ $image := (site.GetPage "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Destination) }}
-{{ with $image }}
-  {{ $imageConf := (imageConfig (printf "content/uploads/%s" .Name)) }}
+{{ $caption := "" }}
+{{ with $.Text }}
+  {{ $caption = . | safeHTMLAttr }}
+{{ end }}
 
-  <figure>
-    <img
-      src="{{ $.Destination | safeURL }}"
-      alt="{{ $.PlainText }}"
-      width="{{ $imageConf.Width }}"
-      height="{{ $imageConf.Height }}"
-    />
-    <figcaption>
-      {{ if $.Title }}
-        <p>{{ $.Title | markdownify }}</p>
-        {{ else if $.Text }}
-        <p>{{ $.Text | markdownify }}</p>
-      {{ end }}
-    </figcaption>
+{{ $imageSrc := $.Destination }}
+{{ $hashedDestination := sha256 $imageSrc }}
+{{ $extension := path.Ext $imageSrc }}
+{{ $localPath := delimit (slice "images/" $hashedDestination $extension) "" }}
+{{ $assetPath := delimit (slice "assets/" $localPath) "" }}
+{{ $imagePath := $imageSrc }}
+{{ if (fileExists $assetPath) }}
+  {{ $imagePath = $localPath }}
+{{ end }}
+
+{{ with (site.GetPage "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" $.Destination) }}
+  {{ $image := . }}
+  {{ $small := . }}
+  {{ $medium := . }}
+  {{ $large := . }}
+  {{ if hugo.IsExtended }}
+    {{ $small = .Resize "480x webp" }}
+    {{ $medium = .Resize "768x webp" }}
+    {{ $large = .Resize "1024x webp" }}
+  {{ else }}
+    {{ $small = .Resize "480x jpg" }}
+    {{ $medium = .Resize "768x jpg" }}
+    {{ $large = .Resize "1024x jpg" }}
+  {{ end }}
+  <figure class="image container">
+    <picture>
+      <source media="(max-width: 480px)" srcset="{{ $small.RelPermalink }} 480w">
+      <source media="(max-width: 768px)" srcset="{{ $medium.RelPermalink }} 768w">
+      <source media="(max-width: 1024px)" srcset="{{ $large.RelPermalink }} 1024w">
+      <img src="{{ $large.RelPermalink }}" alt="{{ $caption }}" decoding="async" loading="lazy">
+    </picture>
+    {{ with $caption }}
+      <figcaption>{{ . }}</figcaption>
+    {{ end }}
   </figure>
 {{ end }}
